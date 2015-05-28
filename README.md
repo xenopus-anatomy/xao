@@ -2,7 +2,7 @@
 
 The Xenopus Anatomy Ontology (XAO) is a structured, controlled vocabulary of the anatomy and development of the African frog genus *Xenopus*. Anatomical entities are organized in a classification structure based on the Common Anatomy Reference Ontology. They are described as being 'part of' other entities, and the lineage of tissues in the course of development is represented by 'develops from' relationships. The timing of embryonic development of each tissue and structure is indicated by 'start' and 'end' stages, based on the Nieuwkoop and Faber (NF) staging series. Many entities are cross-referenced to the Gene, Uber-Anatomy, and Cell Ontologies. The XAO is used to annotate and query gene expression data in [Xenbase](http://www.xenbase.org/), the *Xenopus* model organism database, and is designed to facilitate cross-taxa comparisons.
 
-The XAO is now at [release 3.1](https://raw.githubusercontent.com/xenopus-anatomy/xao/master/xenopus_anatomy.obo).
+The XAO is now at [release 4.0](https://raw.githubusercontent.com/xenopus-anatomy/xao/master/xenopus_anatomy.obo).
 
 ##Reference
 
