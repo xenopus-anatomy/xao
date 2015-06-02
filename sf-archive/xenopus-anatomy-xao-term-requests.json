@@ -1,0 +1,1799 @@
+{"tickets": [{
+  "status": "closed-accepted",
+  "reported_by_id": "4f0337091be1ce7f23000599",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "seger",
+  "assigned_to": null,
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": null,
+  "private": false,
+  "summary": "parts of retina",
+  "description": "1\\. ciliary marginal zone\r\nProposed definition: The region at the periphery of the retina where retinal stem cells are located. It is spatially ordered with respect to cellular development and differentiation, with the youngest and least-determined stem cells closest to the periphery, the proliferative retinoblasts in the middle, and postmitotic cells at the central edge.\r\nCasarosa S et al. 2005. Dev Dyn. 2005 Jun;233\\(2\\):646-51.\r\n\r\n2\\. retinal neural layer\r\nProposed definition: The layer of nerve cells in the retina.\r\nSynonym: neural retina\r\n\r\nHas parts:\r\ninner limiting membrane\r\noptic fiber layer\r\nouter limiting membrane\r\nretinal ganglion cell layer\r\nretinal inner nuclear layer\r\nretinal inner plexiform layer\r\nretinal outer nuclear layer\r\nretinal outer plexiform layer\r\nphotoreceptor layer \\(rods, cones\\)\r\n\r\n3\\. retinal pigmented epithelium\r\nProposed definition: The monolayer of pigmented epithelium covering the neural retina.\r\nSynonyms: pigmented epithelium, pigmented retinal epithelium, RPE, PRE",
+  "discussion_thread": {
+    "_id": "b42e81e2",
+    "posts": [
+      {
+        "text": "- **assigned_to**: seger --> nobody",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2009-06-29 19:50:03",
+        "last_edited": null,
+        "slug": "f7e3",
+        "subject": "#1 parts of retina"
+      },
+      {
+        "text": "These terms have been added to the ontology.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2009-07-30 20:40:19",
+        "last_edited": null,
+        "slug": "21fa",
+        "subject": "#1 parts of retina"
+      },
+      {
+        "text": "- **status**: open --> closed-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2009-07-30 20:40:20",
+        "last_edited": null,
+        "slug": "8759",
+        "subject": "#1 parts of retina"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2009-07-30 20:40:20",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a41834309d75882fdd0e",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/b42e81e2/",
+  "ticket_num": 1,
+  "custom_fields": {
+    "_priority": "5"
+  },
+  "created_date": "2009-06-29 19:48:53"
+},{
+  "status": "closed-accepted",
+  "reported_by_id": "4f0337091be1ce7f23000599",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "seger",
+  "assigned_to": null,
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": null,
+  "private": false,
+  "summary": "optic tectum",
+  "description": "Proposed definition: The brain structure where the two separate inputs from the two eyes are combined into a single, integrated map.\r\nUdin SB. Biol Cybern. 2007 Dec;97\\(5-6\\):493-503.\r\nSynonyms: tectum, tectum opticum\r\n\r\npart\\_of midbrain\r\n\r\nstarts\\_during NF stage 40\r\nStraznicky and Gaze \\(1972\\)",
+  "discussion_thread": {
+    "_id": "cca7c18a",
+    "posts": [
+      {
+        "text": "This term has been added to the ontology.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2009-07-30 20:40:57",
+        "last_edited": null,
+        "slug": "352b",
+        "subject": "#2 optic tectum"
+      },
+      {
+        "text": "- **status**: open --> closed-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2009-07-30 20:40:57",
+        "last_edited": null,
+        "slug": "06bd",
+        "subject": "#2 optic tectum"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2009-07-30 20:40:57",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a41b34309d75882fdd26",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/cca7c18a/",
+  "ticket_num": 2,
+  "custom_fields": {
+    "_priority": "5"
+  },
+  "created_date": "2009-06-29 20:22:27"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "50543be9bfc09e4d4255b6e3",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "mellybelly",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "serous membrane",
+  "description": "Hiya,\r\nplease add 'serous membrane' syn serosa\r\n\r\nis\\_a multi-tissue structure\r\nDef: multi-tissue structure that is comprised of a secretory epithelial layer and a connective tissue layer. \r\nsource: http://en.wikipedia.org/wiki/Serous\\_membrane\r\n\r\nid: XAO:0000139\r\nname: peritoneum\r\n\r\nwill then be is\\_a 'serous membrane'\r\n\\(may be others\\)\r\n\r\nalso see related request on the zebrafish tracker\r\nhttps://sourceforge.net/tracker/?func=detail&aid=2995489&group\\_id=76834&atid=994726\r\n\r\nthanks\\!\\!\r\nMelissa",
+  "discussion_thread": {
+    "_id": "d5693d92",
+    "posts": [
+      {
+        "text": "- **status**: open --> pending",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:24:25",
+        "last_edited": null,
+        "slug": "eed7",
+        "subject": "#3 serous membrane"
+      },
+      {
+        "text": "- **status**: pending --> pending-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:03:47",
+        "last_edited": null,
+        "slug": "df62",
+        "subject": "#3 serous membrane"
+      },
+      {
+        "text": "Added, new XAO version on OBO Foundry 23 Oct 2012.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-10-23 23:37:58",
+        "last_edited": null,
+        "slug": "aac6",
+        "subject": "#3 serous membrane"
+      },
+      {
+        "text": "- **status**: pending-accepted --> closed-fixed",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-10-23 23:37:58",
+        "last_edited": null,
+        "slug": "b710",
+        "subject": "#3 serous membrane"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2012-10-23 23:37:58",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a41e34309d75882fdd38",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/d5693d92/",
+  "ticket_num": 3,
+  "custom_fields": {
+    "_priority": "5"
+  },
+  "created_date": "2010-05-02 14:24:03"
+},{
+  "status": "closed-accepted",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:0000059 obsolete",
+  "description": "still present in \r\n\r\nftp://ftp.xenbase.org/pub/GenePageReports/GeneExpression\\_tropicalis.txt\r\n\r\nto replace by XAO:0002000.\r\n\r\n",
+  "discussion_thread": {
+    "_id": "f3b02b74",
+    "posts": [
+      {
+        "text": "Please\\!",
+        "attachments": [],
+        "author": "anneniknejad",
+        "timestamp": "2011-11-24 14:31:39",
+        "last_edited": null,
+        "slug": "2ff6",
+        "subject": "#4 XAO:0000059 obsolete"
+      },
+      {
+        "text": "- **assigned_to**: nobody --> seger",
+        "attachments": [],
+        "author": "anneniknejad",
+        "timestamp": "2011-11-24 14:31:39",
+        "last_edited": null,
+        "slug": "b7bb",
+        "subject": "#4 XAO:0000059 obsolete"
+      },
+      {
+        "text": "- **status**: open --> closed",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:17:45",
+        "last_edited": null,
+        "slug": "a4cb",
+        "subject": "#4 XAO:0000059 obsolete"
+      },
+      {
+        "text": "- **status**: closed --> closed-accepted",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:26:38",
+        "last_edited": null,
+        "slug": "749a",
+        "subject": "#4 XAO:0000059 obsolete"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2012-08-22 19:26:38",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a42234309d75882fdd55",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/f3b02b74/",
+  "ticket_num": 4,
+  "custom_fields": {
+    "_priority": "5"
+  },
+  "created_date": "2011-05-06 09:34:27"
+},{
+  "status": "closed-accepted",
+  "reported_by_id": "4f0337091be1ce7f23000599",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "seger",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "stale CL xref",
+  "description": "\\[Term\\]\r\nid: XAO:0003264\r\nname: pericyte\r\nnamespace: xenopus\\_anatomy\r\ndef: \"A slender, contractile, mesenchymal-like cell found in close association with capillary walls. They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells.\" \\[CL:0000184\\]\r\nxref: CL:0000184\r\nis\\_a: XAO:0003012  \\! cell\r\n\r\nthis was merged into:\r\nCL:0000669 \\! pericyte cell",
+  "discussion_thread": {
+    "_id": "0bc7f11c",
+    "posts": [
+      {
+        "text": "- **assigned_to**: nobody --> seger",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-01-03 17:40:28",
+        "last_edited": null,
+        "slug": "2ec2",
+        "subject": "#5 stale CL xref"
+      },
+      {
+        "text": "done",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:27:53",
+        "last_edited": null,
+        "slug": "5a7c",
+        "subject": "#5 stale CL xref"
+      },
+      {
+        "text": "- **status**: open --> closed-accepted",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:27:53",
+        "last_edited": null,
+        "slug": "5e7f",
+        "subject": "#5 stale CL xref"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2012-08-22 19:27:53",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a42534309d75882fdd74",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/0bc7f11c/",
+  "ticket_num": 5,
+  "custom_fields": {
+    "_priority": "5"
+  },
+  "created_date": "2011-08-30 19:59:44"
+},{
+  "status": "closed-accepted",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:1000009, invalid name change",
+  "description": "The last XAO version \\(Wed Oct 05 14:39:00 BST 2011\\) uses the identifier XAO:1000009 to define a new term \\('frog'\\) previously assigned to \\('adult'\\), please correct",
+  "discussion_thread": {
+    "_id": "3c411ae0",
+    "posts": [
+      {
+        "text": "- **assigned_to**: nobody --> seger",
+        "attachments": [],
+        "author": "anneniknejad",
+        "timestamp": "2011-11-24 14:28:15",
+        "last_edited": null,
+        "slug": "42db",
+        "subject": "#6 XAO:1000009, invalid name change"
+      },
+      {
+        "text": "This term has been made obsolete.",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:22:52",
+        "last_edited": null,
+        "slug": "4dd3",
+        "subject": "#6 XAO:1000009, invalid name change"
+      },
+      {
+        "text": "- **status**: open --> closed",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:22:52",
+        "last_edited": null,
+        "slug": "0d2e",
+        "subject": "#6 XAO:1000009, invalid name change"
+      },
+      {
+        "text": "- **status**: closed --> closed-accepted",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:25:58",
+        "last_edited": null,
+        "slug": "376a",
+        "subject": "#6 XAO:1000009, invalid name change"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2012-08-22 19:25:58",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a42834309d75882fdd8c",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/3c411ae0/",
+  "ticket_num": 6,
+  "custom_fields": {
+    "_priority": "5"
+  },
+  "created_date": "2011-11-04 15:25:45"
+},{
+  "status": "open-accepted",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "arch nomenclature",
+  "description": "XAO uses the number system BA1=PA3\r\n\r\nIs it not less confusing to standardize on PA1-6/7?\r\n\r\nI believe there are problems with the def of BA1 \\(PA3\\) below:\r\n\r\n\\* It says \"first pharyngeal/branchial\" - to be internally consistent it should say \"first branchial/3rd pharyngeal\"\r\n\\* Does the mandibular and maxillary process really derive from this arch \\(and VP3\\) in frogs? Maybe this is a cut and paste error arising from confusion over the numbering system?\r\n\r\nXAO:0000097 \\! mandibular arch \\[develops\\_from: \"visceral pouch 1\"\\]\r\nXAO:0000098 \\! hyoid arch \\[develops\\_from: \"visceral pouch 2\"\\]\r\nXAO:0000447 \\! branchial arch 1 \\[develops\\_from: \"visceral pouch 3\"\\] \\[DEF: \"The most anterior, or first, pharygeal/branchial arch, composed of the mandibular process, forming the posterior border of the stomodeum, and the maxillary process anterior to the stomodeum, contains the first aortic arch.\"\\]\r\nXAO:0000449 \\! branchial arch 2 \\[develops\\_from: \"visceral pouch 4\"\\] \\[DEF: \"The second pharyngeal/branchial arch; arises as a thickening of the pharygeal wall between the first and second branchial clefts; contains the second aortic arch; forms part of the hyoid bone, tongue and facial musculature.\"\\]\r\nXAO:0000451 \\! branchial arch 3 \\[develops\\_from: \"visceral pouch 5\"\\] \\[DEF: \"The third in a series of paired bars in the wall of the pharynx, within which are formed the third aortic arch and the cartilage bar of the visceral skeleton, forms and supports the gills.\"\\]\r\nXAO:0000453 \\! branchial arch 4 \\[develops\\_from: \"visceral pouch 6\"\\] \\[DEF: \"The forth in a series of paired bars in the wall of the pharynx, within which are formed the forth aortic arch and the cartilage bar of the visceral skeleton, forms and supports the gills.\"\\]\r\n",
+  "discussion_thread": {
+    "_id": "65c19a30",
+    "posts": [
+      {
+        "text": "- **status**: open --> pending",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:21:51",
+        "last_edited": null,
+        "slug": "d20c",
+        "subject": "#7 arch nomenclature"
+      },
+      {
+        "text": "Needs further discussion involving Xenbase curators.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:57:27",
+        "last_edited": null,
+        "slug": "4d62",
+        "subject": "#7 arch nomenclature"
+      },
+      {
+        "text": "- **assigned_to**: nobody --> seger\n- **status**: pending --> pending-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:57:27",
+        "last_edited": null,
+        "slug": "566e",
+        "subject": "#7 arch nomenclature"
+      },
+      {
+        "text": "- **status**: pending-accepted --> open-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 22:38:59",
+        "last_edited": null,
+        "slug": "42ed",
+        "subject": "#7 arch nomenclature"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2012-09-18 22:38:59",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a42b34309d75882fddaa",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/65c19a30/",
+  "ticket_num": 7,
+  "custom_fields": {
+    "_priority": "5"
+  },
+  "created_date": "2012-02-11 23:34:13"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "which arch does the common carotid originate from?",
+  "description": "In the section of the amphibia aortic arches, Kardong says:\r\n\r\n\"In amphibians, the first 2 aortic arches disappear early in development\"\r\n...\r\n\"the section of ventral aorta between arches III and IV becomes the common carotid artery\"\r\n\r\nHowever, XAO has:\r\n\r\n\\[Term\\]\r\nid: XAO:0000345\r\nname: external carotid artery\r\nnamespace: xenopus\\_anatomy\r\ndef: \"The artery which arises from aortic arch 1 at NF stage 45 and delivers blood to the filter apparatus. It is visible as a bilateral pair of vessels on the ventral surface of the head, running between the heart and the tip of the jaw.\" \\[PMID:12606281\\]\r\nxref: AAO:0010416\r\nis\\_a: XAO:0000114  \\! artery\r\nrelationship: develops\\_from XAO:0000342 \\! aortic arch 1\r\nrelationship: start\\_stage XAO:1000057 \\! NF stage 45\r\n\r\nCould this be an error resulting from confusion with the pharyngeal numbering system?\r\n\r\nIf it's correct, can you provide a reference?",
+  "discussion_thread": {
+    "_id": "0c6af6de",
+    "posts": [
+      {
+        "text": "- **status**: open --> pending",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:21:13",
+        "last_edited": null,
+        "slug": "c182",
+        "subject": "#8 which arch does the common carotid originate from?"
+      },
+      {
+        "text": "- **assigned_to**: nobody --> seger\n- **status**: pending --> pending-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:55:25",
+        "last_edited": null,
+        "slug": "1af5",
+        "subject": "#8 which arch does the common carotid originate from?"
+      },
+      {
+        "text": "- **status**: pending-accepted --> open-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 22:39:21",
+        "last_edited": null,
+        "slug": "cdcf",
+        "subject": "#8 which arch does the common carotid originate from?"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-05-26 20:59:02.888000",
+        "last_edited": null,
+        "slug": "b74b",
+        "subject": "#8 which arch does the common carotid originate from?"
+      },
+      {
+        "text": "changed to 'external carotid artery' develops_from 'ventral aorta'\r\n\r\nfixed in edit files in\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/trunk/src/ontology/",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-05-26 20:59:03.094000",
+        "last_edited": "2014-05-26 20:59:20.703000",
+        "slug": "a564",
+        "subject": "#8 which arch does the common carotid originate from?"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2014-05-26 20:59:03.167000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a42e34309d75882fddc7",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/0c6af6de/",
+  "ticket_num": 8,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2012-02-11 23:38:10"
+},{
+  "status": "closed-accepted",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": null,
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": null,
+  "private": false,
+  "summary": "who is taking care of XAO request???",
+  "description": "no answer from end of 2009....no status change....please answer and give news\\!\\!\\!\\!",
+  "discussion_thread": {
+    "_id": "a4981816",
+    "posts": [
+      {
+        "text": "- **priority**: 5 --> 9",
+        "attachments": [],
+        "author": "anneniknejad",
+        "timestamp": "2012-02-13 08:25:51",
+        "last_edited": null,
+        "slug": "bacf",
+        "subject": "#9 who is taking care of XAO request???"
+      },
+      {
+        "text": "I will ask for you",
+        "attachments": [],
+        "author": "cmungall",
+        "timestamp": "2012-08-22 01:18:51",
+        "last_edited": null,
+        "slug": "f3c7",
+        "subject": "#9 who is taking care of XAO request???"
+      },
+      {
+        "text": "Sorry for getting to this so late. I'm the new contact for XAO requests.\r\n\r\nYes, pronephros was obsoleted and made a synonym of pronephric kidney.",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:15:29",
+        "last_edited": null,
+        "slug": "9375",
+        "subject": "#9 who is taking care of XAO request???"
+      },
+      {
+        "text": "- **status**: open --> closed",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:15:29",
+        "last_edited": null,
+        "slug": "4a11",
+        "subject": "#9 who is taking care of XAO request???"
+      },
+      {
+        "text": "- **status**: closed --> closed-accepted",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:25:09",
+        "last_edited": null,
+        "slug": "4bc9",
+        "subject": "#9 who is taking care of XAO request???"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2012-08-22 19:25:09",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a43034309d75882fdddf",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/a4981816/",
+  "ticket_num": 9,
+  "custom_fields": {
+    "_priority": "9"
+  },
+  "created_date": "2012-02-13 08:24:57"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:0000429 cephalic nerve - merge with cranial nerve?",
+  "description": "What is the difference between XAO:0000429 cephalic nerve\r\nand\r\nXAO:0003089 \\! cranial nerve\r\n\r\nmerge?\r\n\r\n\\(Thanks to Aurelie of Bgee for spotting this one\\)",
+  "discussion_thread": {
+    "_id": "54ee04d9",
+    "posts": [
+      {
+        "text": "I think we can merge these. Cranial nerve was a synonym of cephalic nerve, but cranial nerve as a term was added later....",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:10:43",
+        "last_edited": null,
+        "slug": "9a6c",
+        "subject": "#10 XAO:0000429 cephalic nerve - merge with cranial nerve?"
+      },
+      {
+        "text": "- **status**: open --> pending",
+        "attachments": [],
+        "author": "vgp",
+        "timestamp": "2012-08-22 19:16:21",
+        "last_edited": null,
+        "slug": "ba86",
+        "subject": "#10 XAO:0000429 cephalic nerve - merge with cranial nerve?"
+      },
+      {
+        "text": "- **assigned_to**: nobody --> seger\n- **status**: pending --> pending-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:06:12",
+        "last_edited": null,
+        "slug": "3a89",
+        "subject": "#10 XAO:0000429 cephalic nerve - merge with cranial nerve?"
+      },
+      {
+        "text": "Merged. New XAO version on OBO Foundry 23 Oct 2012.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-10-23 23:35:31",
+        "last_edited": null,
+        "slug": "3660",
+        "subject": "#10 XAO:0000429 cephalic nerve - merge with cranial nerve?"
+      },
+      {
+        "text": "- **status**: pending-accepted --> closed-fixed",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-10-23 23:35:31",
+        "last_edited": null,
+        "slug": "bfff",
+        "subject": "#10 XAO:0000429 cephalic nerve - merge with cranial nerve?"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2012-10-23 23:35:31",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a43334309d75882fde01",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/54ee04d9/",
+  "ticket_num": 10,
+  "custom_fields": {
+    "_priority": "5"
+  },
+  "created_date": "2012-08-22 01:20:42"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "placodes",
+  "description": "XAO:0000305 \\! cranial placode has a single child, XAO:0000440 \\! lateral line placode - with a develops from relation.\r\n\r\nShould the relation not be subclass/isa?\r\n\r\nAlso - why only one child?\r\n\r\nCurrently, XAO:0000240 \\! lens placode, is \\*not\\* a subclass of cranial placode, but it should be. See:\r\n\r\nhttp://www.ncbi.nlm.nih.gov/books/NBK53171/\r\n\r\n\"Six types of cranial placodes exist in higher vertebrates: 1\\) the adenohypophyseal placode forming the anterior lobe of the pituitary gland; 2\\) the olfactory placode that will give rise to the olfactory epithelium of the nose; 3\\) the lens placode that will differentiate into the transparent lens; 4\\) the trigeminal placode from which the sensory neurons of the ophthalmic and maxillomandibular lobes of the ganglion of the Vth cranial nerve originate; 5\\) the otic placode producing precursors for the sensory epithelia of the inner ear and neurons of the VIIIth cranial nerve; and finally, 6\\) the epibranchial placodes \\(geniculate, petrosal and nodose\\) ....Fish and amphibians possess an additional placode, known as the lateral line, involved in the mechanosensory detection of water movements and electric fields. Finally, some amphibian species appear to have retained a primitive form of sensory placode known as the hypobranchial placode\"\r\n\r\nI think XAO that XAO:0000305 \\! cranial placode should be re-labeled \"neurogenic placode\". See the hierarchy here:\r\nhttp://purl.obolibrary.org/obo/UBERON\\_0009955\r\n\r\nThis item is partly redundant with:\r\nhttps://github.com/seger/aao/issues/4",
+  "discussion_thread": {
+    "_id": "e22a5260",
+    "posts": [
+      {
+        "text": "- **priority**: 4 --> 5\n- **assigned_to**: nobody --> seger\n- **status**: open --> open-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:12:18",
+        "last_edited": null,
+        "slug": "707d",
+        "subject": "#11 placodes"
+      },
+      {
+        "text": "- **status**: open-accepted --> pending-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:12:49",
+        "last_edited": null,
+        "slug": "9c4e",
+        "subject": "#11 placodes"
+      },
+      {
+        "text": "Need to fix the lateral line system and the cranial placodes in consultation with Xenbase curators.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:51:35",
+        "last_edited": null,
+        "slug": "2e97",
+        "subject": "#11 placodes"
+      },
+      {
+        "text": "- **status**: pending-accepted --> open-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 22:39:48",
+        "last_edited": null,
+        "slug": "8cbd",
+        "subject": "#11 placodes"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-05-26 20:36:12.042000",
+        "last_edited": null,
+        "slug": "3654",
+        "subject": "#11 placodes"
+      },
+      {
+        "text": "'cranial placode' now has child terms 'lens placode, 'adenohypophyseal placode' and 'neurogenic placode'. 'Lateral line placode' and several others now children of 'neurogenic placode'.\r\n\r\nfixed in edit files in\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/trunk/src/ontology/",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-05-26 20:36:12.386000",
+        "last_edited": null,
+        "slug": "38fe",
+        "subject": "#11 placodes"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2014-05-26 20:36:12.518000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a43634309d75882fde23",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/e22a5260/",
+  "ticket_num": 11,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2012-08-26 23:38:05"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "bone tissue vs bone",
+  "description": "After the skeletal meeting the VSAO followed FMA, Uberon and others in distinguishing bone from bone tissue. The recommendation is that AOs are consistent with this \\(though they need not implement the full scheme\\)\r\n\r\nXAO has:\r\n\r\n......po XAO:0000169 \\! bone tissue \\*\\*\\* \\[SYNONYM: \"bone\" \\(related\\)\\]\r\n.......is\\_a XAO:0000214 \\! auditory ossicle\r\n.......is\\_a XAO:0003080 \\! urostyle\r\n.......is\\_a XAO:0003207 \\! carpus\r\n.......is\\_a XAO:0003208 \\! metacarpus\r\n.......is\\_a XAO:0003211 \\! tarsus\r\n.......is\\_a XAO:0003212 \\! metatarsus\r\n.......is\\_a XAO:0004035 \\! osteoid\r\n........df XAO:0004040 \\! mineralized bone tissue\r\n.........is\\_a XAO:0004195 \\! cellular bone tissue\r\n.......is\\_a XAO:0004040 \\! mineralized bone tissue\r\n........is\\_a XAO:0004195 \\! cellular bone tissue\r\n\r\nMost of these are bone elements, rather than tissue types per se. The only tissue type is cellular bone tissue which is\\_a AND df  mineralized \\(the is\\_a is in VSAO, the df is not\\).",
+  "discussion_thread": {
+    "_id": "7bff0c55",
+    "posts": [
+      {
+        "text": "- **assigned_to**: nobody --> seger\n- **status**: open --> pending-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:13:30",
+        "last_edited": null,
+        "slug": "9205",
+        "subject": "#12 bone tissue vs bone"
+      },
+      {
+        "text": "Fixed in new XAO version on OBO Foundry 23 Oct 2012.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-10-23 23:33:52",
+        "last_edited": null,
+        "slug": "e542",
+        "subject": "#12 bone tissue vs bone"
+      },
+      {
+        "text": "- **status**: pending-accepted --> closed-fixed",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-10-23 23:33:52",
+        "last_edited": null,
+        "slug": "70be",
+        "subject": "#12 bone tissue vs bone"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2012-10-23 23:33:52",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a43934309d75882fde3f",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/7bff0c55/",
+  "ticket_num": 12,
+  "custom_fields": {
+    "_priority": "1"
+  },
+  "created_date": "2012-08-29 22:20:15"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "merge olfactory pit and nasal pit",
+  "description": "OR provide definitions justifying separate classes\r\n\r\n\\[Term\\]\r\nid: XAO:0000275\r\nname: nasal pit\r\nnamespace: xenopus\\_anatomy\r\nxref: AAO:0011068\r\nis\\_a: XAO:0003042  \\! embryonic structure\r\nrelationship: develops\\_from XAO:0000005 \\! olfactory placode\r\nrelationship: start\\_stage XAO:1000045 \\! NF stage 29 and 30\r\n\r\n\\[Term\\]\r\nid: XAO:0004073\r\nname: olfactory pit\r\nnamespace: xenopus\\_anatomy\r\nxref: ZFA:0000130\r\nis\\_a: XAO:0003190  \\! anatomical space\r\nrelationship: end\\_stage XAO:1000062 \\! NF stage 50\r\nrelationship: part\\_of XAO:0003196 \\! olfactory system\r\nrelationship: start\\_stage XAO:1000045 \\! NF stage 29 and 30\r\n",
+  "discussion_thread": {
+    "_id": "b49db0ba",
+    "posts": [
+      {
+        "text": "- **assigned_to**: nobody --> seger\n- **status**: open --> open-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:03:04",
+        "last_edited": null,
+        "slug": "2d28",
+        "subject": "#13 merge olfactory pit and nasal pit"
+      },
+      {
+        "text": "- **status**: open-accepted --> pending-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:07:12",
+        "last_edited": null,
+        "slug": "2bf4",
+        "subject": "#13 merge olfactory pit and nasal pit"
+      },
+      {
+        "text": "Merged. New XAO version on OBO Foundry 23 Oct 2012.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-10-23 23:32:04",
+        "last_edited": null,
+        "slug": "a15d",
+        "subject": "#13 merge olfactory pit and nasal pit"
+      },
+      {
+        "text": "- **status**: pending-accepted --> closed-fixed",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-10-23 23:32:04",
+        "last_edited": null,
+        "slug": "82de",
+        "subject": "#13 merge olfactory pit and nasal pit"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2012-10-23 23:32:04",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a43b34309d75882fde56",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/b49db0ba/",
+  "ticket_num": 13,
+  "custom_fields": {
+    "_priority": "2"
+  },
+  "created_date": "2012-08-29 22:30:01"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "split XAO:0000216 ! cortex",
+  "description": "\r\n\\[Term\\]\r\nid: XAO:0000216\r\nname: cortex\r\nnamespace: xenopus\\_anatomy\r\ndef: \"Spatial descriptor for the outermost or superficial layer of an organ, such at the cerebral cortex or adrenal gland cortex; or the outer most layers of the oocyte.\" \\[XB:curator\\]\r\nxref: AAO:0010327\r\nis\\_a: XAO:0003040  \\! portion of tissue\r\nrelationship: part\\_of XAO:0000035 \\! zygote\r\n\r\ndoes it really make sense to group these in once class? Can a zygote part be a portion of tissue.\r\n\r\nSuggestion: obsolete class. Request \"zygote cortex\" from GO and add consider link. Add new class for \"organ cortex\". See\r\nhttp://purl.obolibrary.org/obo/UBERON\\_0001851",
+  "discussion_thread": {
+    "_id": "dc54207a",
+    "posts": [
+      {
+        "text": "- **assigned_to**: nobody --> seger\n- **status**: open --> pending-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-09-18 16:09:26",
+        "last_edited": null,
+        "slug": "ecb3",
+        "subject": "#14 split XAO:0000216 ! cortex"
+      },
+      {
+        "text": "Obsoleted cortex, added new classes zygote cortex and organ cortex, and added consider links. New XAO version on OBO Foundry 23 Oct 2012.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-10-23 23:28:38",
+        "last_edited": null,
+        "slug": "a2c6",
+        "subject": "#14 split XAO:0000216 ! cortex"
+      },
+      {
+        "text": "- **status**: pending-accepted --> closed-fixed",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-10-23 23:28:38",
+        "last_edited": null,
+        "slug": "7d24",
+        "subject": "#14 split XAO:0000216 ! cortex"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2012-10-23 23:28:38",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a43e34309d75882fde72",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/dc54207a/",
+  "ticket_num": 14,
+  "custom_fields": {
+    "_priority": "4"
+  },
+  "created_date": "2012-09-18 15:54:56"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:1000007 tailbud stage, not consistent definition",
+  "description": "Hello, \r\nThe definition of tailbud stage is not consistent with the ontology. Should be...'from Nieuwkoop and Faber stage 22 to stage 44 ' ...instead 'from Nieuwkoop and Faber stage 20 to stage 44 '...right? Could you correct please?\r\nThank you",
+  "discussion_thread": {
+    "_id": "b3453bbb",
+    "posts": [
+      {
+        "text": "Will correct in next release.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-12-11 00:23:37",
+        "last_edited": null,
+        "slug": "e02a",
+        "subject": "#15 XAO:1000007 tailbud stage, not consistent definition"
+      },
+      {
+        "text": "- **assigned_to**: nobody --> seger\n- **status**: open --> pending-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-12-11 00:23:37",
+        "last_edited": null,
+        "slug": "50eb",
+        "subject": "#15 XAO:1000007 tailbud stage, not consistent definition"
+      },
+      {
+        "text": "- **status**: pending-accepted --> open-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-12-11 00:24:32",
+        "last_edited": null,
+        "slug": "2fdc",
+        "subject": "#15 XAO:1000007 tailbud stage, not consistent definition"
+      },
+      {
+        "text": "https://code.google.com/p/xenopus-anatomy-ontology/source/browse/trunk/src/ontology/xenopus\\_anatomy\\_edit.obo",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2013-03-15 19:38:44",
+        "last_edited": null,
+        "slug": "9bab",
+        "subject": "#15 XAO:1000007 tailbud stage, not consistent definition"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2013-03-15 19:38:44",
+        "last_edited": null,
+        "slug": "299c",
+        "subject": "#15 XAO:1000007 tailbud stage, not consistent definition"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2013-03-15 19:38:44",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a44034309d75882fde89",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/b3453bbb/",
+  "ticket_num": 15,
+  "custom_fields": {
+    "_priority": "5"
+  },
+  "created_date": "2012-11-15 14:46:59"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "poles/hemispheres",
+  "description": "What is the difference between these two?\r\n\r\n..is\\_a XAO:0003186 \\! anatomical region\r\n...is\\_a XAO:0000202 \\! animal hemisphere \\*\\*\\* \r\n...is\\_a XAO:0004088 \\! animal pole \\*\\*\\* \r\n\r\nhemisphere is defined \"In developmental biology, the embryo is divided into two hemispheres: the animal pole or hemisphere and the vegetal pole or hemisphere. The animal hemisphere is the actively dividing hemisphere of the embryo, opposite the vegetal hemisphere, and is pigmented dark brown.\"\r\n\r\npole is not defined, and the only relationship it has is is\\_a; no start/end\r\n\r\nConsider renaming XAO:0000297 \\! animal to \"animal direction\"\r\n\r\nsame applies to vegetal\r\n\r\n..is\\_a XAO:0003186 \\! anatomical region \\[DEF: \"A region of the whole organism that contains a recognizable set of structures or anatomical entities.\"\\]\r\n...is\\_a XAO:0000280 \\! vegetal hemisphere \\*\\*\\* \r\n...is\\_a XAO:0004113 \\! vegetal pole \\*\\*\\* \r\n\r\nNote that \\*neither\\* of these terms are defined.\r\n\r\nThere are further problems. Look at the start/end stages:\r\n\r\n\\[Term\\]\r\nid: XAO:0000202\r\nname: animal hemisphere\r\nnamespace: xenopus\\_anatomy\r\ndef: \"In developmental biology, the embryo is divided into two hemispheres: the animal pole or hemisphere and the vegetal pole or hemisphere. The animal hemisphere is the actively dividing hemisphere of the embryo, opposite the vegetal hemisphere, and is pigmented dark brown\r\n.\" \\[ISBN:3-921015-04-9\\]\r\nxref: AAO:0010325\r\nis\\_a: XAO:0003186  \\! anatomical region\r\nrelationship: end\\_stage XAO:1000021 \\! NF stage 11\r\nrelationship: part\\_of XAO:0000035 \\! zygote\r\nrelationship: start\\_stage XAO:1000001 \\! NF stage 1\r\nrelationship: start\\_stage XAO:1000017 \\! NF stage 7\r\n\r\nWhy are there 2 start stages?\r\n\r\nIf this is truly part of the zygote, does it not also end in stage 1?\r\n\r\nthere is also the continuation into the blastomere:\r\n\r\n\\[Term\\]\r\nid: XAO:0000200\r\nname: animal blastomere\r\nnamespace: xenopus\\_anatomy\r\ndef: \"Pigmented, smaller blastomere of the animal \\(upper\\) hemisphere of the cleaving embryo.\" \\[ISBN:0471209627\\]\r\nsynonym: \"micromere\" RELATED \\[\\]\r\nxref: AAO:0010283\r\nis\\_a: XAO:0003016  \\! blastomere\r\nrelationship: develops\\_from XAO:0000202 \\! animal hemisphere\r\nrelationship: end\\_stage XAO:1000019 \\! NF stage 9\r\nrelationship: start\\_stage XAO:1000011 \\! NF stage 2 \\(2-cell\\)\r\n\r\ncurrently the temporal stages of 'animal hemisphere' cover animal blastomere. It seems \"animal hemisphere\" is trying to do double duty as both being a general class that is the is\\_a parent of all the stage-specific animal hemispheres and also being the zygote stage version..\r\n\r\nMy xenopus embryogenesis is pretty poor so I may have misunderstood something, but it's clear something isn't quite right here",
+  "discussion_thread": {
+    "_id": "38163a1d",
+    "posts": [
+      {
+        "text": "I think these could be merged \\(they are definitely related synonyms\\), or the hemisphere is sometimes used only for the zygote whereas the pole term is used for multicellular early stage embryos \\(e.g. animal blastomere would be part\\_of animal pole, which would develop from animal hemisphere of the zygote, if the two terms are kept separate\\). If you decide to keep both terms, perhaps relabel \"animal hemisphere of zyogote\" or somesuch. Just some thoughts.",
+        "attachments": [],
+        "author": "mellybelly",
+        "timestamp": "2012-12-10 20:40:58",
+        "last_edited": null,
+        "slug": "636d",
+        "subject": "#16 poles/hemispheres"
+      },
+      {
+        "text": "- **assigned_to**: nobody --> seger\n- **status**: open --> open-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2012-12-11 00:25:21",
+        "last_edited": null,
+        "slug": "199c",
+        "subject": "#16 poles/hemispheres"
+      },
+      {
+        "text": "- Description has changed:\n\nDiff:\n\n~~~~\n\n--- old\n+++ new\n@@ -1,4 +1,3 @@\n-\n What is the difference between these two?\n \n ..is\\_a XAO:0003186 \\! anatomical region\n\n~~~~\n\n- **status**: open-accepted --> closed-fixed\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-05-30 01:56:59.360000",
+        "last_edited": null,
+        "slug": "8e6d",
+        "subject": "#16 poles/hemispheres"
+      },
+      {
+        "text": "For Xenopus a distinction was made between hemisphere (one half of embryo) vs. pole (top- or bottom-most part, i.e. the regions near the \"poles\" where the axis intercepts the surface).\r\n\r\nAn in situ could detect mRNA say in the top half of the embryo or more so at the top most part. Some of Janet Heasman's maternal transcript in situ hybridizations come to mind. \r\n\r\nThis distinction could also be used to describe protein localization in a sectioned egg or embryo showing a protein localized to the animal/vegetal pole as opposed to being distributed more evenly throughout the animal/vegetal half (hemisphere).\r\n\r\nI have tried to clarify the definitions. Also, the hemispheres (existing from stages 1 to 11) have been made part_of embryo (existing from stages 1 to 44).\r\n\r\nFixed in edit files in\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/trunk/src/ontology/\r\n\r\n\r\n[Term]\r\nid: XAO:0000202\r\nname: animal hemisphere\r\ndef: \"Anatomical region comprising the upper, darkly pigmented, and actively dividing half of the developing early embryo.\" [XAO:EJS]\r\nxref: UBERON:0012284\r\nis_a: XAO:0003186 ! anatomical region\r\nrelationship: end_stage XAO:1000021 ! NF stage 11\r\nrelationship: part_of XAO:0000113 ! embryo\r\nrelationship: start_stage XAO:1000001 ! NF stage 1\r\n\r\n[Term]\r\nid: XAO:0004088\r\nname: animal pole\r\ndef: \"Anatomical region comprising the top-most part of the animal hemisphere of the developing early embryo.\" [XAO:EJS]\r\nis_a: XAO:0003186 ! anatomical region\r\nrelationship: end_stage XAO:1000021 ! NF stage 11\r\nrelationship: part_of XAO:0000202 ! animal hemisphere\r\nrelationship: start_stage XAO:1000001 ! NF stage 1\r\n\r\n[Term]\r\nid: XAO:0000280\r\nname: vegetal hemisphere\r\ndef: \"Anatomical region comprising the lower, lightly pigmented half of the developing early embryo.\" [XAO:EJS]\r\nxref: UBERON:0012285\r\nis_a: XAO:0003186 ! anatomical region\r\nrelationship: end_stage XAO:1000021 ! NF stage 11\r\nrelationship: part_of XAO:0000113 ! embryo\r\nrelationship: start_stage XAO:1000001 ! NF stage 1\r\n\r\n[Term]\r\nid: XAO:0004113\r\nname: vegetal pole\r\ndef: \"Anatomical region comprising the bottom-most part of the vegetal hemisphere of the developing early embryo.\" [XAO:EJS]\r\nis_a: XAO:0003186 ! anatomical region\r\nrelationship: end_stage XAO:1000021 ! NF stage 11\r\nrelationship: part_of XAO:0000280 ! vegetal hemisphere\r\nrelationship: start_stage XAO:1000001 ! NF stage 1\r\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-05-30 01:56:59.845000",
+        "last_edited": null,
+        "slug": "031c",
+        "subject": "#16 poles/hemispheres"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2014-08-17 17:06:55.400000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a44334309d75882fdeaa",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/38163a1d/",
+  "ticket_num": 16,
+  "custom_fields": {
+    "_priority": "2",
+    "_milestone": ""
+  },
+  "created_date": "2012-11-16 21:28:36"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:0004176 ! choroidal vascular plexus",
+  "description": "1\\. Fix the following two syns:\r\n\r\nsynonym: \"&lt;new synonym&gt;\" RELATED \\[\\]\r\nsynonym: \"capillary lamina of choroid or choriocapillaris\" EXACT \\[\\]\r\n\r\nI think the 2nd should be split into two syns:\r\n\r\nsynonym: \"capillary lamina of choroid \" EXACT \\[\\]\r\nsynonym: \"choriocapillaris\" EXACT \\[\\]\r\n\r\nThe def is \"A plexus of capillaries that is visible anteromedial to the eye. \"\r\n\r\nConsider adding additional info - e,g relationship to bruch's membrane:\r\n\r\nhttps://www.google.com/search?q=xenopus+choroid&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a\\#hl=en&client=firefox-a&hs=90u&rls=org.mozilla:en-US%3Aofficial&sclient=psy-ab&q=xenopus+choroid+choriocapillaris&oq=xenopus+choroid+choriocapillaris&gs\\_l=serp.3...48840.49126.0.49414.2.2.0.0.0.0.97.189.2.2.0.les%3B..0.0...1c.1.UuqYBTQ5e48&pbx=1&bav=on.2,or.r\\_gc.r\\_pw.r\\_cp.r\\_qf.&bvm=bv.41018144,d.cGE&fp=32d5d141ecf01535&biw=1600&bih=803\r\n\r\nConsider adding other choroidal layers \\(e.g. in humans the outer layer is other blood vessels\\)\r\n\r\nAlso: consider making choriocapilliaris the primary label for the capillary layer",
+  "discussion_thread": {
+    "_id": "816492cd",
+    "posts": [
+      {
+        "text": "- **assigned_to**: nobody --> seger\n- **status**: open --> open-accepted",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2013-01-28 21:41:45",
+        "last_edited": null,
+        "slug": "8eee",
+        "subject": "#17 XAO:0004176 ! choroidal vascular plexus"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2013-12-31 19:20:53.090000",
+        "last_edited": null,
+        "slug": "cdab",
+        "subject": "#17 XAO:0004176 ! choroidal vascular plexus"
+      },
+      {
+        "text": "http://www.ontobee.org/browser/rdf.php?o=XAO&iri=http://purl.obolibrary.org/obo/XAO_0004176\r\n\r\nPrimary label has been changed to: optic choroid vascular plexus\r\n\r\nSynonyms: choroidal vascular plexus, choriocapillaris, capillary lamina of choroid\r\n\r\nDefinition has been edited: A plexus of capillaries that is located anteromedial to the eye. It is a capillary layer in the choroid. It is in contact with the basal surface of the retinal pigmented epithelium and supplies the photoreceptors with oxygen and nutrients. The fused basement membrane of this capillary layer and the pigmented epithelium is called Bruch's membrane.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2013-12-31 19:20:54.128000",
+        "last_edited": null,
+        "slug": "aabd",
+        "subject": "#17 XAO:0004176 ! choroidal vascular plexus"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2013-12-31 19:20:54.559000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "51b0a44534309d75882fdebd",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/816492cd/",
+  "ticket_num": 17,
+  "custom_fields": {
+    "_priority": "1",
+    "_milestone": ""
+  },
+  "created_date": "2013-01-15 21:53:58"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [
+    {
+      "url": "http://sourceforge.net/p/obo/xenopus-anatomy-xao-term-requests/18/attachment/mouth-devel.png",
+      "bytes": 229783
+    }
+  ],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "mouth primordium",
+  "description": "XAO has 'mouth primordium', \r\n\r\n```\r\ndef: \"Anterior part of the embryonic alimentary canal that is formed as an invagination of the ectoderm and is the future mouth.\" [UBERON:0000930]\r\n```\r\n\r\nyet mouth does not develop from the mouth primordium\r\n\r\n![image](https://f.cloud.github.com/assets/50745/1065123/a64f4a6e-1372-11e3-94fe-4a61c7343487.png)\r\n\r\nSee also:\r\nhttps://github.com/obophenotype/uberon/issues/326",
+  "discussion_thread": {
+    "_id": "34badc33",
+    "posts": [
+      {
+        "text": "- **status**: unread --> open-accepted\n- **assigned_to**: Erik Segerdell\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2013-10-17 23:41:50.154000",
+        "last_edited": null,
+        "slug": "659c",
+        "subject": "#18 mouth primordium"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-05-25 23:49:58.773000",
+        "last_edited": null,
+        "slug": "f839",
+        "subject": "#18 mouth primordium"
+      },
+      {
+        "text": "added mouth develops_from mouth primordium\r\n\r\nfixed in edit files in\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/trunk/src/ontology/",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-05-25 23:49:59.019000",
+        "last_edited": null,
+        "slug": "6377",
+        "subject": "#18 mouth primordium"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2014-05-25 23:49:59.095000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "5223f0eb3e5e8312c6c6e0c0",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/34badc33/",
+  "ticket_num": 18,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2013-09-02 01:59:07.851000"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4f428a200594ca3f5a000584",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "cmungall",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "polar body & oocyte",
+  "description": "Is the part_of relation here correct? Is a polar body both a cell and part of a cell?\r\n\r\n~~~~\r\n[Term]\r\nid: XAO:0000262\r\nname: polar body\r\nnamespace: xenopus_anatomy\r\ndef: \"A small cell formed by the meiotic division of an oocyte.\" [CL:0002090]\r\nxref: AAO:0010307\r\nis_a: XAO:0003012  ! cell\r\nrelationship: end_stage XAO:1000088 ! oocyte stage VI\r\nrelationship: part_of XAO:0000256 ! oocyte\r\nrelationship: start_stage XAO:1000083 ! oocyte stage I\r\n~~~~",
+  "discussion_thread": {
+    "_id": "36e6476a",
+    "posts": [
+      {
+        "text": "The part_of relation should be changed to develops_from.",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2013-10-17 23:45:13.843000",
+        "last_edited": null,
+        "slug": "b45b",
+        "subject": "#19 polar body & oocyte"
+      },
+      {
+        "text": "- **status**: unread --> open-accepted\n- **assigned_to**: Erik Segerdell\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2013-10-17 23:45:25.096000",
+        "last_edited": null,
+        "slug": "fd1f",
+        "subject": "#19 polar body & oocyte"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-05-25 23:52:04.373000",
+        "last_edited": null,
+        "slug": "0026",
+        "subject": "#19 polar body & oocyte"
+      },
+      {
+        "text": "changed to: polar body develops_from oocyte\r\n\r\nfixed in edit files in\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/trunk/src/ontology/",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-05-25 23:52:04.640000",
+        "last_edited": null,
+        "slug": "eb51",
+        "subject": "#19 polar body & oocyte"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2014-05-25 23:52:04.718000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "52250045b9363c1edec14e4d",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/36e6476a/",
+  "ticket_num": 19,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2013-09-02 21:16:53.852000"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "request term 'post-embryonic stage'",
+  "description": "Hello,\r\n\r\nwould it be possible to have a 'post-embryonic stage' class in Xenopus developmental stage?\r\nthis new term could be parent of both\r\n\r\nXtroDv:0000056\r\nname: tadpole stage\r\n\r\nand \r\n\r\nXtroDv:0000083\r\nname: juvenile frog stage\r\n\r\nand could be mapped on the following Uberon term:\r\n\r\nid: UBERON:0000092\r\nname: post-embryonic stage\r\nnamespace: uberon\r\ndef: \"stage succeeding embryo, including mature structure\" [https://orcid.org/0000-0002-6601-2165]\r\n\r\n\r\nWhat do you think?\r\n\r\nOpen to discussion of course.\r\n\r\nBest regards,\r\n\r\nAnne\r\n\r\nAnne Niknejad\r\nBgee curator\r\nhttp://bgee.unil.ch/bgee\r\n\r\nDept Ecology & Evolution\r\nBiophore, UNIL-Sorge\r\nUNIL-CH-1015 Lausanne\r\nSwitzerland",
+  "discussion_thread": {
+    "_id": "5c1c84d8",
+    "posts": [
+      {
+        "text": "sorry, wanted to say:\r\n\r\n\"this new term could be parent of both\r\n\r\nXAO:1000008\r\nname: tadpole stage\r\n\r\nand\r\n\r\nXAO:1000010\r\nname: juvenile frog stage\r\n...\"",
+        "attachments": [],
+        "author": "anneniknejad",
+        "timestamp": "2014-09-04 11:38:16.902000",
+        "last_edited": null,
+        "slug": "e498",
+        "subject": "#20 request term 'post-embryonic stage'"
+      },
+      {
+        "text": "- **status**: unread --> open-accepted\n- **assigned_to**: Erik Segerdell\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-10-06 22:49:20.495000",
+        "last_edited": null,
+        "slug": "7c36",
+        "subject": "#20 request term 'post-embryonic stage'"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-05-13 03:43:25.523000",
+        "last_edited": null,
+        "slug": "922b",
+        "subject": "#20 request term 'post-embryonic stage'"
+      },
+      {
+        "text": "Added to the edit version of the XAO:\r\n\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/#svn%2Ftrunk%2Fsrc%2Fontology",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-05-13 03:43:25.853000",
+        "last_edited": null,
+        "slug": "5668",
+        "subject": "#20 request term 'post-embryonic stage'"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2015-05-13 03:43:25.898000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "54084e087929e5062ebf41fe",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/5c1c84d8/",
+  "ticket_num": 20,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2014-09-04 11:33:28.418000"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:1000080 name: late tailbud stage, please add relation",
+  "description": "Hello,\r\n\r\ncould you please add \r\n\r\nrelationship: preceded_by XAO:1000002 ! early tailbud stage\r\n\r\nThank you very much\r\n\r\nAnne",
+  "discussion_thread": {
+    "_id": "ec33ca5c",
+    "posts": [
+      {
+        "text": "any update? please take care of the tracker, many thanks\r\n\r\nAnne ",
+        "attachments": [],
+        "author": "anneniknejad",
+        "timestamp": "2014-10-06 08:47:57.513000",
+        "last_edited": null,
+        "slug": "0bc2",
+        "subject": "#21 XAO:1000080 name: late tailbud stage, please add relation"
+      },
+      {
+        "text": "- **status**: unread --> open-accepted\n- **assigned_to**: Erik Segerdell\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-10-06 22:51:24.542000",
+        "last_edited": null,
+        "slug": "3c87",
+        "subject": "#21 XAO:1000080 name: late tailbud stage, please add relation"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:52:51.205000",
+        "last_edited": null,
+        "slug": "879c",
+        "subject": "#21 XAO:1000080 name: late tailbud stage, please add relation"
+      },
+      {
+        "text": "Implemented in the latest XAO release:\r\n\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/#svn%2Freleases%2F2015-02-19",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:52:51.526000",
+        "last_edited": null,
+        "slug": "f628",
+        "subject": "#21 XAO:1000080 name: late tailbud stage, please add relation"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2015-02-20 02:52:51.631000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "541940630594ca3165f28423",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/ec33ca5c/",
+  "ticket_num": 21,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2014-09-17 08:03:47.489000"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [
+    "add time relationship"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:1000079 metamorphosing tadpole stage, please add relation",
+  "description": "hello,\r\n\r\ncould you please add\r\n\r\nrelationship: immediately_preceded_by XAO:1000089 ! premetamorphosis stage",
+  "discussion_thread": {
+    "_id": "5e4e9d35",
+    "posts": [
+      {
+        "text": "- **status**: unread --> open-accepted\n- **assigned_to**: Erik Segerdell\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-10-06 22:50:02.910000",
+        "last_edited": null,
+        "slug": "c452",
+        "subject": "#22 XAO:1000079 metamorphosing tadpole stage, please add relation"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:51:42.777000",
+        "last_edited": null,
+        "slug": "c137",
+        "subject": "#22 XAO:1000079 metamorphosing tadpole stage, please add relation"
+      },
+      {
+        "text": "Implemented in the latest XAO release:\r\n\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/#svn%2Freleases%2F2015-02-19",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:51:51.947000",
+        "last_edited": null,
+        "slug": "4fcd",
+        "subject": "#22 XAO:1000079 metamorphosing tadpole stage, please add relation"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2015-02-20 02:51:52.047000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "54194f03909547673afa07eb",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/5e4e9d35/",
+  "ticket_num": 22,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2014-09-17 09:06:11.075000"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [
+    "add time relationship"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:1000091 climax stage. please add relation",
+  "description": "Hello,\r\n\r\ncould you please add\r\nrelationship: immediately_preceded_by XAO:1000090 ! prometamorphosis stage\r\n\r\nThank you very much.\r\n\r\nAnne",
+  "discussion_thread": {
+    "_id": "5eb384cc",
+    "posts": [
+      {
+        "text": "- **status**: unread --> open-accepted\n- **assigned_to**: Erik Segerdell\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-10-06 22:50:47.950000",
+        "last_edited": null,
+        "slug": "0691",
+        "subject": "#23 XAO:1000091 climax stage. please add relation"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:50:34.900000",
+        "last_edited": null,
+        "slug": "5c93",
+        "subject": "#23 XAO:1000091 climax stage. please add relation"
+      },
+      {
+        "text": "Implemented in the latest XAO release:\r\n\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/#svn%2Freleases%2F2015-02-19",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:50:35.186000",
+        "last_edited": null,
+        "slug": "bf70",
+        "subject": "#23 XAO:1000091 climax stage. please add relation"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2015-02-20 02:50:35.308000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "54196436ea406b71bb4e2187",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/5eb384cc/",
+  "ticket_num": 23,
+  "custom_fields": {
+    "_priority": "2",
+    "_milestone": ""
+  },
+  "created_date": "2014-09-17 10:36:38.935000"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "question about XAO:1000082 name: unfertilized egg stage",
+  "description": "Hi Erik,\r\n\r\nid: XAO:1000082\r\nname: unfertilized egg stage (Xenopus)\r\ndef: \"Xenopus developmental stage that corresponds to a developing or mature female germ cell.\"\r\n\r\nThis term is then parent of other oocyte stages (from oocyte stage I up to mature egg stage).\r\n\r\nI wonder, which of these stages can be considered as arising from sexually immature xenopus? Which from sexually mature? In other terms, I need some help about Xenopus female gametogenesis versus life cycle.\r\n\r\nSorry for the question but I am not amphibian expert and literature is not clear about that.\r\n\r\nThank you very much\r\n\r\nAnne",
+  "discussion_thread": {
+    "_id": "caa2ebf7",
+    "posts": [
+      {
+        "text": "- **status**: unread --> open-accepted\n- **assigned_to**: Erik Segerdell\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-10-16 22:13:37.357000",
+        "last_edited": null,
+        "slug": "ec2e",
+        "subject": "#24 question about XAO:1000082 name: unfertilized egg stage"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-05-13 04:12:19.875000",
+        "last_edited": null,
+        "slug": "7e78",
+        "subject": "#24 question about XAO:1000082 name: unfertilized egg stage"
+      },
+      {
+        "text": "Thanks for your question. As I understand it, Xenopus laevis reaches sexual maturity by about one year into its life cycle and beyond that point, gametogenesis is continuous in the adult frog. So to answer your question, I don't believe there is an oocyte stage or stages that represent a dividing line between the female being considered sexually immature vs. mature.\r\n\r\nI think the wording of the definitions for unfertilized egg stages may have been a bit confusing or unclear, maybe implying that there was such a correspondence. It's a bit tricky representing it in the ontology, but what we try to represent is a continuum of stages from oocyte stage I --> mature egg --> single cell embryo --> embryo --> tadpole etc. and this is reflected by the preceded_by relationships. However, the definitions of the unfertilized egg stages do not intend to say anything about the age of the adult female in which the oocytes are being formed.\r\n\r\nI've rewritten the definitions so that they are hopefully clearer (without changing their essential meaning, of course) -- see below. The changes are in the edit version of the ontology here:\r\n\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/#svn%2Ftrunk%2Fsrc%2Fontology\r\n\r\n\r\n\r\n[Term]\r\nid: XAO:1000082\r\nname: unfertilized egg stage\r\nnamespace: xenopus_developmental_stage\r\ndef: \"Any of the stages of the developing or mature Xenopus female gamete.\" [XAO:EJS]\r\nsynonym: \"unfertilized egg\" EXACT []\r\nis_a: XAO:1000000 ! Xenopus developmental stage\r\n\r\n[Term]\r\nid: XAO:1000083\r\nname: oocyte stage I\r\nnamespace: xenopus_developmental_stage\r\ndef: \"The pre-vitellogenic stage of the developing female gamete.\" [XAO:EJS]\r\nis_a: XAO:1000082 ! unfertilized egg stage\r\n\r\n[Term]\r\nid: XAO:1000084\r\nname: oocyte stage II\r\nnamespace: xenopus_developmental_stage\r\ndef: \"The early vitellogenic stage of the developing female gamete.\" [XAO:EJS]\r\nis_a: XAO:1000082 ! unfertilized egg stage\r\nrelationship: preceded_by XAO:1000083 ! oocyte stage I\r\n\r\n[Term]\r\nid: XAO:1000085\r\nname: oocyte stage III\r\nnamespace: xenopus_developmental_stage\r\ndef: \"The mid-vitellogenic stage of the developing female gamete.\" [XAO:EJS]\r\nis_a: XAO:1000082 ! unfertilized egg stage\r\nrelationship: preceded_by XAO:1000084 ! oocyte stage II\r\n\r\n[Term]\r\nid: XAO:1000086\r\nname: oocyte stage IV\r\nnamespace: xenopus_developmental_stage\r\ndef: \"The stage of the developing female gamete that corresponds to the establishment of polarization along the animal-vegetal axis of the gamete.\" [XAO:EJS]\r\nis_a: XAO:1000082 ! unfertilized egg stage\r\nrelationship: preceded_by XAO:1000085 ! oocyte stage III\r\n\r\n[Term]\r\nid: XAO:1000087\r\nname: oocyte stage V\r\nnamespace: xenopus_developmental_stage\r\ndef: \"The late-vitellogenic stage of the developing female gamete.\" [XAO:EJS]\r\nis_a: XAO:1000082 ! unfertilized egg stage\r\nrelationship: preceded_by XAO:1000086 ! oocyte stage IV\r\n\r\n[Term]\r\nid: XAO:1000088\r\nname: oocyte stage VI\r\nnamespace: xenopus_developmental_stage\r\ndef: \"The developmental stage of the female gamete at which the gamete is fully grown.\" [XAO:EJS]\r\nis_a: XAO:1000082 ! unfertilized egg stage\r\nrelationship: preceded_by XAO:1000087 ! oocyte stage V\r\n\r\n[Term]\r\nid: XAO:1000092\r\nname: mature egg stage\r\nnamespace: xenopus_developmental_stage\r\ndef: \"The developmental stage of the female gamete at which the gamete has reached maturity.\" [XAO:EJS]\r\nsynonym: \"mature egg\" RELATED []\r\nis_a: XAO:1000082 ! unfertilized egg stage\r\nrelationship: preceded_by XAO:1000088 ! oocyte stage VI\r\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-05-13 04:12:20.110000",
+        "last_edited": null,
+        "slug": "b013",
+        "subject": "#24 question about XAO:1000082 name: unfertilized egg stage"
+      },
+      {
+        "text": "I feel sorry for the question! I guess, I was tired and after reviewing a lot of 'immature frog eggs' I was completely confused!!!\r\nAnyway thank you for the nice definitions, and sorry again.\r\nCheers,\r\n\r\nAnne",
+        "attachments": [],
+        "author": "anneniknejad",
+        "timestamp": "2015-05-13 07:01:15.916000",
+        "last_edited": null,
+        "slug": "da04",
+        "subject": "#24 question about XAO:1000082 name: unfertilized egg stage"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2015-05-13 07:01:16.265000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "543be588a02bb17145eb664b",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/caa2ebf7/",
+  "ticket_num": 24,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2014-10-13 14:45:28.559000"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [
+    "add time relationship"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:1000007 tailbud stage, please add relation",
+  "description": "XAO:1000007 tailbud stage = NF 22-44, so should have relation:\r\n\r\nrelationship: preceded_by XAO:1000006 neurula stage \r\n\r\nNF 13-21 = neurula stage",
+  "discussion_thread": {
+    "_id": "db6a2a5a",
+    "posts": [
+      {
+        "text": "- Description has changed:\n\nDiff:\n\n~~~~\n\n--- old\n+++ new\n@@ -1,4 +1,3 @@\n-\n XAO:1000007 tailbud stage = NF 22-44, so should have relation:\n \n relationship: preceded_by XAO:1000006 neurula stage \n\n~~~~\n\n- **status**: unread --> open-accepted\n- **assigned_to**: Erik Segerdell\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-10-30 23:02:43.236000",
+        "last_edited": null,
+        "slug": "21d5",
+        "subject": "#25 XAO:1000007 tailbud stage, please add relation"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:49:36.806000",
+        "last_edited": null,
+        "slug": "9359",
+        "subject": "#25 XAO:1000007 tailbud stage, please add relation"
+      },
+      {
+        "text": "Implemented in the latest XAO release:\r\n\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/#svn%2Freleases%2F2015-02-19",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:49:37.063000",
+        "last_edited": null,
+        "slug": "be7d",
+        "subject": "#25 XAO:1000007 tailbud stage, please add relation"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2015-02-20 02:49:37.160000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "544e7ba01be1ce2179ecc14f",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/db6a2a5a/",
+  "ticket_num": 25,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2014-10-27 17:06:40.065000"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [
+    "add time relationship"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:1000005 name: gastrula stage",
+  "description": "XAO:1000005\r\nname: gastrula stage\r\nNF 10-12.5\r\n\r\nshould have the relation:\r\nrelationship: preceded_by XAO:1000003 blastula stage\r\nNF 7-9",
+  "discussion_thread": {
+    "_id": "fe213ce4",
+    "posts": [
+      {
+        "text": "- **status**: unread --> open-accepted\n- **assigned_to**: Erik Segerdell\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-10-30 23:02:26.902000",
+        "last_edited": null,
+        "slug": "4cba",
+        "subject": "#26 XAO:1000005 name: gastrula stage"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:48:48.901000",
+        "last_edited": null,
+        "slug": "075e",
+        "subject": "#26 XAO:1000005 name: gastrula stage"
+      },
+      {
+        "text": "Implemented in the latest XAO release:\r\n\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/#svn%2Freleases%2F2015-02-19",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:48:49.234000",
+        "last_edited": null,
+        "slug": "ba2c",
+        "subject": "#26 XAO:1000005 name: gastrula stage"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2015-02-20 02:48:49.310000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "544e7e4bf1fd8d38c6711ddd",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/fe213ce4/",
+  "ticket_num": 26,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2014-10-27 17:18:03.511000"
+},{
+  "status": "closed-fixed",
+  "reported_by_id": "4dfb5be20594ca642a000850",
+  "related_artifacts": [],
+  "attachments": [],
+  "reported_by": "anneniknejad",
+  "assigned_to": "seger",
+  "labels": [
+    "add time relationship"
+  ],
+  "discussion_disabled": false,
+  "assigned_to_id": "4f0337091be1ce7f23000599",
+  "private": false,
+  "summary": "XAO:1000003 blastula stage, please add relation",
+  "description": "XAO:1000003 blastula stage (NF 7-9)\r\n\r\nshould have the relation:\r\nrelationship: preceded_by XAO:1000004 cleavage stage (NF 2-6.5)",
+  "discussion_thread": {
+    "_id": "47a9fbbb",
+    "posts": [
+      {
+        "text": "- **status**: unread --> open-accepted\n- **assigned_to**: Erik Segerdell\n- **Group**:  --> \n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2014-10-30 23:01:10.241000",
+        "last_edited": null,
+        "slug": "d9f6",
+        "subject": "#27 XAO:1000003 blastula stage, please add relation"
+      },
+      {
+        "text": "- **status**: open-accepted --> closed-fixed\n",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:46:49.914000",
+        "last_edited": null,
+        "slug": "1ee6",
+        "subject": "#27 XAO:1000003 blastula stage, please add relation"
+      },
+      {
+        "text": "Implemented in the latest XAO release:\r\n\r\nhttps://code.google.com/p/xenopus-anatomy-ontology/source/browse/#svn%2Freleases%2F2015-02-19",
+        "attachments": [],
+        "author": "seger",
+        "timestamp": "2015-02-20 02:46:58.614000",
+        "last_edited": null,
+        "slug": "163a",
+        "subject": "#27 XAO:1000003 blastula stage, please add relation"
+      }
+    ],
+    "discussion_id": "51b0a41534309d75882fdcef",
+    "subject": ""
+  },
+  "mod_date": "2015-02-20 02:47:04.948000",
+  "votes_down": 0,
+  "votes_up": 0,
+  "_id": "544e7f89c4d1042d496ebe56",
+  "discussion_thread_url": "http://sourceforge.net/rest/p/obo/xenopus-anatomy-xao-term-requests/_discuss/thread/47a9fbbb/",
+  "ticket_num": 27,
+  "custom_fields": {
+    "_priority": "5",
+    "_milestone": ""
+  },
+  "created_date": "2014-10-27 17:23:21.103000"
+}],
+"tracker_config":{
+  "_id": "51b0a41534309d75882fdced",
+  "options": {
+    "ordinal": 22,
+    "import_id": "tracker/1127722",
+    "mount_point": "xenopus-anatomy-xao-term-requests",
+    "TicketMonitoringType": null,
+    "EnableVoting": false,
+    "TicketMonitoringEmail": "",
+    "mount_label": "Xenopus Anatomy (XAO) term requests "
+  }
+},
+"milestones":[],
+"custom_fields":[
+  {
+    "milestones": [],
+    "type": "milestone",
+    "name": "_milestone",
+    "label": "Group"
+  },
+  {
+    "type": "select",
+    "label": "Priority",
+    "show_in_search": true,
+    "options": "1 2 3 4 *5 6 7 8 9",
+    "name": "_priority"
+  }
+],
+"open_status_names":"unread pending open-accepted",
+"closed_status_names":"wont-fix closed-accepted closed-fixed",
+"saved_bins":[
+  {
+    "sort": "mod_date_dt desc",
+    "_id": "51b0a41734309d75882fdd0a",
+    "terms": "!status:closed-accepted && !status:wont-fix && !status:closed-fixed",
+    "summary": "Changes"
+  },
+  {
+    "sort": "",
+    "_id": "51b0a41734309d75882fdd09",
+    "terms": "status:closed-accepted or status:wont-fix or status:closed-fixed",
+    "summary": "Closed Tickets"
+  },
+  {
+    "sort": "",
+    "_id": "51b0a41734309d75882fdd08",
+    "terms": "!status:closed-accepted && !status:wont-fix && !status:closed-fixed",
+    "summary": "Open Tickets"
+  }
+]}
