@@ -12,7 +12,7 @@ Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Viz
 
 [Xenbase](http://www.xenbase.org/anatomy/anatomy.do?method=display&tabId=2)
 
-[The OBO Foundry](http://www.obofoundry.org/)
+[The OBO Foundry](http://www.obofoundry.org/ontology/xao.html)
 
 [AberOWL](http://aber-owl.net/ontology/XAO)
 
