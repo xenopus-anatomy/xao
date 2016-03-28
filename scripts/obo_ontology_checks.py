@@ -15,12 +15,12 @@ file contains a plain text list of developmental stages, in the order of their
 timing, one stage per line and named exactly as they are in the ontology.
 Provide the OBO ontology prefix and default namespace.
 """
-ont_file = "xenopus_anatomy_edit.obo"
+ont_file = "xenopus_anatomy.obo"
 stage_file = "NF_stages.txt"
 prefix = "XAO"
 default_namespace = "xenopus_anatomy"
 
-ont_file = os.path.abspath(__file__ + "/../../src/edit/" + ont_file)
+ont_file = os.path.abspath(__file__ + "/../../" + ont_file)
 stage_file = os.path.abspath(__file__ + "/../" + stage_file)
 
 
