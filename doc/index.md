@@ -1,8 +1,30 @@
 ##Development
 
-The Xenopus Anatomy Ontology is provided in both Open Biomedical Ontologies (OBO) and Web Ontology Language (OWL) file formats and may be edited in either [OBO-Edit](http://oboedit.org/) or [Protégé](http://protege.stanford.edu/), respectively. Whichever your editing tool preference, be sure the OBO and OWL versions are synced before committing a change to the repository. You can accomplish this with the [oboformat-tools](https://github.com/oboformat/oboformat-tools) file converter.
+###Editing tools
 
-Changes are made in a git branch. Make a local branch by executing the following command:
+The Xenopus Anatomy Ontology is provided in both Open Biomedical Ontologies (OBO) and Web Ontology Language (OWL) file formats and may be edited in either [OBO-Edit](http://oboedit.org/) or [Protégé](http://protege.stanford.edu/), respectively. Although it is acceptable to use either program exclusively, OBO-Edit is often the more convenient choice for adding new terms, definitions, and definition cross-references, while Protégé is more convenient when in comes to adding relationships (`SubClasses Of` in OWL).
+
+If you use Protégé to create new terms (`Classes` in OWL) you must configure it to auto-generate proper URIs:
+
+ - Open the raw [OBO file](https://raw.githubusercontent.com/xenopus-anatomy/xao/master/xenopus_anatomy.obo), scroll to the most recently added anatomical term, and note its XAO ID. This term appears immediately before the first developmental stage term having `id: XAO:1000000`.
+ - Open Protégé Preferences and select the New Entities tab.
+ - Set the entity URI to end with *Auto-generated ID*.
+ - Set the auto-generated ID to be *Numeric (iterative)* with the prefix *XAO_*, digit count *7*, and starting one number greater than the XAO ID you noted above. For example, if the most recent term has `id: XAO:0005083`, set the start value to *5084*.
+
+After creating each new class, add the following annotations:
+
+ - has_obo_namespace *xenopus_anatomy*
+ - id *XAO:nnnnnnn*
+
+where the ID number is based on the newly generated URI. Hover over the new class in the class hierarchy and look at the tooltip. If, for example, the URI ends with *XAO_0005084*, enter the annotation value *XAO:0005084*.
+
+###File conversion
+
+Whichever your editing tool preference, be sure the OBO and OWL files are in sync before committing a change to the repository. You can accomplish this with the [oboformat-tools](https://github.com/oboformat/oboformat-tools) converter.
+
+###Workflow
+
+Ontology updates should be made in one or more git branches. Make a local branch by executing the following command:
 
     git checkout -b <branch>
 
@@ -14,9 +36,9 @@ Rebase the branch from time to time as follows:
 
     git rebase master
 
-This integrates the branch with the master, detects conflicts, and facilitates subsequent merge.
+This integrates the branch with the master branch, detects conflicts, and facilitates subsequent merge.
 
-Execute the merge with the following commands:
+To merge a branch with master, execute the following commands:
 
     git checkout master
     git merge --no-ff <branch>
@@ -31,9 +53,9 @@ Run the script to ensure the ontology is `is_a` complete and all terms have defi
 
     python scripts/obo_ontology_checks.py
 
-Fix any outstanding issues.
+Fix any outstanding issues and commit the changes.
 
-Make sure the ontology header contains the following:
+Make sure the ontology header in the OBO file contains the following:
 
     data-version: <release>
     date: <date>
@@ -45,9 +67,7 @@ where `data-version` is the release date in YYYY-MM-DD format, `date` is the tim
     date: 27:05:2015 22:52
     remark: Version: 4.0
 
-Manually edit these lines as necessary and sync the OWL version with it. 
-
-Commit the changes.
+Manually edit these lines as necessary, sync the OBO and OWL ontologies, and commit the changes.
 
 Set a git tag with a v prefix, e.g.:
 
