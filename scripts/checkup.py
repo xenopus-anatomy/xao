@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
 Check Xenopus Anatomy Ontology OBO-formatted file for missing is_a parents,
   definitions, and stages, and for stage range consistency.
@@ -7,6 +9,7 @@ Author: Erik Segerdell
 
 
 import os
+import parseont
 
 
 """
@@ -41,57 +44,6 @@ exclude_id = ["XAO:0000000",
               "XAO:0004492"]
 exclude_namespace = ["xenopus_anatomy_in_vitro", "xenopus_developmental_stage"]
 exclude_subset = "anatomical_site_slim"
-
-
-def load_ont(ont_file):
-
-    """
-    Parse the OBO-formatted text file and create a dictionary of terms. Subsets
-    and part_of/develops_from relationship values are stored as lists and
-    everything else as strings. Stop when the first [Typedef] is reached and
-    remove obsolete terms.
-    """
-
-    fh = open(ont_file)
-    contents = [line.replace("\n", "") for line in fh]
-    fh.close()
-    ontology = {}
-
-    for line in contents:
-        if line == "[Typedef]":
-            break
-        elif line.startswith("id: " + prefix):
-            this_id = line[4:]
-            ontology[this_id] = { "namespace": default_namespace,
-                                  "subset": [] }
-        elif line.startswith("name: "):
-            ontology[this_id]["name"] = line[6:]
-        elif line.startswith("namespace: "):
-            ontology[this_id]["namespace"] = line[11:]
-        elif line.startswith("def: "):
-            ontology[this_id]["def"] = line[6:line.index("[")-2]
-        elif line.startswith("subset: "):
-            ontology[this_id]["subset"].append(line[8:])
-        elif line.startswith("xref: "):
-            ontology[this_id]["xref"] = line[6:]
-        elif line.startswith("is_a: "):
-            ontology[this_id]["is_a"] = line[6:line.index("!")-1]
-        elif line.startswith("relationship: "):
-            rel_type = line[14:line.index("!")-len(prefix)-10]
-            rel_id = line[line.index("!")-len(prefix)-9:line.index("!")-1]
-            if rel_type == "part_of" or rel_type == "develops_from":
-                if rel_type in ontology[this_id]:
-                    ontology[this_id][rel_type].append(rel_id)
-                else:
-                    ontology[this_id][rel_type] = [rel_id]
-            else:
-                ontology[this_id][rel_type] = rel_id
-        elif line == "is_obsolete: true":
-            ontology.pop(this_id)
-        else:
-            pass
-
-    return(ontology)
 
 
 def check_for_missing(attrib, attrib_name):
@@ -214,8 +166,10 @@ range consistency can be checked only if all anatomical entities have is_a
 parents and both start and end stages.
 """
 
-ontology = load_ont(ont_file)
+# TODO - Pass in the parameters.
+ontology = parseont.dict()
 
+# TODO - Improve the output formatting.
 div = "=================================================="
 print("\nLoaded file " + ont_file + "\n")
 print(div)
