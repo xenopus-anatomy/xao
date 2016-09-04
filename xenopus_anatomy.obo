@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 16:08:2016 20:51
+date: 03:09:2016 19:29
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.2
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -16297,6 +16297,435 @@ relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
 creation_date: 2016-08-16T20:28:11Z
 
+id: XAO:0005116
+name: melantrope cell
+def: "A melanotroph or melanotrope is a cell in the pituitary gland which generates melanocyte-stimulating hormone from its precursor polypeptide, pro-opiomelanocortin (POMC)." []
+is_a: XAO:0003012 ! cell
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005117
+name: germinal granule
+def: "N/A" []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000083 ! oocyte stage I
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005118
+name: ooplasm
+def: "N/A" []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005119
+name: oocyte cortex
+def: "N/A" []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005120
+name: endoplasmic reticulum
+def: "N/A" []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005121
+name: prime meridian
+def: "The prime meridian is specified to form the head of a Xenopus embryo." []
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005122
+name: microtubule
+def: "N/A" []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005123
+name: vegetal cortex
+def: "N/A" []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005124
+name: pulmonary epithelium
+def: "N/A" []
+is_a: XAO:0003045 ! epithelium
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005125
+name: ventral foregut
+def: "N/A" []
+is_a: XAO:0003042 ! embryonic structure
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005126
+name: dorsal foregut
+def: "N/A" []
+is_a: XAO:0003042 ! embryonic structure
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005127
+name: anterior foregut
+def: "N/A" []
+is_a: XAO:0003042 ! embryonic structure
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005128
+name: posterior foregut
+def: "N/A" []
+is_a: XAO:0003042 ! embryonic structure
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005129
+name: proximal stomach
+def: "N/A" []
+is_a: XAO:0003000 ! anatomical structure
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005130
+name: distal stomach
+def: "N/A" []
+is_a: XAO:0003000 ! anatomical structure
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005131
+name: astrocyte
+def: "A characteristically star-shaped type of glial cell found in the optic nerve, brain and spinal cord. The astrocytes have many processes, giving them their star shape, which terminate in structures called 'end-feet'. They are the most numerous glial cell in the CNS, and  can behave like phagocytes in the frog CNS during metamorphosis." []
+is_a: XAO:0004308 ! glial cell
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005132
+name: astrocyte end feet
+def: "The terminal structures of an astrocyte process." []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005133
+name: oligodendrocyte
+def: "Each glial cell  produces a myelin sheath segment for several axons in the central nervous system." []
+is_a: XAO:0004308 ! glial cell
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005134
+name: microglia
+def: "The smallest glial cell type in the CNS, microglial cells actively detect inflammatory responses/infection. They transform to a phagocytotic form, actively removing infective agents, and thus can present antigens to immune system cells." []
+is_a: XAO:0004308 ! glial cell
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005135
+name: Schwann cell
+def: "A glial cell that ensheaths axons of neurons in the peripheral nervous system and is necessary for their maintainance and function. Multiple Schwann cells wrap each axon." []
+is_a: XAO:0004308 ! glial cell
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005136
+name: dorsal involting marginal zone
+def: "N/A" []
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005137
+name: monociliated cell
+def: "N/A" []
+is_a: XAO:0003012 ! cell
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005138
+name: sub-cortical cytoplasm
+def: "N/A" []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:1000088 ! oocyte stage VI
+relationship: start_stage XAO:1000083 ! oocyte stage I
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005139
+name: multicilliated cell
+def: "N/A" []
+is_a: XAO:0000031 ! ciliated epidermal cell
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005140
+name: stapes
+def: "Also known as the columella, this is the  ear ossicle found in amphibians. In most frog species, it extends between extrastapes cartilage and oval window, and there would be a cartilaginous operculum within the oval window too. In Xenopus, there is no operculum and the extrastapes forms a cartilaginous tympanic disk." []
+is_a: XAO:0003000 ! anatomical structure
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005141
+name: pars externa (stapes)
+def: "The cartilaginous extension of the stapes which, in most frogs, articulates with the tympanic membrane. In Xenopus, there is no tympanic membrane and the pars externa has expanded into a cartilaginous tympanic disk." []
+is_a: XAO:0004013 ! cartilage element
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005142
+name: pars media (stapes)
+def: "The bony part of the amphibian stapes which forms the shaft. In Xenopus, the pars media is shaped like a bent rod: its distal half is firmly embedded within the tympanic disk, extending from the disk centre caudally and dorsally, turning inwards, until it reaches the oval window at a shallow angle." []
+is_a: XAO:0004276 ! bone element
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005143
+name: pars interna (stapes)
+def: "A cartilaginous component of the stapes which is firmly attached to the proximal end of the pars media. It lies within the oval window and forms the stapes footplate." []
+is_a: XAO:0004013 ! cartilage element
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005144
+name: footplate (stapes)
+def: "That part of the stapes lying within the oval window, formed from the stapes pars interna." []
+is_a: XAO:0004013 ! cartilage element
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005145
+name: operculum
+def: "A cartilage element which, in most frogs, occupies the caudal half of the oval window. The operculum is lacking in Xenopus." []
+is_a: XAO:0004013 ! cartilage element
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005146
+name: oval window
+def: "An entrance to the inner ear in the lateral wall of the otic capsule, which contains the footplate of the stapes and (in most frog species but not Xenopus) the operculum." []
+is_a: XAO:0003000 ! anatomical structure
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005147
+name: parotic crest
+def: "Cartilaginous extension of the prootic bone which overlies the middle ear region." []
+is_a: XAO:0004013 ! cartilage element
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005148
+name: m. depressor mandibulae
+def: "A muscle acting to open the lower jaw, which runs from the caudal otic region downwards, passing over the stapes." []
+is_a: XAO:0004322 ! cranial muscle
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005149
+name: m. levator scapulae superior
+def: "A muscle passing between the otic capsule and the scapula. It originates on the otic capsule just caudal to the oval window. In frogs which possess an operculum (not Xenopus), the opercularis muscle is derived from the m. levator scapulae superior." []
+is_a: XAO:0000172 ! muscle
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005150
+name: m. levator scapulae inferior
+def: "A muscle passing between the otic capsule and the scapula. It originates on the otic capsule just caudal to the oval window." []
+is_a: XAO:0000172 ! muscle
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005151
+name: m. petrohyoideus
+def: "A long, strap-like muscle which originates mainly from the parotic crest, passes over the stapes and ultimately inserts on the ventral surface of the larynx." []
+is_a: XAO:0000172 ! muscle
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005152
+name: m. cucullaris
+def: "A muscle which originates on the otic capsule and adjacent tympanic annulus, and inserts on the pectoral girdle." []
+is_a: XAO:0000172 ! muscle
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005153
+name: tympanic annulus
+def: "The oval shaped cartilaginous ring which in most frogs supports the tympanic membrane. In Xenopus, which lacks a tympanic membrane, the annulus instead supports the cartilaginous tympanic disk." []
+is_a: XAO:0004013 ! cartilage element
+relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005154
+name: tympanic disk
+def: "A flattened, roughly circular cartilage derived from the extrastapes, which takes the place of a tympanic membrane in Xenopus.This thin membrane or integument, is stretched over a cartilaginous tympanic annulus in a drum-like manner, and forms the outer ear, receiving airborne vibrations and functions in hearing." []
+is_a: XAO:0004013 ! cartilage element
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005155
+name: archenteron roof midline
+def: "N/A" []
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005160
+name: prepollex
+def: "Tiny skeletal elements adjacent to the anterior-most digit in the autopod in the developing forelimb, possibly representing a vestigal digit in Xenopus." []
+is_a: XAO:0004013 ! cartilage element
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005161
+name: prehallux
+def: "Tiny skeletal elements adjacent to the anterior-most digit in the autopod in the developing hindlimb (hindlimb digit V), possibly representing a vestigal 6th digit in Xenopus." []
+is_a: XAO:0003000 ! anatomical structure
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005162
+name: mandibular arch skeleton
+def: "N/A" []
+is_a: XAO:0004289 ! skeletal subdivision
+relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000081 ! unspecified stage
+created_by: eriksegerdell
+creation_date: 2016-09-03T19:21:41Z
+
 [Term]
 id: XAO:1000000
 name: Xenopus developmental stage
@@ -17214,4 +17643,3 @@ is_transitive: true
 id: start_stage
 name: starts during
 def: "Anatomical structure/expression begins being viable, obvious or of utility during this developmental stage." [XAO:curators]
-
