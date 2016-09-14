@@ -1,15 +1,14 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 03:09:2016 19:37
-saved-by: eriksegerdell
-auto-generated-by: OBO-Edit 2.2
+date: 14:09:2016 13:25
+saved-by: segerdel
+auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
 subsetdef: organism_views "Organism View slim"
 subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: xenopus_anatomy
-namespace-id-rule: * XAO:$sequence(7,5000,9999999)$
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
 remark: Version: 4.0
 remark: Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.
@@ -11465,7 +11464,7 @@ creation_date: 2012-03-10T09:50:34Z
 [Term]
 id: XAO:0004310
 name: stapes
-def: "Bone of the ear that is connected to the tympanic membrane via the extrastapes." [ISBN:0520252780]
+def: "Bone of the ear that is connected to the tympanic membrane via the extrastapes. This structure is the amphibian ear ossicle, also known as the columella. It extends between extrastapes cartilage and the oval window. The extrastapes forms a cartilaginous tympanic disk." [ISBN:0520252780, XAO:curators]
 is_a: XAO:0000214 ! auditory ossicle
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000059 ! NF stage 47
@@ -15501,7 +15500,7 @@ creation_date: 2015-05-19T21:14:01Z
 [Term]
 id: XAO:0005044
 name: Schwann cell
-def: "A glial cell that ensheaths axons of neurons in the peripheral nervous system and is necessary for their maintainance and function." [CL:0002573]
+def: "A glial cell that ensheaths axons of neurons in the peripheral nervous system and is necessary for their maintainance and function. Multiple Schwann cells wrap each axon." [CL:0002573]
 xref: CL:0002573
 is_a: XAO:0004308 ! glial cell
 relationship: end_stage XAO:0000437 ! death
@@ -16109,7 +16108,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005097
-name: D1.1.2 blastomere
+name: blastomere D1.1.2
 def: "This blastomere lies adjacent to the prospective dorsal midline, posterior to its sister cell, blastomere D1.l.l, in the second tier of blastomeres. It contributes cells to a variety of tissues and organs, including the stomodeum, retina, epidermis, lens, cranial ganglia, epibranchial placodes, neural crest, brain and spinal cord, gut, liver, pharynx, somites, and archenteron roof." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16119,7 +16118,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005098
-name: D1.2.1 blastomere
+name: blastomere D1.2.1
 def: "This blastomere lies lateral to blastomere D1.1.1 and is in the first tier of blastomeres. It contributes to a variety of tissues and organs, including cement gland, head epidermis, olfactory epithelium, lens, cranial ganglia, and otic vesicle, epidermis, tail fin, neural crest, retina, hindbrain and spinal cord, pharyngeal arches, caudal notochord and hindgut." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16129,7 +16128,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005099
-name: D1.2.2 blastomere
+name: blastomere D1.2.2
 def: "This blastomere lies lateral to blastomere D1.1.2, posterior to its sister cell, blastomere D1.2.1, in the second tier of blastomeres. This blastomere contributes to a variety of tissues and organs including fin, epidermis, cement gland, olfactory epithelium, neural crest, lens, cranial ganglia, retina, brain, notochord, somites, pronephric kidney, lateral plate mesoderm and , pharynx, foregut, hindgut and archenteron roof." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16139,7 +16138,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005100
-name: D2.1.1 blastomere
+name: blastomere D2.1.1
 def: "This blastomere lies adjacent to the prospective dorsal midline in the fourth tier of blastomeres. This blastomere contributes largely to endodermal and mesodermal structures including branchial and lateral plate mesoderm, foregut, liver, hindgut, and some trunk and a small number of cells contributing to neural crest cell of ectodermal origin." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16149,7 +16148,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005101
-name: D2.1.2 blastomere
+name: blastomere D2.1.2
 def: "This blastomere lies adjacent to the prospective dorsal midline, anterior to its sister cell, blastomere D2.1.1, in the third tier of blastomeres. This blastomere contributes to mostly endodermal and mesodermal structures including the heart, head mesenchyme, notochord, somites, lateral plate mesoderm, foregut, hindgut and also in a few cells of ectodermal origin (cranial ganglia and neural crest)." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16159,7 +16158,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005102
-name: D2.2.1 blastomere
+name: blastomere D2.2.1
 def: "This blastomere lies lateral to blastomere D2.1.1 in the fourth tier of blastomeres. This blastomere contributes cells to the following structures: cranial ganglia, neural crest, spinal cord, fin epidermis, branchial mesoderm, heart, somites, pharynx, foregut, liver, and hindgut." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16169,7 +16168,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005103
-name: D2.2.2 blastomere
+name: blastomere D2.2.2
 def: "This blastomere lies lateral to blastomere D2.1.2, anterior to its sister cell, blastomere D2.2.1, in the third tier of blastomeres. It contributes cells to the following structures: epidermis, neural crest, brain, spinal cord, head mesoderm, somites, pronephric kidney, lateral plate mesoderm, tail fin mesenchyme, foregut and hindgut, with occasional cells in liver and proctodeum observed." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16179,7 +16178,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005104
-name: V1.1.1 blastomere
+name: blastomere V1.1.1
 def: "This blastomere lies adjacent to the prospective, ventral midline in the first tier of blastomeres. It contributes to epidermal and placodal derivatives including epidermis, lens, and cement gland, cranial ganglia, otic vesicle, neural crest, Rohon-Beard neurons, and spinal cord (but no other CNS structures). It also contributes to pharyngeal mesoderm, heart, somites, pronephric kidney, lateral plate mesoderm and tail fin mesenchymes, and a few cells in the gut." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16189,7 +16188,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005105
-name: V1.1.2 blastomere
+name: blastomere V1.1.2
 def: "This blastomere lies adjacent to the prospective, ventral midline, posterior to its sister cell, blastomere V1.l.l, in the second tier of blastomeres. It contributes to trunk epidermis and neural crest cells, Rohon- Beard neurons, somites, pronephric kidney, lateral plate mesoderm, tail fin mesenchyme, hindgut and proctodeum." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16199,7 +16198,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005106
-name: V1.2.1 blastomere
+name: blastomere V1.2.1
 def: "This blastomere lies lateral to blastomere V1.1.1 and is in the first tier of blastomeres. It contributes to many ectodermal structures including epidermis, lens, cranial ganglia, otic vesicle, neural crest, olfactory placode, cement gland, retina,  brain, and spinal cord. It also contributes cells to the pharyngeal mesoderm, head mesenchyme, heart, somites, pronephric kidney, lateral plate mesoderm and tail fin mesenchyme, archenteron roof, with occasional cells in foregut, liver, hindgut and proctodeum." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16209,7 +16208,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005107
-name: V1.2.2 blastomere
+name: blastomere V1.2.2
 def: "This blastomere lies lateral to blastomere V1.1.2, posterior to its sister cell, blastomere V1.2.1, in the second tier of blastomeres. This blastomere contributes to the epidermis, fins, cranial ganglia, otic vesicle, and CNS, neural crest, somites,  with occasional cells  in pharyngeal mesoderm, head mesenchyme, hindgut, and proctodeum." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16219,7 +16218,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005108
-name: V2.1.1 blastomere
+name: blastomere V2.1.1
 def: "This blastomere lies adjacent to the prospective, ventral midline in the fourth tier of blastomeres. it contributes a few cells to the  epidermis, neural crest and spinal cord, and a large number of cells to the somite, pronephric kidney, lateral plate mesoderm, tail fin mesenchyme, hindgut, and proctodeum." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16229,7 +16228,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005109
-name: V2.1.2 blastomere
+name: blastomere V2.1.2
 def: "This blastomere lies adjacent to the prospective ventral midline, anterior to its sister cell, blastomere V2.1.1, in the third tier of blastomeres. It contrbutes cells to the epidermis, neural crest, spinal cord, somites, tail, hindgut and proctodeum." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16239,7 +16238,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005110
-name: V2.2.1 blastomere
+name: blastomere V2.2.1
 def: "This blastomere lies lateral to blastomere V2.1.1, in the fourth tier of blastomeres. This blastomere contributes cells to epidermis and neural crest, spinal cord, somites, foregut, hindgut, and fewer cells to the head, pharyngeal mesoderm and proctodeum." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16249,7 +16248,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005111
-name: V2.2.2 blastomere
+name: blastomere V2.2.2
 def: "This blastomere lies lateral to blastomere V2.1.2, anterior to its sister cell, blastomere V2.2.1, in the third tier of blastomeres. It contributes cells to the epidermis, tail fins, cranial ganglia, neural crest, hindbrain, spinal cord, otic vesicle, pharyngeal mesoderm, somites, foregut, hindgut, archenteron roof, and proctodeum." []
 is_a: XAO:0003016 ! blastoderm cell
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
@@ -16299,7 +16298,7 @@ creation_date: 2016-08-16T20:28:11Z
 
 [Term]
 id: XAO:0005116
-name: melantrope cell
+name: melanotrope cell
 def: "A melanotroph or melanotrope is a cell in the pituitary gland which generates melanocyte-stimulating hormone from its precursor polypeptide, pro-opiomelanocortin (POMC)." []
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:1000081 ! unspecified stage
@@ -16310,7 +16309,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005117
 name: germinal granule
-def: "N/A" []
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000083 ! oocyte stage I
@@ -16320,7 +16318,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005118
 name: ooplasm
-def: "N/A" []
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16330,7 +16327,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005119
 name: oocyte cortex
-def: "N/A" []
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16340,7 +16336,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005120
 name: endoplasmic reticulum
-def: "N/A" []
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16350,8 +16345,8 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005121
 name: prime meridian
-def: "The prime meridian is specified to form the head of a Xenopus embryo." []
-is_a: XAO:0003186 ! anatomical region
+def: "Anatomical line that is specified to form the head of the embryo." []
+is_a: XAO:0004003 ! anatomical line
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
@@ -16360,7 +16355,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005122
 name: microtubule
-def: "N/A" []
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16370,7 +16364,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005123
 name: vegetal cortex
-def: "N/A" []
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16380,7 +16373,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005124
 name: pulmonary epithelium
-def: "N/A" []
 is_a: XAO:0003045 ! epithelium
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16390,7 +16382,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005125
 name: ventral foregut
-def: "N/A" []
 is_a: XAO:0003042 ! embryonic structure
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16400,7 +16391,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005126
 name: dorsal foregut
-def: "N/A" []
 is_a: XAO:0003042 ! embryonic structure
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16410,7 +16400,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005127
 name: anterior foregut
-def: "N/A" []
 is_a: XAO:0003042 ! embryonic structure
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16420,7 +16409,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005128
 name: posterior foregut
-def: "N/A" []
 is_a: XAO:0003042 ! embryonic structure
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16430,7 +16418,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005129
 name: proximal stomach
-def: "N/A" []
 is_a: XAO:0003000 ! anatomical structure
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16440,7 +16427,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005130
 name: distal stomach
-def: "N/A" []
 is_a: XAO:0003000 ! anatomical structure
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16459,8 +16445,12 @@ creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005132
-name: astrocyte end feet
+name: astrocyte end-foot
 def: "The terminal structures of an astrocyte process." []
+synonym: "astrocyte end-feet" RELATED PLURAL []
+synonym: "astrocyte endfeet" RELATED PLURAL []
+synonym: "astrocyte endfoot" EXACT []
+xref: GO:0097450
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16488,19 +16478,8 @@ created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
-id: XAO:0005135
-name: Schwann cell
-def: "A glial cell that ensheaths axons of neurons in the peripheral nervous system and is necessary for their maintainance and function. Multiple Schwann cells wrap each axon." []
-is_a: XAO:0004308 ! glial cell
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
-created_by: eriksegerdell
-creation_date: 2016-09-03T19:21:41Z
-
-[Term]
 id: XAO:0005136
-name: dorsal involting marginal zone
-def: "N/A" []
+name: dorsal involuting marginal zone
 is_a: XAO:0003186 ! anatomical region
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16510,7 +16489,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005137
 name: monociliated cell
-def: "N/A" []
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16520,7 +16498,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005138
 name: sub-cortical cytoplasm
-def: "N/A" []
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000088 ! oocyte stage VI
 relationship: start_stage XAO:1000083 ! oocyte stage I
@@ -16529,8 +16506,7 @@ creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005139
-name: multicilliated cell
-def: "N/A" []
+name: multiciliated cell
 is_a: XAO:0000031 ! ciliated epidermal cell
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16538,18 +16514,8 @@ created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
-id: XAO:0005140
-name: stapes
-def: "Also known as the columella, this is the  ear ossicle found in amphibians. In most frog species, it extends between extrastapes cartilage and oval window, and there would be a cartilaginous operculum within the oval window too. In Xenopus, there is no operculum and the extrastapes forms a cartilaginous tympanic disk." []
-is_a: XAO:0003000 ! anatomical structure
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
-created_by: eriksegerdell
-creation_date: 2016-09-03T19:21:41Z
-
-[Term]
 id: XAO:0005141
-name: pars externa (stapes)
+name: pars externa of the stapes
 def: "The cartilaginous extension of the stapes which, in most frogs, articulates with the tympanic membrane. In Xenopus, there is no tympanic membrane and the pars externa has expanded into a cartilaginous tympanic disk." []
 is_a: XAO:0004013 ! cartilage element
 relationship: end_stage XAO:1000081 ! unspecified stage
@@ -16559,7 +16525,7 @@ creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005142
-name: pars media (stapes)
+name: pars media of the stapes
 def: "The bony part of the amphibian stapes which forms the shaft. In Xenopus, the pars media is shaped like a bent rod: its distal half is firmly embedded within the tympanic disk, extending from the disk centre caudally and dorsally, turning inwards, until it reaches the oval window at a shallow angle." []
 is_a: XAO:0004276 ! bone element
 relationship: end_stage XAO:1000093 ! adult frog stage
@@ -16569,7 +16535,7 @@ creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005143
-name: pars interna (stapes)
+name: pars interna of the stapes
 def: "A cartilaginous component of the stapes which is firmly attached to the proximal end of the pars media. It lies within the oval window and forms the stapes footplate." []
 is_a: XAO:0004013 ! cartilage element
 relationship: end_stage XAO:1000093 ! adult frog stage
@@ -16579,20 +16545,10 @@ creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005144
-name: footplate (stapes)
+name: footplate
 def: "That part of the stapes lying within the oval window, formed from the stapes pars interna." []
 is_a: XAO:0004013 ! cartilage element
 relationship: end_stage XAO:1000093 ! adult frog stage
-relationship: start_stage XAO:1000081 ! unspecified stage
-created_by: eriksegerdell
-creation_date: 2016-09-03T19:21:41Z
-
-[Term]
-id: XAO:0005145
-name: operculum
-def: "A cartilage element which, in most frogs, occupies the caudal half of the oval window. The operculum is lacking in Xenopus." []
-is_a: XAO:0004013 ! cartilage element
-relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16690,7 +16646,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005155
 name: archenteron roof midline
-def: "N/A" []
 is_a: XAO:0003186 ! anatomical region
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
@@ -16720,7 +16675,6 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005162
 name: mandibular arch skeleton
-def: "N/A" []
 is_a: XAO:0004289 ! skeletal subdivision
 relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
