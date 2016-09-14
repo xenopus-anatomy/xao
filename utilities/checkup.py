@@ -53,7 +53,8 @@ def check_for_missing(attrib, attrib_name):
     start or end stage. Print exceptions and provide a count.
     """
 
-    print("Checking for terms lacking " + attrib_name + "...\n")
+    print("\033[31m" + "Checking for terms lacking " + attrib_name + "..." +
+            "\033[0m")
 
     ct = 0
     for key in ontology.keys():
@@ -66,9 +67,7 @@ def check_for_missing(attrib, attrib_name):
         else:
             pass
 
-    print("\n" + str(ct) + " terms(s)")
-    print(div)
-
+    print(str(ct) + " terms(s)" + "\n")
     return(ct)
 
 
@@ -83,7 +82,7 @@ def stage_range(stage_file):
     exceptions and provide a count.
     """
 
-    print("Checking stage range consistency...\n")
+    print("\033[31m" + "Checking stage range consistency..." + "\033[0m")
 
     fh = open(stage_file)
     stages = [line.replace("\n", "") for line in fh]
@@ -102,10 +101,11 @@ def stage_range(stage_file):
                 par_st_2 = ontology[ontology[par_id]["end_stage"]]["name"]
                 if (stages.index(term_st_1) < stages.index(par_st_1) or
                       stages.index(term_st_2) > stages.index(par_st_2)):
-                    print(ontology[key]["name"] + ": " + term_st_1 +
-                            " to " + term_st_2 + "\nis_a " +
-                            ontology[par_id]["name"] + ": " +
-                            par_st_1 + " to " + par_st_2 + "\n")
+                    print(ontology[key]["name"] +
+                            " [" + term_st_1 + " to " + term_st_2 + "]" +
+                            " is_a " +
+                            ontology[par_id]["name"] +
+                            " [" + par_st_1 + " to " + par_st_2 + "]")
                     ct += 1
                 else:
                     pass
@@ -124,10 +124,11 @@ def stage_range(stage_file):
                 par_st_2 = ontology[ontology[par_id]["end_stage"]]["name"]
                 if (stages.index(term_st_2) < stages.index(par_st_1) or
                       stages.index(term_st_1) > stages.index(par_st_2)):
-                    print(ontology[key]["name"] + ": " + term_st_1 +
-                            " to " + term_st_2 + "\npart_of " +
-                            ontology[par_id]["name"] + ": " +
-                            par_st_1 + " to " + par_st_2 + "\n")
+                    print(ontology[key]["name"] +
+                            " [" + term_st_1 + " to " + term_st_2 + "]" +
+                            " part_of " +
+                            ontology[par_id]["name"] +
+                            " [" + par_st_1 + " to " + par_st_2 + "]")
                     ct += 1
                 else:
                     pass
@@ -143,19 +144,18 @@ def stage_range(stage_file):
                 par_st_2 = ontology[ontology[par_id]["end_stage"]]["name"]
                 if (stages.index(term_st_1) < stages.index(par_st_1) or
                       stages.index(term_st_1) > (stages.index(par_st_2) + 1)):
-                    print(ontology[key]["name"] + ": starts at " +
-                            term_st_1 + "\ndevelops_from " +
-                            ontology[par_id]["name"] + ": " +
-                            par_st_1 + " to " + par_st_2 + "\n")
+                    print(ontology[key]["name"] +
+                            " [" + term_st_1 + " to " + term_st_2 + "]" +
+                            " develops_from " +
+                            ontology[par_id]["name"] +
+                            " [" + par_st_1 + " to " + par_st_2 + "]")
                     ct += 1
                 else:
                     pass
         else:
             pass
 
-    print("\n" + str(ct) + " error(s)")
-    print(div)
-
+    print(str(ct) + " error(s)" + "\n")
     return()
 
 
@@ -169,11 +169,6 @@ parents and both start and end stages.
 # TODO - Pass in the parameters.
 ontology = parseont.dict()
 
-# TODO - Improve the output formatting.
-div = "=================================================="
-print("\nLoaded file " + ont_file + "\n")
-print(div)
-
 ct_i = check_for_missing("is_a", "an is_a parent")
 check_for_missing("def", "a definition")
 ct_s = check_for_missing("start_stage", "a start stage")
@@ -182,6 +177,5 @@ ct_e = check_for_missing("end_stage", "an end stage")
 if ct_i + ct_s + ct_e == 0:
     stage_range(stage_file)
 else:
-    print("Ontology must be is_a and stage complete before stage range " +
-            "integrity can be checked.\n")
-    print(div)
+    print("NOTE: Ontology must be is_a and stage complete before stage range" +
+            " integrity can be checked." + "\n")
