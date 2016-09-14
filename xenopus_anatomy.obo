@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 14:09:2016 13:25
+date: 14:09:2016 15:13
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -9,6 +9,7 @@ subsetdef: organism_views "Organism View slim"
 subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: xenopus_anatomy
+namespace-id-rule: * XAO:$sequence(7,5000,9999999)$
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
 remark: Version: 4.0
 remark: Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.
@@ -2126,8 +2127,9 @@ relationship: start_stage XAO:1000059 ! NF stage 47
 id: XAO:0000200
 name: animal blastomere
 def: "Pigmented, smaller blastomere of the animal (upper) hemisphere of the cleaving embryo." [ISBN:0471209627]
+synonym: "animal hemisphere blastomere" EXACT []
 synonym: "micromere" RELATED []
-is_a: XAO:0003016 ! blastoderm cell
+is_a: XAO:0003016 ! blastomere
 relationship: develops_from XAO:0000202 ! animal hemisphere
 relationship: end_stage XAO:1000017 ! NF stage 7
 relationship: part_of XAO:0000202 ! animal hemisphere
@@ -2956,7 +2958,8 @@ id: XAO:0000279
 name: vegetal blastomere
 def: "Unpigmented, larger blastomere of the vegetal (lower) hemisphere of the cleaving embryo." [ISBN:0471209627]
 synonym: "macromere" RELATED []
-is_a: XAO:0003016 ! blastoderm cell
+synonym: "vegetal hemisphere blastomere" EXACT []
+is_a: XAO:0003016 ! blastomere
 relationship: develops_from XAO:0000280 ! vegetal hemisphere
 relationship: end_stage XAO:1000017 ! NF stage 7
 relationship: part_of XAO:0000280 ! vegetal hemisphere
@@ -5138,10 +5141,10 @@ relationship: start_stage XAO:1000035 ! NF stage 19
 
 [Term]
 id: XAO:0003016
-name: blastoderm cell
+name: blastomere
 alt_id: XAO:0003243
 def: "An undifferentiated cell produced by early cleavages of the fertilized egg (zygote)." [CL:0000353]
-synonym: "blastomere" EXACT []
+synonym: "blastoderm cell" EXACT []
 xref: CL:0000353
 is_a: XAO:0003241 ! early embryonic cell
 relationship: end_stage XAO:1000017 ! NF stage 7
@@ -16003,7 +16006,7 @@ creation_date: 2015-05-24T13:44:37Z
 [Term]
 id: XAO:0005084
 name: blastomere D1
-is_a: XAO:0003016 ! blastoderm cell
+is_a: XAO:0003016 ! blastomere
 relationship: end_stage XAO:1000014 ! NF stage 4 (8-cell)
 relationship: start_stage XAO:1000014 ! NF stage 4 (8-cell)
 created_by: eriksegerdell
@@ -16012,7 +16015,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005085
 name: blastomere D2
-is_a: XAO:0003016 ! blastoderm cell
+is_a: XAO:0003016 ! blastomere
 relationship: end_stage XAO:1000014 ! NF stage 4 (8-cell)
 relationship: start_stage XAO:1000014 ! NF stage 4 (8-cell)
 created_by: eriksegerdell
@@ -16021,7 +16024,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005086
 name: blastomere V1
-is_a: XAO:0003016 ! blastoderm cell
+is_a: XAO:0003016 ! blastomere
 relationship: end_stage XAO:1000014 ! NF stage 4 (8-cell)
 relationship: start_stage XAO:1000014 ! NF stage 4 (8-cell)
 created_by: eriksegerdell
@@ -16030,7 +16033,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005087
 name: blastomere V2
-is_a: XAO:0003016 ! blastoderm cell
+is_a: XAO:0003016 ! blastomere
 relationship: end_stage XAO:1000014 ! NF stage 4 (8-cell)
 relationship: start_stage XAO:1000014 ! NF stage 4 (8-cell)
 created_by: eriksegerdell
@@ -16039,8 +16042,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005088
 name: blastomere D1.1
-def: "This blastomere lies adjacent to the prospective dorsal midline of the animal hemisphere." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective dorsal midline of the animal hemisphere." [PMID:3596014]
+synonym: "D1.1" EXACT []
+is_a: XAO:0005113 ! dorsal animal hemisphere blastomere
 relationship: end_stage XAO:1000015 ! NF stage 5 (16-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16049,8 +16053,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005089
 name: blastomere D1.2
-def: "This blastomere lies in the animal hemisphere lateral to blastomere D1.1." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies in the animal hemisphere lateral to blastomere D1.1." [PMID:3596014]
+synonym: "D1.2" EXACT []
+is_a: XAO:0005113 ! dorsal animal hemisphere blastomere
 relationship: end_stage XAO:1000015 ! NF stage 5 (16-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16059,8 +16064,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005090
 name: blastomere D2.1
-def: "This blastomere lies adjacent to the prospective dorsal midline of the vegetal hemisphere." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective dorsal midline of the vegetal hemisphere." [PMID:3596014]
+synonym: "D2.1" EXACT []
+is_a: XAO:0005112 ! dorsal vegetal hemisphere blastomere
 relationship: end_stage XAO:1000015 ! NF stage 5 (16-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16069,8 +16075,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005091
 name: blastomere D2.2
-def: "This blastomere lies in the vegetal hemisphere lateral to blastomere D2.1." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies in the vegetal hemisphere lateral to blastomere D2.1." [PMID:3596014]
+synonym: "D2.2" EXACT []
+is_a: XAO:0005112 ! dorsal vegetal hemisphere blastomere
 relationship: end_stage XAO:1000015 ! NF stage 5 (16-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16079,8 +16086,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005092
 name: blastomere V1.1
-def: "This blastomere lies adjacent to the prospective ventral midline of the animal hemisphere." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective ventral midline of the animal hemisphere." [PMID:3596014]
+synonym: "V1.1" EXACT []
+is_a: XAO:0005115 ! ventral animal hemisphere blastomere
 relationship: end_stage XAO:1000015 ! NF stage 5 (16-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16089,8 +16097,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005093
 name: blastomere V1.2
-def: "This blastomere lies in the animal hemisphere lateral to V1.1." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies in the animal hemisphere lateral to V1.1." [PMID:3596014]
+synonym: "V1.2" EXACT []
+is_a: XAO:0005115 ! ventral animal hemisphere blastomere
 relationship: end_stage XAO:1000015 ! NF stage 5 (16-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16099,8 +16108,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005094
 name: blastomere V2.1
-def: "This blastomere lies adjacent to the prospective ventral midline of the vegetal hemisphere." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective ventral midline of the vegetal hemisphere." [PMID:3596014]
+synonym: "V2.1" EXACT []
+is_a: XAO:0005114 ! ventral vegetal hemisphere blastomere
 relationship: end_stage XAO:1000015 ! NF stage 5 (16-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16109,8 +16119,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005095
 name: blastomere V2.2
-def: "This blastomere lies in the vegetal hemisphere lateral to V2.1." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies in the vegetal hemisphere lateral to V2.1." [PMID:3596014]
+synonym: "V2.2" EXACT []
+is_a: XAO:0005114 ! ventral vegetal hemisphere blastomere
 relationship: end_stage XAO:1000015 ! NF stage 5 (16-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16119,8 +16130,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005096
 name: blastomere D1.1.1
-def: "This blastomere lies adjacent to the prospective dorsal midline in the first tier of blastomeres. Contributes to a variety of tissues and organs, including cement gland, brain, retina, lens, cranial ganglia, otic vesicle, neural crest,  spinal chord, somites, liver, gut and pharynx." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective dorsal midline in the first tier of blastomeres. Contributes to a variety of tissues and organs, including the cement gland, brain, retina, lens, cranial ganglia, otic vesicle, neural crest, spinal cord, somites, liver, gut and pharynx." [PMID:3596014]
+synonym: "D1.1.1" EXACT []
+is_a: XAO:0005113 ! dorsal animal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16129,8 +16141,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005097
 name: blastomere D1.1.2
-def: "This blastomere lies adjacent to the prospective dorsal midline, posterior to its sister cell, blastomere D1.l.l, in the second tier of blastomeres. It contributes cells to a variety of tissues and organs, including the stomodeum, retina, epidermis, lens, cranial ganglia, epibranchial placodes, neural crest, brain and spinal cord, gut, liver, pharynx, somites, and archenteron roof." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective dorsal midline, posterior to its sister cell, blastomere D1.1.1, in the second tier of blastomeres. It contributes cells to a variety of tissues and organs, including the stomodeum, retina, epidermis, lens, cranial ganglia, epibranchial placodes, neural crest, brain and spinal cord, gut, liver, pharynx, somites, and archenteron roof." [PMID:3596014]
+synonym: "D1.1.2" EXACT []
+is_a: XAO:0005113 ! dorsal animal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16139,8 +16152,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005098
 name: blastomere D1.2.1
-def: "This blastomere lies lateral to blastomere D1.1.1 and is in the first tier of blastomeres. It contributes to a variety of tissues and organs, including cement gland, head epidermis, olfactory epithelium, lens, cranial ganglia, and otic vesicle, epidermis, tail fin, neural crest, retina, hindbrain and spinal cord, pharyngeal arches, caudal notochord and hindgut." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies lateral to blastomere D1.1.1 and is in the first tier of blastomeres. It contributes to a variety of tissues and organs, including cement gland, head epidermis, olfactory epithelium, lens, cranial ganglia, otic vesicle, epidermis, tail fin, neural crest, retina, hindbrain and spinal cord, pharyngeal arches, caudal notochord and hindgut." [PMID:3596014]
+synonym: "D1.2.1" EXACT []
+is_a: XAO:0005113 ! dorsal animal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16149,8 +16163,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005099
 name: blastomere D1.2.2
-def: "This blastomere lies lateral to blastomere D1.1.2, posterior to its sister cell, blastomere D1.2.1, in the second tier of blastomeres. This blastomere contributes to a variety of tissues and organs including fin, epidermis, cement gland, olfactory epithelium, neural crest, lens, cranial ganglia, retina, brain, notochord, somites, pronephric kidney, lateral plate mesoderm and , pharynx, foregut, hindgut and archenteron roof." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies lateral to blastomere D1.1.2, posterior to its sister cell, blastomere D1.2.1, in the second tier of blastomeres. This blastomere contributes to a variety of tissues and organs including fin, epidermis, cement gland, olfactory epithelium, neural crest, lens, cranial ganglia, retina, brain, notochord, somites, pronephric kidney, lateral plate mesoderm, pharynx, foregut, hindgut and archenteron roof." [PMID:3596014]
+synonym: "D1.2.2" EXACT []
+is_a: XAO:0005113 ! dorsal animal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16159,8 +16174,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005100
 name: blastomere D2.1.1
-def: "This blastomere lies adjacent to the prospective dorsal midline in the fourth tier of blastomeres. This blastomere contributes largely to endodermal and mesodermal structures including branchial and lateral plate mesoderm, foregut, liver, hindgut, and some trunk and a small number of cells contributing to neural crest cell of ectodermal origin." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective dorsal midline in the fourth tier of blastomeres. This blastomere contributes largely to endodermal and mesodermal structures including branchial and lateral plate mesoderm, foregut, liver, hindgut, and some of the trunk and a small number of cells contributing to neural crest of ectodermal origin." [PMID:3596014]
+synonym: "D2.1.1" EXACT []
+is_a: XAO:0005112 ! dorsal vegetal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16169,8 +16185,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005101
 name: blastomere D2.1.2
-def: "This blastomere lies adjacent to the prospective dorsal midline, anterior to its sister cell, blastomere D2.1.1, in the third tier of blastomeres. This blastomere contributes to mostly endodermal and mesodermal structures including the heart, head mesenchyme, notochord, somites, lateral plate mesoderm, foregut, hindgut and also in a few cells of ectodermal origin (cranial ganglia and neural crest)." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective dorsal midline, anterior to its sister cell, blastomere D2.1.1, in the third tier of blastomeres. This blastomere contributes to mostly endodermal and mesodermal structures including the heart, head mesenchyme, notochord, somites, lateral plate mesoderm, foregut, hindgut and a few cells of ectodermal origin (in cranial ganglia and neural crest)." [PMID:3596014]
+synonym: "D2.1.2" EXACT []
+is_a: XAO:0005112 ! dorsal vegetal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16179,8 +16196,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005102
 name: blastomere D2.2.1
-def: "This blastomere lies lateral to blastomere D2.1.1 in the fourth tier of blastomeres. This blastomere contributes cells to the following structures: cranial ganglia, neural crest, spinal cord, fin epidermis, branchial mesoderm, heart, somites, pharynx, foregut, liver, and hindgut." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies lateral to blastomere D2.1.1 in the fourth tier of blastomeres. This blastomere contributes cells to the following structures: cranial ganglia, neural crest, spinal cord, fin epidermis, branchial mesoderm, heart, somites, pharynx, foregut, liver, and hindgut." [PMID:3596014]
+synonym: "D2.2.1" EXACT []
+is_a: XAO:0005112 ! dorsal vegetal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16189,8 +16207,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005103
 name: blastomere D2.2.2
-def: "This blastomere lies lateral to blastomere D2.1.2, anterior to its sister cell, blastomere D2.2.1, in the third tier of blastomeres. It contributes cells to the following structures: epidermis, neural crest, brain, spinal cord, head mesoderm, somites, pronephric kidney, lateral plate mesoderm, tail fin mesenchyme, foregut and hindgut, with occasional cells in liver and proctodeum observed." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies lateral to blastomere D2.1.2, anterior to its sister cell, blastomere D2.2.1, in the third tier of blastomeres. It contributes cells to the following structures: epidermis, neural crest, brain, spinal cord, head mesoderm, somites, pronephric kidney, lateral plate mesoderm, tail fin mesenchyme, foregut and hindgut, with occasional cells in liver and proctodeum observed." [PMID:3596014]
+synonym: "D2.2.2" EXACT []
+is_a: XAO:0005112 ! dorsal vegetal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16199,8 +16218,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005104
 name: blastomere V1.1.1
-def: "This blastomere lies adjacent to the prospective, ventral midline in the first tier of blastomeres. It contributes to epidermal and placodal derivatives including epidermis, lens, and cement gland, cranial ganglia, otic vesicle, neural crest, Rohon-Beard neurons, and spinal cord (but no other CNS structures). It also contributes to pharyngeal mesoderm, heart, somites, pronephric kidney, lateral plate mesoderm and tail fin mesenchymes, and a few cells in the gut." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective, ventral midline in the first tier of blastomeres. It contributes to epidermal and placodal derivatives including epidermis, lens, cement gland, cranial ganglia, otic vesicle, neural crest, Rohon-Beard neurons, and spinal cord (but no other CNS structures). It also contributes to pharyngeal mesoderm, heart, somites, pronephric kidney, lateral plate mesoderm and tail fin mesenchymes, and a few cells in the gut." [PMID:3596014]
+synonym: "V1.1.1" EXACT []
+is_a: XAO:0005115 ! ventral animal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16209,8 +16229,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005105
 name: blastomere V1.1.2
-def: "This blastomere lies adjacent to the prospective, ventral midline, posterior to its sister cell, blastomere V1.l.l, in the second tier of blastomeres. It contributes to trunk epidermis and neural crest cells, Rohon- Beard neurons, somites, pronephric kidney, lateral plate mesoderm, tail fin mesenchyme, hindgut and proctodeum." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective ventral midline, posterior to its sister cell, blastomere V1.1.1, in the second tier of blastomeres. It contributes to trunk epidermis and neural crest cells, Rohon-Beard neurons, somites, pronephric kidney, lateral plate mesoderm, tail fin mesenchyme, hindgut and proctodeum." [PMID:3596014]
+synonym: "V1.1.2" EXACT []
+is_a: XAO:0005115 ! ventral animal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16219,8 +16240,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005106
 name: blastomere V1.2.1
-def: "This blastomere lies lateral to blastomere V1.1.1 and is in the first tier of blastomeres. It contributes to many ectodermal structures including epidermis, lens, cranial ganglia, otic vesicle, neural crest, olfactory placode, cement gland, retina,  brain, and spinal cord. It also contributes cells to the pharyngeal mesoderm, head mesenchyme, heart, somites, pronephric kidney, lateral plate mesoderm and tail fin mesenchyme, archenteron roof, with occasional cells in foregut, liver, hindgut and proctodeum." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies lateral to blastomere V1.1.1 and is in the first tier of blastomeres. It contributes to many ectodermal structures including epidermis, lens, cranial ganglia, otic vesicle, neural crest, olfactory placode, cement gland, retina, brain, and spinal cord. It also contributes cells to the pharyngeal mesoderm, head mesenchyme, heart, somites, pronephric kidney, lateral plate mesoderm and tail fin mesenchyme, archenteron roof, with occasional cells in foregut, liver, hindgut and proctodeum." [PMID:3596014]
+synonym: "V1.2.1" EXACT []
+is_a: XAO:0005115 ! ventral animal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16229,8 +16251,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005107
 name: blastomere V1.2.2
-def: "This blastomere lies lateral to blastomere V1.1.2, posterior to its sister cell, blastomere V1.2.1, in the second tier of blastomeres. This blastomere contributes to the epidermis, fins, cranial ganglia, otic vesicle, and CNS, neural crest, somites,  with occasional cells  in pharyngeal mesoderm, head mesenchyme, hindgut, and proctodeum." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies lateral to blastomere V1.1.2, posterior to its sister cell, blastomere V1.2.1, in the second tier of blastomeres. This blastomere contributes to the epidermis, fins, cranial ganglia, otic vesicle, CNS, neural crest, and somites, with occasional cells in pharyngeal mesoderm, head mesenchyme, hindgut, and proctodeum." [PMID:3596014]
+synonym: "V1.2.2" EXACT []
+is_a: XAO:0005115 ! ventral animal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16239,8 +16262,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005108
 name: blastomere V2.1.1
-def: "This blastomere lies adjacent to the prospective, ventral midline in the fourth tier of blastomeres. it contributes a few cells to the  epidermis, neural crest and spinal cord, and a large number of cells to the somite, pronephric kidney, lateral plate mesoderm, tail fin mesenchyme, hindgut, and proctodeum." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective, ventral midline in the fourth tier of blastomeres. It contributes a few cells to the epidermis, neural crest and spinal cord, and a large number of cells to the somites, pronephric kidney, lateral plate mesoderm, tail fin mesenchyme, hindgut, and proctodeum." [PMID:3596014]
+synonym: "V2.1.1" EXACT []
+is_a: XAO:0005114 ! ventral vegetal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16249,8 +16273,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005109
 name: blastomere V2.1.2
-def: "This blastomere lies adjacent to the prospective ventral midline, anterior to its sister cell, blastomere V2.1.1, in the third tier of blastomeres. It contrbutes cells to the epidermis, neural crest, spinal cord, somites, tail, hindgut and proctodeum." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies adjacent to the prospective ventral midline, anterior to its sister cell, blastomere V2.1.1, in the third tier of blastomeres. It contributes cells to the epidermis, neural crest, spinal cord, somites, tail, hindgut and proctodeum." [PMID:3596014]
+synonym: "V2.1.2" EXACT []
+is_a: XAO:0005114 ! ventral vegetal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16259,8 +16284,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005110
 name: blastomere V2.2.1
-def: "This blastomere lies lateral to blastomere V2.1.1, in the fourth tier of blastomeres. This blastomere contributes cells to epidermis and neural crest, spinal cord, somites, foregut, hindgut, and fewer cells to the head, pharyngeal mesoderm and proctodeum." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies lateral to blastomere V2.1.1, in the fourth tier of blastomeres. This blastomere contributes cells to epidermis and neural crest, spinal cord, somites, foregut, hindgut, and fewer cells to the head, pharyngeal mesoderm and proctodeum." [PMID:3596014]
+synonym: "V2.2.1" EXACT []
+is_a: XAO:0005114 ! ventral vegetal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16269,8 +16295,9 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005111
 name: blastomere V2.2.2
-def: "This blastomere lies lateral to blastomere V2.1.2, anterior to its sister cell, blastomere V2.2.1, in the third tier of blastomeres. It contributes cells to the epidermis, tail fins, cranial ganglia, neural crest, hindbrain, spinal cord, otic vesicle, pharyngeal mesoderm, somites, foregut, hindgut, archenteron roof, and proctodeum." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that lies lateral to blastomere V2.1.2, anterior to its sister cell, blastomere V2.2.1, in the third tier of blastomeres. It contributes cells to the epidermis, tail fin, cranial ganglia, neural crest, hindbrain, spinal cord, otic vesicle, pharyngeal mesoderm, somites, foregut, hindgut, archenteron roof, and proctodeum." [PMID:3596014]
+synonym: "V2.2.2" EXACT []
+is_a: XAO:0005114 ! ventral vegetal hemisphere blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000016 ! NF stage 6 (32-cell)
 created_by: eriksegerdell
@@ -16279,8 +16306,8 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005112
 name: dorsal vegetal hemisphere blastomere
-def: "D2.1 and D2.2, and children cells after division, D2.1.1, D2.1.2, D2.2.1 and D2.2.1, on left and right sides of embryo." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that is any of blastomeres D2.1 and D2.2 and their children cells after division, D2.1.1, D2.1.2, D2.2.1 and D2.2.2, on the left and right sides of embryo." [PMID:3596014]
+is_a: XAO:0000279 ! vegetal blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16289,8 +16316,8 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005113
 name: dorsal animal hemisphere blastomere
-def: "D1.1 and D1.2, and children cells after division, D1.1.2, D1.1.2, D1.2.1 and D1.2.2, on left and right sides of embryo." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that is any of blastomeres D1.1 and D1.2 and their children cells after division, D1.1.1, D1.1.2, D1.2.1 and D1.2.2, on the left and right sides of embryo." [PMID:3596014]
+is_a: XAO:0000200 ! animal blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16299,8 +16326,8 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005114
 name: ventral vegetal hemisphere blastomere
-def: "V2.2  and V2.1, and children cells after division,V2.2.1 and V2.2.1, V2.1.1, V2.1.2, on left and right sides of embryo." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that is any of blastomeres V2.1 and V2.2 and their children cells after division, V2.1.1, V2.1.2, V2.2.1 and V2.2.2, on the left and right sides of embryo." [PMID:3596014]
+is_a: XAO:0000279 ! vegetal blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
@@ -16309,8 +16336,8 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005115
 name: ventral animal hemisphere blastomere
-def: "V1.2  and V1.1, and children cells after division, V1.2.1, V1.2.2, V1.1.1 and V1.1.2, on left and right sides of embryo." []
-is_a: XAO:0003016 ! blastoderm cell
+def: "Blastomere that is any of blastomeres V1.1 and V1.2 and their children cells after division, V1.1.1, V1.1.2, V1.2.1 and V1.2.2, on the left and right sides of embryo." [PMID:3596014]
+is_a: XAO:0000200 ! animal blastomere
 relationship: end_stage XAO:1000016 ! NF stage 6 (32-cell)
 relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
