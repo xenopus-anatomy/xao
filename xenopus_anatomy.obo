@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 03:09:2016 19:29
+date: 13:09:2016 20:08
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.2
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -1022,7 +1022,10 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 id: XAO:0000094
 name: archenteron roof
 def: "The layer of cells forming the dorsal surface of the archenteron space of the embryo." [PMID:17540356]
+synonym: "archenteron roof plate" RELATED []
 synonym: "gastrocoel roof" EXACT []
+synonym: "gastrocoel roof plate" RELATED []
+synonym: "GRP" RELATED []
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000050 ! NF stage 37 and 38
 relationship: part_of XAO:0000092 ! archenteron
@@ -1499,6 +1502,7 @@ relationship: start_stage XAO:1000051 ! NF stage 39
 id: XAO:0000138
 name: mesentery
 def: "A double layer of tissue composed of peritoneum that attaches the visceral organs to the body wall." [XAO:EJS, ZFA:0005129]
+synonym: "mesenterium" RELATED []
 xref: UBERON:0007826
 is_a: XAO:0003045 ! epithelium
 relationship: end_stage XAO:0000437 ! death
@@ -1998,6 +2002,7 @@ relationship: start_stage XAO:1000038 ! NF stage 22
 id: XAO:0000188
 name: cranial nerve II
 def: "Cranial nerve that is continuous with the layer of nerve cells on the inner surface of the eye. It exits the neurocranium via the large optic foramen and is covered by a fibrous connective tissue sheath." [ISBN:080184780X]
+synonym: "ON" EXACT []
 synonym: "optic nerve" EXACT []
 synonym: "opticus" EXACT []
 xref: UBERON:0000941
@@ -2165,6 +2170,7 @@ id: XAO:0000205
 name: axial mesoderm
 def: "A type of mesoderm that lies along the central axis, under the neural tube, and gives rise to the notochord." [XAO:curators]
 synonym: "chordamesoderm" RELATED []
+synonym: "chordomesoderm" RELATED []
 xref: UBERON:0003068
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000050 ! mesoderm
@@ -3574,6 +3580,7 @@ relationship: start_stage XAO:1000047 ! NF stage 32
 id: XAO:0000345
 name: external carotid artery
 def: "Artery that arises from the ventral aorta and delivers blood to the filter apparatus. It is visible as a bilateral pair of vessels on the ventral surface of the head, running between the heart and the tip of the jaw." [ISBN:0073524239, PMID:12606281]
+synonym: "ECA" EXACT []
 xref: UBERON:0001070
 is_a: XAO:0000114 ! artery
 relationship: develops_from XAO:0000338 ! ventral aorta
@@ -9000,6 +9007,7 @@ creation_date: 2011-08-24T04:06:40Z
 id: XAO:0004100
 name: retinal ganglion cell
 def: "Type of neuron that receives neural inputs via bipolar, horizontal and amacrine cells. The axons of these cells make up the optic nerve." [CL:0000740]
+synonym: "RGC" EXACT []
 xref: CL:0000740
 is_a: XAO:0003023 ! neuron
 relationship: end_stage XAO:0000437 ! death
@@ -10378,6 +10386,7 @@ creation_date: 2011-09-13T02:33:45Z
 id: XAO:0004211
 name: facial epibranchial placode
 def: "The most anterior of the epibranchial placodes, associated with the 1st pharyngeal cleft and contributing to the distal ganglia of cranial nerve VII (facial nerve)." [ISBN:0878933840]
+synonym: "epVII" EXACT []
 synonym: "geniculate placode" EXACT []
 xref: UBERON:0009124
 is_a: XAO:0000284 ! epibranchial placode
@@ -10389,7 +10398,8 @@ creation_date: 2011-09-14T09:21:23Z
 [Term]
 id: XAO:0004212
 name: glossopharyngeal epibranchial placode
-def: "The central of the three epibranchial placodes, associated with the 2nd pharyngeal cleft and contributing to the distal ganglia of cranial nerve XI (glossopharyngeal nerve)." [ISBN:0878933840]
+def: "The central of the three epibranchial placodes, associated with the 2nd pharyngeal cleft and contributing to the distal ganglia of cranial nerve IX (glossopharyngeal nerve)." [ISBN:0878933840]
+synonym: "epIX" EXACT []
 synonym: "petrosal placode" EXACT []
 xref: UBERON:0009125
 is_a: XAO:0000284 ! epibranchial placode
@@ -10490,6 +10500,8 @@ created_by: eriksegerdell
 id: XAO:0004220
 name: anteroventral lateral line placode
 def: "Lateral line placode that gives rise to the anteroventral lateral line nerve." [XAO:EJS]
+synonym: "anterior ventral lateral line placode" EXACT []
+synonym: "pAV" EXACT []
 is_a: XAO:0000440 ! lateral line placode
 relationship: end_stage XAO:1000053 ! NF stage 41
 relationship: start_stage XAO:1000048 ! NF stage 33 and 34
@@ -10520,6 +10532,7 @@ created_by: eriksegerdell
 id: XAO:0004223
 name: posterior lateral line placode
 def: "Lateral line placode that gives rise to the posterior lateral line nerve." [XAO:EJS]
+synonym: "pP" EXACT []
 synonym: "vagus lateral line placode" RELATED []
 is_a: XAO:0000440 ! lateral line placode
 relationship: end_stage XAO:1000053 ! NF stage 41
@@ -11013,7 +11026,9 @@ created_by: eriksegerdell
 id: XAO:0004269
 name: anterodorsal lateral line placode
 def: "Lateral line placode that gives rise to the anterodorsal lateral line nerve." [XAO:EJS]
+synonym: "anterior dorsal lateral line placode" EXACT []
 synonym: "antero-dorsal lateral line placode" EXACT []
+synonym: "pAD" EXACT []
 is_a: XAO:0000440 ! lateral line placode
 relationship: develops_from XAO:0004206 ! anterior placodal area
 relationship: end_stage XAO:1000053 ! NF stage 41
@@ -11426,6 +11441,7 @@ creation_date: 2012-03-10T03:44:52Z
 id: XAO:0004307
 name: head mesenchyme
 def: "Mesoderm that will give rise, along with cranial neural crest cells, to connective tissue, bone and musculature in the head." [XAO:EJS, ZFA:0000113]
+synonym: "cephalic mesenchyme" RELATED []
 is_a: XAO:0003046 ! mesenchyme
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0003024 ! head
@@ -11466,6 +11482,7 @@ creation_date: 2012-03-10T09:50:34Z
 id: XAO:0004310
 name: stapes
 def: "Bone of the ear that is connected to the tympanic membrane via the extrastapes." [ISBN:0520252780]
+synonym: "columella" RELATED []
 is_a: XAO:0000214 ! auditory ossicle
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000059 ! NF stage 47
@@ -12216,7 +12233,10 @@ creation_date: 2012-05-05T05:15:00Z
 id: XAO:0004375
 name: planum trabeculare anticum
 def: "Cartilaginous element that is posterior to the cornua trabeculae." [XAO:curators]
+synonym: "ethmoid plate" RELATED []
+synonym: "planum ethmoidale" RELATED []
 synonym: "plta" EXACT []
+synonym: "trabecular plate" RELATED []
 is_a: XAO:0004013 ! cartilage element
 relationship: develops_from XAO:0003205 ! chondrocyte
 relationship: end_stage XAO:0000437 ! death
