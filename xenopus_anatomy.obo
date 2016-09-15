@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 14:09:2016 16:04
+date: 14:09:2016 17:01
 saved-by: segerdel
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -9,7 +9,6 @@ subsetdef: organism_views "Organism View slim"
 subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: xenopus_anatomy
-namespace-id-rule: * 
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
 remark: Version: 4.0
 remark: Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.
@@ -7932,6 +7931,7 @@ def: "Organ entity that is typically involved in mechanical support and may have
 xref: UBERON:0004765
 is_a: XAO:0003164 ! solid compound organ
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000192 ! inner ear
 relationship: part_of XAO:0004053 ! skeleton
 relationship: start_stage XAO:1000040 ! NF stage 24
 created_by: xenbase3
@@ -16447,8 +16447,8 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005129
 name: proximal stomach
-is_a: XAO:0003000 ! anatomical structure
 relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: part_of XAO:0000128 ! stomach
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16456,8 +16456,8 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005130
 name: distal stomach
-is_a: XAO:0003000 ! anatomical structure
 relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: part_of XAO:0000128 ! stomach
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16482,6 +16482,7 @@ synonym: "astrocyte endfoot" EXACT []
 xref: GO:0097450
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: part_of XAO:0005131 ! astrocyte
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16552,6 +16553,7 @@ def: "A cartilaginous extension of the stapes that expands into a cartilaginous 
 synonym: "pars externa" BROAD []
 is_a: XAO:0004013 ! cartilage element
 relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: part_of XAO:0004310 ! stapes
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16563,6 +16565,7 @@ def: "The bony part of the stapes which forms the shaft. It is shaped like a ben
 synonym: "pars media" BROAD []
 is_a: XAO:0004276 ! bone element
 relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: part_of XAO:0004310 ! stapes
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16574,6 +16577,7 @@ def: "A cartilaginous component of the stapes that is firmly attached to the pro
 synonym: "pars interna" BROAD []
 is_a: XAO:0004013 ! cartilage element
 relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: part_of XAO:0004310 ! stapes
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16664,6 +16668,7 @@ name: tympanic annulus
 def: "The oval shaped cartilaginous ring that supports the cartilaginous tympanic disk." [PMID:20953303]
 is_a: XAO:0004013 ! cartilage element
 relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: part_of XAO:0000192 ! inner ear
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16674,6 +16679,7 @@ name: tympanic disk
 def: "A flattened, roughly circular cartilage derived from the extrastapes, which takes the place of a tympanic membrane in Xenopus. This thin membrane or integument is stretched over a cartilaginous tympanic annulus in a drum-like manner, and forms the outer ear, receiving airborne vibrations and functioning in hearing." [PMID:20953303]
 is_a: XAO:0004013 ! cartilage element
 relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: part_of XAO:0000192 ! inner ear
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
