@@ -1,7 +1,5 @@
 """
 OBO ontology parsing module.
-
-Author: Erik Segerdell
 """
 
 
@@ -21,6 +19,7 @@ def dict(filename="xenopus_anatomy.obo", prefix="XAO",
     fh = open(os.path.abspath(__file__ + "/../../" + filename))
     contents = [line.replace("\n", "") for line in fh]
     fh.close()
+
     ontology = {}
 
     for line in contents:

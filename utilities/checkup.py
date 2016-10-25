@@ -1,10 +1,8 @@
 #!/usr/bin/python
 
 """
-Check Xenopus Anatomy Ontology OBO-formatted file for missing is_a parents,
-  definitions, and stages, and for stage range consistency.
-
-Author: Erik Segerdell
+Check the Xenopus Anatomy Ontology OBO file for missing is_a parents,
+definitions, and start/end stages and check stage range consistency.
 """
 
 
@@ -13,88 +11,76 @@ import parseont
 
 
 """
-Specify the names of the ontology and staging series files. The staging series
-file contains a plain text list of developmental stages, in the order of their
-timing, one stage per line and named exactly as they are in the ontology.
-Provide the OBO ontology prefix and default namespace.
+Specify terms that should be excluded from some of the checks: the ontology
+root term, "unspecified", terms with unusual stage ranges, in vitro anatomy,
+developmental stages, and anatomical sites.
 """
-ont_file = "xenopus_anatomy.obo"
-stage_file = "NF_stages.txt"
-prefix = "XAO"
-default_namespace = "xenopus_anatomy"
 
-ont_file = os.path.abspath(__file__ + "/../../" + ont_file)
-stage_file = os.path.abspath(__file__ + "/../" + stage_file)
+fh = open(os.path.abspath(__file__ + "/../exclude.txt"))
+EXCLUDE_ID = [line.split("\t")[0] for line in fh]
+fh.close()
 
+EXCLUDE_NAMESPACE = ["xenopus_anatomy_in_vitro", "xenopus_developmental_stage"]
+EXCLUDE_SUBSET = "anatomical_site_slim"
 
 """
-Specify terms that will be excluded from some of the checks:
-* Ontology root term and "unspecified"
-* Terms with unusual stage ranges
-* In vitro anatomy terms
-* Developmental stages
-* Anatomical site terms
+Specify the name of the staging series file. This should contain a plain text
+list of developmental stages in the order of their timing, one stage per line,
+and named exactly as they are in the ontology.
 """
-exclude_id = ["XAO:0000000",
-              "XAO:0000220",
-              "XAO:0000256",
-              "XAO:0003003",
-              "XAO:0003048",
-              "XAO:0003185",
-              "XAO:0004492"]
-exclude_namespace = ["xenopus_anatomy_in_vitro", "xenopus_developmental_stage"]
-exclude_subset = "anatomical_site_slim"
+STAGE_FN = "NF_stages.txt"
 
 
-def check_for_missing(attrib, attrib_name):
+def check_for_missing(attrib, attrib_text):
 
     """
-    Check terms in the dictionary for missing is_a parents, definition, or
-    start or end stage. Print exceptions and provide a count.
+    Checks terms in the dictionary for missing is_a parents, definitions, or
+    start or end stages.
     """
 
-    print("\033[31m" + "Checking for terms lacking " + attrib_name + "..." +
+    print("\033[31m" + "Checking for terms lacking " + attrib_text + "..." +
             "\033[0m")
 
     ct = 0
     for key in ontology.keys():
-        if (key not in exclude_id and
-              ontology[key]["namespace"] not in exclude_namespace and
-              exclude_subset not in ontology[key]["subset"] and
+        if (key not in EXCLUDE_ID and
+              ontology[key]["namespace"] not in EXCLUDE_NAMESPACE and
+              EXCLUDE_SUBSET not in ontology[key]["subset"] and
               attrib not in ontology[key].keys()):
             print(key + "\t" + ontology[key]["name"])
             ct += 1
         else:
             pass
 
+    # Print exceptions and provide a count.
     print(str(ct) + " terms(s)" + "\n")
     return(ct)
 
 
-def stage_range(stage_file):
+def stage_range():
 
     """
-    Check terms in the dictionary for start/end stage consistency. Read the
-    staging series file and create a list of stages. An anatomical entity must
-    exist within the stage range of its is_parent, sometime during the stage
-    range of its part_of parent, and it must have a start stage that occurs
-    within or abuts the stage range of its develops_from parent. Print
-    exceptions and provide a count.
+    Checks terms in the dictionary for start and end stage consistency. Each
+    anatomical entity must exist entirely within the stage range of its is_a
+    parent, sometime during the stage range of its part_of parent, and it must
+    have a start stage that occurs within or abuts the stage range of its
+    develops_from parent.
     """
 
     print("\033[31m" + "Checking stage range consistency..." + "\033[0m")
 
-    fh = open(stage_file)
+    # Create the developmental stage list.
+    fh = open(os.path.abspath(__file__ + "/../" + STAGE_FN))
     stages = [line.replace("\n", "") for line in fh]
     fh.close()
 
     ct = 0
     for key in ontology.keys():
-        if (key not in exclude_id and
-              ontology[key]["namespace"] not in exclude_namespace
-              and exclude_subset not in ontology[key]["subset"]):
+        if (key not in EXCLUDE_ID and
+              ontology[key]["namespace"] not in EXCLUDE_NAMESPACE
+              and EXCLUDE_SUBSET not in ontology[key]["subset"]):
             par_id = ontology[key]["is_a"]
-            if par_id not in exclude_id:
+            if par_id not in EXCLUDE_ID:
                 term_st_1 = ontology[ontology[key]["start_stage"]]["name"]
                 term_st_2 = ontology[ontology[key]["end_stage"]]["name"]
                 par_st_1 = ontology[ontology[par_id]["start_stage"]]["name"]
@@ -115,7 +101,7 @@ def stage_range(stage_file):
             pass
 
     for key in ontology.keys():
-        if (ontology[key]["namespace"] not in exclude_namespace and
+        if (ontology[key]["namespace"] not in EXCLUDE_NAMESPACE and
                 "part_of" in ontology[key].keys()):
             for par_id in ontology[key]["part_of"]:
                 term_st_1 = ontology[ontology[key]["start_stage"]]["name"]
@@ -136,7 +122,7 @@ def stage_range(stage_file):
             pass
 
     for key in ontology.keys():
-        if (key not in exclude_id and "develops_from" in ontology[key].keys()):
+        if (key not in EXCLUDE_ID and "develops_from" in ontology[key].keys()):
             for par_id in ontology[key]["develops_from"]:
                 term_st_1 = ontology[ontology[key]["start_stage"]]["name"]
                 term_st_2 = ontology[ontology[key]["end_stage"]]["name"]
@@ -155,18 +141,18 @@ def stage_range(stage_file):
         else:
             pass
 
+    # Print exceptions and provide a count.
     print(str(ct) + " error(s)" + "\n")
     return()
 
 
 """
-Load the ontology file and call functions to run the various checks. Checks for
-missing is_a parents, definitions, start and end stages are done first. Stage
-range consistency can be checked only if all anatomical entities have is_a
-parents and both start and end stages.
+Generate the ontology term dictionary and run the various checks. Check for
+missing is_a parents, definitions, start and end stages are completed first.
+Stage range consistency can be checked only if all anatomical entities have
+is_a parents and complete start and end stages.
 """
 
-# TODO - Pass in the parameters.
 ontology = parseont.dict()
 
 ct_i = check_for_missing("is_a", "an is_a parent")
@@ -175,7 +161,7 @@ ct_s = check_for_missing("start_stage", "a start stage")
 ct_e = check_for_missing("end_stage", "an end stage")
 
 if ct_i + ct_s + ct_e == 0:
-    stage_range(stage_file)
+    stage_range()
 else:
-    print("NOTE: Ontology must be is_a and stage complete before stage range" +
-            " integrity can be checked." + "\n")
+    print("\033[31m" + "Ontology must be is_a and stage complete before" +
+            " stage range integrity can be checked." + "\033[0m")
