@@ -7,7 +7,7 @@ import os
 
 
 def dict(filename="xenopus_anatomy.obo", prefix="XAO",
-           default_namespace="xenopus_anatomy"):
+           default_namespace="xenopus_anatomy", rm_obsoletes=True):
 
     """
     Returns a dictionary of terms and their properties. Part_of and
@@ -51,7 +51,7 @@ def dict(filename="xenopus_anatomy.obo", prefix="XAO",
                     ontology[this_id][rel_type] = [rel_id]
             else:
                 ontology[this_id][rel_type] = rel_id
-        elif line == "is_obsolete: true":
+        elif rm_obsoletes and line == "is_obsolete: true":
             ontology.pop(this_id)
         else:
             pass
