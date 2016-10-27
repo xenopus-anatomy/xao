@@ -67,14 +67,14 @@ for line in content[1:]:
             print("relationship: develops_into " + term_ids[s] + " ! " + s)
     else:
         pass
-    print("relationship: end_stage " + stage_ids[bits[8]] + " ! " + bits[8])
+    print("relationship: end_stage " + stage_ids[bits[9]] + " ! " + bits[9])
     if bits[5] != "":
         part_of = bits[5].replace("\"", "").split(", ")
         for s in part_of:
             print("relationship: part_of " + term_ids[s] + " ! " + s)
     else:
         pass
-    print("relationship: start_stage " + stage_ids[bits[9]] + " ! " + bits[9])
+    print("relationship: start_stage " + stage_ids[bits[8]] + " ! " + bits[8])
     print("created_by: " + getpass.getuser())
     print("creation_date: " + datetime.datetime.now().isoformat()[:-7] + "Z")
     tid += 1
