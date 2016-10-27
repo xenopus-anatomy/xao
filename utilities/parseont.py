@@ -2,9 +2,7 @@
 OBO ontology parsing module.
 """
 
-
 import os
-
 
 def dict(filename="xenopus_anatomy.obo", prefix="XAO",
            default_namespace="xenopus_anatomy", rm_obsoletes=True):
@@ -44,7 +42,8 @@ def dict(filename="xenopus_anatomy.obo", prefix="XAO",
         elif line.startswith("relationship: "):
             rel_type = line[14:line.index("!")-len(prefix)-10]
             rel_id = line[line.index("!")-len(prefix)-9:line.index("!")-1]
-            if rel_type == "part_of" or rel_type == "develops_from":
+            if (rel_type == "part_of" or rel_type == "develops_from" or
+                  rel_type == "develops_into"):
                 if rel_type in ontology[this_id]:
                     ontology[this_id][rel_type].append(rel_id)
                 else:
