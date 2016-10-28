@@ -1,0 +1,7 @@
+XAO:0000000	Xenopus anatomical entity
+XAO:0000220	dermatome
+XAO:0000256	oocyte
+XAO:0003003	unspecified
+XAO:0003048	egg
+XAO:0003185	anatomical direction
+XAO:0004492	cleavage furrow
