@@ -21,38 +21,21 @@ After creating each new class, add the following annotations:
 
 The ID number is based on the newly generated URI. Hover over the new class in the class hierarchy and look at the tooltip. If, for example, the URI ends with *XAO_0005084*, then the annotation value is *XAO:0005084*.
 
-###File conversion
+###Scripts
 
-Whichever your editing tool preference, be sure the `xenopus_anatomy` OBO and OWL files are in sync before committing changes to the repository. You can accomplish this with the [oboformat-tools](https://github.com/oboformat/oboformat-tools) package. It is a good idea to back up your files before running the converter so you don't inadvertently overwrite your work.
+Command-line Python tools for performing some quality control checks and automating term creation are described on the [utilities](https://github.com/xenopus-anatomy/xao/blob/master/doc/utilities.md) page.
 
 ###Workflow
 
-Ontology updates should be made in one or more git branches. Make a local branch by executing the following command:
+Ontology updates should be made in one or more [Git](https://git-scm.com/) branches. The branch name is lowercase underscore, e.g. `brain_structures`. A long-lived or jointly developed branch should be pushed to the server.
 
-    $ git checkout -b <branch>
-
-The branch name is lower case underscore, e.g. `brain_structures`. A long-lived or jointly developed branch can be pushed to the server:
-
-    $ git push origin <branch>
-
-Rebase the branch from time to time as follows:
-
-    $ git rebase master
-
-This integrates the branch with the master branch, detects conflicts, and facilitates subsequent merge.
-
-To merge a branch with master, execute the following commands:
-
-    $ git checkout master
-    $ git merge --no-ff <branch>
-
-Note the `--no-ff` option, which ensures that an audit trail of the merge is kept in a commit log, even if there are no merge conflicts.
+Whichever your editing tool preference, you can keep the `xenopus_anatomy` OBO and OWL files in sync within the current branch with the [oboformat-tools](https://github.com/oboformat/oboformat-tools) package. It is a good idea to back up your files before running the converter so you don't inadvertently overwrite your work.
 
 ##Making a release
 
-When it is time to make a new XAO release, merge any changes that should be included in the release with the master branch.
+When it is time to make a new XAO release, merge any changes that should be included in the release with the `master` branch. Sync the OBO and OWL versions of the ontology if necessary and commit the changes.
 
-Run the [checkup](https://github.com/xenopus-anatomy/xao/blob/master/doc/utilities.md#checkup) utility to ensure that the ontology has a complete `is_a` structure and all terms have definitions and valid stage ranges. Fix any outstanding issues and commit the changes.
+Run the [checkup](https://github.com/xenopus-anatomy/xao/blob/master/doc/utilities.md#checkup) utility to ensure that the ontology has a complete `is_a` structure and all terms have definitions and valid stage ranges. Fix and commit any outstanding issues.
 
 Obtain the OBO Ontology Release Tool (Oort), included in the [OWLTools](https://github.com/owlcollab/owltools) package. It generates release files and ontology subsets, assigns a version IRI, and provides ontology metadata and reasoner reports.
 
@@ -79,14 +62,11 @@ Delete the existing `xenopus_anatomy` files from the top level directory. Copy t
 
 Commit all changes.
 
-Set a git tag with a `v` prefix. The version must be exactly the same as the one you put in the OBO file header, e.g.:
+Set a Git tag with a `v` prefix. The version must be exactly the same as the one you put in the OBO file header, e.g.:
 
     $ git tag v4.0
 
-Update the server:
-
-    $ git push
-    $ git push --tags
+Push the updates to the server.
 
 Put copies of the `xenopus_anatomy` OBO and OWL files on [Xenbase FTP](http://www.xenbase.org/other/static/ftpDatafiles.jsp).
 
