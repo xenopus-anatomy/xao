@@ -19,7 +19,7 @@ Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Viz
  - [AberOWL](http://aber-owl.net/ontology/XAO)
  - [NCBO Bioportal](http://bioportal.bioontology.org/ontologies/XAO)
  - [Ontobee](http://www.ontobee.org/browser/index.php?o=XAO)
- - [Ontology Lookup Service](http://www.ebi.ac.uk/ols/beta/ontologies/xao)
+ - [Ontology Lookup Service](http://www.ebi.ac.uk/ols/ontologies/xao)
 
 ##Development
 
