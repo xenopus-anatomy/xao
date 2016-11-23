@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 14:09:2016 17:01
+date: 22:11:2016 17:03
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -16755,9 +16755,10 @@ creation_date: 2016-11-16T18:07:16Z
 [Term]
 id: XAO:0005164
 name: alpha cell
-def: "Alpha cells (more commonly alpha-cells or _-cells) are endocrine cells in the pancreatic islets of the pancreas. They make up to 20% of the human islet cells synthesizing and secreting the peptide hormone glucagon, which elevates the glucose levels in the blood." [XAO:curators]
-synonym: "alpha-cells" RELATED []
-synonym: "_-cells" RELATED []
+def: "A type of endocrine cell in the pancreatic islets of the pancreas. They make up to 20 percent of the human islet cells synthesizing and secreting the peptide hormone glucagon, which elevates the glucose levels in the blood." [XAO:curators]
+synonym: "alpha cells" RELATED PLURAL []
+synonym: "alpha-cell" EXACT []
+synonym: "alpha-cells" RELATED PLURAL []
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
@@ -16769,9 +16770,10 @@ creation_date: 2016-11-16T18:07:16Z
 [Term]
 id: XAO:0005165
 name: beta cell
-def: "Beta cells (_ cells) are a type of cell found in the pancreatic islets of the pancreas. They  secrete insulin, and so play a significant role in diabetes." [XAO:curators]
-synonym: "Beta-cell" RELATED []
-synonym: "_ cells" RELATED []
+def: "A type of cell that is found in the pancreatic islets of the pancreas and secretes insulin." [XAO:curators]
+synonym: "beta cells" RELATED PLURAL []
+synonym: "beta-cell" EXACT []
+synonym: "beta-cells" RELATED PLURAL []
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
@@ -16783,15 +16785,17 @@ creation_date: 2016-11-16T18:07:16Z
 [Term]
 id: XAO:0005166
 name: delta cell
-def: "Delta cells (_-cells or D cells) are somatostatin-producing cells. They can be found in the stomach, intestine and the pancreatic islets." [XAO:curators]
-synonym: "_-cell" RELATED []
+def: "Somatostatin-producing cell that is found in the stomach, intestine and the pancreatic islets." [XAO:curators]
 synonym: "D cell" RELATED []
 synonym: "D-cell" RELATED []
+synonym: "delta cells" RELATED PLURAL []
+synonym: "delta-cell" EXACT []
+synonym: "delta-cells" RELATED PLURAL []
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000128 ! stomach
 relationship: part_of XAO:0000129 ! intestine
+relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
 relationship: start_stage XAO:1000051 ! NF stage 39
 created_by: segerdel
@@ -16800,8 +16804,10 @@ creation_date: 2016-11-16T18:07:16Z
 [Term]
 id: XAO:0005167
 name: epsilon cell
-def: "Epsilon cells (_-cells) are endocrine cells found in the Islets of Langerhans and produce the hormone ghrelin. They were discovered in mice." [XAO:curators]
-synonym: "_-cells" RELATED []
+def: "A type of endocrine cell that is found in the Islets of Langerhans and produces the hormone ghrelin." [XAO:curators]
+synonym: "epsilon cells" RELATED PLURAL []
+synonym: "epsilon-cell" EXACT []
+synonym: "epsilon-cells" RELATED PLURAL []
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
@@ -16813,9 +16819,9 @@ creation_date: 2016-11-16T18:07:16Z
 [Term]
 id: XAO:0005168
 name: gamma cell
-def: "Gamma cells, are cells which produce pancreatic polypeptides in the pancreatic islets (Islets of Langerhans) of the pancreas. They are very few in number and are polygonal in shape (in mammals)." [XAO:curators]
-synonym: "pp-cell" RELATED []
+def: "A type of cell that produces pancreatic polypeptides in the pancreatic islets (the Islets of Langerhans) of the pancreas." [XAO:curators]
 synonym: "PP cell" RELATED []
+synonym: "pp-cell" RELATED []
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
