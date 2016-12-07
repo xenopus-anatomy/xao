@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 22:11:2016 17:03
+date: 06:12:2016 18:02
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -2593,10 +2593,12 @@ relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0000245
-name: mitochondrial aggregate
-def: "A prominent mass in the cytoplasm of previtellogenic oocytes, containing both mitochondria and electron-dense granulofibrillar material." [PMID:6541166]
+name: mitochondrial cloud
+def: "A prominent mass in the cytoplasm of previtellogenic oocytes. The cloud contains both mitochondria and electron-dense granulofibrillar material (GFM) and is the source of germinal granule material." [GO:0032019]
 synonym: "Balbiani body" EXACT []
-synonym: "mitochondrial cloud" EXACT []
+synonym: "MC" RELATED []
+synonym: "mitochondrial aggregate" EXACT []
+xref: GO:0032019
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000083 ! oocyte stage I
 relationship: part_of XAO:0000256 ! oocyte
@@ -16345,13 +16347,16 @@ created_by: eriksegerdell
 creation_date: 2016-08-16T20:28:11Z
 
 id: XAO:0005116
-name: melanotrope cell
-def: "A cell in the pituitary gland that generates melanocyte-stimulating hormone from its precursor polypeptide, pro-opiomelanocortin (POMC)." [http:en.wikipedia.org/wiki/Melanotroph]
-synonym: "melanotrope" EXACT []
-synonym: "Melanotroph" EXACT []
+name: melanotrope
+def: "A cell in the pituitary gland (hypophysis) that generates melanocyte-stimulating hormone from its precursor polypeptide, pro-opiomelanocortin (POMC)." [http:en.wikipedia.org/wiki/Melanotroph]
+synonym: "melanocyte stimulating hormone secreting cell" EXACT []
+synonym: "melanotrope cell" EXACT []
+synonym: "melanotroph" EXACT []
+xref: CL:0000440
 is_a: XAO:0003012 ! cell
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000017 ! hypophysis
+relationship: start_stage XAO:1000052 ! NF stage 40
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16394,19 +16399,22 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005121
 name: prime meridian
-def: "Anatomical line that is specified to form the head of the embryo." [XAO:curators]
-is_a: XAO:0004003 ! anatomical line
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+def: "Embryonic region which is specified to form the head of the embryo." [XAO:curators]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:1000021 ! NF stage 11
+relationship: part_of XAO:0000113 ! embryo
+relationship: start_stage XAO:1000001 ! NF stage 1
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005122
 name: microtubule
+def: "Any of the long, generally straight, hollow tubes of internal diameter 12-15 nm and external diameter 24 nm found in a wide variety of eukaryotic cells; each consists (usually) of 13 protofilaments of polymeric tubulin, staggered in such a manner that the tubulin monomers are arranged in a helical pattern on the microtubular surface, and with the alpha/beta axes of the tubulin subunits parallel to the long axis of the tubule; exist in equilibrium with pool of tubulin monomers and can be rapidly assembled or disassembled in response to physiological stimuli; concerned with force generation, e.g. in the spindle." [GO:0005874]
+xref: GO:0005874
 is_a: XAO:0004290 ! cell part
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000083 ! oocyte stage I
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16529,6 +16537,17 @@ relationship: end_stage XAO:1000081 ! unspecified stage
 relationship: start_stage XAO:1000081 ! unspecified stage
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005135
+name: enteroendocrine cell
+def: "An endocrine cell that is located in the epithelium of the gastrointestinal tract or in the pancreas." [CL:0000164]
+xref: CL:0000164
+is_a: XAO:0003247 ! endocrine cell
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000042 ! NF stage 26
+created_by: segerdel
+creation_date: 2016-12-06T18:00:00Z
 
 [Term]
 id: XAO:0005136
@@ -16745,21 +16764,23 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005163
 name: thoracic region
-def: "A body region in the embryo, broadly around the heart, but ventral to the pharangeal region, posterior to the cement gland, and anterior to the endoderm or organs of endodermal origin (foregut, liver and lung primordia)." [XAO:curators]
+def: "A region of the embryo that is located broadly around the heart, but ventral to the pharyngeal region, posterior to the cement gland, and anterior to the endoderm or organs of endodermal origin (foregut, liver and lung primordia)." [XAO:curators]
 is_a: XAO:0003186 ! anatomical region
-relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000001 ! NF stage 1
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: start_stage XAO:1000044 ! NF stage 28
 created_by: segerdel
 creation_date: 2016-11-16T18:07:16Z
 
 [Term]
 id: XAO:0005164
 name: alpha cell
-def: "A type of endocrine cell in the pancreatic islets of the pancreas. They make up to 20 percent of the human islet cells synthesizing and secreting the peptide hormone glucagon, which elevates the glucose levels in the blood." [XAO:curators]
+def: "A type of endocrine cell in the pancreatic islets of the pancreas. They make up some of the islet cells synthesizing and secreting the peptide hormone glucagon, which elevates the glucose levels in the blood." [XAO:curators]
 synonym: "alpha cells" RELATED PLURAL []
 synonym: "alpha-cell" EXACT []
 synonym: "alpha-cells" RELATED PLURAL []
-is_a: XAO:0003012 ! cell
+synonym: "pancreatic A cell" RELATED []
+xref: CL:0000171
+is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
@@ -16774,7 +16795,9 @@ def: "A type of cell that is found in the pancreatic islets of the pancreas and 
 synonym: "beta cells" RELATED PLURAL []
 synonym: "beta-cell" EXACT []
 synonym: "beta-cells" RELATED PLURAL []
-is_a: XAO:0003012 ! cell
+synonym: "type B pancreatic cell" RELATED []
+xref: CL:0000169
+is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
@@ -16791,7 +16814,9 @@ synonym: "D-cell" RELATED []
 synonym: "delta cells" RELATED PLURAL []
 synonym: "delta-cell" EXACT []
 synonym: "delta-cells" RELATED PLURAL []
-is_a: XAO:0003012 ! cell
+synonym: "pancreatic D cell" RELATED []
+xref: CL:0000173
+is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000128 ! stomach
 relationship: part_of XAO:0000129 ! intestine
@@ -16804,11 +16829,11 @@ creation_date: 2016-11-16T18:07:16Z
 [Term]
 id: XAO:0005167
 name: epsilon cell
-def: "A type of endocrine cell that is found in the Islets of Langerhans and produces the hormone ghrelin." [XAO:curators]
+def: "A type of endocrine cell that is found in the islets of Langerhans and produces the hormone ghrelin." [XAO:curators]
 synonym: "epsilon cells" RELATED PLURAL []
 synonym: "epsilon-cell" EXACT []
 synonym: "epsilon-cells" RELATED PLURAL []
-is_a: XAO:0003012 ! cell
+is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
@@ -16819,10 +16844,10 @@ creation_date: 2016-11-16T18:07:16Z
 [Term]
 id: XAO:0005168
 name: gamma cell
-def: "A type of cell that produces pancreatic polypeptides in the pancreatic islets (the Islets of Langerhans) of the pancreas." [XAO:curators]
+def: "A type of cell that produces pancreatic polypeptides in the pancreatic islets (the islets of Langerhans) of the pancreas." [XAO:curators]
 synonym: "PP cell" RELATED []
 synonym: "pp-cell" RELATED []
-is_a: XAO:0003012 ! cell
+is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
