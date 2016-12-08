@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 06:12:2016 18:02
+date: 07:12:2016 22:41
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -760,9 +760,9 @@ xref: UBERON:0003061
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000311 ! lateral plate mesoderm
 relationship: develops_from XAO:0004473 ! ventral mesoderm
-relationship: end_stage XAO:1000049 ! NF stage 35 and 36
+relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000122 ! hematological system
-relationship: start_stage XAO:1000038 ! NF stage 22
+relationship: start_stage XAO:1000026 ! NF stage 16
 
 [Term]
 id: XAO:0000068
@@ -1719,7 +1719,7 @@ relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000014 ! midbrain
 relationship: part_of XAO:0000158 ! endocrine system
 relationship: part_of XAO:0003198 ! visual system
-relationship: start_stage XAO:1000042 ! NF stage 26
+relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0000162
@@ -1931,7 +1931,7 @@ xref: UBERON:0000964
 is_a: XAO:0003028 ! surface structure
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000179 ! eye
-relationship: start_stage XAO:1000052 ! NF stage 40
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 
 [Term]
 id: XAO:0000181
@@ -1996,7 +1996,7 @@ xref: UBERON:0003067
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000320 ! sensorial layer
 relationship: end_stage XAO:1000052 ! NF stage 40
-relationship: start_stage XAO:1000038 ! NF stage 22
+relationship: start_stage XAO:1000035 ! NF stage 19
 
 [Term]
 id: XAO:0000188
@@ -2225,8 +2225,8 @@ synonym: "dorsal root ganglion" RELATED []
 synonym: "spinal ganglia" RELATED PLURAL []
 xref: UBERON:0000044
 is_a: XAO:0000209 ! ganglion
+is_a: XAO:1000045 ! NF stage 29 and 30
 relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000051 ! NF stage 39
 
 [Term]
 id: XAO:0000211
@@ -2359,7 +2359,7 @@ is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0000320 ! sensorial layer
 relationship: end_stage XAO:1000042 ! NF stage 26
 relationship: part_of XAO:0003195 ! vestibuloauditory system
-relationship: start_stage XAO:1000037 ! NF stage 21
+relationship: start_stage XAO:1000036 ! NF stage 20
 
 [Term]
 id: XAO:0000224
@@ -2486,7 +2486,7 @@ synonym: "heart" BROAD []
 xref: UBERON:0007005
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000050 ! mesoderm
-relationship: end_stage XAO:1000037 ! NF stage 21
+relationship: end_stage XAO:1000039 ! NF stage 23
 relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
@@ -2652,7 +2652,7 @@ is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000046 ! chordal neural plate
 relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0003204 ! neural tube
-relationship: start_stage XAO:1000036 ! NF stage 20
+relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0000251
@@ -3245,7 +3245,7 @@ is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000045 ! pre-chordal neural plate
 relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0003204 ! neural tube
-relationship: start_stage XAO:1000036 ! NF stage 20
+relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0000309
@@ -3590,7 +3590,7 @@ is_a: XAO:0000114 ! artery
 relationship: develops_from XAO:0000338 ! ventral aorta
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000439 ! filter chamber
-relationship: start_stage XAO:1000057 ! NF stage 45
+relationship: start_stage XAO:1000047 ! NF stage 32
 
 [Term]
 id: XAO:0000349
@@ -5966,7 +5966,7 @@ xref: UBERON:0001649
 is_a: XAO:0000429 ! cranial nerve
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003197 ! gustatory system
-relationship: start_stage XAO:1000047 ! NF stage 32
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0003097
@@ -7022,7 +7022,7 @@ def: "Hollow epithelial tube on the dorsal side of the embryo that develops into
 xref: UBERON:0001049
 is_a: XAO:0003042 ! embryonic structure
 relationship: end_stage XAO:1000044 ! NF stage 28
-relationship: start_stage XAO:1000036 ! NF stage 20
+relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0003205
@@ -7941,7 +7941,6 @@ def: "Organ entity that is typically involved in mechanical support and may have
 xref: UBERON:0004765
 is_a: XAO:0003164 ! solid compound organ
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000192 ! inner ear
 relationship: part_of XAO:0004053 ! skeleton
 relationship: start_stage XAO:1000040 ! NF stage 24
 created_by: xenbase3
@@ -8706,7 +8705,7 @@ relationship: develops_from XAO:0000050 ! mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: part_of XAO:0001010 ! circulatory system
 relationship: part_of XAO:0004074 ! intersomitic region
-relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
 created_by: xenbase3
 creation_date: 2011-08-24T12:25:46Z
 
@@ -10093,7 +10092,7 @@ synonym: "ABC" EXACT []
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000026 ! branchial crest
 relationship: end_stage XAO:1000038 ! NF stage 22
-relationship: part_of XAO:0000048 ! neural crest
+relationship: part_of XAO:0000026 ! branchial crest
 relationship: start_stage XAO:1000025 ! NF stage 15
 created_by: lab
 creation_date: 2011-09-02T11:14:48Z
@@ -10106,7 +10105,7 @@ synonym: "PBC" EXACT []
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000026 ! branchial crest
 relationship: end_stage XAO:1000038 ! NF stage 22
-relationship: part_of XAO:0000048 ! neural crest
+relationship: part_of XAO:0000026 ! branchial crest
 relationship: start_stage XAO:1000025 ! NF stage 15
 created_by: lab
 creation_date: 2011-09-02T11:18:11Z
@@ -14864,7 +14863,7 @@ is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000249 ! neural plate
 relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0003204 ! neural tube
-relationship: start_stage XAO:1000036 ! NF stage 20
+relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0004617
@@ -14874,7 +14873,7 @@ is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000249 ! neural plate
 relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0003204 ! neural tube
-relationship: start_stage XAO:1000036 ! NF stage 20
+relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0004618
@@ -15373,6 +15372,7 @@ creation_date: 2015-05-18T17:46:16Z
 id: XAO:0005032
 name: neural stem cell
 def: "A cell that, in the early stages of the brain, are generated from the ectoderm-derived neural epithelium and commit to differentiate into either neurons or radial glial cells. It is well known that radial glial cells have distinctive morphological characteristics and can act as neural progenitor cells (NPCs) or neural stem cells (NSCs), in addition to guiding the migration of differentiating neurons in the central nervous system." [XAO:curators]
+synonym: "neural stem cells" RELATED PLURAL []
 synonym: "neuronal stem cell" EXACT []
 synonym: "NSC" EXACT []
 xref: CL:0000047
@@ -15526,7 +15526,8 @@ creation_date: 2015-05-19T21:14:01Z
 [Term]
 id: XAO:0005044
 name: Schwann cell
-def: "A glial cell that ensheaths axons of neurons in the peripheral nervous system and is necessary for their maintainance and function. Multiple Schwann cells wrap each axon." [CL:0002573]
+def: "A glial cell that ensheaths axons of neurons in the peripheral nervous system and is necessary for their maintainance and function. Multiple Schwann cells wrap each axon." [CL:0002573, XAO:curators]
+synonym: "neurilemmal cell" EXACT []
 xref: CL:0002573
 is_a: XAO:0004308 ! glial cell
 relationship: end_stage XAO:0000437 ! death
@@ -15851,7 +15852,7 @@ xref: UBERON:0005478
 is_a: XAO:0003028 ! surface structure
 relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0003204 ! neural tube
-relationship: start_stage XAO:1000036 ! NF stage 20
+relationship: start_stage XAO:1000034 ! NF stage 18
 created_by: eriksegerdell
 creation_date: 2015-05-24T12:29:59Z
 
@@ -16430,45 +16431,63 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005124
 name: pulmonary epithelium
+def: "The epithelial layer of the lung." [UBERON:0000115]
+synonym: "epithelial tissue of lung" RELATED []
+synonym: "epithelium of lung" RELATED []
+synonym: "lung epithelial tissue" RELATED []
+synonym: "lung epithelium" RELATED []
+xref: UBERON:0000115
 is_a: XAO:0003045 ! epithelium
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000119 ! lung
+relationship: part_of XAO:0001002 ! lung primordium
+relationship: start_stage XAO:1000046 ! NF stage 31
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005125
 name: ventral foregut
+def: "The ventral part of the foregut." [XAO:EJS]
 is_a: XAO:0003042 ! embryonic structure
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0000232 ! foregut
+relationship: start_stage XAO:1000036 ! NF stage 20
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005126
 name: dorsal foregut
+def: "The dorsal part of the foregut." [XAO:EJS]
 is_a: XAO:0003042 ! embryonic structure
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0000232 ! foregut
+relationship: start_stage XAO:1000036 ! NF stage 20
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005127
 name: anterior foregut
+def: "Embryonic structure that consists of the anterior part of the foregut and develops into the esophagus and trachea." [XAO:curators]
 is_a: XAO:0003042 ! embryonic structure
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: develops_into XAO:0000118 ! trachea
+relationship: develops_into XAO:0000127 ! esophagus
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0000232 ! foregut
+relationship: start_stage XAO:1000036 ! NF stage 20
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005128
 name: posterior foregut
+def: "The posterior part of the foregut." [XAO:EJS]
 is_a: XAO:0003042 ! embryonic structure
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0000232 ! foregut
+relationship: start_stage XAO:1000036 ! NF stage 20
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16493,25 +16512,31 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005131
 name: astrocyte
-def: "A characteristically star-shaped type of glial cell found in the optic nerve, brain and spinal cord. They have many processes, giving them their star shape, which terminate in structures called 'end-feet'. They are the most numerous glial cell in the CNS, and  can behave like phagocytes in the frog CNS during metamorphosis." [XAO:curators]
+def: "A characteristically star-shaped type of glial cell found in the optic nerve, brain and spinal cord. They have many processes, giving them their star shape, which terminate in structures called end-feet. They are the most numerous glial cell in the central nervous system and can behave like phagocytes in the CNS during metamorphosis." [CL:0000127, XAO:curators]
+synonym: "astrocytic glia" EXACT []
+xref: CL:0000127
 is_a: XAO:0004308 ! glial cell
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: develops_from XAO:0005032 ! neural stem cell
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000010 ! brain
+relationship: part_of XAO:0000020 ! spinal cord
+relationship: start_stage XAO:1000038 ! NF stage 22
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005132
 name: astrocyte end-foot
-def: "Terminal process of an astrocyte." [GO:0097450]
+def: "The terminal process of an astrocyte." [GO:0097450]
 synonym: "astrocyte end-feet" RELATED PLURAL []
 synonym: "astrocyte endfeet" RELATED PLURAL []
 synonym: "astrocyte endfoot" EXACT []
 xref: GO:0097450
 is_a: XAO:0004290 ! cell part
-relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: develops_from XAO:0005131 ! astrocyte
+relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0005131 ! astrocyte
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000038 ! NF stage 22
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16521,8 +16546,11 @@ name: oligodendrocyte
 def: "A class of large neuroglial (macroglial) cells in the central nervous system that form the insulating myelin sheath of axons." [CL:0000128]
 xref: CL:0000128
 is_a: XAO:0004308 ! glial cell
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: develops_from XAO:0005032 ! neural stem cell
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000010 ! brain
+relationship: part_of XAO:0000020 ! spinal cord
+relationship: start_stage XAO:1000038 ! NF stage 22
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16546,7 +16574,7 @@ xref: CL:0000164
 is_a: XAO:0003247 ! endocrine cell
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000042 ! NF stage 26
-created_by: segerdel
+created_by: eriksegerdell
 creation_date: 2016-12-06T18:00:00Z
 
 [Term]
@@ -16656,38 +16684,38 @@ id: XAO:0005148
 name: m. depressor mandibulae
 def: "A muscle acting to open the lower jaw, which runs from the caudal otic region downwards, passing over the stapes." [PMID:20953303]
 is_a: XAO:0004322 ! cranial muscle
-relationship: end_stage XAO:1000093 ! adult frog stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005149
 name: m. levator scapulae superior
-def: "A muscle passing between the otic capsule and the scapula. It originates on the otic capsule just caudal to the oval window." [PMID:20953303]
-is_a: XAO:0000172 ! muscle
-relationship: end_stage XAO:1000093 ! adult frog stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+def: "Superior aspect of the cranial muscle that passes between the otic capsule and the scapula. It originates on the otic capsule just caudal to the oval window." [PMID:20953303]
+is_a: XAO:0004322 ! cranial muscle
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005150
 name: m. levator scapulae inferior
-def: "A muscle passing between the otic capsule and the scapula. It originates on the otic capsule just caudal to the oval window." [PMID:20953303]
-is_a: XAO:0000172 ! muscle
-relationship: end_stage XAO:1000093 ! adult frog stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+def: "Inferior aspect of the cranial muscle that passes between the otic capsule and the scapula. It originates on the otic capsule just caudal to the oval window." [PMID:20953303]
+is_a: XAO:0004322 ! cranial muscle
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005151
 name: m. petrohyoideus
-def: "A long, strap-like muscle which originates mainly from the parotic crest, passes over the stapes and ultimately inserts on the ventral surface of the larynx." [PMID:20953303]
-is_a: XAO:0000172 ! muscle
-relationship: end_stage XAO:1000093 ! adult frog stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+def: "A long, strap-like muscle that originates mainly from the parotic crest, passes over the stapes and ultimately inserts on the ventral surface of the larynx." [PMID:20953303]
+is_a: XAO:0004322 ! cranial muscle
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16695,9 +16723,9 @@ creation_date: 2016-09-03T19:21:41Z
 id: XAO:0005152
 name: m. cucullaris
 def: "A muscle that originates on the otic capsule and adjacent tympanic annulus, and inserts on the pectoral girdle." [PMID:20953303]
-is_a: XAO:0000172 ! muscle
-relationship: end_stage XAO:1000093 ! adult frog stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+is_a: XAO:0004322 ! cranial muscle
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16768,7 +16796,7 @@ def: "A region of the embryo that is located broadly around the heart, but ventr
 is_a: XAO:0003186 ! anatomical region
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: start_stage XAO:1000044 ! NF stage 28
-created_by: segerdel
+created_by: eriksegerdell
 creation_date: 2016-11-16T18:07:16Z
 
 [Term]
@@ -16785,7 +16813,7 @@ relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
 relationship: start_stage XAO:1000051 ! NF stage 39
-created_by: segerdel
+created_by: eriksegerdell
 creation_date: 2016-11-16T18:07:16Z
 
 [Term]
@@ -16802,7 +16830,7 @@ relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
 relationship: start_stage XAO:1000051 ! NF stage 39
-created_by: segerdel
+created_by: eriksegerdell
 creation_date: 2016-11-16T18:07:16Z
 
 [Term]
@@ -16823,7 +16851,7 @@ relationship: part_of XAO:0000129 ! intestine
 relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
 relationship: start_stage XAO:1000051 ! NF stage 39
-created_by: segerdel
+created_by: eriksegerdell
 creation_date: 2016-11-16T18:07:16Z
 
 [Term]
@@ -16838,7 +16866,7 @@ relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
 relationship: start_stage XAO:1000051 ! NF stage 39
-created_by: segerdel
+created_by: eriksegerdell
 creation_date: 2016-11-16T18:07:16Z
 
 [Term]
@@ -16852,7 +16880,7 @@ relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
 relationship: start_stage XAO:1000051 ! NF stage 39
-created_by: segerdel
+created_by: eriksegerdell
 creation_date: 2016-11-16T18:07:16Z
 
 [Term]
