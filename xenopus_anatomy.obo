@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 08:12:2016 17:05
+date: 09:12:2016 17:11
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -1269,7 +1269,7 @@ def: "Anatomical system that has as its parts the organs involved in breathing i
 xref: UBERON:0001004
 is_a: XAO:0003002 ! anatomical system
 relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000046 ! NF stage 31
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0000118
@@ -1288,7 +1288,7 @@ def: "Either of two organs that allow gas exchange absorbing oxygen from inhaled
 xref: UBERON:0002048
 is_a: XAO:0003034 ! viscus
 is_a: XAO:0003165 ! cavitated compound organ
-relationship: develops_from XAO:0001002 ! lung primordium
+relationship: develops_from XAO:0005140 ! lung bud
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000117 ! respiratory system
 relationship: start_stage XAO:1000066 ! NF stage 54
@@ -2463,10 +2463,10 @@ relationship: start_stage XAO:1000036 ! NF stage 20
 id: XAO:0000233
 name: germ plasm
 def: "A zone found in the cytoplasm of the egg cells that contains determinants that will give rise to the germ cell lineage. As the zygote undergoes mitotic divisions the germ plasm is ultimately restricted to a few cells of the embryo. These germ cells then migrate to the gonads." [XAO:curators]
-is_a: XAO:0003042 ! embryonic structure
+is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000052 ! NF stage 40
 relationship: part_of XAO:0000280 ! vegetal hemisphere
-relationship: start_stage XAO:1000014 ! NF stage 4 (8-cell)
+relationship: start_stage XAO:1000083 ! oocyte stage I
 
 [Term]
 id: XAO:0000234
@@ -4607,10 +4607,10 @@ name: pyloric sphincter
 def: "Sphincter muscle that is part of the pyloric region of the stomach." [UBERON:0001202]
 xref: UBERON:0001202
 is_a: XAO:0003037 ! multi-tissue structure
-relationship: develops_from XAO:0000128 ! stomach
+relationship: develops_from XAO:0005130 ! distal stomach
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000125 ! alimentary system
-relationship: start_stage XAO:1000059 ! NF stage 47
+relationship: part_of XAO:0005158 ! pylorus
+relationship: start_stage XAO:1000052 ! NF stage 40
 
 [Term]
 id: XAO:0000458
@@ -4787,10 +4787,11 @@ synonym: "lateral diverticula" RELATED []
 synonym: "lung" BROAD []
 xref: UBERON:0005597
 is_a: XAO:0003037 ! multi-tissue structure
-relationship: develops_from XAO:0000232 ! foregut
-relationship: end_stage XAO:1000065 ! NF stage 53
+relationship: develops_from XAO:0000090 ! endoderm
+relationship: end_stage XAO:1000048 ! NF stage 33 and 34
 relationship: part_of XAO:0000117 ! respiratory system
-relationship: start_stage XAO:1000046 ! NF stage 31
+relationship: part_of XAO:0000232 ! foregut
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0001010
@@ -11489,6 +11490,7 @@ name: stapes
 def: "Bone of the ear that is connected to the tympanic membrane via the extrastapes. This structure is the amphibian ear ossicle, also known as the columella. It extends between extrastapes cartilage and the oval window. The extrastapes forms a cartilaginous tympanic disk." [ISBN:0520252780, XAO:curators]
 synonym: "columella" RELATED []
 is_a: XAO:0000214 ! auditory ossicle
+is_a: XAO:0004013 ! cartilage element
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000059 ! NF stage 47
 created_by: eriksegerdell
@@ -16417,8 +16419,10 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005117
 name: germinal granule
+def: "A characteristic, electrondense germ plasm organelle encapsulating the cytoplasmic face of the nuclear envelope of the cells destined to the germline fate." [http://en.wikipedia.org/wiki/Granule_(cell_biology)]
 is_a: XAO:0004290 ! cell part
-relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:1000052 ! NF stage 40
+relationship: part_of XAO:0000233 ! germ plasm
 relationship: start_stage XAO:1000083 ! oocyte stage I
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16444,9 +16448,12 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005120
 name: endoplasmic reticulum
+def: "The irregular network of unit membranes, visible only by electron microscopy, that occurs in the cytoplasm of many eukaryotic cells. The membranes form a complex meshwork of tubular channels, which are often expanded into slitlike cavities called cisternae. The ER takes two forms, rough (or granular), with ribosomes adhering to the outer surface, and smooth (with no ribosomes attached)." [GO:0005783]
+synonym: "ER" EXACT []
+xref: GO:0005783
 is_a: XAO:0004290 ! cell part
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000083 ! oocyte stage I
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16494,6 +16501,7 @@ is_a: XAO:0003045 ! epithelium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000119 ! lung
 relationship: part_of XAO:0001002 ! lung primordium
+relationship: part_of XAO:0005140 ! lung bud
 relationship: start_stage XAO:1000046 ! NF stage 31
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16547,18 +16555,24 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005129
 name: proximal stomach
-relationship: end_stage XAO:1000081 ! unspecified stage
+def: "The section of the stomach comprising the cardia, fundus, and stomach body." [XAO:EJS]
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0005127 ! anterior foregut
+relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000128 ! stomach
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000052 ! NF stage 40
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005130
 name: distal stomach
-relationship: end_stage XAO:1000081 ! unspecified stage
+def: "The section of the stomach comprising the antrum and pylorus." [XAO:EJS]
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0005128 ! posterior foregut
+relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000128 ! stomach
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000052 ! NF stage 40
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16642,9 +16656,11 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005137
 name: monociliated cell
-is_a: XAO:0003012 ! cell
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+def: "A ciliated cell that has a single cilium." [XAO:EJS]
+is_a: XAO:0005017 ! ciliated cell
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000094 ! archenteron roof
+relationship: start_stage XAO:1000020 ! NF stage 10
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16667,14 +16683,30 @@ created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
+id: XAO:0005140
+name: lung bud
+def: "A structure derived from the foregut that becomes a lung." [UBERON:0000118]
+xref: UBERON:0000118
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0001002 ! lung primordium
+relationship: end_stage XAO:1000065 ! NF stage 53
+relationship: part_of XAO:0000117 ! respiratory system
+relationship: part_of XAO:0000232 ! foregut
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+created_by: eriksegerdell
+creation_date: 2016-12-09T17:00:00Z
+
+[Term]
 id: XAO:0005141
 name: pars externa of the stapes
 def: "A cartilaginous extension of the stapes that expands into a cartilaginous tympanic disk." [PMID:20953303]
+synonym: "extracolumella" EXACT []
+synonym: "extrastapes" EXACT []
 synonym: "pars externa" BROAD []
 is_a: XAO:0004013 ! cartilage element
-relationship: end_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004310 ! stapes
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000059 ! NF stage 47
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16684,9 +16716,9 @@ name: pars media of the stapes
 def: "The bony part of the stapes which forms the shaft. It is shaped like a bent rod: its distal half is firmly embedded within the tympanic disk, extending from the disk center caudally and dorsally, turning inwards, until it reaches the oval window at a shallow angle." [PMID:20953303]
 synonym: "pars media" BROAD []
 is_a: XAO:0004276 ! bone element
-relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004310 ! stapes
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000059 ! NF stage 47
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16696,21 +16728,39 @@ name: pars interna of the stapes
 def: "A cartilaginous component of the stapes that is firmly attached to the proximal end of the pars media. It lies within the oval window and forms the stapes footplate." [PMID:20953303]
 synonym: "pars interna" BROAD []
 is_a: XAO:0004013 ! cartilage element
-relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004310 ! stapes
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000059 ! NF stage 47
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005144
-name: footplate
+name: footplate of the stapes
 def: "That part of the stapes lying within the oval window, formed from the stapes pars interna." [PMID:20953303]
+synonym: "footplate" BROAD []
 is_a: XAO:0004013 ! cartilage element
-relationship: end_stage XAO:1000093 ! adult frog stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0004310 ! stapes
+relationship: start_stage XAO:1000059 ! NF stage 47
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005145
+name: fundus
+def: "The section of the stomach which lies between the cardia and the stomach body, and contains the fundic glands." [http://en.wikipedia.org/wiki/Stomach, UBERON:0001160]
+synonym: "fundic stomach" EXACT []
+synonym: "fundus of stomach" EXACT []
+synonym: "gastric fundus" EXACT []
+xref: UBERON:0001160
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0005129 ! proximal stomach
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005129 ! proximal stomach
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2016-12-09T17:00:00Z
 
 [Term]
 id: XAO:0005146
@@ -16807,38 +16857,105 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005155
 name: archenteron roof midline
-is_a: XAO:0003186 ! anatomical region
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+def: "Anatomical line that divides the archenteron roof into right and left halves." [XAO:EJS]
+is_a: XAO:0004003 ! anatomical line
+relationship: end_stage XAO:1000050 ! NF stage 37 and 38
+relationship: part_of XAO:0000094 ! archenteron roof
+relationship: start_stage XAO:1000020 ! NF stage 10
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005156
+name: stomach body
+def: "The section of the stomach which lies between the fundus and the pyloric antrum." [UBERON:0001161]
+synonym: "body of stomach" EXACT []
+synonym: "gastric body" EXACT []
+xref: UBERON:0001161
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0005129 ! proximal stomach
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005129 ! proximal stomach
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2016-12-09T17:00:00Z
+
+[Term]
+id: XAO:0005157
+name: antrum
+def: "The section of the stomach which lies between the stomach body and pylorus, and that contains gastrin-producing G cells, which stimulate acid production, and the luminal pH-sensitive population of somatostatin-producing D cells." [UBERON:0001165]
+synonym: "antrum of stomach" EXACT []
+synonym: "pyloric antrum" EXACT []
+xref: UBERON:0001165
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0005130 ! distal stomach
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005130 ! distal stomach
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2016-12-09T17:00:00Z
+
+[Term]
+id: XAO:0005158
+name: pylorus
+def: "The stomach tissue region which surrounds and controls the distal outlet of the stomach, which opens into the duodenum, and contains the pyloric glands." [ISBN:9781461348764, UBERON:0001166]
+synonym: "pyloric stomach" EXACT []
+xref: UBERON:0001166
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0005130 ! distal stomach
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005130 ! distal stomach
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2016-12-09T17:00:00Z
+
+[Term]
+id: XAO:0005159
+name: cardia
+def: "The section of the stomach which is attached to the esophagus and contains the cardiac glands." [ISBN:9781461348764, UBERON:0001162]
+synonym: "cardia of stomach" EXACT []
+synonym: "cardiac stomach" EXACT []
+synonym: "gastric cardia" EXACT []
+xref: UBERON:0001162
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0005129 ! proximal stomach
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005129 ! proximal stomach
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2016-12-09T17:00:00Z
 
 [Term]
 id: XAO:0005160
 name: prepollex
 def: "A tiny skeletal element adjacent to the anterior-most digit in the autopod in the developing forelimb, possibly representing a vestigal digit." [XAO:curators]
 is_a: XAO:0004013 ! cartilage element
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0004299 ! hand
+relationship: start_stage XAO:1000068 ! NF stage 56
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005161
 name: prehallux
-def: "A tiny skeletal element adjacent to the anterior-most digit in the autopod in the developing hindlimb (i.e., hindlimb digit V), possibly representing a vestigal 6th digit in Xenopus." [XAO:curators]
-is_a: XAO:0003000 ! anatomical structure
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+def: "A tiny skeletal element adjacent to the anterior-most digit in the autopod in the developing hindlimb (i.e., hindlimb digit 5), possibly representing a vestigal 6th digit in Xenopus." [XAO:curators]
+is_a: XAO:0004013 ! cartilage element
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0004300 ! foot
+relationship: start_stage XAO:1000067 ! NF stage 55
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005162
 name: mandibular arch skeleton
+def: "Skeletal subdivision comprising the skeletal elements of the mandibular arch." [XAO:EJS]
+xref: UBERON:0001708
 is_a: XAO:0004289 ! skeletal subdivision
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003176 ! splanchnocranium
+relationship: start_stage XAO:1000040 ! NF stage 24
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
