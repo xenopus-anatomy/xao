@@ -1,7 +1,7 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 09:12:2016 17:11
-saved-by: eriksegerdell
+date: 13:12:2016 18:44
+saved-by: eriksegerdel
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -2025,13 +2025,15 @@ relationship: start_stage XAO:1000059 ! NF stage 47
 
 [Term]
 id: XAO:0000190
-name: external ear
+name: tympanic disk
 alt_id: XAO:0000212
-def: "The thin membrane or integument, which is stretched over a cartilaginous annulus in a drum-like manner, and forms the outer ear, receiving airborne vibrations and functions in hearing." [ISBN:0070179778]
+def: "A flattened, roughly circular cartilage derived from the extrastapes. This thin membrane or integument is stretched over the cartilaginous tympanic annulus in a drum-like manner, and forms the outer ear, receiving airborne vibrations and functioning in hearing." [ISBN:0070179778, PMID:20953303]
+synonym: "external ear" RELATED []
+synonym: "tympanic disc" EXACT []
 synonym: "tympanic membrane" RELATED []
 synonym: "tympanum" RELATED []
 xref: UBERON:0001691
-is_a: XAO:0003028 ! surface structure
+is_a: XAO:0004013 ! cartilage element
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000189 ! auditory apparatus
 relationship: start_stage XAO:1000059 ! NF stage 47
@@ -16013,6 +16015,7 @@ creation_date: 2015-05-24T13:44:37Z
 [Term]
 id: XAO:0005084
 name: blastomere D1
+def: "Blastomere which lies adjacent to the prospective dorsal midline of the animal hemisphere at the eight-cell stage." [PMID:3596014]
 synonym: "D1" RELATED []
 is_a: XAO:0003016 ! blastomere
 relationship: develops_from XAO:0003016 ! blastomere
@@ -16024,6 +16027,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005085
 name: blastomere D2
+def: "Blastomere which lies adjacent to the prospective dorsal midline of the vegetal hemisphere at the eight-cell stage." [PMID:3596014]
 synonym: "D2" RELATED []
 is_a: XAO:0003016 ! blastomere
 relationship: develops_from XAO:0003016 ! blastomere
@@ -16035,6 +16039,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005086
 name: blastomere V1
+def: "Blastomere which lies adjacent to the prospective ventral midline of the animal hemisphere at the eight-cell stage." [PMID:3596014]
 synonym: "V1" RELATED []
 is_a: XAO:0003016 ! blastomere
 relationship: develops_from XAO:0003016 ! blastomere
@@ -16046,6 +16051,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005087
 name: blastomere V2
+def: "Blastomere which lies adjacent to the prospective ventral midline of the vegetal hemisphere at the eight-cell stage." [PMID:3596014]
 synonym: "V2" RELATED []
 is_a: XAO:0003016 ! blastomere
 relationship: develops_from XAO:0003016 ! blastomere
@@ -16057,7 +16063,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005088
 name: blastomere D1.1
-def: "Blastomere which lies adjacent to the prospective dorsal midline of the animal hemisphere." [PMID:3596014]
+def: "Blastomere which lies adjacent to the prospective dorsal midline of the animal hemisphere at the 16-cell stage." [PMID:3596014]
 synonym: "D1.1" RELATED []
 is_a: XAO:0005113 ! dorsal animal hemisphere blastomere
 relationship: develops_from XAO:0005084 ! blastomere D1
@@ -16069,7 +16075,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005089
 name: blastomere D1.2
-def: "Blastomere which lies in the animal hemisphere lateral to blastomere D1.1." [PMID:3596014]
+def: "Blastomere which lies in the animal hemisphere lateral to blastomere D1.1 at the 16-cell stage." [PMID:3596014]
 synonym: "D1.2" RELATED []
 is_a: XAO:0005113 ! dorsal animal hemisphere blastomere
 relationship: develops_from XAO:0005084 ! blastomere D1
@@ -16081,7 +16087,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005090
 name: blastomere D2.1
-def: "Blastomere which lies adjacent to the prospective dorsal midline of the vegetal hemisphere." [PMID:3596014]
+def: "Blastomere which lies adjacent to the prospective dorsal midline of the vegetal hemisphere at the 16-cell stage." [PMID:3596014]
 synonym: "D2.1" RELATED []
 is_a: XAO:0005112 ! dorsal vegetal hemisphere blastomere
 relationship: develops_from XAO:0005085 ! blastomere D2
@@ -16093,7 +16099,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005091
 name: blastomere D2.2
-def: "Blastomere which lies in the vegetal hemisphere lateral to blastomere D2.1." [PMID:3596014]
+def: "Blastomere which lies in the vegetal hemisphere lateral to blastomere D2.1 at the 16-cell stage." [PMID:3596014]
 synonym: "D2.2" RELATED []
 is_a: XAO:0005112 ! dorsal vegetal hemisphere blastomere
 relationship: develops_from XAO:0005085 ! blastomere D2
@@ -16105,7 +16111,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005092
 name: blastomere V1.1
-def: "Blastomere which lies adjacent to the prospective ventral midline of the animal hemisphere." [PMID:3596014]
+def: "Blastomere which lies adjacent to the prospective ventral midline of the animal hemisphere at the 16-cell stage." [PMID:3596014]
 synonym: "V1.1" RELATED []
 is_a: XAO:0005115 ! ventral animal hemisphere blastomere
 relationship: develops_from XAO:0005086 ! blastomere V1
@@ -16117,7 +16123,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005093
 name: blastomere V1.2
-def: "Blastomere which lies in the animal hemisphere lateral to V1.1." [PMID:3596014]
+def: "Blastomere which lies in the animal hemisphere lateral to V1.1 at the 16-cell stage." [PMID:3596014]
 synonym: "V1.2" RELATED []
 is_a: XAO:0005115 ! ventral animal hemisphere blastomere
 relationship: develops_from XAO:0005086 ! blastomere V1
@@ -16129,7 +16135,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005094
 name: blastomere V2.1
-def: "Blastomere which lies adjacent to the prospective ventral midline of the vegetal hemisphere." [PMID:3596014]
+def: "Blastomere which lies adjacent to the prospective ventral midline of the vegetal hemisphere at the 16-cell stage." [PMID:3596014]
 synonym: "V2.1" RELATED []
 is_a: XAO:0005114 ! ventral vegetal hemisphere blastomere
 relationship: develops_from XAO:0005087 ! blastomere V2
@@ -16141,7 +16147,7 @@ creation_date: 2016-08-16T20:28:11Z
 [Term]
 id: XAO:0005095
 name: blastomere V2.2
-def: "Blastomere which lies in the vegetal hemisphere lateral to V2.1." [PMID:3596014]
+def: "Blastomere which lies in the vegetal hemisphere lateral to V2.1 at the 16-cell stage." [PMID:3596014]
 synonym: "V2.2" RELATED []
 is_a: XAO:0005114 ! ventral vegetal hemisphere blastomere
 relationship: develops_from XAO:0005087 ! blastomere V2
@@ -16430,18 +16436,22 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005118
 name: ooplasm
+def: "The cytoplasm of the oocyte." [http://medical-dictionary.thefreedictionary.com/ooplasm]
 is_a: XAO:0004290 ! cell part
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:1000092 ! mature egg stage
+relationship: part_of XAO:0000256 ! oocyte
+relationship: start_stage XAO:1000083 ! oocyte stage I
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005119
 name: oocyte cortex
+def: "Cell component comprising the outer layers of the oocyte." [XAO:EJS]
 is_a: XAO:0004290 ! cell part
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:1000092 ! mature egg stage
+relationship: part_of XAO:0000256 ! oocyte
+relationship: start_stage XAO:1000083 ! oocyte stage I
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16482,9 +16492,11 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005123
 name: vegetal cortex
+def: "Cell component comprising the outer layers of the vegetal region of the oocyte." [XAO:EJS]
 is_a: XAO:0004290 ! cell part
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:1000092 ! mature egg stage
+relationship: part_of XAO:0005119 ! oocyte cortex
+relationship: start_stage XAO:1000083 ! oocyte stage I
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16647,9 +16659,12 @@ creation_date: 2016-12-06T18:00:00Z
 [Term]
 id: XAO:0005136
 name: dorsal involuting marginal zone
-is_a: XAO:0003186 ! anatomical region
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+def: "Tissue which during gastrulation involutes into the interior of the embryo, where its deep mesenchymal cells form the notochordal and somitic mesoderm and its superficial epithelial cells form the endodermal roof of the archenteron." [PMID:7588048]
+synonym: "DIMZ" EXACT []
+synonym: "dorsal IMZ" EXACT []
+is_a: XAO:0000068 ! marginal zone
+relationship: end_stage XAO:1000022 ! NF stage 12
+relationship: start_stage XAO:1000020 ! NF stage 10
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16666,9 +16681,12 @@ creation_date: 2016-09-03T19:21:41Z
 
 [Term]
 id: XAO:0005138
-name: sub-cortical cytoplasm
+name: subcortical cytoplasm
+def: "The cytoplasm beneath the outer layers of the oocyte." [XAO:EJS]
+synonym: "sub-cortical cytoplasm" EXACT []
 is_a: XAO:0004290 ! cell part
-relationship: end_stage XAO:1000088 ! oocyte stage VI
+relationship: end_stage XAO:1000092 ! mature egg stage
+relationship: part_of XAO:0000256 ! oocyte
 relationship: start_stage XAO:1000083 ! oocyte stage I
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16765,10 +16783,12 @@ creation_date: 2016-12-09T17:00:00Z
 [Term]
 id: XAO:0005146
 name: oval window
-def: "An entrance to the inner ear in the lateral wall of the otic capsule, which contains the footplate of the stapes." [PMID:20953303]
-is_a: XAO:0003000 ! anatomical structure
-relationship: end_stage XAO:1000093 ! adult frog stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+def: "Entrance to the inner ear in the lateral wall of the otic capsule, which contains the footplate of the stapes." [PMID:20953303]
+xref: UBERON:0002501
+is_a: XAO:0003190 ! anatomical space
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000192 ! inner ear
+relationship: start_stage XAO:1000059 ! NF stage 47
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16777,8 +16797,9 @@ id: XAO:0005147
 name: parotic crest
 def: "Cartilaginous extension of the prootic bone which overlies the middle ear region." [PMID:20953303]
 is_a: XAO:0004013 ! cartilage element
-relationship: end_stage XAO:1000093 ! adult frog stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003059 ! chondrocranium
+relationship: start_stage XAO:1000059 ! NF stage 47
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16837,20 +16858,9 @@ id: XAO:0005153
 name: tympanic annulus
 def: "The oval shaped cartilaginous ring that supports the cartilaginous tympanic disk." [PMID:20953303]
 is_a: XAO:0004013 ! cartilage element
-relationship: end_stage XAO:1000093 ! adult frog stage
+relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000192 ! inner ear
-relationship: start_stage XAO:1000081 ! unspecified stage
-created_by: eriksegerdell
-creation_date: 2016-09-03T19:21:41Z
-
-[Term]
-id: XAO:0005154
-name: tympanic disk
-def: "A flattened, roughly circular cartilage derived from the extrastapes, which takes the place of a tympanic membrane in Xenopus. This thin membrane or integument is stretched over a cartilaginous tympanic annulus in a drum-like manner, and forms the outer ear, receiving airborne vibrations and functioning in hearing." [PMID:20953303]
-is_a: XAO:0004013 ! cartilage element
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: part_of XAO:0000192 ! inner ear
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: start_stage XAO:1000059 ! NF stage 47
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
