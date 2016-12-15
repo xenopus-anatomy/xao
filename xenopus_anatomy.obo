@@ -1,7 +1,7 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 13:12:2016 18:44
-saved-by: eriksegerdel
+date: 14:12:2016 19:31
+saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -2227,8 +2227,8 @@ synonym: "dorsal root ganglion" RELATED []
 synonym: "spinal ganglia" RELATED PLURAL []
 xref: UBERON:0000044
 is_a: XAO:0000209 ! ganglion
-is_a: XAO:1000045 ! NF stage 29 and 30
 relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 
 [Term]
 id: XAO:0000211
@@ -5152,7 +5152,6 @@ def: "An undifferentiated cell produced by early cleavages of the fertilized egg
 synonym: "blastoderm cell" EXACT []
 xref: CL:0000353
 is_a: XAO:0003241 ! early embryonic cell
-relationship: develops_from XAO:0000035 ! zygote
 relationship: end_stage XAO:1000017 ! NF stage 7
 relationship: part_of XAO:0000113 ! embryo
 relationship: start_stage XAO:1000011 ! NF stage 2 (2-cell)
@@ -16640,8 +16639,8 @@ def: "The smallest glial cell type in the central nervous system, cells of this 
 synonym: "microglia" EXACT []
 xref: CL:0000129
 is_a: XAO:0004308 ! glial cell
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000038 ! NF stage 22
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -16694,9 +16693,10 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005139
 name: multiciliated cell
-is_a: XAO:0000031 ! ciliated epidermal cell
-relationship: end_stage XAO:1000081 ! unspecified stage
-relationship: start_stage XAO:1000081 ! unspecified stage
+def: "A ciliated cell that has a more than one cilium." [XAO:EJS]
+is_a: XAO:0005017 ! ciliated cell
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000020 ! NF stage 10
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
