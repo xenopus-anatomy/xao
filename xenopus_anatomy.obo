@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 14:12:2016 19:31
+date: 19:12:2016 21:07
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -2361,7 +2361,7 @@ is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0000320 ! sensorial layer
 relationship: end_stage XAO:1000042 ! NF stage 26
 relationship: part_of XAO:0003195 ! vestibuloauditory system
-relationship: start_stage XAO:1000036 ! NF stage 20
+relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0000224
@@ -4784,7 +4784,7 @@ relationship: start_stage XAO:1000023 ! NF stage 13
 [Term]
 id: XAO:0001002
 name: lung primordium
-def: "A pair of lateral diverticula just over the liver rudiment representing the primordia of the lungs, formed by the floor of the foregut just anterior to the liver diverticulum." [ISBN:0815318960]
+def: "Anterior endoderm that develops into the lung buds, and in turn, the lungs. A pair of lateral diverticula just over the liver rudiment is formed by the floor of the foregut just anterior to the liver diverticulum." [ISBN:0815318960, XAO:curators]
 synonym: "lateral diverticula" RELATED []
 synonym: "lung" BROAD []
 xref: UBERON:0005597
@@ -16693,7 +16693,7 @@ creation_date: 2016-09-03T19:21:41Z
 [Term]
 id: XAO:0005139
 name: multiciliated cell
-def: "A ciliated cell that has a more than one cilium." [XAO:EJS]
+def: "A ciliated cell that has more than one cilium." [XAO:EJS]
 is_a: XAO:0005017 ! ciliated cell
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000020 ! NF stage 10
