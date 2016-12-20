@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 19:12:2016 21:07
+date: 19:12:2016 21:12
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -17152,6 +17152,7 @@ id: XAO:1000009
 name: frog
 namespace: xenopus_developmental_stage
 is_obsolete: true
+replaced_by: XAO:1000093
 
 [Term]
 id: XAO:1000010
