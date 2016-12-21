@@ -1320,7 +1320,7 @@ relationship: start_stage XAO:1000062 ! NF stage 50
 id: XAO:0000122
 name: hematological system
 def: "Anatomical system that consists of the blood and blood forming tissues." [http://dictionary.reference.com/medical/hematologic]
-synonym: "<new synonym>haematopoietic system" EXACT []
+synonym: "haematopoietic system" EXACT []
 synonym: "haematological system" EXACT []
 synonym: "hematopoietic system" RELATED []
 xref: UBERON:0002390
@@ -16407,6 +16407,7 @@ relationship: start_stage XAO:1000015 ! NF stage 5 (16-cell)
 created_by: eriksegerdell
 creation_date: 2016-08-16T20:28:11Z
 
+[Term]
 id: XAO:0005116
 name: melanotrope
 def: "A cell in the pituitary gland (hypophysis) that generates melanocyte-stimulating hormone from its precursor polypeptide, pro-opiomelanocortin (POMC)." [http:en.wikipedia.org/wiki/Melanotroph]
