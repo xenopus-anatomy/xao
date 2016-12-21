@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2015-05-27
-date: 19:12:2016 21:12
+date: 20:12:2016 21:40
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -1320,8 +1320,8 @@ relationship: start_stage XAO:1000062 ! NF stage 50
 id: XAO:0000122
 name: hematological system
 def: "Anatomical system that consists of the blood and blood forming tissues." [http://dictionary.reference.com/medical/hematologic]
-synonym: "haematopoietic system" EXACT []
 synonym: "haematological system" EXACT []
+synonym: "haematopoietic system" EXACT []
 synonym: "hematopoietic system" RELATED []
 xref: UBERON:0002390
 is_a: XAO:0003002 ! anatomical system
@@ -17982,3 +17982,4 @@ is_transitive: true
 id: start_stage
 name: starts during
 def: "Anatomical structure/expression begins being viable, obvious or of utility during this developmental stage." [XAO:curators]
+
