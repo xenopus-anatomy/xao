@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2015-05-27
-date: 20:12:2016 21:40
+data-version: 2017-01-13
+date: 13:01:2017 15:39
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -11,7 +11,7 @@ synonymtypedef: PLURAL "PLURAL"
 default-namespace: xenopus_anatomy
 namespace-id-rule: * XAO:$sequence(7,5000,9999999)$
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
-remark: Version: 4.0
+remark: Version: 5.0
 remark: Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.
 remark: Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Vize PD, Zorn AM; J Biomed Semantics 2013 4(1):31; PMID:24139024.
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:8353
