@@ -1,0 +1,74 @@
+format-version: 1.2
+subsetdef: anatomical_site_slim "Anatomical Site slim"
+subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
+subsetdef: organism_views "Organism View slim"
+subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
+synonymtypedef: PLURAL "PLURAL"
+ontology: xao/subsets/sectional_anatomy_items
+
+[Term]
+id: XAO:0003004
+name: whole organism
+namespace: xenopus_anatomy
+def: "Anatomical structure that is an individual member of Xenopus laevis." [CARO:0000012]
+subset: organism_views
+subset: sectional_anatomy_items
+synonym: "ubiquitous" BROAD []
+xref: CARO:0000012
+xref: UBERON:0000468
+
+[Term]
+id: XAO:0003056
+name: anterior
+namespace: xenopus_anatomy
+def: "Spatial concept denoting the front surface of the body; often used to indicate the position of one structure relative to another." [NCIt:Anterior]
+subset: anatomical_site_slim
+subset: sectional_anatomy_items
+
+[Term]
+id: XAO:0003057
+name: posterior
+namespace: xenopus_anatomy
+def: "Spatial concept denoting the back surface of the body." [NCIt:Posterior]
+subset: anatomical_site_slim
+subset: sectional_anatomy_items
+
+[Typedef]
+id: develops_from
+name: develops from
+namespace: xenopus_anatomy
+xref: RO:0002202
+is_transitive: true
+
+[Typedef]
+id: develops_into
+name: develops into
+namespace: xenopus_anatomy
+xref: RO:0002203
+is_transitive: true
+
+[Typedef]
+id: end_stage
+name: ends during
+namespace: xenopus_anatomy
+def: "Anatomical structure/expression stops being viable, obvious or of utility during this developmental stage." [XAO:curators]
+
+[Typedef]
+id: part_of
+name: part of
+namespace: xenopus_anatomy
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: preceded_by
+name: preceded by
+namespace: xenopus_anatomy
+is_transitive: true
+
+[Typedef]
+id: start_stage
+name: starts during
+namespace: xenopus_anatomy
+def: "Anatomical structure/expression begins being viable, obvious or of utility during this developmental stage." [XAO:curators]
+

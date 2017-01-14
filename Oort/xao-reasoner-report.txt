@@ -1,0 +1,5 @@
+POTENTIAL_REDUNDANT	XAO:0004092 'preplacodal ectoderm' develops_from 'develops from' XAO:0004091 'non-neural ectoderm' is also a simple SubClassOf.
+POTENTIAL_REDUNDANT	XAO:0005084 'blastomere D1' develops_from 'develops from' XAO:0003016 'blastomere' is also a simple SubClassOf.
+POTENTIAL_REDUNDANT	XAO:0005085 'blastomere D2' develops_from 'develops from' XAO:0003016 'blastomere' is also a simple SubClassOf.
+POTENTIAL_REDUNDANT	XAO:0005086 'blastomere V1' develops_from 'develops from' XAO:0003016 'blastomere' is also a simple SubClassOf.
+POTENTIAL_REDUNDANT	XAO:0005087 'blastomere V2' develops_from 'develops from' XAO:0003016 'blastomere' is also a simple SubClassOf.
