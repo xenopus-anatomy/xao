@@ -4,7 +4,7 @@ The Xenopus Anatomy Ontology (XAO) is a structured, controlled vocabulary of the
 
 The ontology is used to annotate and query gene expression data in [Xenbase](http://www.xenbase.org/), the *Xenopus* model organism database, and is designed to facilitate cross-taxa comparisons.
 
-The XAO is at release [v4.0](https://github.com/xenopus-anatomy/xao/releases/tag/v4.0).
+The XAO is at release [v5.0](https://github.com/xenopus-anatomy/xao/releases/tag/v5.0).
 
 ##Publications
 
