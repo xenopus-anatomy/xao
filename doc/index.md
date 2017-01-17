@@ -70,4 +70,4 @@ Push the updates to the server.
 
 Put copies of the `xenopus_anatomy` OBO and OWL files on [Xenbase FTP](http://www.xenbase.org/other/static/ftpDatafiles.jsp).
 
-A variety of external sites should then pick up the release automatically. A couple of days afterwards, check the sites listed on the [README](https://github.com/xenopus-anatomy/xao/blob/master/README.md#browsesearchmetadata) page. The XAO entry at [NCBO BioPortal](http://bioportal.bioontology.org/ontologies/XAO) must be manually updated by Xenbase staff. If any ontology metadata on [OBO Foundry](http://www.obofoundry.org/ontology/xao.html) needs to be updated, submit an [issue request](https://github.com/OBOFoundry/OBOFoundry.github.io/issues).
+A variety of external sites should then pick up the release automatically. A couple of days afterwards, check the sites listed on the [README](https://github.com/xenopus-anatomy/xao/blob/master/README.md#browsesearchmetadata) page. If any ontology metadata on [OBO Foundry](http://www.obofoundry.org/ontology/xao.html) needs to be updated, submit an [issue request](https://github.com/OBOFoundry/OBOFoundry.github.io/issues).
