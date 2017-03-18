@@ -1,12 +1,12 @@
-##Utilities
+## Utilities
 
-###Checkup
+### Checkup
 
 The `checkup.py` script loads the OBO-formatted ontology in the root directory, detects missing is_a parents, definitions, and start/end stages, and flags any inconsistencies in the stage ranges of related terms. Navigate to the `utilities` directory and execute the following:
 
     $ ./checkup.py
 
-###Create new terms
+### Create new terms
 
 The `templates` directory contains an Excel spreadsheet for creating new anatomy terms, which can then be processed and output as OBO-formatted text.
 
@@ -35,7 +35,7 @@ Save a copy of your completed spreadsheet as a tab-delimited file in the `templa
 
 Copy the output, paste it at the end of the ontology OBO file in a plain-text editor, and save. You can reopen the file in OBO-Edit and save it again to ensure that the new terms were properly constructed.
 
-###Dictionary
+### Dictionary
 
 The `parseont` module constructs a Python dictionary of all anatomy and stage terms in the ontology OBO file in the root directory. You can load it via the command line after navigating to the `utilities` directory:
 

@@ -1,6 +1,6 @@
-##Development
+## Development
 
-###Editing tools
+### Editing tools
 
 The Xenopus Anatomy Ontology is avialable in Open Biomedical Ontologies (OBO) and Web Ontology Language (OWL) file formats and may be edited in either [OBO-Edit](http://oboedit.org/) or [Protégé](http://protege.stanford.edu/), respectively. Although it is acceptable to use either program exclusively, OBO-Edit is often a convenient choice for adding new terms, definitions, and definition cross-references, while Protégé makes it easy to subsequently add relationships (OWL `SubClasses Of`).
 
@@ -21,17 +21,17 @@ After creating each new class, add the following annotations:
 
 The ID number is based on the newly generated URI. Hover over the new class in the class hierarchy and look at the tooltip. If, for example, the URI ends with *XAO_0005084*, then the annotation value is *XAO:0005084*.
 
-###Scripts
+### Scripts
 
 Command-line Python tools for performing some quality control checks and automating term creation are described on the [utilities](https://github.com/xenopus-anatomy/xao/blob/master/doc/utilities.md) page.
 
-###Workflow
+### Workflow
 
 Ontology updates should be made in one or more [Git](https://git-scm.com/) branches. The branch name is lowercase underscore, e.g. `brain_structures`. A long-lived or jointly developed branch should be pushed to the server.
 
 Whichever your editing tool preference, you can keep the `xenopus_anatomy` OBO and OWL files in sync within the current branch with the [oboformat-tools](https://github.com/oboformat/oboformat-tools) package. It is a good idea to back up your files before running the converter so you don't inadvertently overwrite your work.
 
-##Making a release
+## Making a release
 
 When it is time to make a new XAO release, merge any changes that should be included in the release with the `master` branch. Sync the OBO and OWL versions of the ontology if necessary and commit the changes.
 
