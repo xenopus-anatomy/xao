@@ -1,7 +1,7 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 13:01:2017 15:39
-saved-by: eriksegerdell
+date: 20:03:2017 17:37
+saved-by: segerdel
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -10,14 +10,14 @@ subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: xenopus_anatomy
 namespace-id-rule: * XAO:$sequence(7,5000,9999999)$
-treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:8353
-treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:8353
-treat-xrefs-as-genus-differentia: GO part_of NCBITaxon:8353
-treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:8353
 remark: Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.
 remark: Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Vize PD, Zorn AM; J Biomed Semantics 2013 4(1):31; PMID:24139024.
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
 remark: Version: 5.0
+treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:8353
+treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:8353
+treat-xrefs-as-genus-differentia: GO part_of NCBITaxon:8353
+treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:8353
 ontology: xao
 
 [Term]
@@ -16864,6 +16864,21 @@ relationship: part_of XAO:0000192 ! inner ear
 relationship: start_stage XAO:1000059 ! NF stage 47
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
+
+[Term]
+id: XAO:0005154
+name: plasma membrane
+def: "The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins." [GO:0005886]
+synonym: "cell membrane" EXACT []
+synonym: "cellular membrane" EXACT []
+synonym: "cytoplasmic membrane" EXACT []
+synonym: "plasmalemma" EXACT []
+xref: GO:0005886
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000083 ! oocyte stage I
+created_by: segerdel
+creation_date: 2017-03-20T17:24:29Z
 
 [Term]
 id: XAO:0005155
