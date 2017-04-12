@@ -1,7 +1,7 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 30:03:2017 17:33
-saved-by: segerdel
+date: 11:04:2017 16:52
+saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -4714,6 +4714,7 @@ xref: UBERON:0003097
 is_a: XAO:0000002 ! fin
 relationship: develops_from XAO:0000319 ! trunk neural crest
 relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0004062 ! tail fin
 relationship: start_stage XAO:1000043 ! NF stage 27
 
 [Term]
@@ -8543,8 +8544,8 @@ creation_date: 2011-08-24T10:42:35Z
 [Term]
 id: XAO:0004061
 name: dorsal fin margin
-def: "The edge, and the area immediately adjacent to it, of the dorsal fin." [XAO:EJS]
-is_a: XAO:0003040 ! tissue
+def: "Fin margin which is part of the dorsal fin." [XAO:EJS]
+is_a: XAO:0005171 ! fin margin
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0000469 ! dorsal tail fin
 relationship: part_of XAO:0004063 ! dorsal fin
@@ -8580,6 +8581,7 @@ name: ventral tail fin
 def: "The ventral part of the tail fin." [XAO:EJS]
 is_a: XAO:0000002 ! fin
 relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0004062 ! tail fin
 relationship: start_stage XAO:1000043 ! NF stage 27
 created_by: xenbase3
 creation_date: 2011-08-24T11:06:36Z
@@ -8587,8 +8589,8 @@ creation_date: 2011-08-24T11:06:36Z
 [Term]
 id: XAO:0004065
 name: ventral fin margin
-def: "The edge, and the area immediately adjacent to it, of the ventral fin." [XAO:EJS]
-is_a: XAO:0003040 ! tissue
+def: "Fin margin which is part of the ventral fin." [XAO:EJS]
+is_a: XAO:0005171 ! fin margin
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0004064 ! ventral tail fin
 relationship: start_stage XAO:1000043 ! NF stage 27
@@ -16877,7 +16879,7 @@ xref: GO:0005886
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000083 ! oocyte stage I
-created_by: segerdel
+created_by: eriksegerdell
 creation_date: 2017-03-20T17:24:29Z
 
 [Term]
@@ -17089,7 +17091,7 @@ relationship: develops_from XAO:0000076 ! involuting marginal zone epithelial la
 relationship: end_stage XAO:1000026 ! NF stage 16
 relationship: part_of XAO:0000094 ! archenteron roof
 relationship: start_stage XAO:1000033 ! NF stage 12.5
-created_by: segerdel
+created_by: eriksegerdell
 creation_date: 2017-03-30T16:43:56Z
 
 [Term]
@@ -17103,8 +17105,20 @@ relationship: develops_from XAO:0005169 ! left-right organizer primordium
 relationship: end_stage XAO:1000050 ! NF stage 37 and 38
 relationship: part_of XAO:0000094 ! archenteron roof
 relationship: start_stage XAO:1000027 ! NF stage 17
-created_by: segerdel
+created_by: eriksegerdell
 creation_date: 2017-03-30T16:45:24Z
+
+[Term]
+id: XAO:0005171
+name: fin margin
+def: "The outermost extent of a fin, comprising a region of high cell replication during anterior-posterior axis extension throughout the tadpole stages." [XAO:curators]
+is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000028 ! epidermis
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0000002 ! fin
+relationship: start_stage XAO:1000042 ! NF stage 26
+created_by: eriksegerdell
+creation_date: 2017-04-11T16:34:29Z
 
 [Term]
 id: XAO:1000000
