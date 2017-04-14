@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 11:04:2017 16:52
+date: 13:04:2017 17:13
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -2135,7 +2135,7 @@ is_a: XAO:0003016 ! blastomere
 relationship: develops_from XAO:0000202 ! animal hemisphere
 relationship: end_stage XAO:1000017 ! NF stage 7
 relationship: part_of XAO:0000202 ! animal hemisphere
-relationship: start_stage XAO:1000011 ! NF stage 2 (2-cell)
+relationship: start_stage XAO:1000014 ! NF stage 4 (8-cell)
 
 [Term]
 id: XAO:0000201
@@ -2967,7 +2967,7 @@ is_a: XAO:0003016 ! blastomere
 relationship: develops_from XAO:0000280 ! vegetal hemisphere
 relationship: end_stage XAO:1000017 ! NF stage 7
 relationship: part_of XAO:0000280 ! vegetal hemisphere
-relationship: start_stage XAO:1000011 ! NF stage 2 (2-cell)
+relationship: start_stage XAO:1000014 ! NF stage 4 (8-cell)
 
 [Term]
 id: XAO:0000280
@@ -17119,6 +17119,74 @@ relationship: part_of XAO:0000002 ! fin
 relationship: start_stage XAO:1000042 ! NF stage 26
 created_by: eriksegerdell
 creation_date: 2017-04-11T16:34:29Z
+
+[Term]
+id: XAO:0005172
+name: left blastomere
+def: "The blastomere of the future left side of the embryo at the 2-cell stage." [XAO:EJS]
+is_a: XAO:0003016 ! blastomere
+relationship: end_stage XAO:1000011 ! NF stage 2 (2-cell)
+relationship: start_stage XAO:1000011 ! NF stage 2 (2-cell)
+created_by: eriksegerdell
+creation_date: 2017-04-13T17:00:00Z
+
+[Term]
+id: XAO:0005173
+name: right blastomere
+def: "The blastomere of the future right side of the embryo at the 2-cell stage." [XAO:EJS]
+is_a: XAO:0003016 ! blastomere
+relationship: end_stage XAO:1000011 ! NF stage 2 (2-cell)
+relationship: start_stage XAO:1000011 ! NF stage 2 (2-cell)
+created_by: eriksegerdell
+creation_date: 2017-04-13T17:00:00Z
+
+[Term]
+id: XAO:0005174
+name: left-dorsal blastomere
+def: "The blastomere of the future left-dorsal portion of the embryo at the 4-cell stage." [XAO:EJS]
+synonym: "LD" RELATED []
+is_a: XAO:0003016 ! blastomere
+relationship: develops_from XAO:0005172 ! left blastomere
+relationship: end_stage XAO:1000013 ! NF stage 3 (4-cell)
+relationship: start_stage XAO:1000013 ! NF stage 3 (4-cell)
+created_by: eriksegerdell
+creation_date: 2017-04-13T17:00:00Z
+
+[Term]
+id: XAO:0005175
+name: right-dorsal blastomere
+def: "The blastomere of the future right-dorsal portion of the embryo at the 4-cell stage." [XAO:EJS]
+synonym: "RD" RELATED []
+is_a: XAO:0003016 ! blastomere
+relationship: develops_from XAO:0005173 ! right blastomere
+relationship: end_stage XAO:1000013 ! NF stage 3 (4-cell)
+relationship: start_stage XAO:1000013 ! NF stage 3 (4-cell)
+created_by: eriksegerdell
+creation_date: 2017-04-13T17:00:00Z
+
+[Term]
+id: XAO:0005176
+name: left-ventral blastomere
+def: "The blastomere of the future left-ventral portion of the embryo at the 4-cell stage." [XAO:EJS]
+synonym: "LV" RELATED []
+is_a: XAO:0003016 ! blastomere
+relationship: develops_from XAO:0005172 ! left blastomere
+relationship: end_stage XAO:1000013 ! NF stage 3 (4-cell)
+relationship: start_stage XAO:1000013 ! NF stage 3 (4-cell)
+created_by: eriksegerdell
+creation_date: 2017-04-13T17:00:00Z
+
+[Term]
+id: XAO:0005177
+name: right-ventral blastomere
+def: "The blastomere of the future right-ventral portion of the embryo at the 4-cell stage." [XAO:EJS]
+synonym: "RV" RELATED []
+is_a: XAO:0003016 ! blastomere
+relationship: develops_from XAO:0005173 ! right blastomere
+relationship: end_stage XAO:1000013 ! NF stage 3 (4-cell)
+relationship: start_stage XAO:1000013 ! NF stage 3 (4-cell)
+created_by: eriksegerdell
+creation_date: 2017-04-13T17:00:00Z
 
 [Term]
 id: XAO:1000000
