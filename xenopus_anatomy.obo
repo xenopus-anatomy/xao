@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 13:04:2017 17:13
+date: 14:04:2017 17:17
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -16698,6 +16698,7 @@ id: XAO:0005139
 name: multiciliated cell
 def: "A ciliated cell that has more than one cilium." [XAO:EJS]
 is_a: XAO:0005017 ! ciliated cell
+relationship: develops_from XAO:0005180 ! multiciliated cell precursor
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000020 ! NF stage 10
 created_by: eriksegerdell
@@ -17187,6 +17188,39 @@ relationship: end_stage XAO:1000013 ! NF stage 3 (4-cell)
 relationship: start_stage XAO:1000013 ! NF stage 3 (4-cell)
 created_by: eriksegerdell
 creation_date: 2017-04-13T17:00:00Z
+
+[Term]
+id: XAO:0005178
+name: monociliated epidermal cell
+def: "A ciliated epidermal cell that has a single cilium." [XAO:curators]
+is_a: XAO:0000031 ! ciliated epidermal cell
+is_a: XAO:0005137 ! monociliated cell
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000025 ! NF stage 15
+created_by: eriksegerdell
+creation_date: 2017-04-14T17:17:00Z
+
+[Term]
+id: XAO:0005179
+name: multiciliated epidermal cell
+def: "A ciliated epidermal cell that has more than one cilium." [XAO:curators]
+synonym: "MCC" RELATED []
+is_a: XAO:0000031 ! ciliated epidermal cell
+is_a: XAO:0005139 ! multiciliated cell
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000025 ! NF stage 15
+created_by: eriksegerdell
+creation_date: 2017-04-14T17:17:00Z
+
+[Term]
+id: XAO:0005180
+name: multiciliated cell precursor
+def: "Cell type that gives rise to multiciliated cells." [XAO:EJS]
+is_a: XAO:0003012 ! cell
+relationship: end_stage XAO:1000020 ! NF stage 10
+relationship: start_stage XAO:1000017 ! NF stage 7
+created_by: eriksegerdell
+creation_date: 2017-04-14T17:17:00Z
 
 [Term]
 id: XAO:1000000
