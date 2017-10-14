@@ -2,12 +2,12 @@
 
 ### Editing tools
 
-The Xenopus Anatomy Ontology is avialable in Open Biomedical Ontologies (OBO) and Web Ontology Language (OWL) file formats and may be edited in either [OBO-Edit](http://oboedit.org/) or [Protégé](http://protege.stanford.edu/), respectively. Although it is acceptable to use either program exclusively, OBO-Edit is often a convenient choice for adding new terms, definitions, and definition cross-references, while Protégé makes it easy to subsequently add relationships (OWL `SubClasses Of`).
+The Xenopus Anatomy Ontology is maintained in Web Ontology Language (OWL) and Open Biomedical Ontologies (OBO) file formats. OWL files use standard RDF/XML syntax. The open-source OWL ontology editor [Protégé](http://protege.stanford.edu/) is the preferred tool for XAO development. [OBO-Edit](http://oboedit.org/) may also be used but development of the software has been mothballed. Protégé is able to open and save files in OBO format.
 
-If you use Protégé to create new terms (OWL `Classes`), you must configure it to generate proper URIs. Use the [dictionary](https://github.com/xenopus-anatomy/xao/blob/master/doc/utilities.md#dictionary) utility to find the most recently used XAO anatomy ID. Then in Protégé do the following:
+Before creating new terms (OWL `Classes`) in Protégé, configure it to generate proper IRIs (Internationalized Resource Identifiers). Use the [dictionary](https://github.com/xenopus-anatomy/xao/blob/master/doc/utilities.md#dictionary) utility to find the most recently used XAO anatomy ID. Then in Protégé do the following:
 
  - Open Preferences and select the New Entities tab.
- - Set the Entity URI to end with *Auto-generated ID*.
+ - Set the Entity IRI to end with *Auto-generated ID*.
  - Set the Auto-generated ID to be *Numeric (iterative)*.
 	 - Prefix: *XAO_*
 	 - Suffix: *(leave blank)*
@@ -19,7 +19,7 @@ After creating each new class, add the following annotations:
  - has_obo_namespace: `xenopus_anatomy`
  - id: `XAO:<number>`
 
-The ID number is based on the newly generated URI. Hover over the new class in the class hierarchy and look at the tooltip. If, for example, the URI ends with *XAO_0005084*, then the annotation value is *XAO:0005084*.
+The ID number is based on the newly generated IRI. Hover over the new class in the class hierarchy and look at the tooltip. If, for example, the IRI ends with *XAO_0005084*, then the annotation value is *XAO:0005084*.
 
 ### Scripts
 
@@ -29,11 +29,11 @@ Command-line Python tools for performing some quality control checks and automat
 
 Ontology updates should be made in one or more [Git](https://git-scm.com/) branches. The branch name is lowercase underscore, e.g. `brain_structures`. A long-lived or jointly developed branch should be pushed to the server.
 
-Whichever your editing tool preference, you can keep the `xenopus_anatomy` OBO and OWL files in sync within the current branch with the [oboformat-tools](https://github.com/oboformat/oboformat-tools) package. It is a good idea to back up your files before running the converter so you don't inadvertently overwrite your work.
+Be sure to keep the `xenopus_anatomy` OWL and OBO files in sync within the current branch, as the Python utilities rely on the latter.
 
 ## Making a release
 
-When it is time to make a new XAO release, merge any changes that should be included in the release with the `master` branch. Sync the OBO and OWL versions of the ontology if necessary and commit the changes.
+When it is time to make a new XAO release, merge any changes that should be included in the release with the `master` branch. Sync the OWL and OBO versions of the ontology if necessary and commit the changes.
 
 Run the [checkup](https://github.com/xenopus-anatomy/xao/blob/master/doc/utilities.md#checkup) utility to ensure that the ontology has a complete `is_a` structure and all terms have definitions and valid stage ranges. Fix and commit any outstanding issues.
 
@@ -47,7 +47,7 @@ Add or update any other `remarks` as needed.
 
 Delete the header's `data-version` line.
 
-Save the file. (There is no need to convert it to an OWL file at this time.)
+Save the file. (At this point there is no need to update the OWL file accordingly.)
 
 Delete the `Oort` directory, if one exists, from the repository.
 
@@ -68,6 +68,6 @@ Set a Git tag with a `v` prefix. The version must be exactly the same as the one
 
 Push the updates to the server.
 
-Put copies of the `xenopus_anatomy` OBO and OWL files on [Xenbase FTP](http://www.xenbase.org/other/static/ftpDatafiles.jsp).
+Put copies of the `xenopus_anatomy` OWL and OBO files on [Xenbase FTP](http://www.xenbase.org/other/static/ftpDatafiles.jsp).
 
 A variety of external sites should then pick up the release automatically. A couple of days afterwards, check the sites listed on the [README](https://github.com/xenopus-anatomy/xao/blob/master/README.md#browsesearchmetadata) page. If any ontology metadata on [OBO Foundry](http://www.obofoundry.org/ontology/xao.html) needs to be updated, submit an [issue request](https://github.com/OBOFoundry/OBOFoundry.github.io/issues).
