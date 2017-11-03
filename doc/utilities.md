@@ -46,7 +46,7 @@ The `parseont` module constructs a Python dictionary of all anatomy and stage te
 Access term data by specifying its ID:
 
     >>> print(ont["XAO:0002000"])
-    {'subset': ['frequent_anatomy_items'], 'end_stage': 'XAO:1000076', 'part_of': ['XAO:0004521'], 'xref': 'UBERON:0002120', 'name': 'pronephric kidney', 'start_stage': 'XAO:1000044', 'namespace': 'xenopus_anatomy', 'is_a': 'XAO:0003267', 'develops_from': ['XAO:0000264'], 'def': 'Organ that serves as a transient kidney, providing osmoregulation during early developmental stages, and then degenerates during metamorphosis.'}
+    {'subset': ['frequent_anatomy_items'], 'end_stage': 'XAO:1000076', 'part_of': ['XAO:0004521'], 'xref': 'UBERON:0002120', 'synonym': ['head kidney', 'pronephros', 'vorniere'], 'name': 'pronephric kidney', 'start_stage': 'XAO:1000044', 'namespace': 'xenopus_anatomy', 'is_a': 'XAO:0003267', 'develops_from': ['XAO:0000264'], 'def': 'Organ that serves as a transient kidney, providing osmoregulation during early developmental stages, and then degenerates during metamorphosis.'}
 
 To find the most recently used anatomy ID, execute the following:
 

@@ -9,9 +9,9 @@ def dict(filename="xenopus_anatomy.obo", prefix="XAO",
 
     """
     Returns a dictionary of terms and their properties. Part_of and
-    develops_from relationship values and subsets are stored as lists and
-    everything else as strings. Stops when the first [Typedef] is reached and
-    removes obsolete terms.
+    develops_from relationship values, synonyms, and subsets are stored as
+    lists and everything else as strings. Stops when the first [Typedef] is
+    reached and removes obsolete terms.
     """
 
     fh = open(os.path.abspath(__file__ + "/../../" + filename))
@@ -26,7 +26,8 @@ def dict(filename="xenopus_anatomy.obo", prefix="XAO",
         elif line.startswith("id: " + prefix):
             this_id = line[4:]
             ontology[this_id] = { "namespace": default_namespace,
-                                  "subset": [] }
+                                  "subset": [],
+                                  "synonym": [] }
         elif line.startswith("name: "):
             ontology[this_id]["name"] = line[6:]
         elif line.startswith("namespace: "):
@@ -35,6 +36,9 @@ def dict(filename="xenopus_anatomy.obo", prefix="XAO",
             ontology[this_id]["def"] = line[6:line.index("[")-2]
         elif line.startswith("subset: "):
             ontology[this_id]["subset"].append(line[8:])
+        elif line.startswith("synonym: "):
+            syn = line[10:line[10:].index("\"")+10]
+            ontology[this_id]["synonym"].append(syn)
         elif line.startswith("xref: "):
             ontology[this_id]["xref"] = line[6:]
         elif line.startswith("is_a: "):
