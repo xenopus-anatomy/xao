@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 14:04:2017 17:17
+date: 15:11:2017 17:04
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -17221,6 +17221,61 @@ relationship: end_stage XAO:1000020 ! NF stage 10
 relationship: start_stage XAO:1000017 ! NF stage 7
 created_by: eriksegerdell
 creation_date: 2017-04-14T17:17:00Z
+
+[Term]
+id: XAO:0005181
+name: ascending interneuron
+def: "An interneuron which grows from the soma in an ascending (from tail to head) direction." [PMID:29051550]
+synonym: "aIN" EXACT []
+is_a: XAO:0004267 ! interneuron
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000025 ! NF stage 15
+created_by: eriksegerdell
+creation_date: 2017-11-10T17:00:00Z
+
+[Term]
+id: XAO:0005182
+name: descending interneuron
+def: "An interneuron which grows from the soma in a descending (from head to tail) direction." [PMID:29051550]
+synonym: "dIN" EXACT []
+is_a: XAO:0004267 ! interneuron
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000025 ! NF stage 15
+created_by: eriksegerdell
+creation_date: 2017-11-10T17:00:00Z
+
+[Term]
+id: XAO:0005183
+name: commissural interneuron
+def: "An interneuron which starts to grow on one side of the body and navigates in the ventral direction." [PMID:29051550]
+synonym: "cIN" EXACT []
+is_a: XAO:0004267 ! interneuron
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000025 ! NF stage 15
+created_by: eriksegerdell
+creation_date: 2017-11-10T17:00:00Z
+
+[Term]
+id: XAO:0005184
+name: dorsolateral ascending neuron
+def: "An ascending neuron, originating in the spinal cord, that is involved in the touch sensory pathway and lies adjacent to the Rohon-Beard neurons and close to the roof plate of the spinal cord." [PMID:29051550]
+synonym: "dla" RELATED []
+is_a: XAO:0003023 ! neuron
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000025 ! NF stage 15
+created_by: eriksegerdell
+creation_date: 2017-11-15T17:00:00Z
+
+[Term]
+id: XAO:0005185
+name: dorsolateral commissural neuron
+def: "A commissural neuron, originating in the spinal cord, that is involved in the touch sensory pathway and lies adjacent to the Rohon-Beard neurons and close to the roof plate of the spinal cord." [PMID:29051550]
+synonym: "dlc" RELATED []
+is_a: XAO:0003023 ! neuron
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000025 ! NF stage 15
+created_by: eriksegerdell
+creation_date: 2017-11-15T17:00:00Z
 
 [Term]
 id: XAO:1000000
