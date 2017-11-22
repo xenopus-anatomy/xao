@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 15:11:2017 17:04
+date: 22:11:2017 15:08
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -17276,6 +17276,76 @@ relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000025 ! NF stage 15
 created_by: eriksegerdell
 creation_date: 2017-11-15T17:00:00Z
+
+[Term]
+id: XAO:0005186
+name: adenohypophysis
+def: "The glandular, anterior lobe of the pituitary gland (hypophysis). It regulates several physiological processes including stress, growth, and reproduction." [https://en.wikipedia.org/wiki/Anterior_pituitary]
+synonym: "anterior hypophysis" EXACT []
+synonym: "anterior pituitary" EXACT []
+synonym: "pars anterior" RELATED []
+xref: UBERON:0002196
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000017 ! hypophysis
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2017-11-17T16:49:43Z
+
+[Term]
+id: XAO:0005187
+name: neurohypophysis
+def: "The posterior lobe of the pituitary gland (hypophysis). It is largely a collection of axonal projections from the hypothalamus that terminate behind the anterior pituitary, and serve as a site for the secretion of neurohypophysial hormones (oxytocin and vasopressin) directly into the blood. It is not glandular as is the anterior pituitary." [https://en.wikipedia.org/wiki/Posterior_pituitary]
+synonym: "posterior hypophysis" EXACT []
+synonym: "posterior pituitary" EXACT []
+xref: UBERON:0002198
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000017 ! hypophysis
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2017-11-17T16:49:56Z
+
+[Term]
+id: XAO:0005188
+name: pars distalis
+def: "Structure which comprises the majority of the anterior pituitary (adenohypophysis) and where the bulk of pituitary hormone production occurs." [https://en.wikipedia.org/wiki/Anterior_pituitary]
+synonym: "pars distalis of adenohypophysis" EXACT []
+xref: UBERON:0006964
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005186 ! adenohypophysis
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2017-11-17T16:49:59Z
+
+[Term]
+id: XAO:0005189
+name: pars nervosa
+def: "Structure which constitutes the majority of the posterior pituitary (neurohypophysis) and that is the storage site of oxytocin and vasopressin." [https://en.wikipedia.org/wiki/Posterior_pituitary]
+synonym: "neural lobe of neurohypophysis" EXACT []
+synonym: "posterior lobe of neurohypophysis" EXACT []
+xref: UBERON:0003217
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005187 ! neurohypophysis
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2017-11-17T16:50:21Z
+
+[Term]
+id: XAO:0005190
+name: pars intermedia
+def: "The boundary between the anterior and posterior lobes of the pituitary (hypophysis). It contains three types of cells: basophils, chromophobes, and colloid-filled cysts. The cysts are the remainder of Rathke's pouch." [https://en.wikipedia.org/wiki/Pars_intermedia]
+synonym: "pars intermedia of adenohypophysis" EXACT []
+synonym: "pars intermedis" EXACT []
+xref: UBERON:0002432
+is_a: XAO:0004486 ! organ part
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000017 ! hypophysis
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2017-11-17T16:51:54Z
 
 [Term]
 id: XAO:1000000

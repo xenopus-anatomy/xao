@@ -23,6 +23,11 @@ The current XAO release is v5. This document contains a running list of term add
 | XAO:0005183 | commissural interneuron |
 | XAO:0005184 | dorsolateral ascending neuron |
 | XAO:0005185 | dorsolateral commissural neuron |
+| XAO:0005186 | adenohypophysis |
+| XAO:0005187 | neurohypophysis |
+| XAO:0005188 | pars distalis |
+| XAO:0005189 | pars nervosa |
+| XAO:0005190 | pars intermedia |
 
 ### Modifications to existing terms
 | id | comment |
@@ -33,8 +38,8 @@ The current XAO release is v5. This document contains a running list of term add
 ### Statistics
 | | v5 | current | diff |
 | --- | :---: | :---:| :---: |
-| Terms | 1621 | 1639 | 18 |
-| Synonyms | 1234 | 1251 | 17 |
-| X-references | 838 | 839 | 1 |
+| Terms | 1621 | 1644 | 23 |
+| Synonyms | 1234 | 1261 | 27 |
+| X-references | 838 | 844 | 6 |
 | develops_from relationships | 557 | 565 | 8 |
-| part_of relationships | 1073 | 1078 | 5 |
+| part_of relationships | 1073 | 1083 | 10 |
