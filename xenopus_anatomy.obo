@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 22:11:2017 15:08
+date: 17:01:2018 17:35
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -17346,6 +17346,62 @@ relationship: part_of XAO:0000017 ! hypophysis
 relationship: start_stage XAO:1000052 ! NF stage 40
 created_by: eriksegerdell
 creation_date: 2017-11-17T16:51:54Z
+
+[Term]
+id: XAO:0005191
+name: ethmoid bone
+def: "An unpaired bone in the skull that separates the nasal cavity from the brain. It is located at the roof of the nose, between the two orbits." [https://en.wikipedia.org/wiki/Ethmoid_bone]
+synonym: "ethmoid" BROAD []
+synonym: "ethmoidal bone" EXACT []
+synonym: "os ethmoidale" EXACT []
+xref: UBERON:0001679
+is_a: XAO:0004018 ! endochondral bone
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0004023 ! craniofacial skeleton
+relationship: part_of XAO:0005192 ! ethmoid region
+relationship: start_stage XAO:1000057 ! NF stage 45
+created_by: eriksegerdell
+creation_date: 2018-01-16T17:00:00Z
+
+[Term]
+id: XAO:0005192
+name: ethmoid region
+def: "Anatomical cluster comprising the most anterior region of the braincase and providing structural support for the peripheral olfactory organ." [UBERON:0011241]
+xref: UBERON:0011241
+is_a: XAO:0003160 ! anatomical cluster
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003075 ! cranium
+relationship: start_stage XAO:1000052 ! NF stage 40
+created_by: eriksegerdell
+creation_date: 2018-01-17T17:00:00Z
+
+[Term]
+id: XAO:0005193
+name: lateral nasal prominence
+def: "The lateral area of the two branches of a horseshoe-shaped mesenchymal swelling in the future nasal region of the embryo. It separates the olfactory pit from the developing eye." [UBERON:0004067]
+synonym: "lateral nasal swelling" RELATED []
+synonym: "prominentia nasalis lateralis" EXACT []
+xref: UBERON:0004067
+is_a: XAO:0003042 ! embryonic structure
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003024 ! head
+relationship: start_stage XAO:1000023 ! NF stage 13
+created_by: eriksegerdell
+creation_date: 2018-01-17T17:00:00Z
+
+[Term]
+id: XAO:0005194
+name: medial nasal prominence
+def: "The central area of the two limbs of a horseshoe-shaped mesenchymal swelling that lie medial to the olfactory placode or pit in the future nasal region of the embryo." [UBERON:0004068]
+synonym: "medial nasal swelling" RELATED []
+synonym: "nasomedial prominence" RELATED []
+xref: UBERON:0004068
+is_a: XAO:0003042 ! embryonic structure
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003024 ! head
+relationship: start_stage XAO:1000023 ! NF stage 13
+created_by: eriksegerdell
+creation_date: 2018-01-17T17:00:00Z
 
 [Term]
 id: XAO:1000000

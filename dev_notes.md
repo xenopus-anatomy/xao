@@ -28,6 +28,10 @@ The current XAO release is v5. This document contains a running list of term add
 | XAO:0005188 | pars distalis |
 | XAO:0005189 | pars nervosa |
 | XAO:0005190 | pars intermedia |
+| XAO:0005191 | ethmoid bone |
+| XAO:0005192 | ethmoid region |
+| XAO:0005193 | lateral nasal prominence |
+| XAO:0005194 | medial nasal prominence |
 
 ### Modifications to existing terms
 | id | comment |
@@ -38,8 +42,8 @@ The current XAO release is v5. This document contains a running list of term add
 ### Statistics
 | | v5 | current | diff |
 | --- | :---: | :---:| :---: |
-| Terms | 1621 | 1644 | 23 |
-| Synonyms | 1234 | 1261 | 27 |
-| X-references | 838 | 844 | 6 |
+| Terms | 1621 | 1648 | 27 |
+| Synonyms | 1234 | 1268 | 34 |
+| X-references | 838 | 848 | 10 |
 | develops_from relationships | 557 | 565 | 8 |
-| part_of relationships | 1073 | 1083 | 10 |
+| part_of relationships | 1073 | 1088 | 15 |
