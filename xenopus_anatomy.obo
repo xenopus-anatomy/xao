@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 17:01:2018 17:35
+date: 25:05:2018 13:40
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -10,14 +10,14 @@ subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
 synonymtypedef: PLURAL "PLURAL"
 default-namespace: xenopus_anatomy
 namespace-id-rule: * XAO:$sequence(7,5000,9999999)$
-remark: Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.
-remark: Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Vize PD, Zorn AM; J Biomed Semantics 2013 4(1):31; PMID:24139024.
-remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
-remark: Version: 5.0
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:8353
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:8353
 treat-xrefs-as-genus-differentia: GO part_of NCBITaxon:8353
 treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:8353
+remark: Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.
+remark: Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Vize PD, Zorn AM; J Biomed Semantics 2013 4(1):31; PMID:24139024.
+remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
+remark: Version: 5.0
 ontology: xao
 
 [Term]
@@ -9154,6 +9154,7 @@ id: XAO:0004111
 name: retinal cone cell
 def: "One of the two photoreceptor cell types in the retina. In cones the photopigment is in invaginations of the cell membrane of the outer segment. Cones are less sensitive to light than rods, but they provide vision with higher spatial and temporal acuity, and the combination of signals from cones with different pigments allows color vision." [CL:0000573]
 synonym: "cone photoreceptor cell" EXACT []
+synonym: "eye photoreceptor cell (cone)" EXACT []
 xref: CL:0000573
 is_a: XAO:0004110 ! eye photoreceptor cell
 relationship: end_stage XAO:0000437 ! death
@@ -9165,6 +9166,7 @@ creation_date: 2011-08-25T10:19:21Z
 id: XAO:0004112
 name: retinal rod cell
 def: "One of the two photoreceptor cell types of the retina. In rods the photopigment is in stacks of membranous disks separate from the outer cell membrane. Rods are more sensitive to light than cones, but rod mediated vision has less spatial and temporal resolution than cone vision." [CL:0000604]
+synonym: "eye photoreceptor cell (rod)" EXACT []
 synonym: "rod photoreceptor cell" EXACT []
 xref: CL:0000604
 is_a: XAO:0004110 ! eye photoreceptor cell
@@ -13334,7 +13336,7 @@ def: "Cardiac septum that separates the right atrium from the left atrium." [UBE
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000064 ! heart
-relationship: start_stage XAO:1000044 ! NF stage 28
+relationship: start_stage XAO:1000056 ! NF stage 44
 
 [Term]
 id: XAO:0004472
@@ -16788,6 +16790,7 @@ creation_date: 2016-12-09T17:00:00Z
 id: XAO:0005146
 name: oval window
 def: "Entrance to the inner ear in the lateral wall of the otic capsule, which contains the footplate of the stapes." [PMID:20953303]
+synonym: "foramen ovale" RELATED []
 xref: UBERON:0002501
 is_a: XAO:0003190 ! anatomical space
 relationship: end_stage XAO:0000437 ! death
