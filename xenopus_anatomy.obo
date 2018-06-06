@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 06:06:2018 15:35
+date: 06:06:2018 15:56
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -2000,10 +2000,10 @@ relationship: start_stage XAO:1000035 ! NF stage 19
 
 [Term]
 id: XAO:0000188
-name: cranial nerve II
+name: optic nerve
 def: "Cranial nerve that is continuous with the layer of nerve cells on the inner surface of the eye. It exits the neurocranium via the large optic foramen and is covered by a fibrous connective tissue sheath." [ISBN:080184780X]
+synonym: "cranial nerve II" EXACT []
 synonym: "ON" EXACT []
-synonym: "optic nerve" EXACT []
 synonym: "opticus" EXACT []
 xref: UBERON:0000941
 is_a: XAO:0000429 ! cranial nerve
@@ -4339,9 +4339,9 @@ relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0000426
-name: cranial nerve I
+name: olfactory nerve
 def: "Cranial nerve that supplies the nasal organ. It leaves the olfactory lobe, passes through the fenestra olfactoria into the nasal capsule, and there divides into the ramus profundus and ramus dorsalis." [ISBN:0471209627, ISBN:080184780X]
-synonym: "olfactory nerve" EXACT []
+synonym: "cranial nerve I" EXACT []
 xref: UBERON:0001579
 is_a: XAO:0000429 ! cranial nerve
 relationship: develops_from XAO:0000005 ! olfactory placode
@@ -5894,9 +5894,9 @@ relationship: start_stage XAO:1000067 ! NF stage 55
 
 [Term]
 id: XAO:0003090
-name: cranial nerve III
+name: oculomotor nerve
 def: "Cranial nerve that largely consists of somatic efferent fibers which innervate four eye muscles (m rectus superior, m obliquus inferior, and mm rectus inferior and anterior)." [ISBN:080184780X]
-synonym: "oculomotor nerve" EXACT []
+synonym: "cranial nerve III" EXACT []
 synonym: "oculomotorius" EXACT []
 xref: UBERON:0001643
 is_a: XAO:0000429 ! cranial nerve
@@ -5905,10 +5905,10 @@ relationship: start_stage XAO:1000048 ! NF stage 33 and 34
 
 [Term]
 id: XAO:0003091
-name: cranial nerve IV
+name: trochlear nerve
 def: "Somatic efferent nerve that runs to the superior oblique muscle of the eye." [ISBN:080184780X]
+synonym: "cranial nerve IV" EXACT []
 synonym: "pathetic nerve" EXACT []
-synonym: "trochlear nerve" EXACT []
 synonym: "trochlearis" EXACT []
 xref: UBERON:0001644
 is_a: XAO:0000429 ! cranial nerve
@@ -5917,9 +5917,9 @@ relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 
 [Term]
 id: XAO:0003092
-name: cranial nerve V
+name: trigeminal nerve
 def: "Cranial nerve that branches into the ophthalmic (supplying the skin of the nose and upper jaw) and the mandibular (supplying the lower jaw). It originates from the lateral surface of the medulla and exits the cranium via the large prootic foramen." [ISBN:0471209627, ISBN:080184780X]
-synonym: "trigeminal nerve" EXACT []
+synonym: "cranial nerve V" EXACT []
 synonym: "trigeminus" EXACT []
 xref: UBERON:0001645
 is_a: XAO:0000429 ! cranial nerve
@@ -5928,11 +5928,11 @@ relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0003093
-name: cranial nerve VI
+name: abducens nerve
 def: "A somatic motor nerve that runs to the eye muscles, arising from the ventral surface of the medulla and exiting the neurocranium via the optic foramen." [ISBN:0471209627, ISBN:080184780X]
 synonym: "abducens" EXACT []
-synonym: "abducens nerve" EXACT []
 synonym: "abducent nerve" EXACT []
+synonym: "cranial nerve VI" EXACT []
 xref: UBERON:0001646
 is_a: XAO:0000429 ! cranial nerve
 relationship: end_stage XAO:0000437 ! death
@@ -5940,9 +5940,9 @@ relationship: start_stage XAO:1000061 ! NF stage 49
 
 [Term]
 id: XAO:0003094
-name: cranial nerve VII
+name: facial nerve
 def: "Cranial nerve that branches into the supraorbital (supplying the skin of the eye region and the lateral line organs here), the palatine (to the roof of the buccal cavity), and the hyomandibular (dividing into the jugular and mental branches)." [ISBN:0471209627]
-synonym: "facial nerve" EXACT []
+synonym: "cranial nerve VII" EXACT []
 synonym: "facialis" EXACT []
 xref: UBERON:0001647
 is_a: XAO:0000429 ! cranial nerve
@@ -5952,9 +5952,9 @@ relationship: start_stage XAO:1000046 ! NF stage 31
 
 [Term]
 id: XAO:0003095
-name: cranial nerve VIII
+name: auditory nerve
 def: "Cranial nerve that runs to the ear. It has anterior and posterior rami which enter the auditory capsule via two foramina." [ISBN:0471209627, ISBN:080184780X]
-synonym: "auditory nerve" RELATED []
+synonym: "cranial nerve VIII" EXACT []
 xref: UBERON:0001648
 is_a: XAO:0000429 ! cranial nerve
 relationship: end_stage XAO:0000437 ! death
@@ -5963,9 +5963,9 @@ relationship: start_stage XAO:1000046 ! NF stage 31
 
 [Term]
 id: XAO:0003096
-name: cranial nerve IX
+name: glossopharyngeal nerve
 def: "Cranial nerve that branches into the ramus communicans (to the skin), the pretrematic (to the walls of the pharynx and mouth, viscero-sensory fibers), and the larval post-trematic branch (lost in the adult)." [ISBN:0471209627]
-synonym: "glossopharyngeal nerve" RELATED []
+synonym: "cranial nerve IX" EXACT []
 xref: UBERON:0001649
 is_a: XAO:0000429 ! cranial nerve
 relationship: end_stage XAO:0000437 ! death
@@ -5974,10 +5974,10 @@ relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0003097
-name: cranial nerve X
+name: vagus nerve
 def: "Cranial nerve that branches into the lateral (to body sense organs) and the intestino-accessorial (to the skin, muscles of shoulder, hyoid, larynx, gut, lungs, and heart)." [ISBN:0471209627]
+synonym: "cranial nerve X" EXACT []
 synonym: "vagal nerve" RELATED []
-synonym: "vagus nerve" RELATED []
 xref: UBERON:0001759
 is_a: XAO:0000429 ! cranial nerve
 relationship: end_stage XAO:0000437 ! death
@@ -8514,7 +8514,7 @@ def: "Nerve that is a branch of cranial nerve VIII and innervates the cristae am
 synonym: "neural ampulla" EXACT []
 is_a: XAO:0003047 ! nerve
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0003095 ! cranial nerve VIII
+relationship: part_of XAO:0003095 ! auditory nerve
 relationship: start_stage XAO:1000046 ! NF stage 31
 created_by: xenbase3
 creation_date: 2011-08-24T10:33:59Z
@@ -9539,7 +9539,7 @@ xref: UBERON:0002827
 is_a: XAO:0000209 ! ganglion
 relationship: develops_from XAO:0000223 ! otic placode
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0003095 ! cranial nerve VIII
+relationship: part_of XAO:0003095 ! auditory nerve
 relationship: start_stage XAO:1000037 ! NF stage 21
 created_by: xenbase3
 creation_date: 2011-08-26T10:41:25Z
@@ -10435,10 +10435,10 @@ creation_date: 2011-09-14T09:36:07Z
 
 [Term]
 id: XAO:0004214
-name: cranial nerve XI
+name: accessory nerve
 def: "Small motor nerve that emerges from the lateral wall of the medulla with the roots of the vagus nerve, and innervates a single pectoral suspensory muscle, the m. cucullaris." [ISBN:080184780X]
 synonym: "accessorius" EXACT []
-synonym: "accessory nerve" EXACT []
+synonym: "cranial nerve XI" EXACT []
 xref: UBERON:0002019
 is_a: XAO:0000429 ! cranial nerve
 relationship: end_stage XAO:0000437 ! death
@@ -10448,10 +10448,10 @@ creation_date: 2011-09-14T10:03:25Z
 
 [Term]
 id: XAO:0004215
-name: cranial nerve XII
+name: hypoglossal nerve
 def: "Nerve that leads to the muscles of the tongue (mm geniohyoideus, genioglossus, hyoglossus, and rectus cervicis) and has both sensory and motor functions." [ISBN:080184780X]
 comment: Duellman and Trueb (pg. 395) note that although the primordia of this nerve are in the 1st and 2nd spinal nerves, this nerve contains fibers representing the hypoglossal nerve in amniotes and is thus considered one of the cranial nerves.
-synonym: "hypoglossal nerve" EXACT []
+synonym: "cranial nerve XII" EXACT []
 synonym: "hypoglossus" EXACT []
 xref: UBERON:0001650
 is_a: XAO:0000429 ! cranial nerve
