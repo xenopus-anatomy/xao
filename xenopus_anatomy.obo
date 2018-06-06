@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 25:05:2018 13:40
+date: 06:06:2018 15:35
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -17012,7 +17012,6 @@ synonym: "pancreatic A cell" RELATED []
 xref: CL:0000171
 is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
 relationship: start_stage XAO:1000051 ! NF stage 39
 created_by: eriksegerdell
@@ -17029,7 +17028,6 @@ synonym: "type B pancreatic cell" RELATED []
 xref: CL:0000169
 is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
 relationship: start_stage XAO:1000051 ! NF stage 39
 created_by: eriksegerdell
@@ -17044,14 +17042,11 @@ synonym: "D-cell" RELATED []
 synonym: "delta cells" RELATED PLURAL []
 synonym: "delta-cell" EXACT []
 synonym: "delta-cells" RELATED PLURAL []
-synonym: "pancreatic D cell" RELATED []
-xref: CL:0000173
+synonym: "type D enteroendocrine cell" RELATED []
+xref: CL:0000502
 is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000128 ! stomach
-relationship: part_of XAO:0000129 ! intestine
-relationship: part_of XAO:0000136 ! pancreas
-relationship: part_of XAO:0000159 ! islets of Langerhans
+relationship: part_of XAO:0000125 ! alimentary system
 relationship: start_stage XAO:1000051 ! NF stage 39
 created_by: eriksegerdell
 creation_date: 2016-11-16T18:07:16Z
@@ -17065,7 +17060,6 @@ synonym: "epsilon-cell" EXACT []
 synonym: "epsilon-cells" RELATED PLURAL []
 is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
 relationship: start_stage XAO:1000051 ! NF stage 39
 created_by: eriksegerdell
@@ -17079,7 +17073,6 @@ synonym: "PP cell" RELATED []
 synonym: "pp-cell" RELATED []
 is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000136 ! pancreas
 relationship: part_of XAO:0000159 ! islets of Langerhans
 relationship: start_stage XAO:1000051 ! NF stage 39
 created_by: eriksegerdell
