@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 12:06:2018 17:06
+date: 12:06:2018 17:13
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -17378,7 +17378,7 @@ synonym: "lateral nasal swelling" RELATED []
 synonym: "prominentia nasalis lateralis" EXACT []
 xref: UBERON:0004067
 is_a: XAO:0003042 ! embryonic structure
-relationship: end_stage XAO:0000437 ! death
+relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0003024 ! head
 relationship: start_stage XAO:1000023 ! NF stage 13
 created_by: eriksegerdell
@@ -17392,7 +17392,7 @@ synonym: "medial nasal swelling" RELATED []
 synonym: "nasomedial prominence" RELATED []
 xref: UBERON:0004068
 is_a: XAO:0003042 ! embryonic structure
-relationship: end_stage XAO:0000437 ! death
+relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0003024 ! head
 relationship: start_stage XAO:1000023 ! NF stage 13
 created_by: eriksegerdell
