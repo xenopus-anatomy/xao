@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2017-01-13
-date: 06:06:2018 15:56
+date: 12:06:2018 17:06
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -583,8 +583,7 @@ def: "Principal unpaired, median artery of the trunk, extending into the tail as
 synonym: "aorta dorsalis" EXACT []
 xref: UBERON:0005805
 is_a: XAO:0003010 ! aorta
-relationship: develops_from XAO:0000085 ! intermediate mesoderm
-relationship: develops_from XAO:0000357 ! arterial endothelium
+relationship: develops_from XAO:0005019 ! paired dorsal aorta
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004423 ! trunk vasculature
 relationship: start_stage XAO:1000046 ! NF stage 31
@@ -1277,6 +1276,7 @@ name: trachea
 def: "An elongated tube that carries air to and from the lungs." [AAO:0010140]
 xref: UBERON:0003126
 is_a: XAO:0003165 ! cavitated compound organ
+relationship: develops_from XAO:0005127 ! anterior foregut
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000117 ! respiratory system
 relationship: start_stage XAO:1000049 ! NF stage 35 and 36
@@ -1378,6 +1378,7 @@ def: "Tube that connects the pharynx to the stomach. At NF stage 57 it is a stra
 synonym: "oesophagus" EXACT []
 xref: UBERON:0001043
 is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0005127 ! anterior foregut
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000125 ! alimentary system
 relationship: start_stage XAO:1000050 ! NF stage 37 and 38
@@ -2487,7 +2488,7 @@ def: "Two migratory heart primordia that move ventrally during the course of neu
 synonym: "heart" BROAD []
 xref: UBERON:0007005
 is_a: XAO:0003042 ! embryonic structure
-relationship: develops_from XAO:0000050 ! mesoderm
+relationship: develops_from XAO:0005062 ! proepicardium
 relationship: end_stage XAO:1000039 ! NF stage 23
 relationship: start_stage XAO:1000023 ! NF stage 13
 
@@ -15223,7 +15224,8 @@ synonym: "left dorsal aorta" NARROW []
 synonym: "paired dorsal aortae" RELATED PLURAL []
 synonym: "right dorsal aorta" NARROW []
 is_a: XAO:0003010 ! aorta
-relationship: develops_into XAO:0000051 ! dorsal aorta
+relationship: develops_from XAO:0000085 ! intermediate mesoderm
+relationship: develops_from XAO:0000357 ! arterial endothelium
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: start_stage XAO:1000046 ! NF stage 31
 created_by: eriksegerdell
@@ -15369,6 +15371,7 @@ synonym: "radial glia" RELATED PLURAL []
 synonym: "RG" EXACT []
 xref: CL:0000681
 is_a: XAO:0004308 ! glial cell
+relationship: develops_from XAO:0005032 ! neural stem cell
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0000177 ! nervous system
 relationship: part_of XAO:0005028 ! ventricular layer of the optic tectum
@@ -15386,8 +15389,6 @@ synonym: "NSC" EXACT []
 xref: CL:0000047
 is_a: XAO:0003054 ! stem cell
 relationship: develops_from XAO:0000042 ! neuroectoderm
-relationship: develops_into XAO:0003023 ! neuron
-relationship: develops_into XAO:0005031 ! radial glial cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000010 ! brain
 relationship: part_of XAO:0000177 ! nervous system
@@ -15763,7 +15764,7 @@ name: proepicardium
 def: "An embryonic progenitor cell type that comprises a population that provides the epicardium, the majority of the cardiac interstitium, the coronary vasculature, and possibly some cardiomyocytes." [XAO:curators]
 synonym: "PE" EXACT []
 is_a: XAO:0005033 ! progenitor cell
-relationship: develops_into XAO:0000235 ! cardiac mesoderm
+relationship: develops_from XAO:0000050 ! mesoderm
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: start_stage XAO:1000023 ! NF stage 13
 created_by: eriksegerdell
@@ -16549,8 +16550,6 @@ id: XAO:0005127
 name: anterior foregut
 def: "Embryonic structure that consists of the anterior part of the foregut and develops into the esophagus and trachea." [XAO:curators]
 is_a: XAO:0003042 ! embryonic structure
-relationship: develops_into XAO:0000118 ! trachea
-relationship: develops_into XAO:0000127 ! esophagus
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000232 ! foregut
 relationship: start_stage XAO:1000036 ! NF stage 20
@@ -18289,12 +18288,6 @@ relationship: preceded_by XAO:1000012 ! embryonic stage
 id: develops_from
 name: develops from
 xref: RO:0002202
-is_transitive: true
-
-[Typedef]
-id: develops_into
-name: develops into
-xref: RO:0002203
 is_transitive: true
 
 [Typedef]
