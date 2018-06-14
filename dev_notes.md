@@ -1,8 +1,7 @@
 ## Development notes
 
-The current XAO release is v5. This document contains a running list of term additions and modifications that should appear in the next release.
+The current XAO release is v6 (14 June 2018). The following terms were added between v5 and v6:
 
-### Terms added
 | id | name |
 | --- | --- |
 | XAO:0005154 | plasma membrane |
@@ -33,17 +32,11 @@ The current XAO release is v5. This document contains a running list of term add
 | XAO:0005193 | lateral nasal prominence |
 | XAO:0005194 | medial nasal prominence |
 
-### Modifications to existing terms
-| id | comment |
-| --- | --- |
-| XAO:0000200 | animal blastomere start stage changed from NF stage 2 to NF stage 4 |
-| XAO:0000279 | vegetal blastomere start stage changed from NF stage 2 to NF stage 4 |
-
 ### Statistics
 | | v5 | current | diff |
 | --- | :---: | :---:| :---: |
-| Terms | 1621 | 1648 | 27 |
-| Synonyms | 1234 | 1268 | 34 |
-| X-references | 838 | 848 | 10 |
-| develops_from relationships | 557 | 565 | 8 |
-| part_of relationships | 1073 | 1088 | 15 |
+| Terms | 1611 | 1637 | 26 |
+| Synonyms | 1234 | 1271 | 37 |
+| X-references | 838 | 847 | 9 |
+| develops_from relationships | 557 | 570 | 13 |
+| part_of relationships | 1073 | 1081 | 8 |
