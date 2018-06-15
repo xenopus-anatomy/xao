@@ -1,4 +1,5 @@
 format-version: 1.2
+data-version: releases/2018-06-14
 date: 12:06:2018 17:13
 saved-by: eriksegerdell
 auto-generated-by: OBO-Edit 2.3.1
@@ -18309,3 +18310,4 @@ is_transitive: true
 id: start_stage
 name: starts during
 def: "Anatomical structure/expression begins being viable, obvious or of utility during this developmental stage." [XAO:curators]
+
