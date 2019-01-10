@@ -864,7 +864,6 @@ relationship: start_stage XAO:1000030 ! NF stage 10.25
 id: XAO:0000079
 name: prechordal plate
 def: "Mesodermal structure that lies anterior to the notochord and gives rise to head mesoderm." [VHOG:0000086]
-synonym: "head mesoderm" BROAD []
 xref: UBERON:0003063
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000050 ! mesoderm
@@ -1013,6 +1012,7 @@ id: XAO:0000093
 name: archenteron floor
 def: "The layer of cells forming the ventral surface of the archenteron space of the embryo." [PMID:17540356]
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000281 ! vegetal yolk mass
 relationship: end_stage XAO:1000050 ! NF stage 37 and 38
 relationship: part_of XAO:0000092 ! archenteron
 relationship: start_stage XAO:1000020 ! NF stage 10
@@ -1474,6 +1474,7 @@ relationship: develops_from XAO:0000101 ! liver diverticulum
 relationship: develops_from XAO:0004205 ! gall bladder primordium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000132 ! liver and biliary system
+relationship: part_of XAO:0000232 ! foregut
 relationship: start_stage XAO:1000052 ! NF stage 40
 
 [Term]
@@ -2212,7 +2213,7 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 [Term]
 id: XAO:0000209
 name: ganglion
-def: "Portion of tissue that contains cell bodies of neurons and is located outside the central nervous system." [http://www.merriam-webster.com/medlineplus/ganglion]
+def: "A cluster of nervous tissue principally composed of neuronal cell bodies external to the central nervous system (CNS)." [UBERON:0000045]
 synonym: "ganglia" RELATED PLURAL []
 xref: UBERON:0000045
 is_a: XAO:0003040 ! tissue
@@ -2457,7 +2458,7 @@ def: "The anterior part of the alimentary system, from the mouth and esophagus t
 xref: UBERON:0001041
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000092 ! archenteron
-relationship: develops_from XAO:0004513 ! foregut primordium
+relationship: develops_from XAO:0004513 ! foregut endoderm
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000125 ! alimentary system
 relationship: start_stage XAO:1000036 ! NF stage 20
@@ -2465,7 +2466,7 @@ relationship: start_stage XAO:1000036 ! NF stage 20
 [Term]
 id: XAO:0000233
 name: germ plasm
-def: "A zone found in the cytoplasm of the egg cells that contains determinants that will give rise to the germ cell lineage. As the zygote undergoes mitotic divisions the germ plasm is ultimately restricted to a few cells of the embryo. These germ cells then migrate to the gonads." [XAO:curators]
+def: "A zone found in the cytoplasm of the egg cells that contains determinants that will give rise to the primordial germ cells. As the zygote undergoes mitotic divisions the germ plasm is ultimately restricted to a few cells of the embryo." [XAO:curators]
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000052 ! NF stage 40
 relationship: part_of XAO:0000280 ! vegetal hemisphere
@@ -2629,9 +2630,11 @@ relationship: start_stage XAO:1000036 ! NF stage 20
 [Term]
 id: XAO:0000248
 name: neural groove
-def: "The median dorsal longitudinal groove formed in the embryo by the neural plate after the appearance of the neural folds." [http://www.merriam-webster.com/medlineplus/neural+groove]
+def: "The median dorsal longitudinal groove in the neural plate, directly above the notochord, which appears after after neural fold formation." [http://www.merriam-webster.com/medlineplus/neural+groove]
+synonym: "median groove" RELATED []
 xref: UBERON:0005061
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000249 ! neural plate
 relationship: end_stage XAO:1000038 ! NF stage 22
 relationship: part_of XAO:0000249 ! neural plate
 relationship: start_stage XAO:1000023 ! NF stage 13
@@ -5162,6 +5165,7 @@ relationship: start_stage XAO:1000011 ! NF stage 2 (2-cell)
 id: XAO:0003017
 name: fibroblast
 def: "A connective tissue cell that secretes an extracellular matrix rich in collagen and other macromolecules." [CL:0000057]
+synonym: "keratocyte" RELATED []
 xref: CL:0000057
 is_a: XAO:0003255 ! mesodermal cell
 relationship: end_stage XAO:0000437 ! death
@@ -5267,6 +5271,7 @@ name: limb
 def: "Organism subdivision that has as its parts the jointed appendages used for locomotion and manipulation." [XAO:curators]
 xref: UBERON:0002101
 is_a: XAO:0003013 ! organism subdivision
+relationship: develops_from XAO:0003161 ! limb bud
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000067 ! NF stage 55
 
@@ -5979,6 +5984,7 @@ name: vagus nerve
 def: "Cranial nerve that branches into the lateral (to body sense organs) and the intestino-accessorial (to the skin, muscles of shoulder, hyoid, larynx, gut, lungs, and heart)." [ISBN:0471209627]
 synonym: "cranial nerve X" EXACT []
 synonym: "vagal nerve" RELATED []
+synonym: "vagus afferents" RELATED []
 xref: UBERON:0001759
 is_a: XAO:0000429 ! cranial nerve
 relationship: end_stage XAO:0000437 ! death
@@ -6925,7 +6931,7 @@ xref: UBERON:0002082
 is_a: XAO:0003165 ! cavitated compound organ
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000064 ! heart
-relationship: start_stage XAO:1000051 ! NF stage 39
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 
 [Term]
 id: XAO:0003194
@@ -7761,9 +7767,8 @@ creation_date: 2009-07-20T04:05:12Z
 [Term]
 id: XAO:0003267
 name: kidney
-def: "Either of the pair of structures lying on either side of the dorsal aorta in which fluid balance is regulated and waste is excreted out in the form of urine." [AAO:0000250]
+def: "Either of the pair of structures lying on either side of the dorsal aorta in which fluid balance is regulated and waste is excreted out in the form of urine. Amphibians (and fish) have a early kidney, the pronephros/pronephric kidney, which consitsts of a single nephron attached to a pronephric duct, which in turn is linked to the cloaca. The pronephros functions as primary filtration system for the embryo while the mesonephric kidney develops. The pronephros starts to degenerate at NF stage 53. The mesonephros starts to form at NF stage 39 and contuinues to grow into the adult kidney." [AAO:0000250, XAO:curator]
 synonym: "mesonephros" EXACT []
-synonym: "pronephros" EXACT []
 xref: UBERON:0002113
 is_a: XAO:0003165 ! cavitated compound organ
 relationship: develops_from XAO:0000264 ! pronephric mesenchyme
@@ -7792,7 +7797,7 @@ def: "Type of muscle that arises in the zygomatic arch and closes the jaw." [UBE
 xref: UBERON:0011648
 is_a: XAO:0004322 ! cranial muscle
 relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000057 ! NF stage 45
+relationship: start_stage XAO:1000052 ! NF stage 40
 created_by: eriksegerdell
 creation_date: 2009-12-01T04:45:17Z
 
@@ -10325,17 +10330,20 @@ name: gall bladder primordium
 def: "A sac-like cavity ventral to the liver, lying in the sub-mesodermal space and closed by a thin sheet of ectodermal cells, from which the future gall bladder develops." [ISBN:0815318960]
 xref: UBERON:0006242
 is_a: XAO:0003043 ! primordium
+relationship: develops_from XAO:0004513 ! foregut endoderm
 relationship: end_stage XAO:1000052 ! NF stage 40
 relationship: part_of XAO:0000125 ! alimentary system
-relationship: start_stage XAO:1000044 ! NF stage 28
+relationship: start_stage XAO:1000036 ! NF stage 20
 created_by: lab
 creation_date: 2011-09-13T01:15:58Z
 
 [Term]
 id: XAO:0004206
 name: anterior placodal area
-def: "One of the 2 subregions of the pre-placodal ectoderm, which lies abutting and anterior to the neural plate." [ISBN:0878933840]
+def: "One of the 3 domains of the U-shaped preplacodal ectoderm (PPE), which lies abutting and anterior to the neural plate." [ISBN:0878933840]
+synonym: "anterior preplacodal ectoderm" RELATED []
 synonym: "APA" EXACT []
+synonym: "APPE" RELATED []
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000047 ! NF stage 32
 relationship: part_of XAO:0004092 ! preplacodal ectoderm
@@ -10346,8 +10354,10 @@ creation_date: 2011-09-13T01:29:48Z
 [Term]
 id: XAO:0004207
 name: posterior placodal area
-def: "One of the 2 subregions of the pre-placodal ectoderm, which lies abutting and lateral to the neural crest." [ISBN:0878933840]
+def: "One of the 3 domains of the U-shaped preplacodal ectoderm (PPE), which lies abutting and lateral to the chordal neural plate border and neural crest." [ISBN:0878933840]
+synonym: "posterior preplacodal ectoderm" RELATED []
 synonym: "PPA" EXACT []
+synonym: "PPPE" RELATED []
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0004092 ! preplacodal ectoderm
@@ -11624,8 +11634,10 @@ creation_date: 2012-03-25T03:48:38Z
 [Term]
 id: XAO:0004322
 name: cranial muscle
-def: "Any of the muscle that is part of the head." [XAO:curators]
+def: "Any of the muscles that are part of the head." [XAO:curators]
+synonym: "head muscle" RELATED []
 is_a: XAO:0000172 ! muscle
+relationship: develops_from XAO:0004455 ! cranial muscle primordium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003024 ! head
 relationship: start_stage XAO:1000050 ! NF stage 37 and 38
@@ -12728,6 +12740,7 @@ id: XAO:0004416
 name: claw primordium
 def: "Portion of tissue consisting of unkeratinized cells at the most distal end of a developing digit and which will become a claw." [XAO:curators]
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000001 ! ectoderm
 relationship: end_stage XAO:1000069 ! NF stage 57
 relationship: part_of XAO:0003035 ! hindlimb digit
 relationship: start_stage XAO:1000067 ! NF stage 55
@@ -13154,6 +13167,7 @@ id: XAO:0004455
 name: cranial muscle primordium
 def: "The presumptive cells of any of the cranial muscles." [XAO:EJS]
 is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0000053 ! head mesoderm
 relationship: end_stage XAO:1000057 ! NF stage 45
 relationship: part_of XAO:0004042 ! muscular system
 relationship: start_stage XAO:1000047 ! NF stage 32
@@ -13838,8 +13852,9 @@ creation_date: 2013-04-10T23:31:07Z
 
 [Term]
 id: XAO:0004513
-name: foregut primordium
+name: foregut endoderm
 def: "The endoderm cells that are fated to become the foregut." [XAO:CJZ]
+synonym: "foregut primordium" RELATED []
 is_a: XAO:0003043 ! primordium
 relationship: develops_from XAO:0000295 ! central endoderm
 relationship: end_stage XAO:1000035 ! NF stage 19
@@ -15297,7 +15312,7 @@ name: macrophage
 def: "A mononuclear phagocyte present in a variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells." [CL:0000235]
 synonym: "histiocyte" EXACT []
 xref: CL:0000235
-is_a: XAO:0003012 ! cell
+is_a: XAO:0003239 ! circulating cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003152 ! immune system
 relationship: start_stage XAO:1000027 ! NF stage 17
@@ -15452,7 +15467,8 @@ def: "Any of the hematopoietic stem cell derived phagocytic cells that are first
 synonym: "embryonic macrophage" EXACT []
 is_a: XAO:0005025 ! macrophage
 relationship: develops_from XAO:0003055 ! hematopoietic stem cell
-relationship: end_stage XAO:1000041 ! NF stage 25
+relationship: develops_from XAO:0004473 ! ventral mesoderm
+relationship: end_stage XAO:1000047 ! NF stage 32
 relationship: part_of XAO:0000028 ! epidermis
 relationship: part_of XAO:0000050 ! mesoderm
 relationship: part_of XAO:0000067 ! ventral blood island
