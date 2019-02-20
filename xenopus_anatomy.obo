@@ -1,8 +1,7 @@
 format-version: 1.2
 data-version: releases/2018-06-14
-date: 12:06:2018 17:13
+date: 19:02:2019 16:09
 saved-by: eriksegerdell
-auto-generated-by: OBO-Edit 2.3.1
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
 subsetdef: organism_views "Organism View slim"
@@ -69,12 +68,13 @@ relationship: start_stage XAO:1000041 ! NF stage 25
 [Term]
 id: XAO:0000005
 name: olfactory placode
-def: "A thick plate of cells derived from the neural ectoderm in the head region of the embryo that develops into the olfactory region of the nasal cavity." [http://www.merriam-webster.com/medlineplus/olfactory+placode]
+def: "A thick plate of cells derived from the neural ectoderm in the head region of the embryo that develops into the olfactory epithelium of the nasal cavity." [http://www.merriam-webster.com/medlineplus/olfactory+placode]
 synonym: "nasal placode" RELATED []
 xref: UBERON:0003050
 is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0000041 ! epidermis inner layer
 relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: develops_from XAO:0004206 ! anterior placodal area
 relationship: develops_from XAO:0004209 ! anterior neural ridge
 relationship: end_stage XAO:1000054 ! NF stage 42
 relationship: part_of XAO:0003196 ! olfactory system
@@ -134,6 +134,7 @@ def: "Organ that is a component of the central nervous system and is responsible
 subset: frequent_anatomy_items
 xref: UBERON:0000955
 is_a: XAO:0003165 ! cavitated compound organ
+relationship: develops_from XAO:0003204 ! neural tube
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000215 ! central nervous system
 relationship: part_of XAO:0003024 ! head
@@ -279,6 +280,7 @@ def: "Surface structure that consists of the external membranous integument of t
 synonym: "integument" RELATED []
 xref: UBERON:0002097
 is_a: XAO:0003028 ! surface structure
+relationship: develops_from XAO:0000028 ! epidermis
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000176 ! dermal system
 relationship: start_stage XAO:1000039 ! NF stage 23
@@ -331,12 +333,12 @@ relationship: start_stage XAO:1000044 ! NF stage 28
 [Term]
 id: XAO:0000028
 name: epidermis
-def: "The outer epithelial layer of the external integument of the body that is derived from the embryonic epiblast." [AAO:0000143]
+def: "The outer epithelial layer of the external integument of the body that is derived from the primative or embryonic ectoderm." [AAO:0000143]
 subset: frequent_anatomy_items
 synonym: "skin" BROAD []
 xref: UBERON:0001003
 is_a: XAO:0003037 ! multi-tissue structure
-relationship: develops_from XAO:0000001 ! ectoderm
+relationship: develops_from XAO:0004091 ! non-neural ectoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000001 ! ectoderm
 relationship: part_of XAO:0000023 ! skin
@@ -381,10 +383,11 @@ id: XAO:0000032
 name: stomodeal-hypophyseal primordium
 def: "An anterior thickening of the sensorial layer of ectoderm, just above the cement gland. The hypophyseal layer separates from the stomodeal layer at NF stage 29 and 30, and when contacted by a protrusion of the foregut, the stomodeal layer will rupture to form the mouth opening at NF stage 39 and 40." [XAO:curators]
 is_a: XAO:0003043 ! primordium
-relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: develops_from XAO:0000001 ! ectoderm
+relationship: develops_from XAO:0000270 ! sensorial layer of neurectoderm
 relationship: end_stage XAO:1000052 ! NF stage 40
 relationship: part_of XAO:0000001 ! ectoderm
-relationship: start_stage XAO:1000036 ! NF stage 20
+relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0000033
@@ -548,6 +551,7 @@ synonym: "neural crest material" RELATED []
 xref: UBERON:0002342
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000001 ! ectoderm
+relationship: develops_from XAO:0000270 ! sensorial layer of neurectoderm
 relationship: develops_from XAO:0004104 ! neural plate border
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000042 ! neuroectoderm
@@ -666,7 +670,7 @@ synonym: "somites" RELATED PLURAL []
 synonym: "somitic mesoderm" RELATED []
 xref: UBERON:0002329
 is_a: XAO:0003040 ! tissue
-relationship: develops_from XAO:0000050 ! mesoderm
+relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: part_of XAO:0000050 ! mesoderm
 relationship: start_stage XAO:1000027 ! NF stage 17
@@ -897,7 +901,8 @@ name: circumblastoporal collar
 def: "Embryonic structure that develops around the closed blastopore." [PMID:22138030]
 synonym: "circumblastoporal region" RELATED []
 is_a: XAO:0003042 ! embryonic structure
-relationship: develops_from XAO:0000050 ! mesoderm
+relationship: develops_from XAO:0000088 ! upper blastopore lip
+relationship: develops_from XAO:0000089 ! lower blastopore lip
 relationship: end_stage XAO:1000036 ! NF stage 20
 relationship: start_stage XAO:1000022 ! NF stage 12
 
@@ -967,8 +972,10 @@ relationship: start_stage XAO:1000030 ! NF stage 10.25
 id: XAO:0000089
 name: lower blastopore lip
 def: "Ventral part of the blastopore lip, which forms as a result of the contraction of bottle cells." [XAO:EJS]
+synonym: "ventral blastopore groove" RELATED []
 synonym: "ventral blastopore lip" RELATED []
 is_a: XAO:0003042 ! embryonic structure
+relationship: develops_from XAO:0000050 ! mesoderm
 relationship: end_stage XAO:1000023 ! NF stage 13
 relationship: part_of XAO:0000078 ! blastopore lip
 relationship: start_stage XAO:1000030 ! NF stage 10.25
@@ -1101,12 +1108,13 @@ relationship: start_stage XAO:1000035 ! NF stage 19
 [Term]
 id: XAO:0000101
 name: liver diverticulum
-def: "An out-pocket of thickened ventral foregut epithelium adjacent to the developing heart. Its anterior portion gives rise to the liver and intrahepatic biliary tree, while the posterior portion forms the gall bladder and extrahepatic bile duct." [UBERON:0008835]
+def: "An out-pocket of thickened ventral foregut epithelium adjacent to the developing heart. Its anterior portion gives rise to the liver and intrahepatic biliary tree, while the posterior portion forms the gall bladder, hepato-pancreatic duct, hepato-pancreatic progenitor cells and the bile duct." [UBERON:0008835]
 xref: UBERON:0008835
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000092 ! archenteron
+relationship: develops_from XAO:0004513 ! foregut endoderm
 relationship: end_stage XAO:1000052 ! NF stage 40
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0000232 ! foregut
 relationship: start_stage XAO:1000024 ! NF stage 14
 
 [Term]
@@ -1171,6 +1179,8 @@ subset: frequent_anatomy_items
 synonym: "tailbud" EXACT []
 xref: UBERON:0002533
 is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0000001 ! ectoderm
+relationship: develops_from XAO:0000050 ! mesoderm
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0000087 ! tail region
 relationship: start_stage XAO:1000041 ! NF stage 25
@@ -1185,6 +1195,7 @@ xref: UBERON:0007097
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0000107 ! tail bud
+relationship: part_of XAO:0003204 ! neural tube
 relationship: part_of XAO:0004057 ! tail tip
 relationship: start_stage XAO:1000041 ! NF stage 25
 
@@ -1390,9 +1401,10 @@ def: "Internal organ that is the dilated portion of the alimentary tract situate
 xref: UBERON:0000945
 is_a: XAO:0003034 ! viscus
 is_a: XAO:0003165 ! cavitated compound organ
-relationship: develops_from XAO:0000232 ! foregut
+relationship: develops_from XAO:0004513 ! foregut endoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0000232 ! foregut
 relationship: start_stage XAO:1000052 ! NF stage 40
 
 [Term]
@@ -1866,6 +1878,7 @@ name: skeletal muscle
 def: "A type of muscle used to create movement, by applying force to bones and joints. Usually attached to bones by tendons." [http://en.wikipedia.org/wiki/Skeletal_muscle]
 xref: UBERON:0001134
 is_a: XAO:0000172 ! muscle
+relationship: develops_from XAO:0000314 ! trunk somite
 relationship: develops_from XAO:0000315 ! myotome
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000044 ! NF stage 28
@@ -1931,9 +1944,10 @@ name: cornea
 def: "The transparent front part of the eye that, together with the lens, refracts light." [http://en.wikipedia.org/wiki/Cornea]
 xref: UBERON:0000964
 is_a: XAO:0003028 ! surface structure
+relationship: develops_from XAO:0004091 ! non-neural ectoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000179 ! eye
-relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 
 [Term]
 id: XAO:0000181
@@ -2023,7 +2037,7 @@ is_a: XAO:0003165 ! cavitated compound organ
 relationship: develops_from XAO:0000006 ! otic vesicle
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003195 ! vestibuloauditory system
-relationship: start_stage XAO:1000059 ! NF stage 47
+relationship: start_stage XAO:1000055 ! NF stage 43
 
 [Term]
 id: XAO:0000190
@@ -2061,7 +2075,7 @@ xref: UBERON:0001846
 is_a: XAO:0003160 ! anatomical cluster
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000189 ! auditory apparatus
-relationship: start_stage XAO:1000059 ! NF stage 47
+relationship: start_stage XAO:1000055 ! NF stage 43
 
 [Term]
 id: XAO:0000193
@@ -2167,7 +2181,7 @@ def: "Any nerve outside the brain or spinal cord that connects with peripheral r
 xref: UBERON:0002003
 is_a: XAO:0003047 ! nerve
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000178 ! peripheral nervous system
+relationship: part_of XAO:0005199 ! peripheral ganglion
 relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
@@ -2206,8 +2220,11 @@ name: blastopore
 def: "The opening of the archenteron to the exterior, marking the point of origin of the archenteron and the caudal end of the embryo." [ISBN:0023771100]
 xref: UBERON:0000100
 is_a: XAO:0003042 ! embryonic structure
+relationship: develops_from XAO:0000090 ! endoderm
+relationship: develops_from XAO:0000281 ! vegetal yolk mass
 relationship: end_stage XAO:1000034 ! NF stage 18
 relationship: part_of XAO:0000068 ! marginal zone
+relationship: part_of XAO:0000281 ! vegetal yolk mass
 relationship: start_stage XAO:1000020 ! NF stage 10
 
 [Term]
@@ -2355,12 +2372,13 @@ replaced_by: XAO:0000223
 [Term]
 id: XAO:0000223
 name: otic placode
-def: "Invagination of thickened epithelium near the hindbrain that gives rise to a spherically shaped ear vesicle." [PMID:16217737]
+def: "Invagination of thickened epithelium near the hindbrain that gives rise to a spherically shaped ear vesicle, including precursors of the sensory epithelia of the inner ear and neurons of cranial nerve VIII." [PMID:16217737]
 synonym: "auditory placode" RELATED []
 synonym: "ear" BROAD []
 xref: UBERON:0003069
 is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: develops_from XAO:0004207 ! posterior placodal area
 relationship: end_stage XAO:1000042 ! NF stage 26
 relationship: part_of XAO:0003195 ! vestibuloauditory system
 relationship: start_stage XAO:1000034 ! NF stage 18
@@ -2377,10 +2395,11 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 [Term]
 id: XAO:0000225
 name: trigeminal placode
-def: "The ectodermal precursor of the trigeminal ganglion. The profundal and the trigeminal ganglia are separate distally but fused at their proximal end as they condense around NF stage 24." [PMID:21452441, UBERON:0003070]
+def: "The ectodermal precursor of the trigeminal ganglion. The profundal and the trigeminal ganglia are separate distally but fused at their proximal end as they condense around NF stage 24. The trigeminal placode gives rise to the sensory neurons of the ophthalmic and maxillomandibular lobes of cranial nerve V." [PMID:21452441, UBERON:0003070]
 xref: UBERON:0003070
 is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0000187 ! dorsolateral placode region
+relationship: develops_from XAO:0004206 ! anterior placodal area
 relationship: end_stage XAO:1000045 ! NF stage 29 and 30
 relationship: start_stage XAO:1000038 ! NF stage 22
 
@@ -2402,6 +2421,7 @@ synonym: "eye" BROAD []
 synonym: "eye anlage" RELATED []
 xref: UBERON:0003071
 is_a: XAO:0003043 ! primordium
+relationship: develops_from XAO:0000307 ! anterior neural tube
 relationship: develops_from XAO:0004090 ! optic field
 relationship: end_stage XAO:1000034 ! NF stage 18
 relationship: part_of XAO:0003198 ! visual system
@@ -2536,13 +2556,15 @@ relationship: start_stage XAO:1000052 ! NF stage 40
 [Term]
 id: XAO:0000240
 name: lens placode
-def: "A thickened portion of ectoderm that serves as the precursor to the lens. It invaginates to form the lens vesicle, which gives rise to the crystallin-accumulating cells of the lens." [PMID:16677629, UBERON:0003073]
+def: "A thickened portion of ectoderm that serves as the precursor to the lens. It invaginates to form the lens vesicle, which gives rise to the crystallin-accumulating cells of the transparent lens." [PMID:16677629, UBERON:0003073]
 synonym: "lens" BROAD []
 xref: UBERON:0003073
-is_a: XAO:0000305 ! cranial placode
+is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0000320 ! sensorial layer
+relationship: develops_from XAO:0004091 ! non-neural ectoderm
 relationship: end_stage XAO:1000048 ! NF stage 33 and 34
 relationship: part_of XAO:0000179 ! eye
+relationship: part_of XAO:0004206 ! anterior placodal area
 relationship: start_stage XAO:1000043 ! NF stage 27
 
 [Term]
@@ -2630,7 +2652,7 @@ relationship: start_stage XAO:1000036 ! NF stage 20
 [Term]
 id: XAO:0000248
 name: neural groove
-def: "The median dorsal longitudinal groove in the neural plate, directly above the notochord, which appears after after neural fold formation." [http://www.merriam-webster.com/medlineplus/neural+groove]
+def: "The median dorsal longitudinal groove in the neural plate, directly above the notochord, which appears after neural fold formation." [http://www.merriam-webster.com/medlineplus/neural+groove, XAO:curators]
 synonym: "median groove" RELATED []
 xref: UBERON:0005061
 is_a: XAO:0003040 ! tissue
@@ -2861,9 +2883,10 @@ name: sensorial layer of neurectoderm
 def: "Deep layer of the neural ectoderm, which undergoes early neuronal differentiation." [PMID:11832243]
 synonym: "deep layer of neurectoderm" RELATED []
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000249 ! neural plate
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0000042 ! neuroectoderm
-relationship: start_stage XAO:1000020 ! NF stage 10
+relationship: start_stage XAO:1000032 ! NF stage 11.5
 
 [Term]
 id: XAO:0000271
@@ -3017,7 +3040,7 @@ relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 [Term]
 id: XAO:0000284
 name: epibranchial placode
-def: "The three distinct placodal areas, which develop from the posterior placodal area, and lie ventral to the otic placode and dorsocaudal to the pharyngeal clefts, and contribute to the sensory ganglia and cranial nerves." [ISBN:0878933840]
+def: "The three distinct placodal areas which develop from the posterior placodal area and lie ventral to the otic placode and dorsocaudal to the pharyngeal clefts, and contribute to the sensory ganglia for the distal portion of cranial nerves VII IX and X. The proximal neurons are derived from the neural crest." [ISBN:0878933840]
 xref: UBERON:0003078
 is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0000187 ! dorsolateral placode region
@@ -3292,6 +3315,7 @@ synonym: "occipital somite" RELATED []
 xref: UBERON:0005594
 is_a: XAO:0000058 ! somite
 relationship: end_stage XAO:1000051 ! NF stage 39
+relationship: part_of XAO:0000040 ! head region
 relationship: start_stage XAO:1000027 ! NF stage 17
 
 [Term]
@@ -4081,7 +4105,6 @@ name: head somite 1
 def: "Transient occipital somite that exists from NF stages 17 to 26 only." [XAO:curators]
 synonym: "somite W" EXACT [PMID:2769206]
 is_a: XAO:0000313 ! head somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000042 ! NF stage 26
 relationship: start_stage XAO:1000027 ! NF stage 17
 
@@ -4121,7 +4144,6 @@ name: head somite 2
 def: "Transient occipital somite that exists from NF stages 18 to 29 only." [XAO:curators]
 synonym: "somite X" EXACT [PMID:2769206]
 is_a: XAO:0000313 ! head somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000045 ! NF stage 29 and 30
 relationship: start_stage XAO:1000034 ! NF stage 18
 
@@ -4131,7 +4153,6 @@ name: head somite 3
 def: "Transient occipital somite that exists from NF stages 18 to 29/30 only." [XAO:curators]
 synonym: "somite Y" EXACT [PMID:2769206]
 is_a: XAO:0000313 ! head somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000045 ! NF stage 29 and 30
 relationship: start_stage XAO:1000034 ! NF stage 18
 
@@ -4141,7 +4162,6 @@ name: head somite 4
 def: "Transient occipital somite that exists from NF stages 19 to late 30's." [XAO:curators]
 synonym: "somite Z" EXACT [PMID:2769206]
 is_a: XAO:0000313 ! head somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000051 ! NF stage 39
 relationship: start_stage XAO:1000034 ! NF stage 18
 
@@ -4152,7 +4172,6 @@ def: "Trunk somite that is initially the fifth somite, first forming around NF s
 synonym: "fifth somite" RELATED []
 synonym: "somite 1 " EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000035 ! NF stage 19
 
@@ -4163,7 +4182,6 @@ def: "Trunk somite that is initially the sixth somite and later becomes the seco
 synonym: "sixth somite" RELATED []
 synonym: "somite 2" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000035 ! NF stage 19
 
@@ -4173,7 +4191,6 @@ name: trunk somite 3
 def: "The 1st somite located posterior to the head." [XAO:EJS]
 synonym: "somite 3" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000036 ! NF stage 20
 
@@ -4183,7 +4200,6 @@ name: trunk somite 4
 def: "The 2nd somite located posterior to the head." [XAO:EJS]
 synonym: "somite 4" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000037 ! NF stage 21
 
@@ -4193,7 +4209,6 @@ name: trunk somite 5
 def: "The 3rd somite located posterior to the head." [XAO:EJS]
 synonym: "somite 5" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000038 ! NF stage 22
 
@@ -4203,7 +4218,6 @@ name: trunk somite 6
 def: "The 4th somite located posterior to the head." [XAO:EJS]
 synonym: "somite 6" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000038 ! NF stage 22
 
@@ -4213,7 +4227,6 @@ name: trunk somite 7
 def: "The 5th somite located posterior to the head." [XAO:EJS]
 synonym: "somite 7" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000039 ! NF stage 23
 
@@ -4243,7 +4256,6 @@ name: trunk somite 8
 def: "The 6th somite located posterior to the head." [XAO:EJS]
 synonym: "somite 8" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000039 ! NF stage 23
 
@@ -4253,7 +4265,6 @@ name: trunk somite 9
 def: "The 7th somite located posterior to the head." [XAO:EJS]
 synonym: "somite 9" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000039 ! NF stage 23
 
@@ -4263,7 +4274,6 @@ name: trunk somite 10
 def: "The 8th somite located posterior to the head." [XAO:EJS]
 synonym: "somite 10" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000040 ! NF stage 24
 
@@ -4273,7 +4283,6 @@ name: trunk somite 11
 def: "The 9th somite located posterior to the head." [XAO:EJS]
 synonym: "somite 11" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000040 ! NF stage 24
 
@@ -4283,7 +4292,6 @@ name: trunk somite 12
 def: "The 10th somite located posterior to the head." [XAO:EJS]
 synonym: "somite 12" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000041 ! NF stage 25
 
@@ -4293,7 +4301,6 @@ name: trunk somite 13
 def: "The 11th somite located posterior to the head." [XAO:EJS]
 synonym: "somite 13" EXACT []
 is_a: XAO:0000314 ! trunk somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000042 ! NF stage 26
 
@@ -4304,7 +4311,6 @@ def: "The 12th somite located posterior to the head. This somite is resorbed at 
 synonym: "somite 14" EXACT []
 synonym: "trunk somite 14" EXACT []
 is_a: XAO:0003143 ! tail somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000042 ! NF stage 26
 
@@ -4315,7 +4321,6 @@ def: "The 13th somite located posterior to the head. This somite is resorbed at 
 synonym: "somite 15" EXACT []
 synonym: "trunk somite 15" EXACT []
 is_a: XAO:0003143 ! tail somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000043 ! NF stage 27
 
@@ -4326,7 +4331,6 @@ def: "The 14th somite located posterior to the head. This somite forms at NF sta
 synonym: "somite 16" EXACT []
 synonym: "trunk somite 16" EXACT []
 is_a: XAO:0003143 ! tail somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000044 ! NF stage 28
 
@@ -4337,7 +4341,6 @@ def: "The 15th somite located posterior to the head. This somite is resorbed at 
 synonym: "somite 17" EXACT []
 synonym: "trunk somite 17" EXACT []
 is_a: XAO:0003143 ! tail somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000044 ! NF stage 28
 
@@ -4444,6 +4447,7 @@ synonym: "lateral line" BROAD []
 synonym: "lateral line placodes" RELATED PLURAL []
 xref: UBERON:0009128
 is_a: XAO:0004620 ! neurogenic placode
+relationship: develops_from XAO:0004207 ! posterior placodal area
 relationship: end_stage XAO:1000053 ! NF stage 41
 relationship: part_of XAO:0000095 ! lateral line system
 relationship: start_stage XAO:1000048 ! NF stage 33 and 34
@@ -4531,10 +4535,13 @@ synonym: "external gill anlage" RELATED []
 synonym: "gill" BROAD []
 xref: UBERON:0008894
 is_a: XAO:0003043 ! primordium
+relationship: develops_from XAO:0000050 ! mesoderm
 relationship: develops_from XAO:0000447 ! branchial arch 1
 relationship: develops_from XAO:0000449 ! branchial arch 2
+relationship: develops_from XAO:0004524 ! pharyngeal mesenchyme
 relationship: end_stage XAO:1000051 ! NF stage 39
 relationship: part_of XAO:0000117 ! respiratory system
+relationship: part_of XAO:0004261 ! pharyngeal region
 relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 
 [Term]
@@ -4782,6 +4789,7 @@ synonym: "CNC" EXACT []
 synonym: "head crest" RELATED []
 xref: UBERON:0003099
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000270 ! sensorial layer of neurectoderm
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000048 ! neural crest
 relationship: start_stage XAO:1000023 ! NF stage 13
@@ -4808,7 +4816,7 @@ synonym: "vascular system" EXACT []
 xref: UBERON:0004535
 is_a: XAO:0003002 ! anatomical system
 relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000046 ! NF stage 31
+relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0001011
@@ -4913,9 +4921,11 @@ xref: UBERON:0000931
 is_a: XAO:0003028 ! surface structure
 relationship: develops_from XAO:0000001 ! ectoderm
 relationship: develops_from XAO:0000082 ! circumblastoporal collar
+relationship: develops_from XAO:0000208 ! blastopore
+relationship: develops_from XAO:0004091 ! non-neural ectoderm
 relationship: end_stage XAO:1000078 ! NF stage 66
-relationship: part_of XAO:0000125 ! alimentary system
-relationship: start_stage XAO:1000037 ! NF stage 21
+relationship: part_of XAO:0000104 ! hindgut
+relationship: start_stage XAO:1000035 ! NF stage 19
 
 [Term]
 id: XAO:0001020
@@ -4977,7 +4987,7 @@ relationship: start_stage XAO:1000043 ! NF stage 27
 [Term]
 id: XAO:0002000
 name: pronephric kidney
-def: "Organ that serves as a transient kidney, providing osmoregulation during early developmental stages, and then degenerates during metamorphosis." [XAO:curators]
+def: "Transient embryonic organ that serves as a kidney, providing osmoregulation during early developmental stages, and then degenerates during metamorphosis (starting at NF stage 53) as the mesonephric kidney develops and becomes functional." [XAO:curators]
 subset: frequent_anatomy_items
 synonym: "head kidney" RELATED []
 synonym: "pronephros" RELATED []
@@ -5841,7 +5851,7 @@ def: "Skeleton encasing the brain and auditory apparatus." [ISBN:0070179778]
 is_a: XAO:0004289 ! skeletal subdivision
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003075 ! cranium
-relationship: start_stage XAO:1000057 ! NF stage 45
+relationship: start_stage XAO:1000055 ! NF stage 43
 
 [Term]
 id: XAO:0003084
@@ -6762,7 +6772,7 @@ xref: UBERON:0003110
 is_a: XAO:0003160 ! anatomical cluster
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003075 ! cranium
-relationship: start_stage XAO:1000057 ! NF stage 45
+relationship: start_stage XAO:1000055 ! NF stage 43
 
 [Term]
 id: XAO:0003176
@@ -6910,7 +6920,7 @@ def: "The chamber of the heart that receives blood from the lungs." [XAO:EJS]
 xref: UBERON:0002079
 is_a: XAO:0003165 ! cavitated compound organ
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000064 ! heart
+relationship: part_of XAO:0005198 ! cardiac atrium
 relationship: start_stage XAO:1000058 ! NF stage 46
 
 [Term]
@@ -6920,7 +6930,7 @@ def: "The chamber of the heart that receives blood from the sinus venosus." [XAO
 xref: UBERON:0002078
 is_a: XAO:0003165 ! cavitated compound organ
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000064 ! heart
+relationship: part_of XAO:0005198 ! cardiac atrium
 relationship: start_stage XAO:1000058 ! NF stage 46
 
 [Term]
@@ -7029,10 +7039,13 @@ relationship: start_stage XAO:1000072 ! NF stage 60
 [Term]
 id: XAO:0003204
 name: neural tube
-def: "Hollow epithelial tube on the dorsal side of the embryo that develops into the central nervous system." [AAO:0010617]
+def: "Hollow epithelial tube on the dorsal side of the embryo that develops into the brain and spinal cord." [AAO:0010617]
 xref: UBERON:0001049
 is_a: XAO:0003042 ! embryonic structure
+relationship: develops_from XAO:0000042 ! neuroectoderm
+relationship: develops_from XAO:0000249 ! neural plate
 relationship: end_stage XAO:1000044 ! NF stage 28
+relationship: part_of XAO:0000215 ! central nervous system
 relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
@@ -7322,7 +7335,7 @@ def: "Type of trunk muscle that lies ventral to the horizontal septum of the ver
 synonym: "body wall muscle" RELATED []
 xref: UBERON:0008777
 is_a: XAO:0000174 ! skeletal muscle
-relationship: develops_from XAO:0000314 ! trunk somite
+relationship: develops_from XAO:0005226 ! migrating myoblast
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003230 ! trunk musculature
 relationship: start_stage XAO:1000044 ! NF stage 28
@@ -7452,7 +7465,7 @@ xref: CL:0000080
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0001010 ! circulatory system
-relationship: start_stage XAO:1000046 ! NF stage 31
+relationship: start_stage XAO:1000034 ! NF stage 18
 created_by: eriksegerdell
 creation_date: 2009-07-20T01:26:48Z
 
@@ -7534,6 +7547,7 @@ name: endocrine cell
 def: "A cell of an endocrine gland, ductless glands that secrete substances which are released directly into the circulation and which influence metabolism and other body functions." [CL:0000163]
 xref: CL:0000163
 is_a: XAO:0003012 ! cell
+relationship: develops_from XAO:0004208 ! adenohypophyseal placode
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000158 ! endocrine system
 relationship: start_stage XAO:1000042 ! NF stage 26
@@ -7767,7 +7781,7 @@ creation_date: 2009-07-20T04:05:12Z
 [Term]
 id: XAO:0003267
 name: kidney
-def: "Either of the pair of structures lying on either side of the dorsal aorta in which fluid balance is regulated and waste is excreted out in the form of urine. Amphibians (and fish) have a early kidney, the pronephros/pronephric kidney, which consitsts of a single nephron attached to a pronephric duct, which in turn is linked to the cloaca. The pronephros functions as primary filtration system for the embryo while the mesonephric kidney develops. The pronephros starts to degenerate at NF stage 53. The mesonephros starts to form at NF stage 39 and contuinues to grow into the adult kidney." [AAO:0000250, XAO:curator]
+def: "Either of the pair of structures lying on either side of the dorsal aorta in which fluid balance is regulated and waste is excreted out in the form of urine. Amphibians (and fish) have a early kidney, the pronephros/pronephric kidney, which consitsts of a single nephron attached to a pronephric duct, which in turn is linked to the cloaca. The pronephros functions as primary filtration system for the embryo while the mesonephric kidney develops. The pronephros starts to degenerate at NF stage 53. The mesonephros starts to form at NF stage 39 and contuinues to grow into the adult kidney." [AAO:0000250, XAO:curators]
 synonym: "mesonephros" EXACT []
 xref: UBERON:0002113
 is_a: XAO:0003165 ! cavitated compound organ
@@ -7844,7 +7858,7 @@ xref: CARO:0000008
 xref: UBERON:0006800
 is_a: XAO:0000000 ! Xenopus anatomical entity
 relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000001 ! NF stage 1
+relationship: start_stage XAO:1000083 ! oocyte stage I
 created_by: lab
 creation_date: 2011-06-16T11:18:59Z
 
@@ -8002,7 +8016,7 @@ xref: UBERON:0010522
 is_a: XAO:0004012 ! skeletal element
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004026 ! endoskeleton
-relationship: start_stage XAO:1000057 ! NF stage 45
+relationship: start_stage XAO:1000055 ! NF stage 43
 created_by: xenbase3
 creation_date: 2011-08-22T03:37:56Z
 
@@ -8014,7 +8028,7 @@ synonym: "endochondral replacement element" EXACT []
 xref: UBERON:0010363
 is_a: XAO:0004016 ! replacement element
 relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000057 ! NF stage 45
+relationship: start_stage XAO:1000055 ! NF stage 43
 created_by: xenbase3
 creation_date: 2011-08-22T03:38:45Z
 
@@ -8836,10 +8850,19 @@ creation_date: 2011-08-24T02:09:39Z
 [Term]
 id: XAO:0004085
 name: ionocyte
-def: "Specialized epithelial cells involved in the maintenance of osmotic homeostasis. They are characterized by abundant mitochondria and ion transporters." [CL:0005006]
+def: "Specialized epithelial cells involved in the maintenance of osmotic homeostasis. They are characterized by abundant mitochondria and ion transporters. In Xenopus there are two distinct types of ionocytes, described as alpha- and beta- subtypes." [CL:0005006]
+synonym: "clear cell" BROAD []
+synonym: "FORE cell" RELATED []
+synonym: "IC" EXACT []
+synonym: "intercalated cell" BROAD []
+synonym: "mitochondria-rich cell" BROAD []
+synonym: "narrow cell" BROAD []
+synonym: "proton-secreting cell" RELATED []
+synonym: "PSC" RELATED []
 xref: CL:0005006
-is_a: XAO:0003249 ! epithelial cell
+is_a: XAO:0004225 ! non-ciliated epithelial cell
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000028 ! epidermis
 relationship: start_stage XAO:1000020 ! NF stage 10
 created_by: xenbase3
 creation_date: 2011-08-24T02:12:18Z
@@ -8911,10 +8934,10 @@ name: non-neural ectoderm
 def: "The portion of the embryonic ectoderm, including the preplacodal ectoderm, that does not give rise to nervous tissue." [XAO:EJS]
 xref: UBERON:0005497
 is_a: XAO:0003040 ! tissue
-relationship: develops_from XAO:0000001 ! ectoderm
+relationship: develops_from XAO:0004132 ! presumptive ectoderm
 relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0000001 ! ectoderm
-relationship: start_stage XAO:1000032 ! NF stage 11.5
+relationship: start_stage XAO:1000020 ! NF stage 10
 created_by: xenbase3
 creation_date: 2011-08-24T03:28:19Z
 
@@ -10330,6 +10353,7 @@ name: gall bladder primordium
 def: "A sac-like cavity ventral to the liver, lying in the sub-mesodermal space and closed by a thin sheet of ectodermal cells, from which the future gall bladder develops." [ISBN:0815318960]
 xref: UBERON:0006242
 is_a: XAO:0003043 ! primordium
+relationship: develops_from XAO:0000090 ! endoderm
 relationship: develops_from XAO:0004513 ! foregut endoderm
 relationship: end_stage XAO:1000052 ! NF stage 40
 relationship: part_of XAO:0000125 ! alimentary system
@@ -10371,7 +10395,7 @@ name: adenohypophyseal placode
 def: "The small pre-placodal ectoderm area that develops at the midline of the anterior neural ridge, abutting the anterior neural plate, and invaginates to form Rathke's pouch, which in turn forms the anterior lobe of the pituitary gland and gives rise to the endocrine secretory cells of the pituitary." [ISBN:0878933840]
 synonym: "pituitary placode" EXACT []
 xref: UBERON:0009122
-is_a: XAO:0000305 ! cranial placode
+is_a: XAO:0004620 ! neurogenic placode
 relationship: end_stage XAO:1000051 ! NF stage 39
 relationship: part_of XAO:0004091 ! non-neural ectoderm
 relationship: start_stage XAO:1000027 ! NF stage 17
@@ -11031,6 +11055,7 @@ def: "A multipolar neuron that connects afferent neurons and efferent neurons in
 xref: CL:0000099
 is_a: XAO:0003023 ! neuron
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005195 ! enteric nervous system
 relationship: start_stage XAO:1000025 ! NF stage 15
 created_by: eriksegerdell
 creation_date: 2012-01-27T10:24:56Z
@@ -11064,6 +11089,7 @@ def: "Any of a field of cells in the posterior section of the foregut that will 
 synonym: "hepato-pancreatic progenitor cells" RELATED PLURAL []
 is_a: XAO:0005033 ! progenitor cell
 relationship: develops_from XAO:0000090 ! endoderm
+relationship: develops_from XAO:0000101 ! liver diverticulum
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000232 ! foregut
 relationship: start_stage XAO:1000036 ! NF stage 20
@@ -11439,7 +11465,7 @@ id: XAO:0004305
 name: zona limitans intrathalamica
 def: "A narrow stripe of cells that lies between the prospective dorsal and ventral thalami. This boundary contains signals that pattern the prethalamic and thalamic territories of the future mid-diencephalon." [UBERON:0009848]
 synonym: "Zli" EXACT []
-is_a: XAO:0004003 ! anatomical line
+is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000001 ! ectoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000013 ! diencephalon
@@ -12475,9 +12501,9 @@ id: XAO:0004394
 name: hatching gland primordium
 def: "The presumptive cells of the hatching gland, present by the end of gastrulation." [XAO:EJS]
 is_a: XAO:0003043 ! primordium
+relationship: develops_from XAO:0004091 ! non-neural ectoderm
 relationship: end_stage XAO:1000024 ! NF stage 14
 relationship: part_of XAO:0003024 ! head
-relationship: part_of XAO:0004091 ! non-neural ectoderm
 relationship: start_stage XAO:1000033 ! NF stage 12.5
 created_by: eriksegerdell
 creation_date: 2012-05-05T05:15:00Z
@@ -13857,7 +13883,7 @@ def: "The endoderm cells that are fated to become the foregut." [XAO:CJZ]
 synonym: "foregut primordium" RELATED []
 is_a: XAO:0003043 ! primordium
 relationship: develops_from XAO:0000295 ! central endoderm
-relationship: end_stage XAO:1000035 ! NF stage 19
+relationship: end_stage XAO:1000051 ! NF stage 39
 relationship: part_of XAO:0000090 ! endoderm
 relationship: start_stage XAO:1000026 ! NF stage 16
 created_by: eriksegerdell
@@ -13973,12 +13999,16 @@ creation_date: 2013-05-27T16:31:38Z
 [Term]
 id: XAO:0004523
 name: enteric neuron
-def: "Neuron that is part of the enteric nervous system." [CL:0007011]
+def: "Any of the neurons specific to the gastrointestinal system. Enteric neurons are embedded the lining of the esophagus, stomach, small and large intestines and the cloaca." [https://en.wikipedia.org/wiki/Enteric_nervous_system]
 xref: CL:0007011
 is_a: XAO:0003023 ! neuron
 relationship: develops_from XAO:0000048 ! neural crest
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000104 ! hindgut
+relationship: part_of XAO:0000130 ! small intestine
+relationship: part_of XAO:0000131 ! large intestine
+relationship: part_of XAO:0000244 ! cloaca
+relationship: part_of XAO:0005195 ! enteric nervous system
 relationship: start_stage XAO:1000036 ! NF stage 20
 created_by: eriksegerdell
 creation_date: 2013-05-27T16:58:52Z
@@ -14029,7 +14059,6 @@ def: "The 16th somite located posterior to the head. This somite is resorbed at 
 synonym: "somite 18" EXACT []
 synonym: "trunk somite 18" EXACT []
 is_a: XAO:0003143 ! tail somite
-relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 
@@ -14923,6 +14952,7 @@ name: neurogenic placode
 def: "Cranial placode with neurogenic potential." [UBERON:0009955]
 xref: UBERON:0009955
 is_a: XAO:0000305 ! cranial placode
+relationship: develops_from XAO:0004092 ! preplacodal ectoderm
 relationship: end_stage XAO:1000054 ! NF stage 42
 relationship: start_stage XAO:1000024 ! NF stage 14
 
@@ -15314,6 +15344,7 @@ synonym: "histiocyte" EXACT []
 xref: CL:0000235
 is_a: XAO:0003239 ! circulating cell
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000124 ! blood
 relationship: part_of XAO:0003152 ! immune system
 relationship: start_stage XAO:1000027 ! NF stage 17
 created_by: eriksegerdell
@@ -16809,8 +16840,8 @@ synonym: "foramen ovale" RELATED []
 xref: UBERON:0002501
 is_a: XAO:0003190 ! anatomical space
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000192 ! inner ear
-relationship: start_stage XAO:1000059 ! NF stage 47
+relationship: part_of XAO:0005225 ! otic capsule
+relationship: start_stage XAO:1000055 ! NF stage 43
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
 
@@ -17297,6 +17328,7 @@ synonym: "anterior pituitary" EXACT []
 synonym: "pars anterior" RELATED []
 xref: UBERON:0002196
 is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0004208 ! adenohypophyseal placode
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000017 ! hypophysis
 relationship: start_stage XAO:1000052 ! NF stage 40
@@ -17413,6 +17445,285 @@ relationship: part_of XAO:0003024 ! head
 relationship: start_stage XAO:1000023 ! NF stage 13
 created_by: eriksegerdell
 creation_date: 2018-01-17T17:00:00Z
+
+[Term]
+id: XAO:0005195
+name: enteric nervous system
+def: "The mesh-like system of enteric neurons that innervate the gastrointestinal tract, with neurons embedded in the lining of the gastrointestinal system, beginning at the esophagus and extending down to the cloaca. The ENS can and does operate independently of the brain and the spinal cord." [https://en.wikipedia.org/wiki/Enteric_nervous_system]
+synonym: "ENS" EXACT []
+synonym: "intrinsic nervous system" RELATED []
+xref: UBERON:0002005
+is_a: XAO:0000177 ! nervous system
+relationship: develops_from XAO:0000048 ! neural crest
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000025 ! NF stage 15
+
+[Term]
+id: XAO:0005196
+name: neutrophil
+namespace: A type of blood cell which is part of the innate immune system and is quickly recruited to sites of injury. {xref="XAO:curators"}
+synonym: "neutrocyte" RELATED []
+xref: CL:0000775
+is_a: XAO:0003239 ! circulating cell
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000124 ! blood
+relationship: part_of XAO:0003152 ! immune system
+relationship: start_stage XAO:1000034 ! NF stage 18
+
+[Term]
+id: XAO:0005197
+name: lateral preplacodal ectoderm
+def: "One of the 3 domains of the U-shaped preplacodal ectoderm, lying between the anterior PPE and posterior PPE domains." [XAO:curators]
+synonym: "lateral PPE" EXACT []
+synonym: "LPPE" EXACT []
+is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0004104 ! neural plate border
+relationship: end_stage XAO:1000047 ! NF stage 32
+relationship: part_of XAO:0004092 ! preplacodal ectoderm
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005198
+name: cardiac atrium
+def: "Cardiac chamber in which blood enters the heart." [UBERON:0002081]
+xref: UBERON:0002081
+is_a: XAO:0003165 ! cavitated compound organ
+relationship: develops_from XAO:0000337 ! endocardial tube
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000064 ! heart
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
+id: XAO:0005199
+name: peripheral ganglion
+def: "Type of ganglia in the trunk region that connect the central nervous system with organs, muscles, blood vessels and glands, and are exclusively derived from trunk neural crest cells." [PMID:11254347]
+is_a: XAO:0000209 ! ganglion
+relationship: develops_from XAO:0000048 ! neural crest
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0005200
+name: anatomical axis
+def: "A straight line through space, intersecting an anatomical entity. Axis directions are defined in terms of axes." [BSPO:0000010]
+is_a: XAO:0004003 ! anatomical line
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000083 ! oocyte stage I
+
+[Term]
+id: XAO:0005201
+name: animal-vegetal axis
+def: "An axis that extends from the animal end of an egg or early embryo to the opposite, vegetal end." [BSPO:0000199]
+is_a: XAO:0005200 ! anatomical axis
+relationship: end_stage XAO:1000021 ! NF stage 11
+relationship: start_stage XAO:1000083 ! oocyte stage I
+
+[Term]
+id: XAO:0005202
+name: anterior-posterior axis
+def: "An axis that extends through an organism from head end to opposite end of body or tail." [BSPO:0000013]
+is_a: XAO:0005200 ! anatomical axis
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005203
+name: dorsal-ventral axis
+def: "An axis that is approximately perpendicular to the anterior-posterior axis and that extends through the horizontal plane of the body." [BSPO:0000016]
+is_a: XAO:0005200 ! anatomical axis
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005204
+name: left-right axis
+def: "An axis that bisects an organism from left to right sides of body, through a sagittal plane." [BSPO:0000017]
+is_a: XAO:0005200 ! anatomical axis
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005205
+name: anatomical side
+def: "An anatomical region bounded by a plane perpendicular to an axis through the middle." [BSPO:0000054]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005206
+name: anterior side
+def: "An anatomical region that is the entire part of an anatomical structure anterior to a transverse plane and bounded on one side by the same transverse plane." [BSPO:0000055]
+is_a: XAO:0005205 ! anatomical side
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005207
+name: posterior side
+def: "An anatomical region that is the entire part of an anatomical structure posterior to a transverse plane and bounded on one side by the same transverse plane." [BSPO:0000056]
+is_a: XAO:0005205 ! anatomical side
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005208
+name: dorsal side
+def: "An anatomical region that is the entire part of an anatomical structure dorsal to a horizontal plane and bounded on one side by the same horizontal plane." [BSPO:0000063]
+is_a: XAO:0005205 ! anatomical side
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005209
+name: ventral side
+def: "An anatomical region that is the entire part of an anatomical structure ventral to a horizontal plane and bounded on one side by the same horizontal plane." [BSPO:0000068]
+is_a: XAO:0005205 ! anatomical side
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005210
+name: left side
+def: "The side of an organism that is left of the sagittal plane." [BSPO:0000000]
+is_a: XAO:0005205 ! anatomical side
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005211
+name: right side
+def: "The side of an organism that is right of the sagittal plane." [BSPO:0000007]
+is_a: XAO:0005205 ! anatomical side
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005212
+name: proximal-distal axis
+def: "An axis that extends from the point of attachment of a structure (proximal) to the point furthest away from the plane of attachment (distal)." [BSPO:0000015]
+is_a: XAO:0005200 ! anatomical axis
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005213
+name: apical region
+def: "Anatomical region located on the apical end on the body or body part." [BSPO:0000073]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005214
+name: axial region
+def: "Anatomical region that runs down the center (axis) of the body, encompassing everything exept the limbs." [XAO:EJS]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005215
+name: basal region
+def: "Anatomical region located basally on the body or body part." [BSPO:0000074]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005216
+name: anterior region
+def: "Anatomical region anteriorly located on the body or body part." [BSPO:0000071]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005217
+name: posterior region
+def: "Anatomical region posteriorly located on the body or body part." [BSPO:0000072]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005218
+name: dorsal region
+def: "Anatomical region dorsally located on the body or body part." [BSPO:0000079]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005219
+name: ventral region
+def: "Anatomical region ventrally located on the body or body part." [BSPO:0000084]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005220
+name: medial region
+def: "Anatomical region medially located on the body or body part." [BSPO:0000083]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005221
+name: antero-dorsal region
+def: "Anatomical region that overlaps the anterior and dorsal regions of a body or body part." [BSPO:0000026]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005222
+name: antero-ventral region
+def: "Anatomical region that overlaps the anterior and ventral regions of a body or body part." [BSPO:0000027]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005223
+name: postero-dorsal region
+def: "Anatomical region that overlaps the posterior and dorsal regions of the body or body part." [BSPO:0000030]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005224
+name: postero-ventral region
+def: "Anatomical region that overlaps the posterior and ventral regions of a body or body part." [BSPO:0000035]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005225
+name: otic capsule
+def: "The capsule surrounding the inner ear components." [XAO:MEF]
+synonym: "ear capsule" RELATED []
+xref: UBERON:0004637
+is_a: XAO:0004017 ! endochondral element
+relationship: develops_from XAO:0000006 ! otic vesicle
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000192 ! inner ear
+relationship: part_of XAO:0003083 ! braincase and otic capsule skeleton
+relationship: part_of XAO:0003175 ! otic region
+relationship: start_stage XAO:1000055 ! NF stage 43
+
+[Term]
+id: XAO:0005226
+name: migrating myoblast
+def: "Any of the muscle precursor cells which emerge from the lower margin of the trunk somites, appear in a segmented pattern, and move through the lateral regions of the embryo to form the hypaxial muscle." [XAO:CJZ]
+is_a: XAO:0003015 ! myoblast
+relationship: develops_from XAO:0000314 ! trunk somite
+relationship: end_stage XAO:1000059 ! NF stage 47
+relationship: start_stage XAO:1000035 ! NF stage 19
 
 [Term]
 id: XAO:1000000
