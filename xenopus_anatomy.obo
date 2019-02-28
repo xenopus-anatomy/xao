@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2018-06-14
-date: 19:02:2019 16:09
+date: 27:02:2019 16:33
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -552,6 +552,7 @@ xref: UBERON:0002342
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000001 ! ectoderm
 relationship: develops_from XAO:0000270 ! sensorial layer of neurectoderm
+relationship: develops_from XAO:0004103 ! chordal neural plate border
 relationship: develops_from XAO:0004104 ! neural plate border
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000042 ! neuroectoderm
@@ -577,6 +578,7 @@ subset: frequent_anatomy_items
 synonym: "mesodermal mantle" RELATED []
 xref: UBERON:0000926
 is_a: XAO:0003011 ! primary germ layer
+relationship: develops_from XAO:0003044 ! endomesoderm
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: start_stage XAO:1000020 ! NF stage 10
 
@@ -659,6 +661,7 @@ is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000259 ! paraxial mesoderm
 relationship: end_stage XAO:1000045 ! NF stage 29 and 30
 relationship: part_of XAO:0000259 ! paraxial mesoderm
+relationship: part_of XAO:0004042 ! muscular system
 relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
@@ -673,6 +676,7 @@ is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000057 ! presomitic mesoderm
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: part_of XAO:0000050 ! mesoderm
+relationship: part_of XAO:0004042 ! muscular system
 relationship: start_stage XAO:1000027 ! NF stage 17
 
 [Term]
@@ -988,6 +992,7 @@ subset: frequent_anatomy_items
 synonym: "entoderm" RELATED []
 xref: UBERON:0000925
 is_a: XAO:0003011 ! primary germ layer
+relationship: develops_from XAO:0003044 ! endomesoderm
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: start_stage XAO:1000020 ! NF stage 10
 
@@ -1745,7 +1750,7 @@ is_a: XAO:0003041 ! compound organ
 relationship: develops_from XAO:0000444 ! thyroid primordium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000158 ! endocrine system
-relationship: start_stage XAO:1000061 ! NF stage 49
+relationship: start_stage XAO:1000055 ! NF stage 43
 
 [Term]
 id: XAO:0000163
@@ -2654,9 +2659,10 @@ id: XAO:0000248
 name: neural groove
 def: "The median dorsal longitudinal groove in the neural plate, directly above the notochord, which appears after neural fold formation." [http://www.merriam-webster.com/medlineplus/neural+groove, XAO:curators]
 synonym: "median groove" RELATED []
+synonym: "neural midline" RELATED []
 xref: UBERON:0005061
 is_a: XAO:0003040 ! tissue
-relationship: develops_from XAO:0000249 ! neural plate
+relationship: develops_from XAO:0000042 ! neuroectoderm
 relationship: end_stage XAO:1000038 ! NF stage 22
 relationship: part_of XAO:0000249 ! neural plate
 relationship: start_stage XAO:1000023 ! NF stage 13
@@ -2770,6 +2776,7 @@ xref: UBERON:0003077
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0004134 ! presumptive paraxial mesoderm
 relationship: end_stage XAO:1000045 ! NF stage 29 and 30
+relationship: part_of XAO:0000050 ! mesoderm
 relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
@@ -3299,6 +3306,7 @@ relationship: start_stage XAO:1000023 ! NF stage 13
 id: XAO:0000311
 name: lateral plate mesoderm
 def: "Portion of the middle of the three primary germ layers of the embryo that resides on the periphery of the embryo, splits into two layers enclosing the intra-embryonic coelom, and gives rise to body wall structures." [UBERON:0003081]
+synonym: "LPM" EXACT []
 xref: UBERON:0003081
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000050 ! mesoderm
@@ -3437,14 +3445,15 @@ relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 [Term]
 id: XAO:0000328
 name: spleen
-def: "Internal lymphoid organ derived from left spleen primordia beginning at NF stage 48." [XAO:curators]
+def: "Internal lymphoid organ the primary function of which is to filter blood." [XAO:EJS]
 xref: UBERON:0002106
 is_a: XAO:0003034 ! viscus
 is_a: XAO:0003041 ! compound organ
 relationship: develops_from XAO:0000326 ! left spleen primordium
+relationship: develops_from XAO:0000327 ! right spleen primordium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003152 ! immune system
-relationship: start_stage XAO:1000060 ! NF stage 48
+relationship: start_stage XAO:1000057 ! NF stage 45
 
 [Term]
 id: XAO:0000329
@@ -3519,7 +3528,7 @@ synonym: "heart primordia" RELATED []
 synonym: "heart primordium" RELATED []
 xref: UBERON:0003084
 is_a: XAO:0003043 ! primordium
-relationship: develops_from XAO:0000235 ! cardiac mesoderm
+relationship: develops_from XAO:0004185 ! primary heart field
 relationship: end_stage XAO:1000046 ! NF stage 31
 relationship: part_of XAO:0000100 ! cardiovascular system
 relationship: start_stage XAO:1000035 ! NF stage 19
@@ -4488,7 +4497,7 @@ synonym: "thyroid" BROAD []
 xref: UBERON:0003091
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: develops_from XAO:0000105 ! pharyngeal cavity
-relationship: end_stage XAO:1000061 ! NF stage 49
+relationship: end_stage XAO:1000054 ! NF stage 42
 relationship: part_of XAO:0000158 ! endocrine system
 relationship: start_stage XAO:1000048 ! NF stage 33 and 34
 
@@ -5997,9 +6006,10 @@ synonym: "vagal nerve" RELATED []
 synonym: "vagus afferents" RELATED []
 xref: UBERON:0001759
 is_a: XAO:0000429 ! cranial nerve
+relationship: develops_from XAO:0000305 ! cranial placode
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003197 ! gustatory system
-relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
 
 [Term]
 id: XAO:0003098
@@ -7043,6 +7053,7 @@ def: "Hollow epithelial tube on the dorsal side of the embryo that develops into
 xref: UBERON:0001049
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000042 ! neuroectoderm
+relationship: develops_from XAO:0000248 ! neural groove
 relationship: develops_from XAO:0000249 ! neural plate
 relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0000215 ! central nervous system
@@ -8663,7 +8674,7 @@ synonym: "neural crest migrating cells" RELATED PLURAL []
 xref: CL:0000333
 is_a: XAO:0003012 ! cell
 relationship: develops_from XAO:0000048 ! neural crest
-relationship: end_stage XAO:1000046 ! NF stage 31
+relationship: end_stage XAO:1000047 ! NF stage 32
 relationship: part_of XAO:0000048 ! neural crest
 relationship: start_stage XAO:1000023 ! NF stage 13
 created_by: xenbase3
@@ -8885,7 +8896,9 @@ name: neural fold
 def: "One of the two edges of the neural groove." [UBERON:0005062]
 xref: UBERON:0005062
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000042 ! neuroectoderm
 relationship: end_stage XAO:1000038 ! NF stage 22
+relationship: part_of XAO:0000249 ! neural plate
 relationship: start_stage XAO:1000023 ! NF stage 13
 created_by: xenbase3
 creation_date: 2011-08-24T02:42:38Z
@@ -9082,7 +9095,7 @@ creation_date: 2011-08-25T09:47:05Z
 [Term]
 id: XAO:0004103
 name: chordal neural plate border
-def: "The portion of the neural plate border that is posterior to the mid-hindbrain junction." [XAO:EJS]
+def: "The portion of the neural plate border that is posterior to the mid-hindbrain junction, and from which neural crest cells arise." [XAO:curators]
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000038 ! NF stage 22
 relationship: part_of XAO:0000046 ! chordal neural plate
@@ -9592,7 +9605,7 @@ synonym: "aVBI" EXACT []
 synonym: "blood island" BROAD []
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000049 ! NF stage 35 and 36
-relationship: part_of XAO:0000122 ! hematological system
+relationship: part_of XAO:0000067 ! ventral blood island
 relationship: start_stage XAO:1000038 ! NF stage 22
 created_by: xenbase3
 creation_date: 2011-08-26T11:20:29Z
@@ -10100,9 +10113,10 @@ synonym: "first heart field" EXACT []
 synonym: "PHF" RELATED []
 xref: UBERON:0004140
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000235 ! cardiac mesoderm
 relationship: end_stage XAO:1000048 ! NF stage 33 and 34
 relationship: part_of XAO:0000100 ! cardiovascular system
-relationship: start_stage XAO:1000039 ! NF stage 23
+relationship: start_stage XAO:1000035 ! NF stage 19
 created_by: lab
 creation_date: 2011-09-02T10:49:26Z
 
@@ -10408,7 +10422,9 @@ name: anterior neural ridge
 def: "The region that delineates the rostral boundary of the neural plate in the neural stage embryo, and is devoid of neural crest cells. It gives rise to the pre-placodal region, some elements of the forebrain, and the anterior lobe of the pituitary gland." [ISBN:0878933840]
 synonym: "ANR" EXACT []
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000042 ! neuroectoderm
 relationship: end_stage XAO:1000038 ! NF stage 22
+relationship: part_of XAO:0000249 ! neural plate
 relationship: start_stage XAO:1000032 ! NF stage 11.5
 created_by: lab
 creation_date: 2011-09-13T02:26:18Z
@@ -15034,7 +15050,7 @@ id: XAO:0004628
 name: posterior ventral blood island
 def: "The erythroid-forming compartment of the ventral blood island." [PMID:18594023]
 synonym: "pvbi" EXACT []
-is_a: XAO:0001011 ! blood vessel
+is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000050 ! mesoderm
 relationship: end_stage XAO:1000049 ! NF stage 35 and 36
 relationship: part_of XAO:0000067 ! ventral blood island
@@ -17724,6 +17740,245 @@ is_a: XAO:0003015 ! myoblast
 relationship: develops_from XAO:0000314 ! trunk somite
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000035 ! NF stage 19
+
+[Term]
+id: XAO:0005227
+name: flexural organ
+def: "Tissue that is the most anterior portion of the notochord and secretes Reissner's fiber-related proteins, including F-spondin." [PMID:9482230]
+synonym: "FO" EXACT []
+is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000205 ! axial mesoderm
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0000055 ! notochord
+relationship: start_stage XAO:1000033 ! NF stage 12.5
+
+[Term]
+id: XAO:0005228
+name: efferent neuron
+is_a: XAO:0003023 ! neuron
+
+[Term]
+id: XAO:0005229
+name: afferent neuron
+is_a: XAO:0003023 ! neuron
+
+[Term]
+id: XAO:0005230
+name: larval alimentary system
+is_a: XAO:0000125 ! alimentary system
+
+[Term]
+id: XAO:0005231
+name: cloacal sphincter
+is_a: XAO:0003037 ! multi-tissue structure
+
+[Term]
+id: XAO:0005232
+name: ionocyte, alpha subtype
+def: "One of the two types of proton-secreteing cells (PSC) in amphibian skin, which play an important role in ion transport, alpha-PSCs are characterised by expression of slc4a1 (ae1) and localization of H+v-ATPases at the apical plasma membrane." [PMID:21266406]
+synonym: "alpha ionocyte" EXACT []
+synonym: "alpha-PSC" EXACT []
+synonym: "ICa" EXACT []
+is_a: XAO:0004085 ! ionocyte
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000020 ! NF stage 10
+
+[Term]
+id: XAO:0005233
+name: ionocyte, beta subtype
+def: "One of the two types of proton-secreteing cells (PSC) in amphibian skin, which play an important role in ion transport, beta-PSCs are characterised by expression of pendrin and localization of the H+v-ATPase cytosolically or basolaterally in the plasma membrane." [PMID:21266406]
+synonym: "beta ionocyte" EXACT []
+synonym: "beta-PSC" EXACT []
+synonym: "ICb" EXACT []
+is_a: XAO:0004085 ! ionocyte
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000020 ! NF stage 10
+
+[Term]
+id: XAO:0005234
+name: small secretory cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005235
+name: dorsal telencephalon
+is_a: XAO:0003037 ! multi-tissue structure
+
+[Term]
+id: XAO:0005236
+name: intestinal stem cell
+is_a: XAO:0003054 ! stem cell
+
+[Term]
+id: XAO:0005237
+name: intercalating non-ciliated cell
+is_a: XAO:0004613 ! non-cililated epidermal cell
+
+[Term]
+id: XAO:0005238
+name: rostral notochord
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005239
+name: caudal notochord
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005240
+name: regenerating lens
+def: "Tissue of the lens that is re-growing after damage or amputation." [XAO:curators]
+synonym: "lens" BROAD []
+is_a: XAO:0004059 ! regenerating tissue
+relationship: develops_from XAO:0000001 ! ectoderm
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0004109 ! regenerating eye
+relationship: start_stage XAO:1000034 ! NF stage 18
+
+[Term]
+id: XAO:0005241
+name: superficial layer of neurectoderm
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005242
+name: posterior neural fold
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005243
+name: embryonic kidney
+is_a: XAO:0003267 ! kidney
+
+[Term]
+id: XAO:0005244
+name: adult kidney
+is_a: XAO:0003267 ! kidney
+
+[Term]
+id: XAO:0005245
+name: neurenteric canal
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005246
+name: migratory trunk neural crest cell
+is_a: XAO:0004069 ! migratory neural crest cell
+
+[Term]
+id: XAO:0005247
+name: hindgut endoderm
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005248
+name: dorsal posterior hindgut endoderm
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005249
+name: ventral posterior hindgut endoderm
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005250
+name: posterior hindgut endoderm
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005251
+name: anterior hindgut endoderm
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005252
+name: left olfactory pit
+is_a: XAO:0000275 ! olfactory pit
+
+[Term]
+id: XAO:0005253
+name: right olfactory pit
+is_a: XAO:0000275 ! olfactory pit
+
+[Term]
+id: XAO:0005254
+name: apical junction complex
+is_a: XAO:0004290 ! cell part
+
+[Term]
+id: XAO:0005255
+name: filopodium
+is_a: XAO:0004290 ! cell part
+
+[Term]
+id: XAO:0005256
+name: left eye
+is_a: XAO:0000179 ! eye
+
+[Term]
+id: XAO:0005257
+name: right eye
+is_a: XAO:0000179 ! eye
+
+[Term]
+id: XAO:0005258
+name: left inner ear
+is_a: XAO:0000192 ! inner ear
+
+[Term]
+id: XAO:0005259
+name: right inner ear
+is_a: XAO:0000192 ! inner ear
+
+[Term]
+id: XAO:0005260
+name: ventral trunk
+is_a: XAO:0003013 ! organism subdivision
+
+[Term]
+id: XAO:0005261
+name: posterior tail
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005262
+name: anterior dorsal fin
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005263
+name: anterior neuroectoderm
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005264
+name: dorsal tail
+is_a: XAO:0003013 ! organism subdivision
+
+[Term]
+id: XAO:0005265
+name: dorsal trunk
+is_a: XAO:0003013 ! organism subdivision
+
+[Term]
+id: XAO:0005266
+name: regenerating autopod
+is_a: XAO:0004059 ! regenerating tissue
+
+[Term]
+id: XAO:0005267
+name: regenerating stylopod
+is_a: XAO:0004059 ! regenerating tissue
+
+[Term]
+id: XAO:0005268
+name: regenerating zeugopod
+is_a: XAO:0004059 ! regenerating tissue
+
+[Term]
+id: XAO:0005269
+name: regenerating pelvic girdle
+is_a: XAO:0004059 ! regenerating tissue
 
 [Term]
 id: XAO:1000000
