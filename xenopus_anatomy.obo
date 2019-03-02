@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2018-06-14
-date: 27:02:2019 16:33
+date: 01:03:2019 16:00
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -8874,6 +8874,7 @@ xref: CL:0005006
 is_a: XAO:0004225 ! non-ciliated epithelial cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000028 ! epidermis
+relationship: part_of XAO:0004091 ! non-neural ectoderm
 relationship: start_stage XAO:1000020 ! NF stage 10
 created_by: xenbase3
 creation_date: 2011-08-24T02:12:18Z
@@ -8945,6 +8946,7 @@ creation_date: 2011-08-24T03:24:00Z
 id: XAO:0004091
 name: non-neural ectoderm
 def: "The portion of the embryonic ectoderm, including the preplacodal ectoderm, that does not give rise to nervous tissue." [XAO:EJS]
+synonym: "NNE" EXACT []
 xref: UBERON:0005497
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0004132 ! presumptive ectoderm
@@ -9604,6 +9606,7 @@ def: "Region that is overlapping, anterior, and dorsal to the main body of the v
 synonym: "aVBI" EXACT []
 synonym: "blood island" BROAD []
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0004473 ! ventral mesoderm
 relationship: end_stage XAO:1000049 ! NF stage 35 and 36
 relationship: part_of XAO:0000067 ! ventral blood island
 relationship: start_stage XAO:1000038 ! NF stage 22
@@ -9655,6 +9658,8 @@ name: myeloid cell
 def: "A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage." [CL:0000763]
 xref: CL:0000763
 is_a: XAO:0003012 ! cell
+relationship: develops_from XAO:0004144 ! anterior ventral blood island
+relationship: develops_from XAO:0004628 ! posterior ventral blood island
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000122 ! hematological system
 relationship: start_stage XAO:1000038 ! NF stage 22
@@ -9680,6 +9685,8 @@ def: "An immature or mature cell in the lineage leading to and including erythro
 synonym: "erythroid lineage cell" RELATED []
 xref: CL:0000764
 is_a: XAO:0003012 ! cell
+relationship: develops_from XAO:0004144 ! anterior ventral blood island
+relationship: develops_from XAO:0004628 ! posterior ventral blood island
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000122 ! hematological system
 relationship: start_stage XAO:1000038 ! NF stage 22
@@ -15051,10 +15058,10 @@ name: posterior ventral blood island
 def: "The erythroid-forming compartment of the ventral blood island." [PMID:18594023]
 synonym: "pvbi" EXACT []
 is_a: XAO:0003040 ! tissue
-relationship: develops_from XAO:0000050 ! mesoderm
+relationship: develops_from XAO:0004473 ! ventral mesoderm
 relationship: end_stage XAO:1000049 ! NF stage 35 and 36
 relationship: part_of XAO:0000067 ! ventral blood island
-relationship: start_stage XAO:1000042 ! NF stage 26
+relationship: start_stage XAO:1000038 ! NF stage 22
 
 [Term]
 id: XAO:0005000
@@ -17797,7 +17804,13 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 [Term]
 id: XAO:0005234
 name: small secretory cell
+def: "One of the four cell types that are found in bilayered epithlium of the larval epidermis (the others being globet cells, multicilliated cells, and ionocytes) and have an abundance of large apical secretory vesicles and secrete a glyocoprotein with antimicrobial properties." [PMID:24598166]
+synonym: "SCC" EXACT []
 is_a: XAO:0003012 ! cell
+relationship: develops_from XAO:0000001 ! ectoderm
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000028 ! epidermis
+relationship: start_stage XAO:1000041 ! NF stage 25
 
 [Term]
 id: XAO:0005235
@@ -17817,12 +17830,20 @@ is_a: XAO:0004613 ! non-cililated epidermal cell
 [Term]
 id: XAO:0005238
 name: rostral notochord
+def: "The posterior portion of the notochord." [XAO:CJZ]
 is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0000055 ! notochord
+relationship: start_stage XAO:1000033 ! NF stage 12.5
 
 [Term]
 id: XAO:0005239
 name: caudal notochord
+def: "The anterior portion of the notochord." [] {comment="XAO:CJZ"}
 is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0000055 ! notochord
+relationship: start_stage XAO:1000033 ! NF stage 12.5
 
 [Term]
 id: XAO:0005240
