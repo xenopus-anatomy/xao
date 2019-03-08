@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2018-06-14
-date: 01:03:2019 16:00
+date: 07:03:2019 17:02
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -115,7 +115,7 @@ is_a: XAO:0003037 ! multi-tissue structure
 relationship: develops_from XAO:0000240 ! lens placode
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000179 ! eye
-relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0000009
@@ -1031,13 +1031,15 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 
 [Term]
 id: XAO:0000094
-name: archenteron roof
+name: gastrocoel roof plate
 def: "A transient ciliated epithelium that arises from the involuting superficial mesoderm, forming the dorsal surface of the archenteron space of the embryo." [PMID:17540356, XAO:EJS]
-synonym: "archenteron roof plate" RELATED []
+synonym: "archenteron roof" EXACT []
+synonym: "archenteron roof plate" EXACT []
 synonym: "gastrocoel roof" EXACT []
-synonym: "gastrocoel roof plate" RELATED []
-synonym: "GRP" RELATED []
+synonym: "GRP" EXACT []
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000077 ! bottle cell
+relationship: develops_from XAO:0000083 ! involuted dorsal mesoderm
 relationship: end_stage XAO:1000050 ! NF stage 37 and 38
 relationship: part_of XAO:0000092 ! archenteron
 relationship: start_stage XAO:1000020 ! NF stage 10
@@ -2566,11 +2568,10 @@ synonym: "lens" BROAD []
 xref: UBERON:0003073
 is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0000320 ! sensorial layer
-relationship: develops_from XAO:0004091 ! non-neural ectoderm
-relationship: end_stage XAO:1000048 ! NF stage 33 and 34
-relationship: part_of XAO:0000179 ! eye
+relationship: develops_from XAO:0004092 ! preplacodal ectoderm
+relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0004206 ! anterior placodal area
-relationship: start_stage XAO:1000043 ! NF stage 27
+relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
 id: XAO:0000241
@@ -2611,7 +2612,7 @@ relationship: start_stage XAO:1000053 ! NF stage 41
 [Term]
 id: XAO:0000244
 name: cloaca
-def: "The posterior opening that serves as the only such opening for the intestinal, reproductive, and urinary tracts." [XAO:curators]
+def: "The posterior opening that serves as the common opening for the intestinal, reproductive, and urinary tracts, closed by the cloacal sphincter." [XAO:curators]
 subset: frequent_anatomy_items
 synonym: "cloacal chamber" RELATED []
 synonym: "vent" RELATED []
@@ -2620,7 +2621,7 @@ is_a: XAO:0003037 ! multi-tissue structure
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000107 ! tail bud
 relationship: part_of XAO:0000125 ! alimentary system
-relationship: start_stage XAO:1000044 ! NF stage 28
+relationship: start_stage XAO:1000052 ! NF stage 40
 
 [Term]
 id: XAO:0000245
@@ -3258,7 +3259,7 @@ relationship: develops_from XAO:0004104 ! neural plate border
 relationship: end_stage XAO:1000054 ! NF stage 42
 relationship: part_of XAO:0000001 ! ectoderm
 relationship: part_of XAO:0000042 ! neuroectoderm
-relationship: start_stage XAO:1000024 ! NF stage 14
+relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
 id: XAO:0000306
@@ -4878,13 +4879,14 @@ relationship: start_stage XAO:1000048 ! NF stage 33 and 34
 [Term]
 id: XAO:0001015
 name: rectal diverticulum
-def: "An outgrowth of the cloaca that links the pronephric kidney to the exterior of the organism." [UBERON:0006172]
+def: "Paired outgrowths of the cloaca that link the pronephric ducts to the exterior of the organism." [UBERON:0006172, XAO:curators]
 synonym: "rectal diverticula" RELATED PLURAL []
 xref: UBERON:0006172
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: develops_from XAO:0000244 ! cloaca
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000143 ! urinary system
+relationship: part_of XAO:0000244 ! cloaca
 relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 
 [Term]
@@ -4921,7 +4923,7 @@ relationship: start_stage XAO:1000071 ! NF stage 59
 [Term]
 id: XAO:0001019
 name: proctodeum
-def: "Inward fold on the surface of the embryonic ectoderm that develops into part of the anal passage. The most posterior section of the gut." [XAO:EJS, ZFA:0000066]
+def: "Inward fold on the surface of the embryonic ectoderm that develops into the common cloacal passage. The most posterior section of the larval alimentary system." [XAO:curators, ZFA:0000066]
 synonym: "anus" RELATED []
 synonym: "anus porus" RELATED []
 synonym: "proctodaeum" EXACT []
@@ -4932,8 +4934,8 @@ relationship: develops_from XAO:0000001 ! ectoderm
 relationship: develops_from XAO:0000082 ! circumblastoporal collar
 relationship: develops_from XAO:0000208 ! blastopore
 relationship: develops_from XAO:0004091 ! non-neural ectoderm
-relationship: end_stage XAO:1000078 ! NF stage 66
-relationship: part_of XAO:0000104 ! hindgut
+relationship: end_stage XAO:1000051 ! NF stage 39
+relationship: part_of XAO:0005230 ! larval alimentary system
 relationship: start_stage XAO:1000035 ! NF stage 19
 
 [Term]
@@ -6006,7 +6008,7 @@ synonym: "vagal nerve" RELATED []
 synonym: "vagus afferents" RELATED []
 xref: UBERON:0001759
 is_a: XAO:0000429 ! cranial nerve
-relationship: develops_from XAO:0000305 ! cranial placode
+relationship: develops_from XAO:0000284 ! epibranchial placode
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003197 ! gustatory system
 relationship: start_stage XAO:1000048 ! NF stage 33 and 34
@@ -13299,7 +13301,7 @@ def: "Single cell layer of involuted endoderm lying beneath the prechordal plate
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000090 ! endoderm
 relationship: end_stage XAO:1000034 ! NF stage 18
-relationship: part_of XAO:0000094 ! archenteron roof
+relationship: part_of XAO:0000094 ! gastrocoel roof plate
 relationship: start_stage XAO:1000021 ! NF stage 11
 created_by: eriksegerdell
 creation_date: 2012-09-09T03:50:45Z
@@ -14977,7 +14979,7 @@ xref: UBERON:0009955
 is_a: XAO:0000305 ! cranial placode
 relationship: develops_from XAO:0004092 ! preplacodal ectoderm
 relationship: end_stage XAO:1000054 ! NF stage 42
-relationship: start_stage XAO:1000024 ! NF stage 14
+relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
 id: XAO:0004621
@@ -16747,7 +16749,7 @@ name: monociliated cell
 def: "A ciliated cell that has a single cilium." [XAO:EJS]
 is_a: XAO:0005017 ! ciliated cell
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000094 ! archenteron roof
+relationship: part_of XAO:0000094 ! gastrocoel roof plate
 relationship: start_stage XAO:1000020 ! NF stage 10
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -16961,7 +16963,7 @@ name: archenteron roof midline
 def: "Anatomical line that divides the archenteron roof into right and left halves." [XAO:EJS]
 is_a: XAO:0004003 ! anatomical line
 relationship: end_stage XAO:1000050 ! NF stage 37 and 38
-relationship: part_of XAO:0000094 ! archenteron roof
+relationship: part_of XAO:0000094 ! gastrocoel roof plate
 relationship: start_stage XAO:1000020 ! NF stage 10
 created_by: eriksegerdell
 creation_date: 2016-09-03T19:21:41Z
@@ -17155,7 +17157,7 @@ synonym: "left-right organiser primordium" EXACT []
 is_a: XAO:0003043 ! primordium
 relationship: develops_from XAO:0000076 ! involuting marginal zone epithelial layer
 relationship: end_stage XAO:1000026 ! NF stage 16
-relationship: part_of XAO:0000094 ! archenteron roof
+relationship: part_of XAO:0000094 ! gastrocoel roof plate
 relationship: start_stage XAO:1000033 ! NF stage 12.5
 created_by: eriksegerdell
 creation_date: 2017-03-30T16:43:56Z
@@ -17169,7 +17171,7 @@ synonym: "LRO" EXACT []
 is_a: XAO:0003186 ! anatomical region
 relationship: develops_from XAO:0005169 ! left-right organizer primordium
 relationship: end_stage XAO:1000050 ! NF stage 37 and 38
-relationship: part_of XAO:0000094 ! archenteron roof
+relationship: part_of XAO:0000094 ! gastrocoel roof plate
 relationship: start_stage XAO:1000027 ! NF stage 17
 created_by: eriksegerdell
 creation_date: 2017-03-30T16:45:24Z
@@ -17889,67 +17891,120 @@ is_a: XAO:0004069 ! migratory neural crest cell
 [Term]
 id: XAO:0005247
 name: hindgut endoderm
+def: "Endoderm that is part of the hindgut." [XAO:EJS]
+xref: UBERON:0003260
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000090 ! endoderm
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0000104 ! hindgut
+relationship: start_stage XAO:1000036 ! NF stage 20
 
 [Term]
 id: XAO:0005248
 name: dorsal posterior hindgut endoderm
+def: "Dorsal part of the posterior hindgut endoderm." [XAO:EJS]
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000090 ! endoderm
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0005250 ! posterior hindgut endoderm
+relationship: start_stage XAO:1000036 ! NF stage 20
 
 [Term]
 id: XAO:0005249
 name: ventral posterior hindgut endoderm
+def: "Ventral part of the posterior hindgut endoderm." [XAO:EJS]
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000090 ! endoderm
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0005250 ! posterior hindgut endoderm
+relationship: start_stage XAO:1000036 ! NF stage 20
 
 [Term]
 id: XAO:0005250
 name: posterior hindgut endoderm
+def: "Posterior part of the hindgut endoderm." [XAO:EJS]
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000090 ! endoderm
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0005247 ! hindgut endoderm
+relationship: start_stage XAO:1000036 ! NF stage 20
 
 [Term]
 id: XAO:0005251
 name: anterior hindgut endoderm
+def: "Anterior part of the hindgut endoderm." [XAO:EJS]
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000090 ! endoderm
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0005247 ! hindgut endoderm
+relationship: start_stage XAO:1000036 ! NF stage 20
 
 [Term]
 id: XAO:0005252
 name: left olfactory pit
+def: "Olfactory pit located on the left side of the organism." [XAO:EJS]
 is_a: XAO:0000275 ! olfactory pit
+relationship: end_stage XAO:1000062 ! NF stage 50
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 
 [Term]
 id: XAO:0005253
 name: right olfactory pit
+def: "Olfactory pit located on the right side of the organism." [XAO:EJS]
 is_a: XAO:0000275 ! olfactory pit
+relationship: end_stage XAO:1000062 ! NF stage 50
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 
 [Term]
 id: XAO:0005254
 name: apical junction complex
+def: "A functional unit located near the cell apex at the points of contact between epithelial cells, which in vertebrates is composed of the tight junction, the zonula adherens, and desmosomes. Functions in the regulation of cell polarity, tissue integrity and intercellular adhesion and permeability." [GO:0043296]
+xref: GO:0043296
 is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003249 ! epithelial cell
+relationship: start_stage XAO:1000020 ! NF stage 10
 
 [Term]
 id: XAO:0005255
 name: filopodium
+def: "Thin, stiff, actin-based protrusion extended by the leading edge of a motile cell such as a crawling fibroblast, an axonal or dendritic growth cone, or a dendritic shaft." [GO:0030175]
+xref: GO:0030175
 is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000025 ! NF stage 15
 
 [Term]
 id: XAO:0005256
 name: left eye
+def: "Eye located on the left side of the organism." [XAO:EJS]
 is_a: XAO:0000179 ! eye
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005257
 name: right eye
+def: "Eye located on the right side of the organism." [XAO:EJS]
 is_a: XAO:0000179 ! eye
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005258
 name: left inner ear
+def: "Inner ear located on the left side of the organism." [XAO:EJS]
 is_a: XAO:0000192 ! inner ear
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000055 ! NF stage 43
 
 [Term]
 id: XAO:0005259
 name: right inner ear
+def: "Inner ear located on the right side of the organism." [XAO:EJS]
 is_a: XAO:0000192 ! inner ear
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000055 ! NF stage 43
 
 [Term]
 id: XAO:0005260
