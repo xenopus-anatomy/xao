@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2018-06-14
-date: 07:03:2019 17:02
+date: 08:03:2019 17:22
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -18055,6 +18055,24 @@ is_a: XAO:0004059 ! regenerating tissue
 id: XAO:0005269
 name: regenerating pelvic girdle
 is_a: XAO:0004059 ! regenerating tissue
+
+[Term]
+id: XAO:0005270
+name: left branchial arch skeleton
+def: "Part of the branchial arch skeleton located on the left side of the organism." [XAO:EJS]
+is_a: XAO:0004289 ! skeletal subdivision
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003180 ! branchial arch skeleton
+relationship: start_stage XAO:1000043 ! NF stage 27
+
+[Term]
+id: XAO:0005271
+name: right branchial arch skeleton
+def: "Part of the branchial arch skeleton located on the right side of the organism." [XAO:EJS]
+is_a: XAO:0004289 ! skeletal subdivision
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003180 ! branchial arch skeleton
+relationship: start_stage XAO:1000043 ! NF stage 27
 
 [Term]
 id: XAO:1000000
