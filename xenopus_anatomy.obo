@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2018-06-14
-date: 08:03:2019 17:22
+date: 11:03:2019 17:23
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -662,7 +662,7 @@ relationship: develops_from XAO:0000259 ! paraxial mesoderm
 relationship: end_stage XAO:1000045 ! NF stage 29 and 30
 relationship: part_of XAO:0000259 ! paraxial mesoderm
 relationship: part_of XAO:0004042 ! muscular system
-relationship: start_stage XAO:1000023 ! NF stage 13
+relationship: start_stage XAO:1000024 ! NF stage 14
 
 [Term]
 id: XAO:0000058
@@ -1552,14 +1552,14 @@ relationship: start_stage XAO:1000044 ! NF stage 28
 [Term]
 id: XAO:0000141
 name: mesonephric kidney
-def: "Organ that is the definitive adult kidney. It replaces the earlier pronephros, which degenerates as the mesonephros becomes functional in feeding stage tadpoles." [AAO:0010384]
+def: "A visceral organ which provides osmoregulation and waste excretion for tadpoles through adult stages in Xenopus. The mesonephros starts to develop at NF stage 39, then during feeding stage tadpoles through metamorphosis replaces the embryonic pronephros as it degenerates." [XAO:curators]
 synonym: "adult kidney" RELATED []
 synonym: "mesonephros" RELATED []
 synonym: "opisthonephros" RELATED []
 synonym: "urniere" RELATED []
 synonym: "Wolffian body" RELATED []
 xref: UBERON:0000080
-is_a: XAO:0003267 ! kidney
+is_a: XAO:0005244 ! adult kidney
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003025 ! trunk
 relationship: start_stage XAO:1000051 ! NF stage 39
@@ -2778,7 +2778,7 @@ is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0004134 ! presumptive paraxial mesoderm
 relationship: end_stage XAO:1000045 ! NF stage 29 and 30
 relationship: part_of XAO:0000050 ! mesoderm
-relationship: start_stage XAO:1000023 ! NF stage 13
+relationship: start_stage XAO:1000024 ! NF stage 14
 
 [Term]
 id: XAO:0000260
@@ -5005,7 +5005,7 @@ synonym: "pronephros" RELATED []
 synonym: "vorniere" RELATED []
 xref: UBERON:0002120
 is_a: XAO:0003037 ! multi-tissue structure
-is_a: XAO:0003267 ! kidney
+is_a: XAO:0005243 ! embryonic kidney
 relationship: develops_from XAO:0000264 ! pronephric mesenchyme
 relationship: end_stage XAO:1000076 ! NF stage 64
 relationship: part_of XAO:0004521 ! coelom
@@ -7067,7 +7067,8 @@ name: chondrocyte
 def: "Polymorphic cell type that forms cartilage." [CL:0000138]
 synonym: "cartilage cell" RELATED []
 xref: CL:0000138
-is_a: XAO:0003238 ! chondroblast
+is_a: XAO:0003012 ! cell
+relationship: develops_from XAO:0003238 ! chondroblast
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000170 ! cartilage tissue
 relationship: start_stage XAO:1000048 ! NF stage 33 and 34
@@ -7464,9 +7465,9 @@ name: chondroblast
 def: "A cell that originates from a mesenchymal stem cell and forms chondrocytes (cartilage cells). Chondroblasts that become embedded in the matrix are called chondrocytes." [XAO:curators]
 xref: CL:0000058
 is_a: XAO:0003012 ! cell
-relationship: develops_from XAO:0003255 ! mesodermal cell
+relationship: develops_from XAO:0004320 ! mesenchymal stem cell
 relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000020 ! NF stage 10
+relationship: start_stage XAO:1000033 ! NF stage 12.5
 created_by: eriksegerdell
 creation_date: 2009-07-20T01:24:55Z
 
@@ -7795,10 +7796,9 @@ creation_date: 2009-07-20T04:05:12Z
 id: XAO:0003267
 name: kidney
 def: "Either of the pair of structures lying on either side of the dorsal aorta in which fluid balance is regulated and waste is excreted out in the form of urine. Amphibians (and fish) have a early kidney, the pronephros/pronephric kidney, which consitsts of a single nephron attached to a pronephric duct, which in turn is linked to the cloaca. The pronephros functions as primary filtration system for the embryo while the mesonephric kidney develops. The pronephros starts to degenerate at NF stage 53. The mesonephros starts to form at NF stage 39 and contuinues to grow into the adult kidney." [AAO:0000250, XAO:curators]
-synonym: "mesonephros" EXACT []
 xref: UBERON:0002113
 is_a: XAO:0003165 ! cavitated compound organ
-relationship: develops_from XAO:0000264 ! pronephric mesenchyme
+relationship: develops_from XAO:0000085 ! intermediate mesoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000143 ! urinary system
 relationship: start_stage XAO:1000044 ! NF stage 28
@@ -7966,6 +7966,7 @@ name: axial skeleton
 def: "Anatomical cluster of the central body axis including the cranium, vertebrae, notochord, ribs, and sternum." [VSAO:0000056]
 xref: UBERON:0005944
 is_a: XAO:0004289 ! skeletal subdivision
+relationship: develops_from XAO:0000058 ! somite
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000057 ! NF stage 45
 created_by: xenbase3
@@ -11662,10 +11663,11 @@ creation_date: 2012-03-10T10:23:05Z
 [Term]
 id: XAO:0004320
 name: mesenchymal stem cell
-def: "Multipotent stromal cell that can differentiate into a variety of cell types, including: osteoblasts (bone cells), chondrocytes (cartilage cells), and adipocytes (fat cells)." [XAO:curators]
+def: "Multipotent stromal cell that can differentiate into a variety of cell types, including: osteoblasts/osteocytes (bone cells), chondroblasts/chondrocytes (cartilage cells), and adipoblasts/adipocytes (fat cells)." [XAO:curators]
 synonym: "mesenchymal cell" RELATED []
 synonym: "mesenchymal stem cells" RELATED PLURAL []
 is_a: XAO:0003054 ! stem cell
+relationship: develops_from XAO:0000050 ! mesoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000033 ! NF stage 12.5
 created_by: eriksegerdell
@@ -14956,9 +14958,9 @@ relationship: start_stage XAO:1000034 ! NF stage 18
 [Term]
 id: XAO:0004618
 name: rostral presomitic mesoderm
-def: "The region of presomitic mesoderm that lays immediately adjacent and posetrior to the last formed somite." [XAO:CJZ]
+def: "The region of presomitic mesoderm that lays immediately adjacent and posterior to the last formed somite." [XAO:CJZ]
 is_a: XAO:0003042 ! embryonic structure
-relationship: end_stage XAO:1000045 ! NF stage 29 and 30
+relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: part_of XAO:0000057 ! presomitic mesoderm
 relationship: start_stage XAO:1000023 ! NF stage 13
 
@@ -14967,7 +14969,7 @@ id: XAO:0004619
 name: caudal presomitic mesoderm
 def: "The most posterior region of presomitic mesoderm where somitomeres have yet to be fated." [XAO:CJZ]
 is_a: XAO:0003042 ! embryonic structure
-relationship: end_stage XAO:1000045 ! NF stage 29 and 30
+relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: part_of XAO:0000057 ! presomitic mesoderm
 relationship: start_stage XAO:1000023 ! NF stage 13
 
@@ -17486,7 +17488,7 @@ relationship: start_stage XAO:1000025 ! NF stage 15
 [Term]
 id: XAO:0005196
 name: neutrophil
-namespace: A type of blood cell which is part of the innate immune system and is quickly recruited to sites of injury. {xref="XAO:curators"}
+def: "A type of blood cell which is part of the innate immune system and is quickly recruited to sites of injury." [XAO:curators]
 synonym: "neutrocyte" RELATED []
 xref: CL:0000775
 is_a: XAO:0003239 ! circulating cell
@@ -17871,12 +17873,20 @@ is_a: XAO:0003040 ! tissue
 [Term]
 id: XAO:0005243
 name: embryonic kidney
+def: "A transient kidney that functions in embryos of amphibians (and fish) while the mesonephros (which continue to grow into adult kidneys) are developing and before they are fully functional." [XAO:curators]
+synonym: "pronephros" RELATED []
 is_a: XAO:0003267 ! kidney
+relationship: end_stage XAO:1000076 ! NF stage 64
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005244
 name: adult kidney
+def: "Either of the pair of structures lying on either side of the dorsal aorta in which fluid balance is regulated and waste is excreted out in the form of urine." [XAO:curators]
+synonym: "mesonephros" RELATED []
 is_a: XAO:0003267 ! kidney
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000051 ! NF stage 39
 
 [Term]
 id: XAO:0005245
