@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2018-06-14
-date: 12:03:2019 13:38
+date: 13:03:2019 16:00
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -18151,6 +18151,22 @@ is_a: XAO:0003165 ! cavitated compound organ
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000010 ! brain
 relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0005280
+name: ventro-lateral region
+def: "Anatomical region that overlaps the ventral and lateral regions of a body or body part." [BSPO:0000085]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005281
+name: dorso-lateral region
+def: "Anatomical region that overlaps the dorsal and lateral regions of a body or body part." [BSPO:0000080]
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000032 ! NF stage 11.5
 
 [Term]
 id: XAO:1000000
