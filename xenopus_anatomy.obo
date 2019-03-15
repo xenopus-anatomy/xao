@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2018-06-14
-date: 13:03:2019 16:00
+date: 15:03:2019 16:30
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -18021,52 +18021,83 @@ relationship: start_stage XAO:1000055 ! NF stage 43
 [Term]
 id: XAO:0005260
 name: ventral trunk
+def: "Part of the trunk located on the ventral side of the organism." [XAO:EJS]
 is_a: XAO:0003013 ! organism subdivision
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003025 ! trunk
+relationship: start_stage XAO:1000035 ! NF stage 19
 
 [Term]
 id: XAO:0005261
 name: posterior tail
+def: "The posterior part of the tail." [XAO:EJS]
 is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0003026 ! tail
+relationship: start_stage XAO:1000042 ! NF stage 26
 
 [Term]
 id: XAO:0005262
 name: anterior dorsal fin
+def: "The anterior part of the dorsal fin." [XAO:EJS]
 is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0004063 ! dorsal fin
+relationship: start_stage XAO:1000041 ! NF stage 25
 
 [Term]
 id: XAO:0005263
 name: anterior neuroectoderm
+def: "Neuroectoderm that is located on the anterior side of the organism." [XAO:EJS]
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000001 ! ectoderm
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0000042 ! neuroectoderm
+relationship: start_stage XAO:1000020 ! NF stage 10
 
 [Term]
 id: XAO:0005264
 name: dorsal tail
+def: "Part of the tail located on the dorsal side of the organism." [XAO:EJS]
 is_a: XAO:0003013 ! organism subdivision
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0003026 ! tail
+relationship: start_stage XAO:1000042 ! NF stage 26
 
 [Term]
 id: XAO:0005265
 name: dorsal trunk
+def: "Part of the trunk located on the dorsal side of the organism." [XAO:EJS]
 is_a: XAO:0003013 ! organism subdivision
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003025 ! trunk
+relationship: start_stage XAO:1000035 ! NF stage 19
 
 [Term]
 id: XAO:0005266
-name: regenerating autopod
-is_a: XAO:0004059 ! regenerating tissue
+name: thrombocyte
+is_a: XAO:0003012 ! cell
 
 [Term]
 id: XAO:0005267
-name: regenerating stylopod
-is_a: XAO:0004059 ! regenerating tissue
+name: embryonic thrombocyte
+synonym: "thrombocyte, embryonic" EXACT []
+is_a: XAO:0005266 ! thrombocyte
 
 [Term]
 id: XAO:0005268
-name: regenerating zeugopod
-is_a: XAO:0004059 ! regenerating tissue
+name: adult thrombocyte
+synonym: "thrombocyte, adult" EXACT []
+is_a: XAO:0005266 ! thrombocyte
 
 [Term]
 id: XAO:0005269
 name: regenerating pelvic girdle
+def: "Pelvic girdle tissue that is re-growing after damage or amputation." [] {comment="XAO:EJS"}
 is_a: XAO:0004059 ! regenerating tissue
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0004060 ! blastema
+relationship: start_stage XAO:1000067 ! NF stage 55
 
 [Term]
 id: XAO:0005270
