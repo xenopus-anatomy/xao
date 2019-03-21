@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2018-06-14
-date: 15:03:2019 16:30
+date: 21:03:2019 14:04
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -1232,14 +1232,14 @@ relationship: start_stage XAO:1000037 ! NF stage 21
 [Term]
 id: XAO:0000111
 name: germ cell
-def: "Cell type that is involved in the reproduction of the organism." [XAO:curators]
+def: "A cell that is within the developmental lineage of gametes and is able to pass along its genetic material to offspring." [XAO:curators]
 synonym: "germ cells" EXACT PLURAL []
-synonym: "germ line cell" BROAD []
-synonym: "germ line cells" BROAD PLURAL []
+synonym: "germ line cell" RELATED []
+synonym: "germ line cells" RELATED PLURAL []
 xref: CL:0000586
-is_a: XAO:0003148 ! germ line cell
+is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000064 ! NF stage 52
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0000113
@@ -3021,7 +3021,7 @@ def: "Cell mass in the vegetal region of the embryo that will contribute to endo
 synonym: "vegetal cell mass" EXACT []
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000022 ! NF stage 12
-relationship: start_stage XAO:1000019 ! NF stage 9
+relationship: start_stage XAO:1000011 ! NF stage 2 (2-cell)
 
 [Term]
 id: XAO:0000282
@@ -6524,31 +6524,28 @@ relationship: start_stage XAO:1000093 ! adult frog stage
 [Term]
 id: XAO:0003148
 name: germ line cell
-def: "A cell that is within the developmental lineage of gametes and is able to pass along its genetic material to offspring." [ISBN:0721662544]
-xref: CL:0000039
-is_a: XAO:0003012 ! cell
-relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000142 ! genital system
-relationship: start_stage XAO:1000052 ! NF stage 40
+is_obsolete: true
+replaced_by: XAO:0000111
 
 [Term]
 id: XAO:0003149
 name: primordial germ cell
-def: "Primitive cell type that is involved in the reproduction of the organism beginning with the sexual differentiation of the gonads at NF stage 52. In males specifically, it migrates from the genital ridge cortical region into the medullary tissue, where it forms spermatogonia. In females it is embedded in the cortical region and multiplies as oogonia." [ISBN:0815318960]
+def: "Cell that arises from the endodermal germ plasm and can be detected by NF stage 28 in the endodermal mass. At NF stages 42-47, PGCs migrate to the two genital ridges, which are the first rudiments of the gonads. By NF stage 50, the PGCs begin to loose their yolky material. In males, starting at NF stage 52, PGCs migrate from the genital ridge cortical region into the medullary tissue, where they will form primary spermatogonia at sexual maturity. In females, the medullary tissue remains free of PGCs; they instead embed in the cortical region and multiply to form primary oogonia, which will mature into ova at sexual maturity." [ISBN:0815318960, XAO:curators]
 synonym: "PGC" EXACT []
 synonym: "primitive germ cell" RELATED []
 xref: CL:0000670
-is_a: XAO:0003148 ! germ line cell
+is_a: XAO:0000111 ! germ cell
+relationship: develops_from XAO:0000090 ! endoderm
 relationship: develops_from XAO:0000233 ! germ plasm
 relationship: end_stage XAO:1000070 ! NF stage 58
-relationship: start_stage XAO:1000052 ! NF stage 40
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0003150
 name: gamete
 def: "A mature male or female germ cell." [http://www.merriam-webster.com/medlineplus/gamete]
 xref: CL:0000300
-is_a: XAO:0003148 ! germ line cell
+is_a: XAO:0000111 ! germ cell
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000093 ! adult frog stage
 
