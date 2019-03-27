@@ -269,6 +269,7 @@ synonym: "roofplate" EXACT []
 synonym: "spinal cord roof" RELATED []
 xref: UBERON:0005724
 is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0005241 ! superficial layer of neurectoderm
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0000020 ! spinal cord
 relationship: start_stage XAO:1000038 ! NF stage 22
@@ -313,8 +314,8 @@ id: XAO:0000026
 name: branchial crest
 def: "The most posterior segments of the population of migratory cells of the cranial neural crest, contributing to the branchial arches 3 and 4. Branchial crest cells migrate in two distinct streams referred to as the anterior and posterior branchial crest." [XAO:CJZ]
 is_a: XAO:0003040 ! tissue
-relationship: develops_from XAO:0001001 ! cranial neural crest
-relationship: end_stage XAO:1000038 ! NF stage 22
+relationship: develops_from XAO:0000048 ! neural crest
+relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0001001 ! cranial neural crest
 relationship: start_stage XAO:1000025 ! NF stage 15
 
@@ -1213,7 +1214,7 @@ def: "Structure formed by the ventral movement of the proctodeum anlage, which r
 synonym: "posterior wall of NEC" EXACT []
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000043 ! NF stage 27
-relationship: part_of XAO:0000107 ! tail bud
+relationship: part_of XAO:0005245 ! neurenteric canal
 relationship: start_stage XAO:1000041 ! NF stage 25
 
 [Term]
@@ -2024,12 +2025,13 @@ relationship: start_stage XAO:1000035 ! NF stage 19
 [Term]
 id: XAO:0000188
 name: optic nerve
-def: "Cranial nerve that is continuous with the layer of nerve cells on the inner surface of the eye. It exits the neurocranium via the large optic foramen and is covered by a fibrous connective tissue sheath." [ISBN:080184780X]
+def: "Cranial nerve that is continuous with the layer of nerve cells on the inner surface of the eye. It exits the neurocranium via the large optic foramen and is covered by a fibrous connective tissue sheath. It transmits visual information from the retina to the brain." [ISBN:080184780X, UBERON:0000941]
 synonym: "cranial nerve II" EXACT []
 synonym: "ON" EXACT []
 synonym: "opticus" EXACT []
 xref: UBERON:0000941
 is_a: XAO:0000429 ! cranial nerve
+relationship: develops_from XAO:0000475 ! optic stalk
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000179 ! eye
 relationship: start_stage XAO:1000048 ! NF stage 33 and 34
@@ -3152,7 +3154,7 @@ relationship: start_stage XAO:1000057 ! NF stage 45
 
 [Term]
 id: XAO:0000293
-name: neural fold
+name: neural fold (obsolete)
 is_obsolete: true
 replaced_by: XAO:0004087
 
@@ -4826,7 +4828,7 @@ synonym: "vascular system" EXACT []
 xref: UBERON:0004535
 is_a: XAO:0003002 ! anatomical system
 relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000034 ! NF stage 18
+relationship: start_stage XAO:1000027 ! NF stage 17
 
 [Term]
 id: XAO:0001011
@@ -5945,18 +5947,19 @@ relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 [Term]
 id: XAO:0003092
 name: trigeminal nerve
-def: "Cranial nerve that branches into the ophthalmic (supplying the skin of the nose and upper jaw) and the mandibular (supplying the lower jaw). It originates from the lateral surface of the medulla and exits the cranium via the large prootic foramen." [ISBN:0471209627, ISBN:080184780X]
+def: "Cranial nerve that has three branches: the ophthalmic branch that supplies the skin of the nose and upper jaw, and the maxillary and mandibular branches that supply the lower jaw." [UBERON:0001645]
 synonym: "cranial nerve V" EXACT []
 synonym: "trigeminus" EXACT []
 xref: UBERON:0001645
 is_a: XAO:0000429 ! cranial nerve
+relationship: develops_from XAO:0004092 ! preplacodal ectoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0003093
 name: abducens nerve
-def: "A somatic motor nerve that runs to the eye muscles, arising from the ventral surface of the medulla and exiting the neurocranium via the optic foramen." [ISBN:0471209627, ISBN:080184780X]
+def: "Cranial nerve that runs to the eye muscles." [UBERON:0001646]
 synonym: "abducens" EXACT []
 synonym: "abducent nerve" EXACT []
 synonym: "cranial nerve VI" EXACT []
@@ -5979,9 +5982,11 @@ relationship: start_stage XAO:1000046 ! NF stage 31
 
 [Term]
 id: XAO:0003095
-name: auditory nerve
-def: "Cranial nerve that runs to the ear. It has anterior and posterior rami which enter the auditory capsule via two foramina." [ISBN:0471209627, ISBN:080184780X]
+name: vestibulocochlear nerve
+def: "Cranial nerve that runs to the ear. It has two branches, the cochlear nerve and the vestibular nerve, which receives positional information." [XAO:curators]
+synonym: "auditory nerve" RELATED []
 synonym: "cranial nerve VIII" EXACT []
+synonym: "stato-acoustic nerve" EXACT []
 xref: UBERON:0001648
 is_a: XAO:0000429 ! cranial nerve
 relationship: end_stage XAO:0000437 ! death
@@ -7056,7 +7061,7 @@ relationship: develops_from XAO:0000248 ! neural groove
 relationship: develops_from XAO:0000249 ! neural plate
 relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0000215 ! central nervous system
-relationship: start_stage XAO:1000034 ! NF stage 18
+relationship: start_stage XAO:1000027 ! NF stage 17
 
 [Term]
 id: XAO:0003205
@@ -7476,7 +7481,7 @@ xref: CL:0000080
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0001010 ! circulatory system
-relationship: start_stage XAO:1000034 ! NF stage 18
+relationship: start_stage XAO:1000027 ! NF stage 17
 created_by: eriksegerdell
 creation_date: 2009-07-20T01:26:48Z
 
@@ -8545,7 +8550,7 @@ def: "Nerve that is a branch of cranial nerve VIII and innervates the cristae am
 synonym: "neural ampulla" EXACT []
 is_a: XAO:0003047 ! nerve
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0003095 ! auditory nerve
+relationship: part_of XAO:0003095 ! vestibulocochlear nerve
 relationship: start_stage XAO:1000046 ! NF stage 31
 created_by: xenbase3
 creation_date: 2011-08-24T10:33:59Z
@@ -8959,12 +8964,14 @@ creation_date: 2011-08-24T03:28:19Z
 [Term]
 id: XAO:0004092
 name: preplacodal ectoderm
-def: "The field of naive ectoderm at the anterior of the neurula stage embryo. It is positioned at the border between the future epidermis and the anterior neural plate/neural crest forming regions and is subdivided into 2 distinct domains: the anterior placodal region which is anterior to the neural plate, and the posterior placodal area which is lateral to the neural crest." [ISBN:0878933840]
+def: "A thick, U-shaped primordium positioned at the border of the future epidermis and the neural plate/neural crest forming regions, in the neural stage embryo. This field of naive ectoderm is subdivided into 3 domains, each with distinct gene expression profiles: the anterior PPE (bottom of the U), the lateral PPE (the curves of the U), and the posterior PPE (arms of the U and adjacent to the neural crest/neural plate border). The PPE differentiates into the sensory placodes, which in turn form the adenohypophysis/anterior pituitary gland and sensory organs (such as the olfactory epithelium, lens, trigeminal nerves, epibranchial nerves, otic vesicles and lateral lines)." [PMID:30291163]
 synonym: "PPE" EXACT []
 synonym: "pre-placodal ectoderm" EXACT []
-is_a: XAO:0004091 ! non-neural ectoderm
-relationship: develops_from XAO:0004091 ! non-neural ectoderm
+is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000270 ! sensorial layer of neurectoderm
+relationship: develops_from XAO:0004104 ! neural plate border
 relationship: end_stage XAO:1000044 ! NF stage 28
+relationship: part_of XAO:0000270 ! sensorial layer of neurectoderm
 relationship: start_stage XAO:1000032 ! NF stage 11.5
 created_by: xenbase3
 creation_date: 2011-08-24T03:30:53Z
@@ -9583,7 +9590,7 @@ xref: UBERON:0002827
 is_a: XAO:0000209 ! ganglion
 relationship: develops_from XAO:0000223 ! otic placode
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0003095 ! auditory nerve
+relationship: part_of XAO:0003095 ! vestibulocochlear nerve
 relationship: start_stage XAO:1000037 ! NF stage 21
 created_by: xenbase3
 creation_date: 2011-08-26T10:41:25Z
@@ -10148,7 +10155,7 @@ def: "Branchial crest that is the 3rd neural crest stream and lays between hyoid
 synonym: "ABC" EXACT []
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000026 ! branchial crest
-relationship: end_stage XAO:1000038 ! NF stage 22
+relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000026 ! branchial crest
 relationship: start_stage XAO:1000025 ! NF stage 15
 created_by: lab
@@ -10161,7 +10168,7 @@ def: "Branchial crest that is the most posterior of the five neural crest stream
 synonym: "PBC" EXACT []
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000026 ! branchial crest
-relationship: end_stage XAO:1000038 ! NF stage 22
+relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000026 ! branchial crest
 relationship: start_stage XAO:1000025 ! NF stage 15
 created_by: lab
@@ -15121,6 +15128,7 @@ def: "Epithelium that covers the small and large intestine in the adult frog." [
 synonym: "adult gut epithelium" EXACT []
 is_a: XAO:0003200 ! gut epithelium
 is_a: XAO:0004008 ! simple columnar epithelium
+relationship: develops_from XAO:0005236 ! intestinal stem cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000129 ! intestine
 relationship: start_stage XAO:1000093 ! adult frog stage
@@ -15354,6 +15362,7 @@ name: olfactory epithelium
 def: "A sensory epithelium inside the nasal cavity that is responsible for detecting odors." [UBERON:0001997]
 xref: UBERON:0001997
 is_a: XAO:0003045 ! epithelium
+relationship: develops_from XAO:0004092 ! preplacodal ectoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003196 ! olfactory system
 relationship: start_stage XAO:1000039 ! NF stage 23
@@ -17348,6 +17357,7 @@ id: XAO:0005186
 name: adenohypophysis
 def: "The glandular, anterior lobe of the pituitary gland (hypophysis). It regulates several physiological processes including stress, growth, and reproduction." [https://en.wikipedia.org/wiki/Anterior_pituitary]
 synonym: "anterior hypophysis" EXACT []
+synonym: "anterior lobe of pituitary gland" EXACT []
 synonym: "anterior pituitary" EXACT []
 synonym: "pars anterior" RELATED []
 xref: UBERON:0002196
@@ -17364,9 +17374,11 @@ id: XAO:0005187
 name: neurohypophysis
 def: "The posterior lobe of the pituitary gland (hypophysis). It is largely a collection of axonal projections from the hypothalamus that terminate behind the anterior pituitary, and serve as a site for the secretion of neurohypophysial hormones (oxytocin and vasopressin) directly into the blood. It is not glandular as is the anterior pituitary." [https://en.wikipedia.org/wiki/Posterior_pituitary]
 synonym: "posterior hypophysis" EXACT []
+synonym: "posterior lobe of pituitary gland" EXACT []
 synonym: "posterior pituitary" EXACT []
 xref: UBERON:0002198
 is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0004210 ! infundibulum
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000017 ! hypophysis
 relationship: start_stage XAO:1000052 ! NF stage 40
@@ -17763,22 +17775,40 @@ relationship: start_stage XAO:1000033 ! NF stage 12.5
 [Term]
 id: XAO:0005228
 name: efferent neuron
+def: "A neuron that transmits nerve impulses away from the central nervous system to the muscles or glands." [XAO:EJS]
 is_a: XAO:0003023 ! neuron
+relationship: develops_from XAO:0000048 ! neural crest
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005195 ! enteric nervous system
+relationship: start_stage XAO:1000025 ! NF stage 15
 
 [Term]
 id: XAO:0005229
 name: afferent neuron
+def: "A neuron that transmits nerve impulses to the central nervous system from sensory stimuli." [XAO:EJS]
 is_a: XAO:0003023 ! neuron
+relationship: develops_from XAO:0000048 ! neural crest
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005195 ! enteric nervous system
+relationship: start_stage XAO:1000025 ! NF stage 15
 
 [Term]
 id: XAO:0005230
 name: larval alimentary system
+def: "The alimentary system of a postembryonic, hatched or immature tadpole, prior to metamorphosis." [XAO:EJS]
 is_a: XAO:0000125 ! alimentary system
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: start_stage XAO:1000052 ! NF stage 40
 
 [Term]
 id: XAO:0005231
 name: cloacal sphincter
+def: "The developing muscle surrounding the caudal end of the cloaca." [https://medical-dictionary.thefreedictionary.com/cloacal+sphincter]
 is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0001019 ! proctodeum
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000244 ! cloaca
+relationship: start_stage XAO:1000052 ! NF stage 40
 
 [Term]
 id: XAO:0005232
@@ -17816,17 +17846,22 @@ relationship: start_stage XAO:1000041 ! NF stage 25
 [Term]
 id: XAO:0005235
 name: dorsal telencephalon
+def: "The dorsal part of the telencephalon." [XAO:EJS]
+synonym: "dt" EXACT []
 is_a: XAO:0003037 ! multi-tissue structure
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000012 ! telencephalon
+relationship: start_stage XAO:1000038 ! NF stage 22
 
 [Term]
 id: XAO:0005236
 name: intestinal stem cell
+def: "Type of adult stem cells that are induced by thyroid hormone (TH) and, during intestinal remodeling during metamorphosis, newly generate the absorptive epithelium." [PMID:30430240]
+synonym: "xenopus_anatomy" EXACT []
 is_a: XAO:0003054 ! stem cell
-
-[Term]
-id: XAO:0005237
-name: intercalating non-ciliated cell
-is_a: XAO:0004613 ! non-cililated epidermal cell
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000130 ! small intestine
+relationship: start_stage XAO:1000066 ! NF stage 54
 
 [Term]
 id: XAO:0005238
@@ -17860,12 +17895,22 @@ relationship: start_stage XAO:1000034 ! NF stage 18
 [Term]
 id: XAO:0005241
 name: superficial layer of neurectoderm
+def: "Layer of neurectoderm that develops into the roof plate of the spinal cord." [XAO:curators]
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000249 ! neural plate
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0000042 ! neuroectoderm
+relationship: start_stage XAO:1000020 ! NF stage 10
 
 [Term]
 id: XAO:0005242
 name: posterior neural fold
+def: "The posterior portions of the U-shaped neural folds, the two longitudinal dorsal ridges caused by a folding up of the ectoderm, which appear on either side of the middle line of the early neurula embryo." [XAO:CJZ]
 is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:1000038 ! NF stage 22
+relationship: part_of XAO:0000046 ! chordal neural plate
+relationship: part_of XAO:0004087 ! neural fold
+relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
 id: XAO:0005243
@@ -17888,12 +17933,22 @@ relationship: start_stage XAO:1000051 ! NF stage 39
 [Term]
 id: XAO:0005245
 name: neurenteric canal
+def: "The most posterior zone of the neural tube, first evident at NF stage 17, which develops where the neural tube passes into the archenteron roof around the dorsal blastoporal lip, becoming deeper during late neurula stages." [XAO:curators]
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000050 ! mesoderm
+relationship: end_stage XAO:1000044 ! NF stage 28
+relationship: part_of XAO:0000107 ! tail bud
+relationship: part_of XAO:0003204 ! neural tube
+relationship: start_stage XAO:1000027 ! NF stage 17
 
 [Term]
 id: XAO:0005246
 name: migratory trunk neural crest cell
+def: "Migratory neural crest cell that is part of the trunk neural crest." [XAO:EJS]
 is_a: XAO:0004069 ! migratory neural crest cell
+relationship: end_stage XAO:1000047 ! NF stage 32
+relationship: part_of XAO:0000319 ! trunk neural crest
+relationship: start_stage XAO:1000042 ! NF stage 26
 
 [Term]
 id: XAO:0005247
@@ -18073,19 +18128,32 @@ relationship: start_stage XAO:1000035 ! NF stage 19
 [Term]
 id: XAO:0005266
 name: thrombocyte
+def: "A cell type that produces platelets and coagulating factors that react to bleeding from blood vessel injury by clumping, thereby initiating a blood clot. In amphibians, embryonic and adult thrombocytes have different origins and potentially different gene expression markers." [https://en.wikipedia.org/wiki/Platelet, XAO:curators]
 is_a: XAO:0003012 ! cell
+relationship: develops_from XAO:0004473 ! ventral mesoderm
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000124 ! blood
+relationship: part_of XAO:0001010 ! circulatory system
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005267
 name: embryonic thrombocyte
+def: "A cell type that produces platelets and coagulating factors that react to bleeding from blood vessel injury by clumping, thereby initiating a blood clot; and that, in embryos, emerge from the ventral mesoderm, just anterior to the ventral blood island. Embryonic thrombocytes are identified by cd41/itga2b.1 gene expression. Additional waves of emergence during development may occur but have not yet been described." [https://en.wikipedia.org/wiki/Platelet, XAO:curators]
 synonym: "thrombocyte, embryonic" EXACT []
 is_a: XAO:0005266 ! thrombocyte
+relationship: end_stage XAO:1000077 ! NF stage 65
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005268
 name: adult thrombocyte
+def: "A cell type that produces platelets and coagulating factors that react to bleeding from blood vessel injury by clumping, thereby initiating a blood clot; and that, in adults, develop from hematopoietic stem cells." [https://en.wikipedia.org/wiki/Platelet, XAO:curators]
 synonym: "thrombocyte, adult" EXACT []
 is_a: XAO:0005266 ! thrombocyte
+relationship: develops_from XAO:0003055 ! hematopoietic stem cell
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000077 ! NF stage 65
 
 [Term]
 id: XAO:0005269
@@ -18195,6 +18263,16 @@ def: "Anatomical region that overlaps the dorsal and lateral regions of a body o
 is_a: XAO:0003186 ! anatomical region
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000032 ! NF stage 11.5
+
+[Term]
+id: XAO:0005282
+name: yolk platelet
+def: "An organelle that contains yolk for consumption during embryogenesis." [XAO:MEF]
+synonym: "YP" EXACT []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:1000060 ! NF stage 48
+relationship: part_of XAO:0000256 ! oocyte
+relationship: start_stage XAO:1000085 ! oocyte stage III
 
 [Term]
 id: XAO:1000000
