@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: releases/2018-06-14
-date: 21:03:2019 14:04
+date: 27:03:2019 21:16
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -658,9 +658,9 @@ name: presomitic mesoderm
 def: "Unsegmented field of paraxial mesoderm present posterior to the most recently formed somite pair, from which somites will form." [UBERON:0003059]
 synonym: "somitogenic mesoderm" RELATED []
 xref: UBERON:0003059
-is_a: XAO:0003042 ! embryonic structure
+is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000259 ! paraxial mesoderm
-relationship: end_stage XAO:1000045 ! NF stage 29 and 30
+relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: part_of XAO:0000259 ! paraxial mesoderm
 relationship: part_of XAO:0004042 ! muscular system
 relationship: start_stage XAO:1000024 ! NF stage 14
@@ -2430,7 +2430,6 @@ synonym: "eye" BROAD []
 synonym: "eye anlage" RELATED []
 xref: UBERON:0003071
 is_a: XAO:0003043 ! primordium
-relationship: develops_from XAO:0000307 ! anterior neural tube
 relationship: develops_from XAO:0004090 ! optic field
 relationship: end_stage XAO:1000034 ! NF stage 18
 relationship: part_of XAO:0003198 ! visual system
@@ -2623,7 +2622,7 @@ is_a: XAO:0003037 ! multi-tissue structure
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000107 ! tail bud
 relationship: part_of XAO:0000125 ! alimentary system
-relationship: start_stage XAO:1000052 ! NF stage 40
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 
 [Term]
 id: XAO:0000245
@@ -3021,9 +3020,9 @@ id: XAO:0000281
 name: vegetal yolk mass
 def: "Cell mass in the vegetal region of the embryo that will contribute to endoderm." [XAO:EJS]
 synonym: "vegetal cell mass" EXACT []
-is_a: XAO:0003040 ! tissue
+is_a: XAO:0003042 ! embryonic structure
 relationship: end_stage XAO:1000022 ! NF stage 12
-relationship: start_stage XAO:1000011 ! NF stage 2 (2-cell)
+relationship: start_stage XAO:1000001 ! NF stage 1
 
 [Term]
 id: XAO:0000282
@@ -4462,7 +4461,7 @@ is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0004207 ! posterior placodal area
 relationship: end_stage XAO:1000053 ! NF stage 41
 relationship: part_of XAO:0000095 ! lateral line system
-relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 
 [Term]
 id: XAO:0000441
@@ -4936,7 +4935,7 @@ relationship: develops_from XAO:0000001 ! ectoderm
 relationship: develops_from XAO:0000082 ! circumblastoporal collar
 relationship: develops_from XAO:0000208 ! blastopore
 relationship: develops_from XAO:0004091 ! non-neural ectoderm
-relationship: end_stage XAO:1000051 ! NF stage 39
+relationship: end_stage XAO:1000052 ! NF stage 40
 relationship: part_of XAO:0005230 ! larval alimentary system
 relationship: start_stage XAO:1000035 ! NF stage 19
 
@@ -9485,7 +9484,7 @@ xref: UBERON:0007285
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000050 ! mesoderm
 relationship: develops_from XAO:0000083 ! involuted dorsal mesoderm
-relationship: end_stage XAO:1000033 ! NF stage 12.5
+relationship: end_stage XAO:1000023 ! NF stage 13
 relationship: part_of XAO:0000050 ! mesoderm
 relationship: start_stage XAO:1000031 ! NF stage 10.5
 created_by: xenbase3
@@ -12413,10 +12412,10 @@ id: XAO:0004384
 name: peripheral vegetal yolk mass
 def: "Peripherally located part of the vegetal cell mass of prospective endoderm." [XAO:EJS]
 synonym: "peripheral vegetal cell mass" EXACT []
-is_a: XAO:0003040 ! tissue
+is_a: XAO:0003042 ! embryonic structure
 relationship: end_stage XAO:1000022 ! NF stage 12
 relationship: part_of XAO:0000281 ! vegetal yolk mass
-relationship: start_stage XAO:1000019 ! NF stage 9
+relationship: start_stage XAO:1000001 ! NF stage 1
 created_by: eriksegerdell
 creation_date: 2012-05-31T02:56:10Z
 
@@ -12544,10 +12543,10 @@ id: XAO:0004395
 name: central vegetal yolk mass
 def: "Centrally located part of the vegetal cell mass of prospective endoderm." [XAO:EJS]
 synonym: "central vegetal cell mass" EXACT []
-is_a: XAO:0003040 ! tissue
+is_a: XAO:0003042 ! embryonic structure
 relationship: end_stage XAO:1000022 ! NF stage 12
 relationship: part_of XAO:0000281 ! vegetal yolk mass
-relationship: start_stage XAO:1000019 ! NF stage 9
+relationship: start_stage XAO:1000001 ! NF stage 1
 created_by: eriksegerdell
 creation_date: 2012-05-31T02:57:12Z
 
@@ -13916,7 +13915,7 @@ is_a: XAO:0003043 ! primordium
 relationship: develops_from XAO:0000295 ! central endoderm
 relationship: end_stage XAO:1000051 ! NF stage 39
 relationship: part_of XAO:0000090 ! endoderm
-relationship: start_stage XAO:1000026 ! NF stage 16
+relationship: start_stage XAO:1000024 ! NF stage 14
 created_by: eriksegerdell
 creation_date: 2013-04-10T23:32:46Z
 
@@ -14963,7 +14962,7 @@ relationship: start_stage XAO:1000034 ! NF stage 18
 id: XAO:0004618
 name: rostral presomitic mesoderm
 def: "The region of presomitic mesoderm that lays immediately adjacent and posterior to the last formed somite." [XAO:CJZ]
-is_a: XAO:0003042 ! embryonic structure
+is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: part_of XAO:0000057 ! presomitic mesoderm
 relationship: start_stage XAO:1000023 ! NF stage 13
@@ -14972,7 +14971,7 @@ relationship: start_stage XAO:1000023 ! NF stage 13
 id: XAO:0004619
 name: caudal presomitic mesoderm
 def: "The most posterior region of presomitic mesoderm where somitomeres have yet to be fated." [XAO:CJZ]
-is_a: XAO:0003042 ! embryonic structure
+is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: part_of XAO:0000057 ! presomitic mesoderm
 relationship: start_stage XAO:1000023 ! NF stage 13
@@ -17900,7 +17899,7 @@ is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0000249 ! neural plate
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0000042 ! neuroectoderm
-relationship: start_stage XAO:1000020 ! NF stage 10
+relationship: start_stage XAO:1000032 ! NF stage 11.5
 
 [Term]
 id: XAO:0005242
