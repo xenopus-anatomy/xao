@@ -6,35 +6,6 @@ The `checkup.py` script loads the OBO-formatted ontology in the root directory, 
 
     $ ./checkup.py
 
-### Create new terms
-
-The `templates` directory contains an Excel spreadsheet for creating new anatomy terms, which can then be processed and output as OBO-formatted text.
-
-The template contains the following columns. Use term labels, not IDs. Multiple values should be comma-delimited.
-
- - Term label*
- - Definition*
- - Definition dbxref*
- - Synonym(s)
- - Parent term*
- - part_of term(s)
- - develops_from term(s)
- - develops_into term(s)
- - Start stage*
- - End stage*
-
-*required
-
-New terms that are specified as parents of other terms in the spreadsheet must be listed first.
-
-Note that synonyms are given the scope *RELATED* by default; you can change this later in an ontology editor, if necessary.
-
-Save a copy of your completed spreadsheet as a tab-delimited file in the `templates` directory. Navigate to the `utilities` directory and execute the term creation script. The tab-delimited template filename and starting term ID must be supplied as arguments; the latter should be one greater than the most recently created anatomy ID. For example:
-
-    $ ./create_terms.py NewTerms.txt 5084
-
-Copy the output, paste it at the end of the ontology OBO file in a plain-text editor, and save. You can reopen the file in OBO-Edit and save it again to ensure that the new terms were properly constructed.
-
 ### Dictionary
 
 The `parseont` module constructs a Python dictionary of all anatomy and stage terms in the ontology OBO file in the root directory. You can load it via the command line after navigating to the `utilities` directory:
