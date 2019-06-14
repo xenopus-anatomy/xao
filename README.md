@@ -20,7 +20,3 @@ Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Viz
  - [NCBO Bioportal](http://bioportal.bioontology.org/ontologies/XAO)
  - [Ontobee](http://www.ontobee.org/browser/index.php?o=XAO)
  - [Ontology Lookup Service](http://www.ebi.ac.uk/ols/ontologies/xao)
-
-## Development
-
-See the [documentation](https://github.com/xenopus-anatomy/xao/blob/master/doc/index.md) for more information about ontology development and release procedures.
