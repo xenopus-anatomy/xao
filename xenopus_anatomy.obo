@@ -18003,18 +18003,14 @@ relationship: start_stage XAO:1000036 ! NF stage 20
 [Term]
 id: XAO:0005252
 name: left olfactory pit
-def: "Olfactory pit located on the left side of the organism." [XAO:EJS]
-is_a: XAO:0000275 ! olfactory pit
-relationship: end_stage XAO:1000062 ! NF stage 50
-relationship: start_stage XAO:1000045 ! NF stage 29 and 30
+is_obsolete: true
+consider: XAO:0000275
 
 [Term]
 id: XAO:0005253
 name: right olfactory pit
-def: "Olfactory pit located on the right side of the organism." [XAO:EJS]
-is_a: XAO:0000275 ! olfactory pit
-relationship: end_stage XAO:1000062 ! NF stage 50
-relationship: start_stage XAO:1000045 ! NF stage 29 and 30
+is_obsolete: true
+consider: XAO:0000275
 
 [Term]
 id: XAO:0005254
@@ -18038,36 +18034,26 @@ relationship: start_stage XAO:1000025 ! NF stage 15
 [Term]
 id: XAO:0005256
 name: left eye
-def: "Eye located on the left side of the organism." [XAO:EJS]
-is_a: XAO:0000179 ! eye
-relationship: develops_from XAO:0005276 ! left optic vesicle
-relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000044 ! NF stage 28
+is_obsolete: true
+consider: XAO:0000179
 
 [Term]
 id: XAO:0005257
 name: right eye
-def: "Eye located on the right side of the organism." [XAO:EJS]
-is_a: XAO:0000179 ! eye
-relationship: develops_from XAO:0005277 ! right optic vesicle
-relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000044 ! NF stage 28
+is_obsolete: true
+consider: XAO:0000179
 
 [Term]
 id: XAO:0005258
 name: left inner ear
-def: "Inner ear located on the left side of the organism." [XAO:EJS]
-is_a: XAO:0000192 ! inner ear
-relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000055 ! NF stage 43
+is_obsolete: true
+consider: XAO:0000192
 
 [Term]
 id: XAO:0005259
 name: right inner ear
-def: "Inner ear located on the right side of the organism." [XAO:EJS]
-is_a: XAO:0000192 ! inner ear
-relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000055 ! NF stage 43
+is_obsolete: true
+consider: XAO:0000192
 
 [Term]
 id: XAO:0005260
@@ -18166,52 +18152,38 @@ relationship: start_stage XAO:1000067 ! NF stage 55
 [Term]
 id: XAO:0005270
 name: left part of branchial arch skeleton
-def: "Part of the branchial arch skeleton located on the left side of the organism." [XAO:EJS]
-is_a: XAO:0004289 ! skeletal subdivision
-relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0003180 ! branchial arch skeleton
-relationship: start_stage XAO:1000043 ! NF stage 27
+is_obsolete: true
+consider: XAO:0003180
 
 [Term]
 id: XAO:0005271
 name: right part of branchial arch skeleton
-def: "Part of the branchial arch skeleton located on the right side of the organism." [XAO:EJS]
-is_a: XAO:0004289 ! skeletal subdivision
-relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0003180 ! branchial arch skeleton
-relationship: start_stage XAO:1000043 ! NF stage 27
+is_obsolete: true
+consider: XAO:0003180
 
 [Term]
 id: XAO:0005272
 name: left forelimb
-def: "Forelimb located on the left side of the organism." [XAO:EJS]
-is_a: XAO:0003030 ! forelimb
-relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000067 ! NF stage 55
+is_obsolete: true
+consider: XAO:0003030
 
 [Term]
 id: XAO:0005273
 name: right forelimb
-def: "Forelimb located on the right side of the organism." [XAO:EJS]
-is_a: XAO:0003030 ! forelimb
-relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000067 ! NF stage 55
+is_obsolete: true
+consider: XAO:0003030
 
 [Term]
 id: XAO:0005274
 name: left hindlimb
-def: "Hindlimb located on the left side of the organism." [XAO:EJS]
-is_a: XAO:0003031 ! hindlimb
-relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000067 ! NF stage 55
+is_obsolete: true
+consider: XAO:0003031
 
 [Term]
 id: XAO:0005275
 name: right hindlimb
-def: "Hindlimb located on the right side of the organism." [XAO:EJS]
-is_a: XAO:0003031 ! hindlimb
-relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000067 ! NF stage 55
+is_obsolete: true
+consider: XAO:0003031
 
 [Term]
 id: XAO:0005276
@@ -18232,20 +18204,14 @@ relationship: start_stage XAO:1000034 ! NF stage 18
 [Term]
 id: XAO:0005278
 name: left part of brain
-def: "Part of the brain located on the left side of the organism." [XAO:EJS]
-is_a: XAO:0003165 ! cavitated compound organ
-relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000010 ! brain
-relationship: start_stage XAO:1000038 ! NF stage 22
+is_obsolete: true
+consider: XAO:0000010
 
 [Term]
 id: XAO:0005279
 name: right part of brain
-def: "Part of the brain located on the right side of the organism." [XAO:EJS]
-is_a: XAO:0003165 ! cavitated compound organ
-relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000010 ! brain
-relationship: start_stage XAO:1000038 ! NF stage 22
+is_obsolete: true
+consider: XAO:0000010
 
 [Term]
 id: XAO:0005280
