@@ -18249,6 +18249,33 @@ relationship: end_stage XAO:1000054 ! NF stage 42
 relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
+id: XAO:0005284
+name: sarcomere
+def: "The repeating unit of a myofibril in a muscle cell, composed of an array of overlapping thick and thin filaments between two adjacent Z discs." [GO:0030017]
+xref: GO:0030017
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000043 ! NF stage 27
+
+[Term]
+id: XAO:0005285
+name: spindle microtubule
+def: "Any microtubule that is part of a mitotic or meiotic spindle; anchored at one spindle pole." [GO:0005876]
+xref: GO:0005876
+is_a: XAO:0005122 ! microtubule
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000083 ! oocyte stage I
+
+[Term]
+id: XAO:0005286
+name: astral microtubule
+def: "Any of the spindle microtubules that radiate in all directions from the spindle poles and are thought to contribute to the forces that separate the poles and position them in relation to the rest of the cell." [GO:0000235]
+xref: GO:0000235
+is_a: XAO:0005285 ! spindle microtubule
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000083 ! oocyte stage I
+
+[Term]
 id: XAO:1000000
 name: Xenopus developmental stage
 namespace: xenopus_developmental_stage
