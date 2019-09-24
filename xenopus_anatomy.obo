@@ -2567,9 +2567,8 @@ name: lens placode
 def: "A thickened portion of ectoderm that serves as the precursor to the lens. It invaginates to form the lens vesicle, which gives rise to the crystallin-accumulating cells of the transparent lens." [PMID:16677629, UBERON:0003073]
 synonym: "lens" BROAD []
 xref: UBERON:0003073
-is_a: XAO:0004620 ! neurogenic placode
+is_a: XAO:0005283 ! non-neurogenic ectodermal placode
 relationship: develops_from XAO:0000320 ! sensorial layer
-relationship: develops_from XAO:0004092 ! preplacodal ectoderm
 relationship: end_stage XAO:1000044 ! NF stage 28
 relationship: part_of XAO:0004206 ! anterior placodal area
 relationship: start_stage XAO:1000023 ! NF stage 13
@@ -10422,7 +10421,7 @@ name: adenohypophyseal placode
 def: "The small pre-placodal ectoderm area that develops at the midline of the anterior neural ridge, abutting the anterior neural plate, and invaginates to form Rathke's pouch, which in turn forms the anterior lobe of the pituitary gland and gives rise to the endocrine secretory cells of the pituitary." [ISBN:0878933840]
 synonym: "pituitary placode" EXACT []
 xref: UBERON:0009122
-is_a: XAO:0004620 ! neurogenic placode
+is_a: XAO:0005283 ! non-neurogenic ectodermal placode
 relationship: end_stage XAO:1000051 ! NF stage 39
 relationship: part_of XAO:0004091 ! non-neural ectoderm
 relationship: start_stage XAO:1000027 ! NF stage 17
@@ -18238,6 +18237,16 @@ is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:1000060 ! NF stage 48
 relationship: part_of XAO:0000256 ! oocyte
 relationship: start_stage XAO:1000085 ! oocyte stage III
+
+[Term]
+id: XAO:0005283
+name: non-neurogenic ectodermal placode
+def: "Ectodermal placode that does not develop into a component of the nervous system." [UBERON:0011814]
+xref: UBERON:0011814
+is_a: XAO:0000305 ! cranial placode
+relationship: develops_from XAO:0004092 ! preplacodal ectoderm
+relationship: end_stage XAO:1000054 ! NF stage 42
+relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
 id: XAO:1000000
