@@ -4397,7 +4397,7 @@ def: "Any of the major paired nerves of the head or cephalic region. Twelve pair
 synonym: "cephalic nerve" RELATED []
 synonym: "cranial nerves" RELATED []
 xref: UBERON:0001785
-is_a: XAO:0003047 ! nerve
+is_a: XAO:0005309 ! cephalic nerve
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000178 ! peripheral nervous system
 relationship: part_of XAO:0003024 ! head
@@ -18278,13 +18278,13 @@ relationship: start_stage XAO:1000083 ! oocyte stage I
 [Term]
 id: XAO:0005287
 name: jaw muscle primordium
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0004455 ! cranial muscle primordium
 
 [Term]
 id: XAO:0005288
 name: pial cell
 def: "A cell of the pia mater, the delicate fibrous meningeal coverings of the CNS." []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003012 ! cell
 
 [Term]
 id: XAO:0005289
@@ -18292,115 +18292,124 @@ name: pia mater
 def: "The innermost delicate fibrous meningeal coverings of the CNS. It is closely adherent to the brain tissue and is composed of one to several layers of flattened, modified fibroblasts and the ECM (collagen and elastic fibers, etc.) they produce." []
 synonym: "pia" RELATED []
 synonym: "pia matter" EXACT []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003040 ! tissue
 
 [Term]
 id: XAO:0005290
 name: Roux spot
 def: "The unpigmented maturation spot which indicates germinal vesicle breakdown and thus maturation of an oocyte." []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003186 ! anatomical region
 
 [Term]
 id: XAO:0005291
 name: buccopharyngeal membrane
 def: "A 1-2 cell layer membrane comprising cells from the stomodeum and underlying endodermal layer. Perforation of this structure creates an opening connecting the external and the digestive tube which is essential for oral cavity formation." []
 synonym: "oral plate membrane" EXACT []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003042 ! embryonic structure
 
 [Term]
 id: XAO:0005292
 name: nasociliary nerve
 synonym: "nervus nasociliaris" EXACT []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0005309 ! cephalic nerve
 
 [Term]
 id: XAO:0005293
 name: maxillary nerve
 synonym: "nervus maxillare" EXACT []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0005309 ! cephalic nerve
 
 [Term]
 id: XAO:0005294
 name: mandibular nerve
 synonym: "nervus mandibulare" EXACT []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0005309 ! cephalic nerve
 
 [Term]
 id: XAO:0005295
 name: frontal nerve
 synonym: "nervus frontalis" EXACT []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0005309 ! cephalic nerve
 
 [Term]
 id: XAO:0005296
 name: adherens junction
 def: "A cell junction at which anchoring proteins (cadherins or integrins) extend through the plasma membrane and are attached to actin filaments." [GO:0005912]
 xref: GO:0005912
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0004290 ! cell part
 
 [Term]
 id: XAO:0005297
 name: foregut epithelium
 def: "The epithelium of the foregut." []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003200 ! gut epithelium
 
 [Term]
 id: XAO:0005298
 name: tracheal epithelium
 def: "The epithelium of the trachea." []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003045 ! epithelium
 
 [Term]
 id: XAO:0005299
 name: esophageal epithelium
 def: "The epithelium of the esophagus." []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003045 ! epithelium
 
 [Term]
 id: XAO:0005300
 name: stomach epithelium
 def: "The epithelium of the stomach." []
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003200 ! gut epithelium
 
 [Term]
 id: XAO:0005301
 name: ventral endoderm
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003040 ! tissue
 
 [Term]
 id: XAO:0005302
 name: posterior endoderm
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003040 ! tissue
 
 [Term]
 id: XAO:0005303
 name: anterior endoderm
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003040 ! tissue
 
 [Term]
 id: XAO:0005304
 name: dorsal endomesoderm
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003040 ! tissue
 
 [Term]
 id: XAO:0005305
 name: ventral endomesoderm
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003040 ! tissue
 
 [Term]
 id: XAO:0005306
 name: anterior endomesoderm
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003040 ! tissue
 
 [Term]
 id: XAO:0005307
 name: posterior endomesoderm
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003040 ! tissue
 
 [Term]
 id: XAO:0005308
 name: atrioventricular valve
-is_a: XAO:0003003 ! unspecified
+is_a: XAO:0003040 ! tissue
+
+[Term]
+id: XAO:0005309
+name: cephalic nerve
+def: "A nerve that is part of the head." [UBERON:0011779]
+synonym: "head nerve" RELATED []
+synonym: "nerve of head region" RELATED []
+xref: UBERON:0011779
+is_a: XAO:0003047 ! nerve
 
 [Term]
 id: XAO:1000000
