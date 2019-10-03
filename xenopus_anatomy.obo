@@ -3525,8 +3525,7 @@ id: XAO:0000336
 name: fused heart primordium
 def: "The fused aspects of ventral mesoderm, which have migrated from either side of the prechordal plate, and fused ventrally, just behind the cement gland. They give rise to the endocardium at NF stage 27/28." [XAO:curators]
 synonym: "heart" BROAD []
-synonym: "heart primordia" RELATED []
-synonym: "heart primordium" RELATED []
+synonym: "heart primordium" BROAD []
 xref: UBERON:0003084
 is_a: XAO:0003043 ! primordium
 relationship: develops_from XAO:0004185 ! primary heart field
@@ -18410,6 +18409,12 @@ synonym: "head nerve" RELATED []
 synonym: "nerve of head region" RELATED []
 xref: UBERON:0011779
 is_a: XAO:0003047 ! nerve
+
+[Term]
+id: XAO:0005310
+name: heart primordium
+synonym: "heart primordia" RELATED PLURAL []
+is_a: XAO:0003043 ! primordium
 
 [Term]
 id: XAO:1000000
