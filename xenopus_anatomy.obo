@@ -100,6 +100,7 @@ relationship: start_stage XAO:1000041 ! NF stage 25
 id: XAO:0000007
 name: lower eyelid
 def: "A surface structure consisting of a set of membranes that cover and protect the eye." [http://en.wikipedia.org/wiki/Frog]
+synonym: "ventral eyelid" EXACT []
 xref: UBERON:0001713
 is_a: XAO:0003028 ! surface structure
 relationship: end_stage XAO:0000437 ! death
@@ -4768,7 +4769,7 @@ relationship: start_stage XAO:1000071 ! NF stage 59
 [Term]
 id: XAO:0000474
 name: choroid fissure
-def: "A break in the continuity of the optic cup where the two sides of the cup meet." [ISBN:0815318960]
+def: "Part of the eye that forms during the transition from optic vesicle to optic cup as a groove at the lateroventral edge of the optic vesicle, which expands medially. The ventral edges of the optic vesicle then wrap around the fissure and fuse with one another, ultimately leading to a channel through which blood vessels and optic nerve fibres pass." [PMID:24478172]
 synonym: "optic fissure" RELATED []
 synonym: "ventral choroidal fissure" RELATED []
 xref: UBERON:0005412
@@ -6549,6 +6550,7 @@ def: "A mature male or female germ cell." [http://www.merriam-webster.com/medlin
 xref: CL:0000300
 is_a: XAO:0000111 ! germ cell
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000142 ! genital system
 relationship: start_stage XAO:1000093 ! adult frog stage
 
 [Term]
@@ -6600,9 +6602,10 @@ relationship: start_stage XAO:1000052 ! NF stage 40
 id: XAO:0003156
 name: natural killer cell
 def: "A lymphocyte that can spontaneously kill a variety of target cells without prior antigenic activation via germline encoded activation receptors and also regulate immune responses via cytokine release and direct contact with other cells." [CL:0000623]
-synonym: "NK cell" EXACT []
+synonym: "natural killer T cell" RELATED []
+synonym: "NK cell" RELATED []
 xref: CL:0000623
-is_a: XAO:0003155 ! lymphocyte
+is_a: XAO:0003157 ! T cell
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000052 ! NF stage 40
 
@@ -7208,6 +7211,7 @@ name: retinal pigmented epithelium
 def: "The monolayer of pigmented epithelium covering the neural retina." [XAO:EJS, ZFA:0000144]
 synonym: "pigmented epithelium" RELATED []
 synonym: "pigmented retinal epithelium" RELATED []
+synonym: "RPE" EXACT []
 xref: UBERON:0001782
 is_a: XAO:0003045 ! epithelium
 relationship: end_stage XAO:0000437 ! death
@@ -8023,8 +8027,9 @@ creation_date: 2011-08-22T03:36:25Z
 
 [Term]
 id: XAO:0004016
-name: replacement element
+name: regenerating skeletal element
 def: "Skeletal element that forms as a replacement or substitution of another element or tissue." [UBERON:0010522]
+synonym: "replacement element" RELATED []
 xref: UBERON:0010522
 is_a: XAO:0004012 ! skeletal element
 relationship: end_stage XAO:0000437 ! death
@@ -8039,7 +8044,7 @@ name: endochondral element
 def: "A skeletal element that has the potential to participate in endochondral ossification, and may participate in intramembranous ossification." [UBERON:0010363]
 synonym: "endochondral replacement element" EXACT []
 xref: UBERON:0010363
-is_a: XAO:0004016 ! replacement element
+is_a: XAO:0004016 ! regenerating skeletal element
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000055 ! NF stage 43
 created_by: xenbase3
@@ -8704,7 +8709,7 @@ xref: UBERON:0000959
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000013 ! diencephalon
-relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+relationship: start_stage XAO:1000047 ! NF stage 32
 created_by: xenbase3
 creation_date: 2011-08-24T11:35:57Z
 
@@ -8712,7 +8717,8 @@ creation_date: 2011-08-24T11:35:57Z
 id: XAO:0004072
 name: suprachiasmatic nucleus
 def: "The ventral region of the alar hypothalamus. It is a diencephalic nucleus that is part of the preoptic area and is ventrolateral to the caudal parvocellular preoptic nucleus." [PMID:24122702, XAO:EJS, ZFA:0000441]
-synonym: "SC" EXACT []
+synonym: "SC" RELATED []
+synonym: "SCN" EXACT []
 synonym: "suprachiasmatic region" RELATED []
 xref: UBERON:0002034
 is_a: XAO:0004609 ! neural nucleus
@@ -13425,7 +13431,7 @@ is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000084 ! involuted ventral mesoderm
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000311 ! lateral plate mesoderm
-relationship: start_stage XAO:1000026 ! NF stage 16
+relationship: start_stage XAO:1000025 ! NF stage 15
 created_by: eriksegerdell
 creation_date: 2013-03-15T20:23:49Z
 
@@ -15064,7 +15070,7 @@ def: "The erythroid-forming compartment of the ventral blood island." [PMID:1859
 synonym: "pvbi" EXACT []
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0004473 ! ventral mesoderm
-relationship: end_stage XAO:1000049 ! NF stage 35 and 36
+relationship: end_stage XAO:1000052 ! NF stage 40
 relationship: part_of XAO:0000067 ! ventral blood island
 relationship: start_stage XAO:1000038 ! NF stage 22
 
@@ -17832,7 +17838,7 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 [Term]
 id: XAO:0005234
 name: small secretory cell
-def: "One of the four cell types that are found in bilayered epithlium of the larval epidermis (the others being globet cells, multicilliated cells, and ionocytes) and have an abundance of large apical secretory vesicles and secrete a glyocoprotein with antimicrobial properties." [PMID:24598166]
+def: "One of the four cell types that are found in bilayered epithlium of the larval epidermis (the others being goblet cells, multicilliated cells, and ionocytes) and have an abundance of large apical secretory vesicles and secrete a glyocoprotein with antimicrobial properties." [PMID:24598166]
 synonym: "SCC" EXACT []
 is_a: XAO:0003012 ! cell
 relationship: develops_from XAO:0000001 ! ectoderm
