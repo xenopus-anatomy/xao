@@ -18260,7 +18260,8 @@ def: "The repeating unit of a myofibril in a muscle cell, composed of an array o
 xref: GO:0030017
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000043 ! NF stage 27
+relationship: part_of XAO:0005311 ! myofibril
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005285
@@ -18421,6 +18422,38 @@ id: XAO:0005310
 name: heart primordium
 synonym: "heart primordia" RELATED PLURAL []
 is_a: XAO:0003043 ! primordium
+
+[Term]
+id: XAO:0005311
+name: myofibril
+def: "The contractile element of skeletal and cardiac muscle; a long, highly organized bundle of actin, myosin, and other proteins that contracts by a sliding filament mechanism." [GO:0030016]
+synonym: "striated muscle fibre" RELATED []
+xref: GO:0030016
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000174 ! skeletal muscle
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0005312
+name: M band
+def: "The midline of aligned thick filaments in a sarcomere; location of specific proteins that link thick filaments. Depending on muscle type the M band consists of different numbers of M lines." [GO:0031430]
+synonym: "M line" NARROW []
+synonym: "mesophragma" RELATED []
+xref: GO:0031430
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005284 ! sarcomere
+relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0005313
+name: actin cytoskeleton
+def: "The part of the cytoskeleton (the internal framework of a cell) composed of actin and associated proteins. Includes actin cytoskeleton-associated complexes." [GO:0015629]
+xref: GO:0015629
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000083 ! oocyte stage I
 
 [Term]
 id: XAO:1000000
