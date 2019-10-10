@@ -2060,6 +2060,7 @@ synonym: "tympanic membrane" RELATED []
 synonym: "tympanum" RELATED []
 xref: UBERON:0001691
 is_a: XAO:0004013 ! cartilage element
+relationship: develops_from XAO:0005141 ! pars externa of the stapes
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000189 ! auditory apparatus
 relationship: start_stage XAO:1000059 ! NF stage 47
@@ -2446,6 +2447,7 @@ synonym: "optic cup" RELATED []
 xref: UBERON:0004128
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000227 ! eye primordium
+relationship: develops_from XAO:0005316 ! periocular mesenchyme
 relationship: end_stage XAO:1000047 ! NF stage 32
 relationship: part_of XAO:0003198 ! visual system
 relationship: start_stage XAO:1000034 ! NF stage 18
@@ -6674,10 +6676,12 @@ relationship: start_stage XAO:1000083 ! oocyte stage I
 id: XAO:0003163
 name: basal lamina
 def: "Acellular anatomical structure that consists of a thin sheet of fibrous proteins that underlie and support the cells of an epithelium. It separates the cells of an epithelium from any underlying tissue." [CARO:0000065]
+synonym: "basement lamina" BROAD []
 xref: CARO:0000065
 xref: UBERON:0000482
 is_a: XAO:0003162 ! acellular anatomical structure
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003045 ! epithelium
 relationship: start_stage XAO:1000020 ! NF stage 10
 
 [Term]
@@ -7201,6 +7205,7 @@ def: "The layer of nerve cells in the retina." [XAO:curators]
 synonym: "neural retina" RELATED []
 xref: UBERON:0003902
 is_a: XAO:0003037 ! multi-tissue structure
+relationship: develops_from XAO:0000266 ! retinal layer
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000009 ! retina
 relationship: start_stage XAO:1000044 ! NF stage 28
@@ -8930,12 +8935,10 @@ creation_date: 2011-08-24T03:18:10Z
 id: XAO:0004089
 name: periocular region
 def: "Anatomical region that surrounds the eye but is within the orbit." [http://www.merriam-webster.com/medical/periocular]
-synonym: "periocular mesenchyme" RELATED []
-xref: UBERON:0004017
 is_a: XAO:0003186 ! anatomical region
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000040 ! head region
-relationship: start_stage XAO:1000057 ! NF stage 45
+relationship: start_stage XAO:1000038 ! NF stage 22
 created_by: xenbase3
 creation_date: 2011-08-24T03:20:21Z
 
@@ -11203,8 +11206,10 @@ relationship: start_stage XAO:1000057 ! NF stage 45
 
 [Term]
 id: XAO:0004278
-name: coracoid
+name: coracoid bone
 def: "Paired bone that is part of the shoulder assembly, joining the scapula to the front end of the sternum." [http://en.wikipedia.org/wiki/Coracoid]
+synonym: "coracoid" RELATED []
+xref: UBERON:0004743
 is_a: XAO:0004018 ! endochondral bone
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003063 ! pectoral girdle
@@ -18475,6 +18480,26 @@ is_a: XAO:0004018 ! endochondral bone
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0005225 ! otic capsule
 relationship: start_stage XAO:1000057 ! NF stage 45
+
+[Term]
+id: XAO:0005315
+name: retinal vein
+def: "Vein that is part of the periocular region." [XAO:EJS]
+is_a: XAO:0000115 ! vein
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0004089 ! periocular region
+relationship: start_stage XAO:1000046 ! NF stage 31
+
+[Term]
+id: XAO:0005316
+name: periocular mesenchyme
+def: "Head mesenchyme that is part of the periocular region." [XAO:EJS]
+synonym: "POM" EXACT []
+synonym: "ventronasal periocular mesenchyme" RELATED []
+is_a: XAO:0004307 ! head mesenchyme
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0004089 ! periocular region
+relationship: start_stage XAO:1000038 ! NF stage 22
 
 [Term]
 id: XAO:1000000
