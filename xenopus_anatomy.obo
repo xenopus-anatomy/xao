@@ -2565,8 +2565,8 @@ relationship: start_stage XAO:1000052 ! NF stage 40
 [Term]
 id: XAO:0000240
 name: lens placode
-def: "A thickened portion of ectoderm that serves as the precursor to the lens. It invaginates to form the lens vesicle, which gives rise to the crystallin-accumulating cells of the transparent lens." [PMID:16677629, UBERON:0003073]
-synonym: "lens" BROAD []
+def: "A thickened portion of ectoderm that serves as the precursor to the lens." [UBERON:0003073]
+synonym: "lens primordium" RELATED []
 xref: UBERON:0003073
 is_a: XAO:0005283 ! non-neurogenic ectodermal placode
 relationship: develops_from XAO:0000320 ! sensorial layer
@@ -4895,8 +4895,10 @@ name: abdominal myoblast
 def: "The myoblast that forms the muscles of the anterior abdominal walls." [AAO:0010314]
 synonym: "abdominal musculature" RELATED []
 is_a: XAO:0003015 ! myoblast
+relationship: develops_from XAO:0000314 ! trunk somite
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: part_of XAO:0000315 ! myotome
+relationship: part_of XAO:0003230 ! trunk musculature
 relationship: start_stage XAO:1000046 ! NF stage 31
 
 [Term]
@@ -7352,6 +7354,7 @@ def: "Type of trunk muscle that lies ventral to the horizontal septum of the ver
 synonym: "body wall muscle" RELATED []
 xref: UBERON:0008777
 is_a: XAO:0000174 ! skeletal muscle
+relationship: develops_from XAO:0001016 ! abdominal myoblast
 relationship: develops_from XAO:0005226 ! migrating myoblast
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003230 ! trunk musculature
@@ -11567,6 +11570,7 @@ synonym: "columella" RELATED []
 is_a: XAO:0000214 ! auditory ossicle
 is_a: XAO:0004013 ! cartilage element
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000191 ! middle ear
 relationship: start_stage XAO:1000059 ! NF stage 47
 created_by: eriksegerdell
 creation_date: 2012-03-10T10:07:32Z
@@ -16886,6 +16890,7 @@ id: XAO:0005147
 name: parotic crest
 def: "Cartilaginous extension of the prootic bone which overlies the middle ear region." [PMID:20953303]
 is_a: XAO:0004013 ! cartilage element
+relationship: develops_from XAO:0005314 ! prootic bone
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003059 ! chondrocranium
 relationship: start_stage XAO:1000059 ! NF stage 47
@@ -16897,6 +16902,7 @@ id: XAO:0005148
 name: m. depressor mandibulae
 def: "A muscle acting to open the lower jaw, which runs from the caudal otic region downwards, passing over the stapes." [PMID:20953303]
 is_a: XAO:0004322 ! cranial muscle
+relationship: develops_from XAO:0000053 ! head mesoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 created_by: eriksegerdell
@@ -16907,6 +16913,7 @@ id: XAO:0005149
 name: m. levator scapulae superior
 def: "Superior aspect of the cranial muscle that passes between the otic capsule and the scapula. It originates on the otic capsule just caudal to the oval window." [PMID:20953303]
 is_a: XAO:0004322 ! cranial muscle
+relationship: develops_from XAO:0000053 ! head mesoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 created_by: eriksegerdell
@@ -16917,6 +16924,7 @@ id: XAO:0005150
 name: m. levator scapulae inferior
 def: "Inferior aspect of the cranial muscle that passes between the otic capsule and the scapula. It originates on the otic capsule just caudal to the oval window." [PMID:20953303]
 is_a: XAO:0004322 ! cranial muscle
+relationship: develops_from XAO:0000053 ! head mesoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 created_by: eriksegerdell
@@ -16927,6 +16935,7 @@ id: XAO:0005151
 name: m. petrohyoideus
 def: "A long, strap-like muscle that originates mainly from the parotic crest, passes over the stapes and ultimately inserts on the ventral surface of the larynx." [PMID:20953303]
 is_a: XAO:0004322 ! cranial muscle
+relationship: develops_from XAO:0000053 ! head mesoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 created_by: eriksegerdell
@@ -16937,6 +16946,7 @@ id: XAO:0005152
 name: m. cucullaris
 def: "A muscle that originates on the otic capsule and adjacent tympanic annulus, and inserts on the pectoral girdle." [PMID:20953303]
 is_a: XAO:0004322 ! cranial muscle
+relationship: develops_from XAO:0000053 ! head mesoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 created_by: eriksegerdell
@@ -17759,6 +17769,7 @@ relationship: start_stage XAO:1000055 ! NF stage 43
 id: XAO:0005226
 name: migrating myoblast
 def: "Any of the muscle precursor cells which emerge from the lower margin of the trunk somites, appear in a segmented pattern, and move through the lateral regions of the embryo to form the hypaxial muscle." [XAO:CJZ]
+synonym: "migratory somitic cell" RELATED []
 is_a: XAO:0003015 ! myoblast
 relationship: develops_from XAO:0000314 ! trunk somite
 relationship: end_stage XAO:1000059 ! NF stage 47
@@ -18454,6 +18465,16 @@ xref: GO:0015629
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000083 ! oocyte stage I
+
+[Term]
+id: XAO:0005314
+name: prootic bone
+def: "Either of the paired endochondral bones forming the anterior and lateral walls of the otic capsules." [UBERON:0004746]
+xref: UBERON:0004746
+is_a: XAO:0004018 ! endochondral bone
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005225 ! otic capsule
+relationship: start_stage XAO:1000057 ! NF stage 45
 
 [Term]
 id: XAO:1000000
