@@ -18305,16 +18305,22 @@ is_a: XAO:0004455 ! cranial muscle primordium
 [Term]
 id: XAO:0005288
 name: pial cell
-def: "A cell of the pia mater, the delicate fibrous meningeal coverings of the CNS." []
+def: "A cell of the pia mater, the delicate fibrous meningeal coverings of the CNS." [XAO:CJZ]
 is_a: XAO:0003012 ! cell
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005289 ! pia mater
+relationship: start_stage XAO:1000038 ! NF stage 22
 
 [Term]
 id: XAO:0005289
 name: pia mater
-def: "The innermost delicate fibrous meningeal coverings of the CNS. It is closely adherent to the brain tissue and is composed of one to several layers of flattened, modified fibroblasts and the ECM (collagen and elastic fibers, etc.) they produce." []
+def: "The innermost delicate fibrous meningeal coverings of the CNS. It is closely adherent to the brain tissue and is composed of one to several layers of flattened, modified fibroblasts and the ECM (collagen and elastic fibers, etc.) they produce." [XAO:CJZ]
 synonym: "pia" RELATED []
 synonym: "pia matter" EXACT []
 is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000010 ! brain
+relationship: start_stage XAO:1000038 ! NF stage 22
 
 [Term]
 id: XAO:0005290
@@ -18359,65 +18365,118 @@ name: adherens junction
 def: "A cell junction at which anchoring proteins (cadherins or integrins) extend through the plasma membrane and are attached to actin filaments." [GO:0005912]
 xref: GO:0005912
 is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000083 ! oocyte stage I
 
 [Term]
 id: XAO:0005297
 name: foregut epithelium
-def: "The epithelium of the foregut." []
+def: "The epithelium of the foregut." [XAO:MEF]
 is_a: XAO:0003200 ! gut epithelium
+relationship: develops_from XAO:0004513 ! foregut endoderm
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0000232 ! foregut
+relationship: start_stage XAO:1000036 ! NF stage 20
 
 [Term]
 id: XAO:0005298
 name: tracheal epithelium
-def: "The epithelium of the trachea." []
+def: "The epithelium of the trachea." [XAO:MEF]
 is_a: XAO:0003045 ! epithelium
+relationship: develops_from XAO:0005127 ! anterior foregut
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000118 ! trachea
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 
 [Term]
 id: XAO:0005299
 name: esophageal epithelium
-def: "The epithelium of the esophagus." []
+def: "The epithelium of the esophagus." [XAO:MEF]
 is_a: XAO:0003045 ! epithelium
+relationship: develops_from XAO:0005127 ! anterior foregut
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000127 ! esophagus
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 
 [Term]
 id: XAO:0005300
 name: stomach epithelium
-def: "The epithelium of the stomach." []
+def: "The epithelium of the stomach." [XAO:MEF]
 is_a: XAO:0003200 ! gut epithelium
+relationship: develops_from XAO:0000232 ! foregut
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000232 ! foregut
+relationship: start_stage XAO:1000052 ! NF stage 40
 
 [Term]
 id: XAO:0005301
 name: ventral endoderm
-is_a: XAO:0003040 ! tissue
+def: "Ventral region of early embryonic endoderm." [XAO:MEF]
+is_a: XAO:0003186 ! anatomical region
+relationship: develops_from XAO:0000090 ! endoderm
+relationship: end_stage XAO:1000034 ! NF stage 18
+relationship: part_of XAO:0000090 ! endoderm
+relationship: start_stage XAO:1000020 ! NF stage 10
 
 [Term]
 id: XAO:0005302
 name: posterior endoderm
-is_a: XAO:0003040 ! tissue
+def: "Posterior region of the developing endoderm." [XAO:MEF]
+is_a: XAO:0003186 ! anatomical region
+relationship: develops_from XAO:0000090 ! endoderm
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0000090 ! endoderm
+relationship: start_stage XAO:1000032 ! NF stage 11.5
 
 [Term]
 id: XAO:0005303
 name: anterior endoderm
-is_a: XAO:0003040 ! tissue
+def: "Anterior region of the developing endoderm." [XAO:MEF]
+is_a: XAO:0003186 ! anatomical region
+relationship: develops_from XAO:0000090 ! endoderm
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0000090 ! endoderm
+relationship: start_stage XAO:1000032 ! NF stage 11.5
 
 [Term]
 id: XAO:0005304
 name: dorsal endomesoderm
-is_a: XAO:0003040 ! tissue
+def: "Dorsal region of early embryonic endomesoderm." [XAO:MEF]
+is_a: XAO:0003186 ! anatomical region
+relationship: develops_from XAO:0003044 ! endomesoderm
+relationship: end_stage XAO:1000034 ! NF stage 18
+relationship: part_of XAO:0003044 ! endomesoderm
+relationship: start_stage XAO:1000020 ! NF stage 10
 
 [Term]
 id: XAO:0005305
 name: ventral endomesoderm
-is_a: XAO:0003040 ! tissue
+def: "Ventral region of early embryonic endomesoderm." [XAO:MEF]
+is_a: XAO:0003186 ! anatomical region
+relationship: develops_from XAO:0003044 ! endomesoderm
+relationship: end_stage XAO:1000034 ! NF stage 18
+relationship: part_of XAO:0003044 ! endomesoderm
+relationship: start_stage XAO:1000020 ! NF stage 10
 
 [Term]
 id: XAO:0005306
 name: anterior endomesoderm
-is_a: XAO:0003040 ! tissue
+def: "Anterior region of the developing endomesoderm." [XAO:MEF]
+is_a: XAO:0003186 ! anatomical region
+relationship: develops_from XAO:0003044 ! endomesoderm
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0003044 ! endomesoderm
+relationship: start_stage XAO:1000032 ! NF stage 11.5
 
 [Term]
 id: XAO:0005307
 name: posterior endomesoderm
-is_a: XAO:0003040 ! tissue
+def: "Posterior region of the developing endomesoderm." [XAO:MEF]
+is_a: XAO:0003186 ! anatomical region
+relationship: develops_from XAO:0003044 ! endomesoderm
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: part_of XAO:0003044 ! endomesoderm
+relationship: start_stage XAO:1000032 ! NF stage 11.5
 
 [Term]
 id: XAO:0005308
