@@ -2758,7 +2758,7 @@ name: oral evagination
 def: "An outpocketing of the foregut ventral to the infundibulum and the hypophysis. The walls surrounding this cavity are composed of endoderm." [http://www.uoguelph.ca/zoology/devobio/34mmfrog/db34fg1.htm]
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000232 ! foregut
-relationship: end_stage XAO:1000048 ! NF stage 33 and 34
+relationship: end_stage XAO:1000049 ! NF stage 35 and 36
 relationship: part_of XAO:0000125 ! alimentary system
 relationship: start_stage XAO:1000036 ! NF stage 20
 
@@ -4401,8 +4401,6 @@ synonym: "cranial nerves" RELATED []
 xref: UBERON:0001785
 is_a: XAO:0005309 ! cephalic nerve
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000178 ! peripheral nervous system
-relationship: part_of XAO:0003024 ! head
 relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
@@ -7834,6 +7832,7 @@ name: jaw muscle
 def: "Type of muscle that arises in the zygomatic arch and closes the jaw." [UBERON:0003681]
 xref: UBERON:0011648
 is_a: XAO:0004322 ! cranial muscle
+relationship: develops_from XAO:0005287 ! jaw muscle primordium
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000052 ! NF stage 40
 created_by: eriksegerdell
@@ -9380,7 +9379,7 @@ def: "A portion of tissue forming a cusp guarding the opening of the atrioventri
 synonym: "atrioventricular valve leaflets" RELATED PLURAL []
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000064 ! heart
+relationship: part_of XAO:0005308 ! atrioventricular valve
 relationship: start_stage XAO:1000054 ! NF stage 42
 created_by: xenbase3
 creation_date: 2011-08-25T11:20:57Z
@@ -18300,12 +18299,17 @@ relationship: start_stage XAO:1000083 ! oocyte stage I
 [Term]
 id: XAO:0005287
 name: jaw muscle primordium
+def: "The presumptive cells of the jaw muscle." [XAO:EJS]
 is_a: XAO:0004455 ! cranial muscle primordium
+relationship: develops_from XAO:0000097 ! mandibular arch
+relationship: develops_from XAO:0000098 ! hyoid arch
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: start_stage XAO:1000048 ! NF stage 33 and 34
 
 [Term]
 id: XAO:0005288
 name: pial cell
-def: "A cell of the pia mater, the delicate fibrous meningeal coverings of the CNS." [XAO:CJZ]
+def: "A cell of the pia mater, the delicate fibrous meningeal coverings of the CNS." [PMID:30993182]
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0005289 ! pia mater
@@ -18314,7 +18318,7 @@ relationship: start_stage XAO:1000038 ! NF stage 22
 [Term]
 id: XAO:0005289
 name: pia mater
-def: "The innermost delicate fibrous meningeal coverings of the CNS. It is closely adherent to the brain tissue and is composed of one to several layers of flattened, modified fibroblasts and the ECM (collagen and elastic fibers, etc.) they produce." [XAO:CJZ]
+def: "The innermost delicate fibrous meningeal coverings of the CNS. It is closely adherent to the brain tissue and is composed of one to several layers of flattened, modified fibroblasts and the ECM (collagen and elastic fibers, etc.) they produce." [PMID:30993182]
 synonym: "pia" RELATED []
 synonym: "pia matter" EXACT []
 is_a: XAO:0003040 ! tissue
@@ -18325,39 +18329,63 @@ relationship: start_stage XAO:1000038 ! NF stage 22
 [Term]
 id: XAO:0005290
 name: Roux spot
-def: "The unpigmented maturation spot which indicates germinal vesicle breakdown and thus maturation of an oocyte." []
-is_a: XAO:0003186 ! anatomical region
+def: "The unpigmented maturation spot which indicates germinal vesicle breakdown and thus maturation of an oocyte." [PMID:30046, PMID:6540084]
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:1000084 ! oocyte stage II
+relationship: part_of XAO:0000256 ! oocyte
+relationship: start_stage XAO:1000083 ! oocyte stage I
 
 [Term]
 id: XAO:0005291
 name: buccopharyngeal membrane
-def: "A 1-2 cell layer membrane comprising cells from the stomodeum and underlying endodermal layer. Perforation of this structure creates an opening connecting the external and the digestive tube which is essential for oral cavity formation." []
+def: "A 1-2 cell layer membrane comprising cells from the stomodeum and underlying endodermal layer. Perforation of this structure creates an opening connecting the external and the digestive tube which is essential for oral cavity formation." [PMID:16678148, PMID:28032936]
 synonym: "oral plate membrane" EXACT []
 is_a: XAO:0003042 ! embryonic structure
+relationship: develops_from XAO:0000257 ! oral evagination
+relationship: develops_from XAO:0000269 ! mouth primordium
+relationship: end_stage XAO:1000052 ! NF stage 40
+relationship: part_of XAO:0000269 ! mouth primordium
+relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 
 [Term]
 id: XAO:0005292
 name: nasociliary nerve
+def: "Cephalic nerve that innervates the nasal cavity and the eye." [] {comment="XAO:EJS"}
 synonym: "nervus nasociliaris" EXACT []
 is_a: XAO:0005309 ! cephalic nerve
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003092 ! trigeminal nerve
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005293
 name: maxillary nerve
+def: "Cephalic nerve that innervates the maxillary sinus." [] {comment="XAO:EJS"}
 synonym: "nervus maxillare" EXACT []
 is_a: XAO:0005309 ! cephalic nerve
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003092 ! trigeminal nerve
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005294
 name: mandibular nerve
+def: "Cephalic nerve that innervates the lower jaw." [] {comment="XAO:EJS"}
 synonym: "nervus mandibulare" EXACT []
 is_a: XAO:0005309 ! cephalic nerve
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003092 ! trigeminal nerve
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005295
 name: frontal nerve
+def: "Cephalic nerve that is the largest branch of the ophthalmic division of the trigeminal nerve." [] {comment="XAO:EJS"}
 synonym: "nervus frontalis" EXACT []
 is_a: XAO:0005309 ! cephalic nerve
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003092 ! trigeminal nerve
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005296
@@ -18481,7 +18509,12 @@ relationship: start_stage XAO:1000032 ! NF stage 11.5
 [Term]
 id: XAO:0005308
 name: atrioventricular valve
+def: "A cardial valve in the atrioventricular region that separates the atrium from the ventricle and prevents backflow from the ventricles into the atria during systole." [UBERON:0002133]
+xref: UBERON:0002133
 is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000064 ! heart
+relationship: start_stage XAO:1000054 ! NF stage 42
 
 [Term]
 id: XAO:0005309
@@ -18491,6 +18524,10 @@ synonym: "head nerve" RELATED []
 synonym: "nerve of head region" RELATED []
 xref: UBERON:0011779
 is_a: XAO:0003047 ! nerve
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000178 ! peripheral nervous system
+relationship: part_of XAO:0003024 ! head
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0005310
