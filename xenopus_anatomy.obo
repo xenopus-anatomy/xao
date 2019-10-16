@@ -18321,6 +18321,7 @@ name: pia mater
 def: "The innermost delicate fibrous meningeal coverings of the CNS. It is closely adherent to the brain tissue and is composed of one to several layers of flattened, modified fibroblasts and the ECM (collagen and elastic fibers, etc.) they produce." [PMID:30993182]
 synonym: "pia" RELATED []
 synonym: "pia matter" EXACT []
+xref: UBERON:0002361
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000010 ! brain
@@ -18340,6 +18341,7 @@ id: XAO:0005291
 name: buccopharyngeal membrane
 def: "A 1-2 cell layer membrane comprising cells from the stomodeum and underlying endodermal layer. Perforation of this structure creates an opening connecting the external and the digestive tube which is essential for oral cavity formation." [PMID:16678148, PMID:28032936]
 synonym: "oral plate membrane" EXACT []
+xref: UBERON:0006211
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000257 ! oral evagination
 relationship: develops_from XAO:0000269 ! mouth primordium
@@ -18352,6 +18354,7 @@ id: XAO:0005292
 name: nasociliary nerve
 def: "Cephalic nerve that innervates the nasal cavity and the eye." [] {comment="XAO:EJS"}
 synonym: "nervus nasociliaris" EXACT []
+xref: UBERON:0022300
 is_a: XAO:0005309 ! cephalic nerve
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003092 ! trigeminal nerve
@@ -18362,6 +18365,7 @@ id: XAO:0005293
 name: maxillary nerve
 def: "Cephalic nerve that innervates the maxillary sinus." [] {comment="XAO:EJS"}
 synonym: "nervus maxillare" EXACT []
+xref: UBERON:0000377
 is_a: XAO:0005309 ! cephalic nerve
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003092 ! trigeminal nerve
@@ -18372,6 +18376,7 @@ id: XAO:0005294
 name: mandibular nerve
 def: "Cephalic nerve that innervates the lower jaw." [] {comment="XAO:EJS"}
 synonym: "nervus mandibulare" EXACT []
+xref: UBERON:0000375
 is_a: XAO:0005309 ! cephalic nerve
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003092 ! trigeminal nerve
@@ -18382,6 +18387,7 @@ id: XAO:0005295
 name: frontal nerve
 def: "Cephalic nerve that is the largest branch of the ophthalmic division of the trigeminal nerve." [] {comment="XAO:EJS"}
 synonym: "nervus frontalis" EXACT []
+xref: UBERON:0000942
 is_a: XAO:0005309 ! cephalic nerve
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003092 ! trigeminal nerve
@@ -18400,6 +18406,7 @@ relationship: start_stage XAO:1000083 ! oocyte stage I
 id: XAO:0005297
 name: foregut epithelium
 def: "The epithelium of the foregut." [XAO:MEF]
+xref: UBERON:0015833
 is_a: XAO:0003200 ! gut epithelium
 relationship: develops_from XAO:0004513 ! foregut endoderm
 relationship: end_stage XAO:1000056 ! NF stage 44
@@ -18410,6 +18417,7 @@ relationship: start_stage XAO:1000036 ! NF stage 20
 id: XAO:0005298
 name: tracheal epithelium
 def: "The epithelium of the trachea." [XAO:MEF]
+xref: UBERON:0001901
 is_a: XAO:0003045 ! epithelium
 relationship: develops_from XAO:0005127 ! anterior foregut
 relationship: end_stage XAO:0000437 ! death
@@ -18420,6 +18428,7 @@ relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 id: XAO:0005299
 name: esophageal epithelium
 def: "The epithelium of the esophagus." [XAO:MEF]
+xref: UBERON:0001976
 is_a: XAO:0003045 ! epithelium
 relationship: develops_from XAO:0005127 ! anterior foregut
 relationship: end_stage XAO:0000437 ! death
@@ -18430,6 +18439,7 @@ relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 id: XAO:0005300
 name: stomach epithelium
 def: "The epithelium of the stomach." [XAO:MEF]
+xref: UBERON:0001276
 is_a: XAO:0003200 ! gut epithelium
 relationship: develops_from XAO:0000232 ! foregut
 relationship: end_stage XAO:0000437 ! death
@@ -18532,7 +18542,6 @@ relationship: start_stage XAO:1000044 ! NF stage 28
 [Term]
 id: XAO:0005310
 name: heart primordium
-synonym: "heart primordia" RELATED PLURAL []
 is_a: XAO:0003043 ! primordium
 
 [Term]
