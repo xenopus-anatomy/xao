@@ -15210,6 +15210,7 @@ xref: GO:0030426
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003023 ! neuron
+relationship: part_of XAO:0005317 ! neuron projection
 relationship: start_stage XAO:1000025 ! NF stage 15
 created_by: eriksegerdell
 creation_date: 2015-05-14T17:50:17Z
@@ -15263,7 +15264,7 @@ id: XAO:0005015
 name: axon
 def: "The long process of a neuron that conducts nerve impulses, usually away from the cell body to the terminals and varicosities, which are sites of storage and release of neurotransmitter." [GO:0030424]
 xref: GO:0030424
-is_a: XAO:0004290 ! cell part
+is_a: XAO:0005317 ! neuron projection
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003023 ! neuron
 relationship: start_stage XAO:1000025 ! NF stage 15
@@ -15275,7 +15276,7 @@ id: XAO:0005016
 name: dendrite
 def: "A neuron projection that has a short, tapering, often branched, morphology, receives and integrates signals from other neurons or from sensory stimuli, and conducts a nerve impulse towards the axon or the cell body. In most neurons, the impulse is conveyed from dendrites to axon via the cell body, but in some types of unipolar neuron, the impulse does not travel via the cell body." [GO:0030425]
 xref: GO:0030425
-is_a: XAO:0004290 ! cell part
+is_a: XAO:0005317 ! neuron projection
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003023 ! neuron
 relationship: start_stage XAO:1000025 ! NF stage 15
@@ -18605,6 +18606,62 @@ is_a: XAO:0004307 ! head mesenchyme
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004089 ! periocular region
 relationship: start_stage XAO:1000038 ! NF stage 22
+
+[Term]
+id: XAO:0005317
+name: neuron projection
+def: "A prolongation or process extending from a nerve cell." [GO:0043005]
+synonym: "nerve fiber" RELATED []
+synonym: "neurite" NARROW []
+synonym: "neuron process" EXACT []
+synonym: "neuron protrusion" EXACT []
+synonym: "neuronal cell projection" EXACT []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003023 ! neuron
+relationship: start_stage XAO:1000025 ! NF stage 15
+
+[Term]
+id: XAO:0005318
+name: cortical actin cytoskeleton
+def: "The portion of the actin cytoskeleton, comprising filamentous actin and associated proteins, that lies just beneath the plasma membrane." [GO:0030864]
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005313 ! actin cytoskeleton
+relationship: start_stage XAO:1000083 ! oocyte stage I
+
+[Term]
+id: XAO:0005319
+name: actin filament
+def: "A filamentous structure formed of a two-stranded helical polymer of the protein actin and associated proteins. Actin filaments are a major component of the contractile apparatus of skeletal muscle and the microfilaments of the cytoskeleton of eukaryotic cells." [GO:0005884]
+synonym: "microfilament" EXACT []
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005313 ! actin cytoskeleton
+relationship: start_stage XAO:1000083 ! oocyte stage I
+
+[Term]
+id: XAO:0005320
+name: roof of mouth
+def: "A multi-tissue structure consisting of bone and soft tissue that forms a part of the roof of the oral cavity." [UBERON:0007375]
+synonym: "palate" RELATED []
+synonym: "palatum" RELATED []
+synonym: "primary palate" RELATED []
+xref: UBERON:0007375
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003029 ! mouth
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
+id: XAO:0005321
+name: intercanthal region
+def: "Region of the face between the two inner (medial) canthi of the eye." [XAO:MEF]
+synonym: "inter-canthal line" RELATED []
+is_a: XAO:0003186 ! anatomical region
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0004024 ! craniofacial region
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:1000000
