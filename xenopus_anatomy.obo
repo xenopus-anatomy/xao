@@ -4904,7 +4904,7 @@ relationship: develops_from XAO:0000314 ! trunk somite
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: part_of XAO:0000315 ! myotome
 relationship: part_of XAO:0003230 ! trunk musculature
-relationship: start_stage XAO:1000046 ! NF stage 31
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0001017
@@ -9589,7 +9589,7 @@ is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0004186 ! secondary heart field
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004140 ! ventricular outflow tract
-relationship: start_stage XAO:1000053 ! NF stage 41
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 created_by: xenbase3
 creation_date: 2011-08-26T10:22:27Z
 
@@ -18606,9 +18606,9 @@ def: "Head mesenchyme that is part of the periocular region." [XAO:EJS]
 synonym: "POM" EXACT []
 synonym: "ventronasal periocular mesenchyme" RELATED []
 is_a: XAO:0004307 ! head mesenchyme
-relationship: end_stage XAO:0000437 ! death
+relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0004089 ! periocular region
-relationship: start_stage XAO:1000038 ! NF stage 22
+relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0005317
