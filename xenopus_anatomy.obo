@@ -730,7 +730,7 @@ subset: frequent_anatomy_items
 xref: UBERON:0000948
 is_a: XAO:0003034 ! viscus
 is_a: XAO:0003165 ! cavitated compound organ
-relationship: develops_from XAO:0000336 ! fused heart primordium
+relationship: develops_from XAO:0000336 ! heart primordium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000100 ! cardiovascular system
 relationship: start_stage XAO:1000044 ! NF stage 28
@@ -742,7 +742,7 @@ def: "Cardiac muscle constituting the middle layer of the heart." [AAO:0010410]
 synonym: "cardiac muscle" RELATED []
 xref: UBERON:0002349
 is_a: XAO:0000172 ! muscle
-relationship: develops_from XAO:0000336 ! fused heart primordium
+relationship: develops_from XAO:0000336 ! heart primordium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000064 ! heart
 relationship: start_stage XAO:1000047 ! NF stage 32
@@ -753,7 +753,7 @@ name: endocardium
 def: "Part of the heart composed of thin serous membrane and endothelial tissue, that lines the interior of the heart." [AAO:0010408]
 xref: UBERON:0002165
 is_a: XAO:0003040 ! tissue
-relationship: develops_from XAO:0000336 ! fused heart primordium
+relationship: develops_from XAO:0000336 ! heart primordium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000064 ! heart
 relationship: start_stage XAO:1000043 ! NF stage 27
@@ -3362,7 +3362,7 @@ def: "The inner layer of the pericardium that is in contact with the surface of 
 synonym: "heart epicardium" EXACT []
 xref: UBERON:0002348
 is_a: XAO:0003040 ! tissue
-relationship: develops_from XAO:0000336 ! fused heart primordium
+relationship: develops_from XAO:0000336 ! heart primordium
 relationship: develops_from XAO:0004482 ! epicardial precursor cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000064 ! heart
@@ -3529,13 +3529,14 @@ relationship: start_stage XAO:1000057 ! NF stage 45
 
 [Term]
 id: XAO:0000336
-name: fused heart primordium
+name: heart primordium
 def: "The fused aspects of ventral mesoderm, which have migrated from either side of the prechordal plate, and fused ventrally, just behind the cement gland. They give rise to the endocardium at NF stage 27/28." [XAO:curators]
+synonym: "fused heart primordium" RELATED []
 synonym: "heart" BROAD []
-synonym: "heart primordium" BROAD []
 xref: UBERON:0003084
 is_a: XAO:0003043 ! primordium
 relationship: develops_from XAO:0004185 ! primary heart field
+relationship: develops_from XAO:0004186 ! secondary heart field
 relationship: end_stage XAO:1000046 ! NF stage 31
 relationship: part_of XAO:0000100 ! cardiovascular system
 relationship: start_stage XAO:1000035 ! NF stage 19
@@ -7827,7 +7828,7 @@ def: "Type of presumptive precardiac cell that lie as paired primordia 30 to 45 
 synonym: "CPC" EXACT []
 is_a: XAO:0005033 ! progenitor cell
 relationship: end_stage XAO:1000035 ! NF stage 19
-relationship: part_of XAO:0000336 ! fused heart primordium
+relationship: part_of XAO:0000336 ! heart primordium
 relationship: start_stage XAO:1000024 ! NF stage 14
 created_by: eriksegerdell
 creation_date: 2009-12-01T04:42:20Z
@@ -10156,9 +10157,10 @@ synonym: "second heart field" EXACT []
 synonym: "SHF" RELATED []
 xref: UBERON:0009889
 is_a: XAO:0003040 ! tissue
-relationship: end_stage XAO:1000052 ! NF stage 40
+relationship: develops_from XAO:0000235 ! cardiac mesoderm
+relationship: end_stage XAO:1000048 ! NF stage 33 and 34
 relationship: part_of XAO:0000100 ! cardiovascular system
-relationship: start_stage XAO:1000041 ! NF stage 25
+relationship: start_stage XAO:1000035 ! NF stage 19
 created_by: lab
 creation_date: 2011-09-02T10:56:21Z
 
@@ -18545,11 +18547,6 @@ relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000178 ! peripheral nervous system
 relationship: part_of XAO:0003024 ! head
 relationship: start_stage XAO:1000044 ! NF stage 28
-
-[Term]
-id: XAO:0005310
-name: heart primordium
-is_a: XAO:0003043 ! primordium
 
 [Term]
 id: XAO:0005311
