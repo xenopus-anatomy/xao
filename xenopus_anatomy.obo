@@ -846,8 +846,11 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 [Term]
 id: XAO:0000076
 name: involuting marginal zone epithelial layer
-def: "Layer of prospective endoderm in the IMZ that will form the roof of the archenteron." [ISBN:0123646200]
+def: "Layer of prospective mesoderm in the IMZ that will form the roof of the archenteron." [XAO:curators]
+synonym: "involuting superfical mesdoderm" RELATED []
+synonym: "SM" RELATED []
 synonym: "superficial involuting marginal zone" RELATED []
+synonym: "superficial mesoderm" RELATED []
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000022 ! NF stage 12
 relationship: part_of XAO:0000074 ! involuting marginal zone
@@ -1040,6 +1043,7 @@ synonym: "archenteron roof plate" EXACT []
 synonym: "gastrocoel roof" EXACT []
 synonym: "GRP" EXACT []
 is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000076 ! involuting marginal zone epithelial layer
 relationship: develops_from XAO:0000077 ! bottle cell
 relationship: develops_from XAO:0000083 ! involuted dorsal mesoderm
 relationship: end_stage XAO:1000050 ! NF stage 37 and 38
@@ -5644,21 +5648,23 @@ relationship: start_stage XAO:1000040 ! NF stage 24
 [Term]
 id: XAO:0003061
 name: forelimb skeleton
-def: "Skeletal structure of the paired, anterior appendages." [AAO:0000202]
+def: "The collection of all skeletal elements in a free forelimb region." [UBERON:0001440]
 xref: UBERON:0001440
 is_a: XAO:0004289 ! skeletal subdivision
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003030 ! forelimb
 relationship: part_of XAO:0003166 ! appendicular skeleton
 relationship: start_stage XAO:1000068 ! NF stage 56
 
 [Term]
 id: XAO:0003062
 name: hindlimb skeleton
-def: "Skeletal structure of the paired, posterior appendages." [AAO:0000217]
+def: "The collection of all skeletal elements in a free hindlimb region." [XAO:EJS]
 synonym: "hind limb skeleton" EXACT []
 xref: UBERON:0001441
 is_a: XAO:0004289 ! skeletal subdivision
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003031 ! hindlimb
 relationship: part_of XAO:0003166 ! appendicular skeleton
 relationship: start_stage XAO:1000067 ! NF stage 55
 
