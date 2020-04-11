@@ -18,6 +18,9 @@ remark: Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
 remark: Version: 8.0
 ontology: xao
+property_value: http://purl.org/dc/elements/1.1/description "The XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Xenopus Anatomy Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
 
 [Term]
 id: XAO:0000000
@@ -454,7 +457,7 @@ relationship: start_stage XAO:1000017 ! NF stage 7
 
 [Term]
 id: XAO:0000039
-name: anatomical site
+name: obsolete anatomical site
 is_obsolete: true
 consider: XAO:0003186
 
@@ -683,13 +686,13 @@ relationship: start_stage XAO:1000027 ! NF stage 17
 
 [Term]
 id: XAO:0000059
-name: pronephros
+name: obsolete pronephros
 is_obsolete: true
 replaced_by: XAO:0002000
 
 [Term]
 id: XAO:0000061
-name: pronephric capsule
+name: obsolete pronephric capsule
 is_obsolete: true
 consider: XAO:0000318
 
@@ -821,7 +824,7 @@ relationship: start_stage XAO:1000001 ! NF stage 1
 
 [Term]
 id: XAO:0000073
-name: deep (mesenchymal) layer
+name: obsolete deep (mesenchymal) layer
 is_obsolete: true
 
 [Term]
@@ -1615,7 +1618,7 @@ relationship: start_stage XAO:1000057 ! NF stage 45
 
 [Term]
 id: XAO:0000147
-name: glomerus
+name: obsolete glomerus
 is_obsolete: true
 
 [Term]
@@ -1631,13 +1634,13 @@ relationship: start_stage XAO:1000057 ! NF stage 45
 
 [Term]
 id: XAO:0000149
-name: renal proximal convoluted tubule
+name: obsolete renal proximal convoluted tubule
 is_obsolete: true
 consider: XAO:0000331
 
 [Term]
 id: XAO:0000150
-name: loop of Henle
+name: obsolete loop of Henle
 is_obsolete: true
 
 [Term]
@@ -1653,7 +1656,7 @@ relationship: start_stage XAO:1000057 ! NF stage 45
 
 [Term]
 id: XAO:0000152
-name: renal distal convoluted tubule
+name: obsolete renal distal convoluted tubule
 is_obsolete: true
 consider: XAO:0000334
 
@@ -2170,7 +2173,7 @@ relationship: start_stage XAO:1000014 ! NF stage 4 (8-cell)
 
 [Term]
 id: XAO:0000201
-name: olfactory apparatus
+name: obsolete olfactory apparatus
 is_obsolete: true
 consider: XAO:0000273
 
@@ -2186,7 +2189,7 @@ relationship: start_stage XAO:1000001 ! NF stage 1
 
 [Term]
 id: XAO:0000203
-name: archencephalic region
+name: obsolete archencephalic region
 is_obsolete: true
 
 [Term]
@@ -2310,7 +2313,7 @@ relationship: start_stage XAO:1000038 ! NF stage 22
 
 [Term]
 id: XAO:0000216
-name: cortex
+name: obsolete cortex
 is_obsolete: true
 consider: XAO:0004467
 consider: XAO:0004468
@@ -2338,7 +2341,7 @@ relationship: start_stage XAO:1000066 ! NF stage 54
 
 [Term]
 id: XAO:0000219
-name: superficial (epithelial) layer
+name: obsolete superficial (epithelial) layer
 is_obsolete: true
 
 [Term]
@@ -2375,12 +2378,12 @@ relationship: start_stage XAO:1000027 ! NF stage 17
 
 [Term]
 id: XAO:0000221
-name: deuterencephalic region
+name: obsolete deuterencephalic region
 is_obsolete: true
 
 [Term]
 id: XAO:0000222
-name: ear placode
+name: obsolete ear placode
 is_obsolete: true
 replaced_by: XAO:0000223
 
@@ -3130,7 +3133,7 @@ relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 
 [Term]
 id: XAO:0000290
-name: pronephric nephron segment S1
+name: obsolete pronephric nephron segment S1
 is_obsolete: true
 
 [Term]
@@ -3159,7 +3162,7 @@ relationship: start_stage XAO:1000057 ! NF stage 45
 
 [Term]
 id: XAO:0000293
-name: neural fold (obsolete)
+name: obsolete neural fold
 is_obsolete: true
 replaced_by: XAO:0004087
 
@@ -3651,7 +3654,7 @@ relationship: start_stage XAO:1000059 ! NF stage 47
 
 [Term]
 id: XAO:0000351
-name: secondary vessel
+name: obsolete secondary vessel
 is_obsolete: true
 
 [Term]
@@ -4187,7 +4190,7 @@ id: XAO:0000406
 name: trunk somite 1
 def: "Trunk somite that is initially the fifth somite, first forming around NF stage 19 and becoming more anteriorly positioned as the head somites degenerate. It is the most anterior somite by NF stage 45 and is adjacent to the otic vesicle." [ISBN:0815318960]
 synonym: "fifth somite" RELATED []
-synonym: "somite 1 " EXACT []
+synonym: "somite 1" EXACT []
 is_a: XAO:0000314 ! trunk somite
 relationship: end_stage XAO:1000059 ! NF stage 47
 relationship: start_stage XAO:1000035 ! NF stage 19
@@ -5232,7 +5235,7 @@ relationship: start_stage XAO:1000071 ! NF stage 59
 
 [Term]
 id: XAO:0003021
-name: spinal cord neuron
+name: obsolete spinal cord neuron
 is_obsolete: true
 replaced_by: XAO:0005018
 
@@ -5623,7 +5626,7 @@ is_a: XAO:0003185 ! anatomical direction
 
 [Term]
 id: XAO:0003058
-name: larval structure
+name: obsolete larval structure
 is_obsolete: true
 
 [Term]
@@ -5715,37 +5718,37 @@ relationship: start_stage XAO:1000058 ! NF stage 46
 
 [Term]
 id: XAO:0003067
-name: fore epipodium
+name: obsolete fore epipodium
 is_obsolete: true
 replaced_by: XAO:0004297
 
 [Term]
 id: XAO:0003068
-name: fore mesopodium
+name: obsolete fore mesopodium
 is_obsolete: true
 replaced_by: XAO:0003207
 
 [Term]
 id: XAO:0003069
-name: hind propodium
+name: obsolete hind propodium
 is_obsolete: true
 replaced_by: XAO:0004296
 
 [Term]
 id: XAO:0003070
-name: hind metapodium
+name: obsolete hind metapodium
 is_obsolete: true
 replaced_by: XAO:0003212
 
 [Term]
 id: XAO:0003071
-name: fore propodium
+name: obsolete fore propodium
 is_obsolete: true
 replaced_by: XAO:0004295
 
 [Term]
 id: XAO:0003072
-name: hind epipodium
+name: obsolete hind epipodium
 is_obsolete: true
 replaced_by: XAO:0004298
 
@@ -5860,7 +5863,7 @@ relationship: start_stage XAO:1000059 ! NF stage 47
 
 [Term]
 id: XAO:0003082
-name: sucker
+name: obsolete sucker
 is_obsolete: true
 consider: XAO:0000033
 
@@ -6535,7 +6538,7 @@ relationship: start_stage XAO:1000093 ! adult frog stage
 
 [Term]
 id: XAO:0003148
-name: germ line cell
+name: obsolete germ line cell
 is_obsolete: true
 replaced_by: XAO:0000111
 
@@ -6720,13 +6723,13 @@ relationship: start_stage XAO:1000057 ! NF stage 45
 
 [Term]
 id: XAO:0003167
-name: fore metapodium
+name: obsolete fore metapodium
 is_obsolete: true
 replaced_by: XAO:0003208
 
 [Term]
 id: XAO:0003168
-name: hind mesopodium
+name: obsolete hind mesopodium
 is_obsolete: true
 replaced_by: XAO:0003211
 
@@ -9395,7 +9398,7 @@ creation_date: 2011-08-25T11:20:57Z
 id: XAO:0004126
 name: cardiac valve
 def: "Portion of tissue that prevents regurgitation of blood from the ventricles to the atria or from the pulmonary arteries or aorta to the ventricles." [UBERON:0000946]
-synonym: "heart valve " RELATED []
+synonym: "heart valve" RELATED []
 xref: UBERON:0000946
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:0000437 ! death
@@ -15166,7 +15169,7 @@ creation_date: 2015-05-14T17:39:42Z
 [Term]
 id: XAO:0005006
 name: right
-def: "Spatial concept pertaining to being located on or directed toward the side of the body to the west when facing north." [NCIt:Right]
+def: "Spatial concept pertaining to being located on or directed toward the side of the body to the east when facing north." [NCIt:Right]
 subset: anatomical_site_slim
 is_a: XAO:0003185 ! anatomical direction
 created_by: eriksegerdell
@@ -18030,13 +18033,13 @@ relationship: start_stage XAO:1000036 ! NF stage 20
 
 [Term]
 id: XAO:0005252
-name: left olfactory pit
+name: obsolete left olfactory pit
 is_obsolete: true
 consider: XAO:0000275
 
 [Term]
 id: XAO:0005253
-name: right olfactory pit
+name: obsolete right olfactory pit
 is_obsolete: true
 consider: XAO:0000275
 
@@ -18061,25 +18064,25 @@ relationship: start_stage XAO:1000025 ! NF stage 15
 
 [Term]
 id: XAO:0005256
-name: left eye
+name: obsolete left eye
 is_obsolete: true
 consider: XAO:0000179
 
 [Term]
 id: XAO:0005257
-name: right eye
+name: obsolete right eye
 is_obsolete: true
 consider: XAO:0000179
 
 [Term]
 id: XAO:0005258
-name: left inner ear
+name: obsolete left inner ear
 is_obsolete: true
 consider: XAO:0000192
 
 [Term]
 id: XAO:0005259
-name: right inner ear
+name: obsolete right inner ear
 is_obsolete: true
 consider: XAO:0000192
 
@@ -18179,37 +18182,37 @@ relationship: start_stage XAO:1000067 ! NF stage 55
 
 [Term]
 id: XAO:0005270
-name: left part of branchial arch skeleton
+name: obsolete left part of branchial arch skeleton
 is_obsolete: true
 consider: XAO:0003180
 
 [Term]
 id: XAO:0005271
-name: right part of branchial arch skeleton
+name: obsolete right part of branchial arch skeleton
 is_obsolete: true
 consider: XAO:0003180
 
 [Term]
 id: XAO:0005272
-name: left forelimb
+name: obsolete left forelimb
 is_obsolete: true
 consider: XAO:0003030
 
 [Term]
 id: XAO:0005273
-name: right forelimb
+name: obsolete right forelimb
 is_obsolete: true
 consider: XAO:0003030
 
 [Term]
 id: XAO:0005274
-name: left hindlimb
+name: obsolete left hindlimb
 is_obsolete: true
 consider: XAO:0003031
 
 [Term]
 id: XAO:0005275
-name: right hindlimb
+name: obsolete right hindlimb
 is_obsolete: true
 consider: XAO:0003031
 
@@ -18231,13 +18234,13 @@ relationship: start_stage XAO:1000034 ! NF stage 18
 
 [Term]
 id: XAO:0005278
-name: left part of brain
+name: obsolete left part of brain
 is_obsolete: true
 consider: XAO:0000010
 
 [Term]
 id: XAO:0005279
-name: right part of brain
+name: obsolete right part of brain
 is_obsolete: true
 consider: XAO:0000010
 
@@ -18667,6 +18670,15 @@ relationship: part_of XAO:0004024 ! craniofacial region
 relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
+id: XAO:0005322
+name: tadpole
+def: "An organism at the tadpole stage." [UBERON:0002547]
+xref: UBERON:0002547
+is_a: XAO:0003004 ! whole organism
+relationship: end_stage XAO:1000078 ! NF stage 66
+relationship: start_stage XAO:1000057 ! NF stage 45
+
+[Term]
 id: XAO:1000000
 name: Xenopus developmental stage
 namespace: xenopus_developmental_stage
@@ -18752,7 +18764,7 @@ relationship: preceded_by XAO:1000007 ! tailbud stage
 
 [Term]
 id: XAO:1000009
-name: frog
+name: obsolete frog
 namespace: xenopus_developmental_stage
 is_obsolete: true
 replaced_by: XAO:1000093
