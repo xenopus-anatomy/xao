@@ -18,7 +18,7 @@ remark: Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
 remark: Version: 8.0
 ontology: xao
-property_value: http://purl.org/dc/elements/1.1/description "The XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Xenopus Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
 
@@ -2712,7 +2712,8 @@ relationship: start_stage XAO:1000039 ! NF stage 23
 [Term]
 id: XAO:0000252
 name: neurocoel
-def: "Spinal cord structure that is part of the ventricular system and is filled with cerebral-spinal fluid and runs the length of the spinal cord." [VHOG:0001119]
+def: "An anatomical space that is surrounded by a neural tube." [UBERON:0003842]
+synonym: "neural tube lumen" EXACT []
 xref: UBERON:0003842
 is_a: XAO:0003190 ! anatomical space
 relationship: end_stage XAO:0000437 ! death
@@ -4468,7 +4469,7 @@ is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0004207 ! posterior placodal area
 relationship: end_stage XAO:1000053 ! NF stage 41
 relationship: part_of XAO:0000095 ! lateral line system
-relationship: start_stage XAO:1000045 ! NF stage 29 and 30
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:0000441
@@ -6606,6 +6607,7 @@ name: lymphocyte
 def: "A cell of the B cell, T cell, or natural killer cell lineage." [CL:0000542]
 xref: CL:0000542
 is_a: XAO:0003012 ! cell
+relationship: develops_from XAO:0005323 ! lymphoblast
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003152 ! immune system
 relationship: start_stage XAO:1000052 ! NF stage 40
@@ -10599,7 +10601,7 @@ synonym: "anterior ventral lateral line placode" EXACT []
 synonym: "pAV" EXACT []
 is_a: XAO:0000440 ! lateral line placode
 relationship: end_stage XAO:1000053 ! NF stage 41
-relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+relationship: start_stage XAO:1000044 ! NF stage 28
 created_by: eriksegerdell
 creation_date: 2012-01-27T09:32:47Z
 
@@ -10610,7 +10612,7 @@ def: "Lateral line placode that gives rise to the anterior lateral line nerve." 
 synonym: "pre-auditory lateral line placode" RELATED []
 is_a: XAO:0000440 ! lateral line placode
 relationship: end_stage XAO:1000053 ! NF stage 41
-relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+relationship: start_stage XAO:1000044 ! NF stage 28
 created_by: eriksegerdell
 
 [Term]
@@ -10620,7 +10622,7 @@ def: "Lateral line placode that gives rise to the middle lateral line nerve." [X
 synonym: "intermediate lateral line placode" RELATED []
 is_a: XAO:0000440 ! lateral line placode
 relationship: end_stage XAO:1000053 ! NF stage 41
-relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+relationship: start_stage XAO:1000044 ! NF stage 28
 created_by: eriksegerdell
 
 [Term]
@@ -10631,7 +10633,7 @@ synonym: "pP" EXACT []
 synonym: "vagus lateral line placode" RELATED []
 is_a: XAO:0000440 ! lateral line placode
 relationship: end_stage XAO:1000053 ! NF stage 41
-relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+relationship: start_stage XAO:1000044 ! NF stage 28
 created_by: eriksegerdell
 
 [Term]
@@ -11128,7 +11130,7 @@ synonym: "pAD" EXACT []
 is_a: XAO:0000440 ! lateral line placode
 relationship: develops_from XAO:0004206 ! anterior placodal area
 relationship: end_stage XAO:1000053 ! NF stage 41
-relationship: start_stage XAO:1000048 ! NF stage 33 and 34
+relationship: start_stage XAO:1000044 ! NF stage 28
 created_by: eriksegerdell
 
 [Term]
@@ -12892,6 +12894,7 @@ name: posterior lateral line ganglion
 def: "Ganglion that develops from a cranial ectodermal placode and contains sensory neurons that innervate the posterior lateral line system." [XAO:EJS, ZFA:0001314]
 synonym: "posterior lateral line ganglia" RELATED PLURAL []
 is_a: XAO:0004457 ! lateral line ganglion
+relationship: develops_from XAO:0004223 ! posterior lateral line placode
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000044 ! NF stage 28
 created_by: eriksegerdell
@@ -18677,6 +18680,25 @@ xref: UBERON:0002547
 is_a: XAO:0003004 ! whole organism
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: start_stage XAO:1000057 ! NF stage 45
+
+[Term]
+id: XAO:0005323
+name: lymphoblast
+def: "An immature cell which typically differentiates to form a mature lymphocyte." [XAO:curators]
+is_a: XAO:0003012 ! cell
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003152 ! immune system
+relationship: start_stage XAO:1000020 ! NF stage 10
+
+[Term]
+id: XAO:0005324
+name: anterior lateral line ganglion
+def: "Ganglion that develops from a cranial ectodermal placode and contains sensory neurons that innervate the anterior lateral line system." [XAO:EJS]
+synonym: "anterior lateral line ganglia" RELATED PLURAL []
+is_a: XAO:0004457 ! lateral line ganglion
+relationship: develops_from XAO:0004221 ! anterior lateral line placode
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
 id: XAO:1000000
