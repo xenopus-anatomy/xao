@@ -25,7 +25,7 @@ property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
 [Term]
 id: XAO:0000000
 name: Xenopus anatomical entity
-def: "Entity that is either an individual member of Xenopus or constitutes the structural organization of an individual member Xenopus." [CARO:0000000, XAO:EJS]
+def: "An entity that is either an individual member of Xenopus or constitutes the structural organization of an individual member of Xenopus." [CARO:0000000, XAO:EJS]
 xref: CARO:0000000
 
 [Term]
@@ -7346,7 +7346,7 @@ is_a: XAO:0003037 ! multi-tissue structure
 relationship: develops_from XAO:0000014 ! midbrain
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000014 ! midbrain
-relationship: start_stage XAO:1000052 ! NF stage 40
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 created_by: eriksegerdell
 creation_date: 2009-07-15T03:37:08Z
 
@@ -10611,6 +10611,7 @@ name: anterior lateral line placode
 def: "Lateral line placode that gives rise to the anterior lateral line nerve." [XAO:EJS]
 synonym: "pre-auditory lateral line placode" RELATED []
 is_a: XAO:0000440 ! lateral line placode
+relationship: develops_from XAO:0000440 ! lateral line placode
 relationship: end_stage XAO:1000053 ! NF stage 41
 relationship: start_stage XAO:1000044 ! NF stage 28
 created_by: eriksegerdell
@@ -11486,14 +11487,13 @@ creation_date: 2012-03-10T03:21:58Z
 id: XAO:0004303
 name: pretectum
 def: "Multi-tissue structure that is the dorsal part of the diencephalon and the major sensory input to which is visual." [XAO:EJS, ZFA:0000418]
-synonym: "forebrain-midbrain boundary" RELATED []
 synonym: "P1" RELATED []
 synonym: "prosomere 1" RELATED []
 synonym: "PT" EXACT []
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000013 ! diencephalon
-relationship: start_stage XAO:1000038 ! NF stage 22
+relationship: start_stage XAO:1000024 ! NF stage 14
 created_by: eriksegerdell
 creation_date: 2012-03-10T03:28:09Z
 
@@ -18221,19 +18221,15 @@ consider: XAO:0003031
 
 [Term]
 id: XAO:0005276
-name: left optic vesicle
-def: "Optic vesicle located on the left side of the organism." [XAO:EJS]
-is_a: XAO:0000228 ! optic vesicle
-relationship: end_stage XAO:1000047 ! NF stage 32
-relationship: start_stage XAO:1000034 ! NF stage 18
+name: obsolete left optic vesicle
+is_obsolete: true
+consider: XAO:0000228
 
 [Term]
 id: XAO:0005277
-name: right optic vesicle
-def: "Optic vesicle located on the right side of the organism." [XAO:EJS]
-is_a: XAO:0000228 ! optic vesicle
-relationship: end_stage XAO:1000047 ! NF stage 32
-relationship: start_stage XAO:1000034 ! NF stage 18
+name: obsolete right optic vesicle
+is_obsolete: true
+consider: XAO:0000228
 
 [Term]
 id: XAO:0005278
