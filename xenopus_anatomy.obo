@@ -20,7 +20,7 @@ remark: Version: 8.0
 ontology: xao
 property_value: http://purl.org/dc/elements/1.1/description "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Xenopus Anatomy Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license "CC-BY" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
 
 [Term]
 id: XAO:0000000
@@ -1885,6 +1885,7 @@ def: "A fibrous, strong, connective tissue that connects muscle to bone." [http:
 xref: UBERON:0000043
 is_a: XAO:0004030 ! dense regular connective tissue
 relationship: develops_from XAO:0000399 ! tendon fibroblast
+relationship: develops_from XAO:0005325 ! syndetome
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000040 ! NF stage 24
 
@@ -3395,7 +3396,7 @@ def: "Neural crest cells that migrate along two major pathways: through the somi
 synonym: "TNC" EXACT []
 synonym: "trunk crest" RELATED []
 xref: UBERON:0003083
-is_a: XAO:0003040 ! tissue
+is_a: XAO:0005327 ! chordal neural crest
 relationship: develops_from XAO:0000001 ! ectoderm
 relationship: end_stage XAO:1000046 ! NF stage 31
 relationship: part_of XAO:0000048 ! neural crest
@@ -8985,6 +8986,7 @@ creation_date: 2011-08-24T03:28:19Z
 id: XAO:0004092
 name: preplacodal ectoderm
 def: "A thick, U-shaped primordium positioned at the border of the future epidermis and the neural plate/neural crest forming regions, in the neural stage embryo. This field of naive ectoderm is subdivided into 3 domains, each with distinct gene expression profiles: the anterior PPE (bottom of the U), the lateral PPE (the curves of the U), and the posterior PPE (arms of the U and adjacent to the neural crest/neural plate border). The PPE differentiates into the sensory placodes, which in turn form the adenohypophysis/anterior pituitary gland and sensory organs (such as the olfactory epithelium, lens, trigeminal nerves, epibranchial nerves, otic vesicles and lateral lines)." [PMID:30291163]
+synonym: "placodal area" RELATED []
 synonym: "PPE" EXACT []
 synonym: "pre-placodal ectoderm" EXACT []
 is_a: XAO:0003040 ! tissue
@@ -10227,7 +10229,7 @@ name: vagal neural crest
 def: "One of the 5 distinct and partially overlapping functional domains of the premigratory neural crest. Together with the sacral neural crest cells, they develop into the ganglia of the enteric nervous system, also known as the parasympathetic ganglia. These cells, between the head and trunk, contribute post-cranially to the heart and gut, the chromatophores (pigment cells) of the epidermis, and the majority of the neurons and glial cells of the enteric nervous system. Both vagal and sacral neural crest cells contribute to the enteric nervous system in the hindgut." [PMID:9753687, XAO:CJZ]
 synonym: "VNC" EXACT []
 xref: UBERON:0005428
-is_a: XAO:0003040 ! tissue
+is_a: XAO:0005327 ! chordal neural crest
 relationship: develops_from XAO:0000001 ! ectoderm
 relationship: end_stage XAO:1000046 ! NF stage 31
 relationship: part_of XAO:0000048 ! neural crest
@@ -10241,7 +10243,7 @@ name: sacral neural crest
 def: "One of the 5 distinct and partially overlapping functional domains of the premigratory neural crest. Together with the vagal neural crest cells, they develop into the ganglia of the enteric nervous system, also known as the parasympathetic ganglia. Sacral crest cells are associated with extrinsic nerve fibers of the hindgut and colon." [XAO:CJZ]
 synonym: "SNC" EXACT []
 xref: UBERON:0010075
-is_a: XAO:0003040 ! tissue
+is_a: XAO:0005327 ! chordal neural crest
 relationship: develops_from XAO:0000001 ! ectoderm
 relationship: end_stage XAO:1000046 ! NF stage 31
 relationship: part_of XAO:0000048 ! neural crest
@@ -18695,6 +18697,39 @@ is_a: XAO:0004457 ! lateral line ganglion
 relationship: develops_from XAO:0004221 ! anterior lateral line placode
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000044 ! NF stage 28
+
+[Term]
+id: XAO:0005325
+name: syndetome
+def: "Subdomain that occupies the dorso-lateral portion of a somite and comprises tendon progenitor cells. It is located between the neighboring sclerotome and myotome, at the future site of connection between bone and muscle, and gives rise to the axial tendons of the body." [https://discovery.lifemapsc.com/in-vivo-development/somite/syndetome]
+is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000397 ! sclerotome
+relationship: end_stage XAO:1000059 ! NF stage 47
+relationship: part_of XAO:0000058 ! somite
+relationship: start_stage XAO:1000027 ! NF stage 17
+
+[Term]
+id: XAO:0005326
+name: axon microtubule bundle
+def: "An arrangement of closely apposed microtubules running parallel to each other in the axon hillock and initial segment." [GO:1901589]
+synonym: "axon microtubule fascicle" EXACT []
+synonym: "microtubule bundle of axon" EXACT []
+synonym: "microtubule fascicle of axon" EXACT []
+xref: GO:1901589
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0005015 ! axon
+relationship: start_stage XAO:1000025 ! NF stage 15
+
+[Term]
+id: XAO:0005327
+name: chordal neural crest
+def: "Neural crest comprising sacral, vagal, and trunk neural crest." [XAO:curators]
+is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0000001 ! ectoderm
+relationship: end_stage XAO:1000046 ! NF stage 31
+relationship: part_of XAO:0000048 ! neural crest
+relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
 id: XAO:1000000
