@@ -1,7 +1,7 @@
 ---
 name: New term requests
 about: Provide information for new XAO terms.
-title: ''
+title: "[TERM REQUEST]"
 labels: ''
 assignees: ''
 
