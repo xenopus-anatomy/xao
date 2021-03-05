@@ -21,7 +21,6 @@ ontology: xao
 property_value: http://purl.org/dc/elements/1.1/description "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Xenopus Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/xao.owl#XAO_0005422> \"XAO:0005422\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/xao.owl#XAO_0005423> \"XAO:0005423\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/xao.owl#XAO_0005424> \"XAO:0005424\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/xao.owl#XAO_0005425> \"XAO:0005425\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/xao.owl#XAO_0005426> \"XAO:0005426\"^^xsd:string)\n)
 
 [Term]
 id: XAO:0000000
@@ -9593,7 +9592,7 @@ name: spiral septum
 def: "The thin, spiral-shaped membranous structure within the ventricular outflow tract of the heart." [PMID:10644411]
 synonym: "spiral septa" RELATED PLURAL []
 xref: UBERON:0002099
-is_a: XAO_0005422 ! septum
+is_a: XAO:0005422 ! septum
 relationship: develops_from XAO:0004186 ! secondary heart field
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004140 ! ventricular outflow tract
@@ -13432,7 +13431,7 @@ relationship: start_stage XAO:1000053 ! NF stage 41
 id: XAO:0004471
 name: atrial septum
 def: "Cardiac septum that separates the right atrium from the left atrium." [UBERON:0002085]
-is_a: XAO_0005422 ! septum
+is_a: XAO:0005422 ! septum
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000064 ! heart
 relationship: start_stage XAO:1000056 ! NF stage 44
@@ -14338,7 +14337,7 @@ name: dorsal septum
 def: "A set of septal nuclei comprising the dorsal aspect of the forebrain septum." [XAO:KAB]
 synonym: "Sd" EXACT []
 synonym: "septum dorsalis" EXACT []
-is_a: XAO_0005422 ! septum
+is_a: XAO:0005422 ! septum
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004585 ! telencephalon septum
 relationship: start_stage XAO:1000047 ! NF stage 32
@@ -14473,7 +14472,7 @@ name: lateral septum
 def: "A set of septal nuclei comprising the lateral aspect of the forebrain septum." [XAO:KAB]
 synonym: "septum lateralis" EXACT []
 synonym: "Sl" EXACT []
-is_a: XAO_0005422 ! septum
+is_a: XAO:0005422 ! septum
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004585 ! telencephalon septum
 relationship: start_stage XAO:1000047 ! NF stage 32
@@ -14539,7 +14538,7 @@ name: medial septum
 def: "A set of septal nuclei comprising the medial aspect of the forebrain septum." [XAO:KAB]
 synonym: "septum medialis" EXACT []
 synonym: "Sm" EXACT []
-is_a: XAO_0005422 ! septum
+is_a: XAO:0005422 ! septum
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004585 ! telencephalon septum
 relationship: start_stage XAO:1000047 ! NF stage 32
@@ -14676,7 +14675,7 @@ synonym: "Se" RELATED []
 synonym: "septum" BROAD []
 synonym: "septum of telencephalon" EXACT []
 xref: UBERON:0000446
-is_a: XAO_0005422 ! septum
+is_a: XAO:0005422 ! septum
 relationship: develops_from XAO:0004258 ! subpallium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004539 ! basal forebrain
@@ -15786,7 +15785,7 @@ name: ventral septum
 def: "A set of septal nuclei comprising the ventral aspect of the forebrain septum." [XAO:EJS]
 synonym: "septum ventralis" EXACT []
 synonym: "Sv" EXACT []
-is_a: XAO_0005422 ! septum
+is_a: XAO:0005422 ! septum
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004585 ! telencephalon septum
 relationship: start_stage XAO:1000047 ! NF stage 32
@@ -18727,6 +18726,61 @@ relationship: part_of XAO:0000048 ! neural crest
 relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
+id: XAO:0005422
+name: septum
+def: "A wall, dividing a cavity or structure into smaller ones." [UBERON:0003037]
+synonym: "septa" RELATED PLURAL []
+xref: UBERON:0003037
+is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000047 ! NF stage 32
+
+[Term]
+id: XAO:0005423
+name: anterior notochord
+def: "The anterior portion of the notochord." [XAO:EJS]
+is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000055 ! notochord
+relationship: start_stage XAO:1000033 ! NF stage 12.5
+
+[Term]
+id: XAO:0005424
+name: posterior notochord
+def: "The posterior portion of the notochord." [XAO:EJS]
+is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000055 ! notochord
+relationship: start_stage XAO:1000033 ! NF stage 12.5
+
+[Term]
+id: XAO:0005425
+name: transient tracheoesophageal septum
+def: "Temporary septum formed from epithelial tissue dividing the esophagus from the trachea. After mesenchymal invasion this gives rise to the permanent tissue separating the esophagus from the trachea." [XAO:MEF]
+synonym: "esophagotracheal septum" RELATED []
+synonym: "tracheoesophageal septum" RELATED []
+synonym: "transient TES" EXACT []
+is_a: XAO:0005422 ! septum
+relationship: develops_from XAO:0005426 ! tracheoesophageal folds
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0000118 ! trachea
+relationship: part_of XAO:0000127 ! esophagus
+relationship: part_of XAO:0005127 ! anterior foregut
+relationship: start_stage XAO:1000051 ! NF stage 39
+
+[Term]
+id: XAO:0005426
+name: tracheoesophageal folds
+def: "Longitudinal folds in the respiratory diverticulum that fuse to form the tracheoesophageal septum, which separates the esophagus from the trachea." [XAO:MEF]
+synonym: "tracheoesophageal crest" RELATED []
+synonym: "tracheoesophageal ridge" RELATED []
+is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0005127 ! anterior foregut
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0005127 ! anterior foregut
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
 id: XAO:1000000
 name: Xenopus developmental stage
 namespace: xenopus_developmental_stage
@@ -19611,61 +19665,6 @@ def: "Xenopus developmental stage that succeeds the embryonic stage." [XAO:EJS]
 xref: UBERON:0000092
 is_a: XAO:1000000 ! Xenopus developmental stage
 relationship: preceded_by XAO:1000012 ! embryonic stage
-
-[Term]
-id: XAO_0005422
-name: septum
-def: "A wall, dividing a cavity or structure into smaller ones." [UBERON:0003037]
-synonym: "septa" RELATED PLURAL []
-xref: UBERON:0003037
-is_a: XAO:0003040 ! tissue
-relationship: end_stage XAO:0000437 ! death
-relationship: start_stage XAO:1000047 ! NF stage 32
-
-[Term]
-id: XAO_0005423
-name: anterior notochord
-def: "The anterior portion of the notochord." [XAO:EJS]
-is_a: XAO:0003040 ! tissue
-relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000055 ! notochord
-relationship: start_stage XAO:1000033 ! NF stage 12.5
-
-[Term]
-id: XAO_0005424
-name: posterior notochord
-def: "The posterior portion of the notochord." [XAO:EJS]
-is_a: XAO:0003040 ! tissue
-relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000055 ! notochord
-relationship: start_stage XAO:1000033 ! NF stage 12.5
-
-[Term]
-id: XAO_0005425
-name: transient tracheoesophageal septum
-def: "Temporary septum formed from epithelial tissue dividing the esophagus from the trachea. After mesenchymal invasion this gives rise to the permanent tissue separating the esophagus from the trachea." [XAO:MEF]
-synonym: "esophagotracheal septum" RELATED []
-synonym: "tracheoesophageal septum" RELATED []
-synonym: "transient TES" EXACT []
-is_a: XAO_0005422 ! septum
-relationship: develops_from XAO_0005426 ! tracheoesophageal folds
-relationship: end_stage XAO:1000056 ! NF stage 44
-relationship: part_of XAO:0000118 ! trachea
-relationship: part_of XAO:0000127 ! esophagus
-relationship: part_of XAO:0005127 ! anterior foregut
-relationship: start_stage XAO:1000051 ! NF stage 39
-
-[Term]
-id: XAO_0005426
-name: tracheoesophageal folds
-def: "Longitudinal folds in the respiratory diverticulum that fuse to form the tracheoesophageal septum, which separates the esophagus from the trachea." [XAO:MEF]
-synonym: "tracheoesophageal crest" RELATED []
-synonym: "tracheoesophageal ridge" RELATED []
-is_a: XAO:0003040 ! tissue
-relationship: develops_from XAO:0005127 ! anterior foregut
-relationship: end_stage XAO:1000056 ! NF stage 44
-relationship: part_of XAO:0005127 ! anterior foregut
-relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 
 [Typedef]
 id: develops_from
