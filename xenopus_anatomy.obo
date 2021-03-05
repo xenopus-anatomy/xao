@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2020-06-26
-date: 26:06:2020 10:58
+data-version: releases/2021-03-04
+date: 04:03:2021 16:30
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -16,7 +16,7 @@ treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:8353
 remark: Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.
 remark: Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Vize PD, Zorn AM; J Biomed Semantics 2013 4(1):31; PMID:24139024.
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
-remark: Version: 9.0
+remark: Version: 9.1
 ontology: xao
 property_value: http://purl.org/dc/elements/1.1/description "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Xenopus Anatomy Ontology" xsd:string
@@ -4731,10 +4731,10 @@ synonym: "pancreas" BROAD []
 synonym: "primary pancreatic bud" EXACT []
 xref: UBERON:0003923
 is_a: XAO:0003043 ! primordium
-relationship: develops_from XAO:0000103 ! midgut
 relationship: develops_from XAO:0004270 ! hepato-pancreatic progenitor cell
+relationship: develops_from XAO:0005128 ! posterior foregut
 relationship: end_stage XAO:1000052 ! NF stage 40
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0005128 ! posterior foregut
 relationship: start_stage XAO:1000043 ! NF stage 27
 
 [Term]
@@ -4822,10 +4822,10 @@ synonym: "lateral diverticula" RELATED []
 synonym: "lung" BROAD []
 xref: UBERON:0005597
 is_a: XAO:0003037 ! multi-tissue structure
-relationship: develops_from XAO:0000090 ! endoderm
+relationship: develops_from XAO:0005128 ! posterior foregut
 relationship: end_stage XAO:1000048 ! NF stage 33 and 34
 relationship: part_of XAO:0000117 ! respiratory system
-relationship: part_of XAO:0000232 ! foregut
+relationship: part_of XAO:0005128 ! posterior foregut
 relationship: start_stage XAO:1000044 ! NF stage 28
 
 [Term]
@@ -4977,9 +4977,9 @@ def: "One of two pancreatic primordia that give rise to a ventral pancreatic bud
 synonym: "pancreas" BROAD []
 xref: UBERON:0003921
 is_a: XAO:0003043 ! primordium
-relationship: develops_from XAO:0000232 ! foregut
+relationship: develops_from XAO:0005128 ! posterior foregut
 relationship: end_stage XAO:1000051 ! NF stage 39
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0005128 ! posterior foregut
 relationship: start_stage XAO:1000043 ! NF stage 27
 
 [Term]
@@ -4988,9 +4988,9 @@ name: second pancreatic bud
 def: "Second of two pancreatic primordia that give rise to a ventral pancreatic bud." [XAO:EJS]
 synonym: "pancreas" BROAD []
 is_a: XAO:0003037 ! multi-tissue structure
-relationship: develops_from XAO:0000232 ! foregut
+relationship: develops_from XAO:0005128 ! posterior foregut
 relationship: end_stage XAO:1000051 ! NF stage 39
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0005128 ! posterior foregut
 relationship: start_stage XAO:1000043 ! NF stage 27
 
 [Term]
@@ -7806,10 +7806,10 @@ synonym: "liver" BROAD []
 synonym: "liver bud" RELATED []
 xref: UBERON:0003894
 is_a: XAO:0003043 ! primordium
-relationship: develops_from XAO:0000090 ! endoderm
 relationship: develops_from XAO:0004270 ! hepato-pancreatic progenitor cell
+relationship: develops_from XAO:0005128 ! posterior foregut
 relationship: end_stage XAO:1000048 ! NF stage 33 and 34
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0005128 ! posterior foregut
 relationship: start_stage XAO:1000036 ! NF stage 20
 created_by: eriksegerdell
 creation_date: 2009-07-20T04:05:12Z
@@ -9592,7 +9592,7 @@ name: spiral septum
 def: "The thin, spiral-shaped membranous structure within the ventricular outflow tract of the heart." [PMID:10644411]
 synonym: "spiral septa" RELATED PLURAL []
 xref: UBERON:0002099
-is_a: XAO:0003040 ! tissue
+is_a: XAO:0005422 ! septum
 relationship: develops_from XAO:0004186 ! secondary heart field
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004140 ! ventricular outflow tract
@@ -10404,10 +10404,9 @@ name: gall bladder primordium
 def: "A sac-like cavity ventral to the liver, lying in the sub-mesodermal space and closed by a thin sheet of ectodermal cells, from which the future gall bladder develops." [ISBN:0815318960]
 xref: UBERON:0006242
 is_a: XAO:0003043 ! primordium
-relationship: develops_from XAO:0000090 ! endoderm
-relationship: develops_from XAO:0004513 ! foregut endoderm
+relationship: develops_from XAO:0005128 ! posterior foregut
 relationship: end_stage XAO:1000052 ! NF stage 40
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0005128 ! posterior foregut
 relationship: start_stage XAO:1000036 ! NF stage 20
 created_by: lab
 creation_date: 2011-09-13T01:15:58Z
@@ -13432,7 +13431,7 @@ relationship: start_stage XAO:1000053 ! NF stage 41
 id: XAO:0004471
 name: atrial septum
 def: "Cardiac septum that separates the right atrium from the left atrium." [UBERON:0002085]
-is_a: XAO:0003037 ! multi-tissue structure
+is_a: XAO:0005422 ! septum
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000064 ! heart
 relationship: start_stage XAO:1000056 ! NF stage 44
@@ -14338,9 +14337,9 @@ name: dorsal septum
 def: "A set of septal nuclei comprising the dorsal aspect of the forebrain septum." [XAO:KAB]
 synonym: "Sd" EXACT []
 synonym: "septum dorsalis" EXACT []
-is_a: XAO:0003160 ! anatomical cluster
+is_a: XAO:0005422 ! septum
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0004585 ! septum
+relationship: part_of XAO:0004585 ! telencephalon septum
 relationship: start_stage XAO:1000047 ! NF stage 32
 
 [Term]
@@ -14473,9 +14472,9 @@ name: lateral septum
 def: "A set of septal nuclei comprising the lateral aspect of the forebrain septum." [XAO:KAB]
 synonym: "septum lateralis" EXACT []
 synonym: "Sl" EXACT []
-is_a: XAO:0003160 ! anatomical cluster
+is_a: XAO:0005422 ! septum
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0004585 ! septum
+relationship: part_of XAO:0004585 ! telencephalon septum
 relationship: start_stage XAO:1000047 ! NF stage 32
 
 [Term]
@@ -14539,9 +14538,9 @@ name: medial septum
 def: "A set of septal nuclei comprising the medial aspect of the forebrain septum." [XAO:KAB]
 synonym: "septum medialis" EXACT []
 synonym: "Sm" EXACT []
-is_a: XAO:0003160 ! anatomical cluster
+is_a: XAO:0005422 ! septum
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0004585 ! septum
+relationship: part_of XAO:0004585 ! telencephalon septum
 relationship: start_stage XAO:1000047 ! NF stage 32
 
 [Term]
@@ -14670,12 +14669,13 @@ relationship: start_stage XAO:1000038 ! NF stage 22
 
 [Term]
 id: XAO:0004585
-name: septum
+name: telencephalon septum
 def: "Gray matter structure located on the midline of the forebrain consisting of the septum pellucidum and the septal nuclei." [UBERON:0000446]
-synonym: "Se" EXACT []
-synonym: "septum of telencephalon" RELATED []
+synonym: "Se" RELATED []
+synonym: "septum" BROAD []
+synonym: "septum of telencephalon" EXACT []
 xref: UBERON:0000446
-is_a: XAO:0003160 ! anatomical cluster
+is_a: XAO:0005422 ! septum
 relationship: develops_from XAO:0004258 ! subpallium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004539 ! basal forebrain
@@ -15785,9 +15785,9 @@ name: ventral septum
 def: "A set of septal nuclei comprising the ventral aspect of the forebrain septum." [XAO:EJS]
 synonym: "septum ventralis" EXACT []
 synonym: "Sv" EXACT []
-is_a: XAO:0003160 ! anatomical cluster
+is_a: XAO:0005422 ! septum
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0004585 ! septum
+relationship: part_of XAO:0004585 ! telencephalon septum
 relationship: start_stage XAO:1000047 ! NF stage 32
 created_by: eriksegerdell
 creation_date: 2015-05-20T19:13:25Z
@@ -17900,21 +17900,15 @@ relationship: start_stage XAO:1000066 ! NF stage 54
 
 [Term]
 id: XAO:0005238
-name: rostral notochord
-def: "The posterior portion of the notochord." [XAO:CJZ]
-is_a: XAO:0003040 ! tissue
-relationship: end_stage XAO:1000078 ! NF stage 66
-relationship: part_of XAO:0000055 ! notochord
-relationship: start_stage XAO:1000033 ! NF stage 12.5
+name: obsolete rostral notochord
+is_obsolete: true
+replaced_by: XAO:0005423
 
 [Term]
 id: XAO:0005239
-name: caudal notochord
-def: "The anterior portion of the notochord." [] {comment="XAO:CJZ"}
-is_a: XAO:0003040 ! tissue
-relationship: end_stage XAO:1000078 ! NF stage 66
-relationship: part_of XAO:0000055 ! notochord
-relationship: start_stage XAO:1000033 ! NF stage 12.5
+name: obsolete caudal notochord
+is_obsolete: true
+replaced_by: XAO:0005424
 
 [Term]
 id: XAO:0005240
@@ -18730,6 +18724,62 @@ relationship: develops_from XAO:0000001 ! ectoderm
 relationship: end_stage XAO:1000046 ! NF stage 31
 relationship: part_of XAO:0000048 ! neural crest
 relationship: start_stage XAO:1000023 ! NF stage 13
+
+[Term]
+id: XAO:0005422
+name: septum
+def: "A wall, dividing a cavity or structure into smaller ones." [UBERON:0003037]
+synonym: "septa" RELATED PLURAL []
+xref: UBERON:0003037
+is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000047 ! NF stage 32
+
+[Term]
+id: XAO:0005423
+name: anterior notochord
+def: "The anterior portion of the notochord." [XAO:EJS]
+is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000055 ! notochord
+relationship: start_stage XAO:1000033 ! NF stage 12.5
+
+[Term]
+id: XAO:0005424
+name: posterior notochord
+def: "The posterior portion of the notochord." [XAO:EJS]
+is_a: XAO:0003040 ! tissue
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000055 ! notochord
+relationship: start_stage XAO:1000033 ! NF stage 12.5
+
+[Term]
+id: XAO:0005425
+name: transient tracheoesophageal septum
+def: "Temporary septum formed from epithelial tissue dividing the esophagus from the trachea. After mesenchymal invasion this gives rise to the permanent tissue separating the esophagus from the trachea." [XAO:MEF]
+synonym: "esophagotracheal septum" RELATED []
+synonym: "tracheoesophageal septum" RELATED []
+synonym: "transient TES" EXACT []
+is_a: XAO:0005422 ! septum
+relationship: develops_from XAO:0005426 ! tracheoesophageal fold
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0000118 ! trachea
+relationship: part_of XAO:0000127 ! esophagus
+relationship: part_of XAO:0005127 ! anterior foregut
+relationship: start_stage XAO:1000051 ! NF stage 39
+
+[Term]
+id: XAO:0005426
+name: tracheoesophageal fold
+def: "Any of the longitudinal folds in the respiratory diverticulum that fuse to form the tracheoesophageal septum, which separates the esophagus from the trachea." [XAO:MEF]
+synonym: "tracheoesophageal crest" RELATED []
+synonym: "tracheoesophageal folds" RELATED PLURAL []
+synonym: "tracheoesophageal ridge" RELATED []
+is_a: XAO:0003040 ! tissue
+relationship: develops_from XAO:0005127 ! anterior foregut
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0005127 ! anterior foregut
+relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 
 [Term]
 id: XAO:1000000
