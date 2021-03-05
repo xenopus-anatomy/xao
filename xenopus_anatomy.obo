@@ -18761,7 +18761,7 @@ synonym: "esophagotracheal septum" RELATED []
 synonym: "tracheoesophageal septum" RELATED []
 synonym: "transient TES" EXACT []
 is_a: XAO:0005422 ! septum
-relationship: develops_from XAO:0005426 ! tracheoesophageal folds
+relationship: develops_from XAO:0005426 ! tracheoesophageal fold
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0000118 ! trachea
 relationship: part_of XAO:0000127 ! esophagus
@@ -18770,9 +18770,10 @@ relationship: start_stage XAO:1000051 ! NF stage 39
 
 [Term]
 id: XAO:0005426
-name: tracheoesophageal folds
-def: "Longitudinal folds in the respiratory diverticulum that fuse to form the tracheoesophageal septum, which separates the esophagus from the trachea." [XAO:MEF]
+name: tracheoesophageal fold
+def: "Any of the longitudinal folds in the respiratory diverticulum that fuse to form the tracheoesophageal septum, which separates the esophagus from the trachea." [XAO:MEF]
 synonym: "tracheoesophageal crest" RELATED []
+synonym: "tracheoesophageal folds" RELATED PLURAL []
 synonym: "tracheoesophageal ridge" RELATED []
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0005127 ! anterior foregut
