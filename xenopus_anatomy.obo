@@ -12535,7 +12535,7 @@ name: goblet cell
 def: "A type of mucus surface cell in the tadpole." [ISBN:080184780X]
 synonym: "goblet cells" RELATED PLURAL []
 is_a: XAO:0003249 ! epithelial cell
-is_a: XAO_0005328 ! skin cell
+is_a: XAO:0005328 ! skin cell
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0000023 ! skin
 relationship: start_stage XAO:1000057 ! NF stage 45
@@ -15022,7 +15022,7 @@ def: "An epithelial cell that is part of the epidermis." [XAO:EJS]
 synonym: "epidermis cell" EXACT []
 xref: CL:1000396
 is_a: XAO:0003249 ! epithelial cell
-is_a: XAO_0005328 ! skin cell
+is_a: XAO:0005328 ! skin cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000028 ! epidermis
 relationship: start_stage XAO:1000025 ! NF stage 15
@@ -17856,7 +17856,7 @@ synonym: "alpha ionocyte" EXACT []
 synonym: "alpha-PSC" EXACT []
 synonym: "ICa" EXACT []
 is_a: XAO:0004085 ! ionocyte
-is_a: XAO_0005328 ! skin cell
+is_a: XAO:0005328 ! skin cell
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000020 ! NF stage 10
 
@@ -17868,7 +17868,7 @@ synonym: "beta ionocyte" EXACT []
 synonym: "beta-PSC" EXACT []
 synonym: "ICb" EXACT []
 is_a: XAO:0004085 ! ionocyte
-is_a: XAO_0005328 ! skin cell
+is_a: XAO:0005328 ! skin cell
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000020 ! NF stage 10
 
@@ -17877,7 +17877,7 @@ id: XAO:0005234
 name: small secretory cell
 def: "One of the four cell types that are found in bilayered epithlium of the larval epidermis (the others being goblet cells, multicilliated cells, and ionocytes) and have an abundance of large apical secretory vesicles and secrete a glyocoprotein with antimicrobial properties." [PMID:24598166]
 synonym: "SCC" EXACT []
-is_a: XAO_0005328 ! skin cell
+is_a: XAO:0005328 ! skin cell
 relationship: develops_from XAO:0000001 ! ectoderm
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000028 ! epidermis
@@ -18729,6 +18729,237 @@ relationship: develops_from XAO:0000001 ! ectoderm
 relationship: end_stage XAO:1000046 ! NF stage 31
 relationship: part_of XAO:0000048 ! neural crest
 relationship: start_stage XAO:1000023 ! NF stage 13
+
+[Term]
+id: XAO:0005328
+name: skin cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005329
+name: immune system cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005330
+name: red blood cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005375
+name: lymphoid endothelial cell
+is_a: XAO:0005329 ! immune system cell
+
+[Term]
+id: XAO:0005376
+name: vascular endothelial cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005377
+name: dermomyotome cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005378
+name: posterior notochord cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005379
+name: anterior notochord cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005380
+name: sclerotomal mesenchyme cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005381
+name: myotome cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005382
+name: myotome cell of trunk somite
+is_a: XAO:0005381 ! myotome cell
+
+[Term]
+id: XAO:0005383
+name: myotome cell of tail somite
+is_a: XAO:0005381 ! myotome cell
+
+[Term]
+id: XAO:0005384
+name: myotome cell of head somite
+is_a: XAO:0005381 ! myotome cell
+
+[Term]
+id: XAO:0005385
+name: syndetome cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005386
+name: syndetome cell of trunk somite
+is_a: XAO:0005385 ! syndetome cell
+
+[Term]
+id: XAO:0005387
+name: syndetome cell of tail somite
+is_a: XAO:0005385 ! syndetome cell
+
+[Term]
+id: XAO:0005388
+name: syndetome cell of head somite
+is_a: XAO:0005385 ! syndetome cell
+
+[Term]
+id: XAO:0005389
+name: sclerotome cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005390
+name: sclerotome cell of trunk somite
+is_a: XAO:0005389 ! sclerotome cell
+
+[Term]
+id: XAO:0005391
+name: sclerotome cell of tail somite
+is_a: XAO:0005389 ! sclerotome cell
+
+[Term]
+id: XAO:0005392
+name: sclerotome cell of head somite
+is_a: XAO:0005389 ! sclerotome cell
+
+[Term]
+id: XAO:0005395
+name: laminin-rich epidermal cell
+synonym: "laminin-rich epidermis cell" EXACT []
+is_a: XAO:0004621 ! epidermal cell
+
+[Term]
+id: XAO:0005396
+name: melanocyte
+is_a: XAO:0005328 ! skin cell
+
+[Term]
+id: XAO:0005397
+name: melanocyte precursor cell
+is_a: XAO:0005328 ! skin cell
+
+[Term]
+id: XAO:0005398
+name: melanocyte stem cell
+is_a: XAO:0005328 ! skin cell
+
+[Term]
+id: XAO:0005401
+name: floor plate cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005402
+name: spinal progenitor cell
+is_a: XAO:0003054 ! stem cell
+
+[Term]
+id: XAO:0005403
+name: vulernale motor neuron cell
+is_a: XAO:0003012 ! cell
+
+[Term]
+id: XAO:0005404
+name: motor neuron (leptin +ve)
+is_a: XAO:0004217 ! motor neuron
+
+[Term]
+id: XAO:0005405
+name: interneuron 1
+is_a: XAO:0004267 ! interneuron
+
+[Term]
+id: XAO:0005406
+name: interneuron 2
+is_a: XAO:0004267 ! interneuron
+
+[Term]
+id: XAO:0005407
+name: interneuron 3
+is_a: XAO:0004267 ! interneuron
+
+[Term]
+id: XAO:0005408
+name: interneuron 4
+is_a: XAO:0004267 ! interneuron
+
+[Term]
+id: XAO:0005409
+name: dopaminergic neuron
+is_a: XAO:0003023 ! neuron
+
+[Term]
+id: XAO:0005410
+name: differentiating neuron
+is_a: XAO:0003023 ! neuron
+
+[Term]
+id: XAO:0005411
+name: lymphoid cell 1
+is_a: XAO:0005329 ! immune system cell
+
+[Term]
+id: XAO:0005412
+name: lymphoid cell 2
+is_a: XAO:0005329 ! immune system cell
+
+[Term]
+id: XAO:0005413
+name: lymphoid cell 3
+is_a: XAO:0005329 ! immune system cell
+
+[Term]
+id: XAO:0005414
+name: lymphoid cell 4
+is_a: XAO:0005329 ! immune system cell
+
+[Term]
+id: XAO:0005415
+name: lymphoid cell 5
+is_a: XAO:0005329 ! immune system cell
+
+[Term]
+id: XAO:0005416
+name: myeloid cell 1
+is_a: XAO:0005329 ! immune system cell
+
+[Term]
+id: XAO:0005417
+name: myeloid cell 2
+is_a: XAO:0005329 ! immune system cell
+
+[Term]
+id: XAO:0005418
+name: erythrocyte 1
+is_a: XAO:0005330 ! red blood cell
+
+[Term]
+id: XAO:0005419
+name: erythrocyte 2
+is_a: XAO:0005330 ! red blood cell
+
+[Term]
+id: XAO:0005420
+name: erythrocyte 3
+is_a: XAO:0005330 ! red blood cell
+
+[Term]
+id: XAO:0005421
+name: erythrocyte 4
+is_a: XAO:0005330 ! red blood cell
 
 [Term]
 id: XAO:0005422
@@ -19671,237 +19902,6 @@ def: "Xenopus developmental stage that succeeds the embryonic stage." [XAO:EJS]
 xref: UBERON:0000092
 is_a: XAO:1000000 ! Xenopus developmental stage
 relationship: preceded_by XAO:1000012 ! embryonic stage
-
-[Term]
-id: XAO_0005328
-name: skin cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005329
-name: immune system cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005330
-name: red blood cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005375
-name: lymphoid endothelial cell
-is_a: XAO_0005329 ! immune system cell
-
-[Term]
-id: XAO_0005376
-name: vascular endothelial cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005377
-name: dermomyotome cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005378
-name: posterior notochord cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005379
-name: anterior notochord cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005380
-name: sclerotomal mesenchyme cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005381
-name: myotome cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005382
-name: myotome cell of trunk somite
-is_a: XAO_0005381 ! myotome cell
-
-[Term]
-id: XAO_0005383
-name: myotome cell of tail somite
-is_a: XAO_0005381 ! myotome cell
-
-[Term]
-id: XAO_0005384
-name: myotome cell of head somite
-is_a: XAO_0005381 ! myotome cell
-
-[Term]
-id: XAO_0005385
-name: syndetome cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005386
-name: syndetome cell of trunk somite
-is_a: XAO_0005385 ! syndetome cell
-
-[Term]
-id: XAO_0005387
-name: syndetome cell of tail somite
-is_a: XAO_0005385 ! syndetome cell
-
-[Term]
-id: XAO_0005388
-name: syndetome cell of head somite
-is_a: XAO_0005385 ! syndetome cell
-
-[Term]
-id: XAO_0005389
-name: sclerotome cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005390
-name: sclerotome cell of trunk somite
-is_a: XAO_0005389 ! sclerotome cell
-
-[Term]
-id: XAO_0005391
-name: sclerotome cell of tail somite
-is_a: XAO_0005389 ! sclerotome cell
-
-[Term]
-id: XAO_0005392
-name: sclerotome cell of head somite
-is_a: XAO_0005389 ! sclerotome cell
-
-[Term]
-id: XAO_0005395
-name: laminin-rich epidermal cell
-synonym: "laminin-rich epidermis cell" EXACT []
-is_a: XAO:0004621 ! epidermal cell
-
-[Term]
-id: XAO_0005396
-name: melanocyte
-is_a: XAO_0005328 ! skin cell
-
-[Term]
-id: XAO_0005397
-name: melanocyte precursor cell
-is_a: XAO_0005328 ! skin cell
-
-[Term]
-id: XAO_0005398
-name: melanocyte stem cell
-is_a: XAO_0005328 ! skin cell
-
-[Term]
-id: XAO_0005401
-name: floor plate cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005402
-name: spinal progenitor cell
-is_a: XAO:0003054 ! stem cell
-
-[Term]
-id: XAO_0005403
-name: vulernale motor neuron cell
-is_a: XAO:0003012 ! cell
-
-[Term]
-id: XAO_0005404
-name: motor neuron (leptin +ve)
-is_a: XAO:0004217 ! motor neuron
-
-[Term]
-id: XAO_0005405
-name: interneuron 1
-is_a: XAO:0004267 ! interneuron
-
-[Term]
-id: XAO_0005406
-name: interneuron 2
-is_a: XAO:0004267 ! interneuron
-
-[Term]
-id: XAO_0005407
-name: interneuron 3
-is_a: XAO:0004267 ! interneuron
-
-[Term]
-id: XAO_0005408
-name: interneuron 4
-is_a: XAO:0004267 ! interneuron
-
-[Term]
-id: XAO_0005409
-name: dopaminergic neuron
-is_a: XAO:0003023 ! neuron
-
-[Term]
-id: XAO_0005410
-name: differentiating neuron
-is_a: XAO:0003023 ! neuron
-
-[Term]
-id: XAO_0005411
-name: lymphoid cell 1
-is_a: XAO_0005329 ! immune system cell
-
-[Term]
-id: XAO_0005412
-name: lymphoid cell 2
-is_a: XAO_0005329 ! immune system cell
-
-[Term]
-id: XAO_0005413
-name: lymphoid cell 3
-is_a: XAO_0005329 ! immune system cell
-
-[Term]
-id: XAO_0005414
-name: lymphoid cell 4
-is_a: XAO_0005329 ! immune system cell
-
-[Term]
-id: XAO_0005415
-name: lymphoid cell 5
-is_a: XAO_0005329 ! immune system cell
-
-[Term]
-id: XAO_0005416
-name: myeloid cell 1
-is_a: XAO_0005329 ! immune system cell
-
-[Term]
-id: XAO_0005417
-name: myeloid cell 2
-is_a: XAO_0005329 ! immune system cell
-
-[Term]
-id: XAO_0005418
-name: erythrocyte 1
-is_a: XAO_0005330 ! red blood cell
-
-[Term]
-id: XAO_0005419
-name: erythrocyte 2
-is_a: XAO_0005330 ! red blood cell
-
-[Term]
-id: XAO_0005420
-name: erythrocyte 3
-is_a: XAO_0005330 ! red blood cell
-
-[Term]
-id: XAO_0005421
-name: erythrocyte 4
-is_a: XAO_0005330 ! red blood cell
 
 [Typedef]
 id: develops_from
