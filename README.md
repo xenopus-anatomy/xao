@@ -2,15 +2,15 @@
 
 The Xenopus Anatomy Ontology represents and standardizes the anatomy and development of the African frogs Xenopus laevis and tropicalis. It supports the annotation of gene expression data in Xenbase and is designed to facilitate cross-taxa comparisons.
 
-The latest version of the ontology can always be found at: http://purl.obolibrary.org/obo/xao.owl
+Browse XAO at the [Ontology Lookup Service](http://www.ebi.ac.uk/ols/ontologies/xao).
 
-Browse and search the XAO:
+## Versions
 
-- [Xenbase](http://www.xenbase.org/anatomy/anatomy.do?method=display&tabId=2)
-- [AberOWL](http://aber-owl.net/ontology/XAO)
-- [NCBO Bioportal](http://bioportal.bioontology.org/ontologies/XAO)
-- [Ontobee](http://www.ontobee.org/browser/index.php?o=XAO)
-- [Ontology Lookup Service](http://www.ebi.ac.uk/ols/ontologies/xao)
+The latest stable release version of the ontology can always be found at: http://purl.obolibrary.org/obo/xao.owl
+
+## Contact
+
+Please use this GitHub repository's [issue tracker](https://github.com/xenopus-anatomy/xao/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Publication
 
