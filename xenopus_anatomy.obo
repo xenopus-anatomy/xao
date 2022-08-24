@@ -169,7 +169,7 @@ relationship: start_stage XAO:1000038 ! NF stage 22
 [Term]
 id: XAO:0000013
 name: diencephalon
-def: "The more posterior and ventral of two forebrain neuromeres, the other being the telencephalon; major derivatives are the eye vescile, the brain pretectal region, the thalamus, hypothalamus, and epithalamus (including the habenula and epiphysis)." [XAO:curators]
+def: "A division of the forebrain situated between the telencephalon and midbrain. In the developing brain it is the more posterior and ventral of two forebrain neuromeres, the other being the telencephalon; major derivatives are the eye vescile, the brain pretectal region, the thalamus, hypothalamus, and epithalamus (including the habenula and epiphysis)." [XAO:curators]
 xref: UBERON:0001894
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: end_stage XAO:0000437 ! death
@@ -469,6 +469,7 @@ subset: anatomical_site_slim
 xref: UBERON:0001444
 is_a: XAO:0003186 ! anatomical region
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003024 ! head
 relationship: start_stage XAO:1000023 ! NF stage 13
 
 [Term]
@@ -1407,7 +1408,7 @@ xref: UBERON:0001043
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: develops_from XAO:0005127 ! anterior foregut
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0005501 ! digestive tract
 relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 
 [Term]
@@ -1419,8 +1420,8 @@ is_a: XAO:0003034 ! viscus
 is_a: XAO:0003165 ! cavitated compound organ
 relationship: develops_from XAO:0004513 ! foregut endoderm
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000125 ! alimentary system
 relationship: part_of XAO:0000232 ! foregut
+relationship: part_of XAO:0005501 ! digestive tract
 relationship: start_stage XAO:1000052 ! NF stage 40
 
 [Term]
@@ -1431,7 +1432,7 @@ xref: UBERON:0000160
 is_a: XAO:0003034 ! viscus
 is_a: XAO:0003165 ! cavitated compound organ
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0005501 ! digestive tract
 relationship: start_stage XAO:1000053 ! NF stage 41
 
 [Term]
@@ -2631,7 +2632,7 @@ xref: UBERON:0000162
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000107 ! tail bud
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0005501 ! digestive tract
 relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 
 [Term]
@@ -2992,7 +2993,7 @@ xref: UBERON:0004771
 is_a: XAO:0003190 ! anatomical space
 relationship: develops_from XAO:0000005 ! olfactory placode
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0003024 ! head
+relationship: part_of XAO:0005505 ! nasal region
 relationship: start_stage XAO:1000055 ! NF stage 43
 
 [Term]
@@ -5326,6 +5327,7 @@ is_a: XAO:0003190 ! anatomical space
 relationship: develops_from XAO:0000269 ! mouth primordium
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003024 ! head
+relationship: part_of XAO:0005501 ! digestive tract
 relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 
 [Term]
@@ -5371,7 +5373,7 @@ def: "Surface structure that provides one of the small external openings of the 
 xref: UBERON:0005928
 is_a: XAO:0003190 ! anatomical space
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0003024 ! head
+relationship: part_of XAO:0005505 ! nasal region
 relationship: start_stage XAO:1000070 ! NF stage 58
 
 [Term]
@@ -7358,7 +7360,7 @@ def: "Anatomical cavity bounded by the derivatives of the branchial arches." [AA
 xref: UBERON:0001042
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0005501 ! digestive tract
 relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 created_by: eriksegerdell
 creation_date: 2009-07-16T02:04:46Z
@@ -7513,7 +7515,7 @@ synonym: "digestive enzyme secreting cells" EXACT PLURAL []
 xref: CL:0000470
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000125 ! alimentary system
+relationship: part_of XAO:0005501 ! digestive tract
 relationship: start_stage XAO:1000036 ! NF stage 20
 created_by: eriksegerdell
 creation_date: 2009-07-20T01:30:09Z
@@ -17892,7 +17894,6 @@ relationship: start_stage XAO:1000038 ! NF stage 22
 id: XAO:0005236
 name: intestinal stem cell
 def: "Type of adult stem cells that are induced by thyroid hormone (TH) and, during intestinal remodeling during metamorphosis, newly generate the absorptive epithelium." [PMID:30430240]
-synonym: "xenopus_anatomy" EXACT []
 is_a: XAO:0003054 ! stem cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000130 ! small intestine
@@ -18780,6 +18781,79 @@ relationship: develops_from XAO:0005127 ! anterior foregut
 relationship: end_stage XAO:1000056 ! NF stage 44
 relationship: part_of XAO:0005127 ! anterior foregut
 relationship: start_stage XAO:1000049 ! NF stage 35 and 36
+
+[Term]
+id: XAO:0005500
+name: desmosome
+def: "A cell-cell junction in which: on the cytoplasmic surface of each interacting plasma membrane is a dense plaque composed of a mixture of intracellular anchor proteins; a bundle of keratin intermediate filaments is attached to the surface of each plaque; transmembrane adhesion proteins of the cadherin family bind to the plaques and interact through their extracellular domains to hold the adjacent membranes together by a Ca2+-dependent mechanism." [GO:0030057]
+xref: GO:0030057
+is_a: XAO:0004290 ! cell part
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000083 ! oocyte stage I
+
+[Term]
+id: XAO:0005501
+name: digestive tract
+def: "A tube extending from the mouth to the cloacal sphincter." [XAO:MEF]
+synonym: "digestive tube" RELATED []
+synonym: "enteric tract" RELATED []
+synonym: "gastrointestinal tract" RELATED []
+synonym: "GI tract" RELATED []
+xref: UBERON:0001555
+is_a: XAO:0003160 ! anatomical cluster
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000125 ! alimentary system
+relationship: start_stage XAO:1000036 ! NF stage 20
+
+[Term]
+id: XAO:0005502
+name: main body axis
+def: "A principle subdivision of the organism that includes all structures along the primary axis, typically the anterior-posterior axis, from head to tail, including structures of the body proper where present (for example, ribs), but excluding appendages." [UBERON:0013701]
+synonym: "primary axis" RELATED []
+xref: UBERON:0013701
+is_a: XAO:0003013 ! organism subdivision
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000023 ! NF stage 13
+
+[Term]
+id: XAO:0005503
+name: tracheoesophageal septum
+def: "Septum dividing the esophagus from the trachea." [XAO:MEF]
+synonym: "esophagotracheal septum" RELATED []
+xref: UBERON:0036070
+is_a: XAO:0005425 ! transient tracheoesophageal septum
+relationship: develops_from XAO:0005425 ! transient tracheoesophageal septum
+relationship: end_stage XAO:1000056 ! NF stage 44
+relationship: part_of XAO:0005127 ! anterior foregut
+relationship: start_stage XAO:1000051 ! NF stage 39
+
+[Term]
+id: XAO:0005504
+name: abdominal wall
+def: "Structure comprising the tissues that surround the organs that are present within the abdominal cavity. The abdominal wall tissue is composed of layers of fat, parietal peritoneum, fascia, and muscles." [NCIt:Abdominal_Wall]
+is_a: XAO:0003037 ! multi-tissue structure
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0003025 ! trunk
+relationship: start_stage XAO:1000035 ! NF stage 19
+
+[Term]
+id: XAO:0005505
+name: nasal region
+def: "Head region including the nostrils and surrounding tissue." [XAO:MEF]
+is_a: XAO:0000040 ! head region
+relationship: develops_from XAO:0005193 ! lateral nasal prominence
+relationship: develops_from XAO:0005194 ! medial nasal prominence
+relationship: end_stage XAO:0000437 ! death
+relationship: start_stage XAO:1000023 ! NF stage 13
+
+[Term]
+id: XAO:0005506
+name: cerebrospinal fluid
+def: "A clear, colorless bodily fluid that occupies the subarachnoid space and the ventricular system around and inside the brain and spinal cord." [XAO:MEF]
+is_a: XAO:0004001 ! portion of organism substance
+relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000215 ! central nervous system
+relationship: start_stage XAO:1000038 ! NF stage 22
 
 [Term]
 id: XAO:1000000
