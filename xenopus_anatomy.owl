@@ -65160,9 +65160,9 @@
         <oboInOwl:hasDbXref>UBERON:0000106</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>1-cell stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>fertilized egg stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zygote stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>zygote</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>zygote stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000001</oboInOwl:id>
         <rdfs:label>NF stage 1</rdfs:label>
     </owl:Class>
@@ -65466,7 +65466,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 3, corresponding to an embryo of age 2 hours at 22-24 Celsius. Part of the cleavage stage. External landmarks: 4 cells; 2nd cleavage is meridional, perpendicular to the 1st cleavage; in many embryos, the 2 dorsal blastomeres (left and right) are smaller and lighter (on animal surface) than 2 larger darker ventral blastomeres (also left and right). External landmarks: cleavage cavity present. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 3, corresponding to an embryo of age 2 hours at 22-24 Celsius. Part of the cleavage stage. External landmarks: 4 cells; 2nd cleavage is meridional, perpendicular to the 1st cleavage; in many embryos, the 2 dorsal blastomeres (left and right) are smaller and lighter (on animal surface) than 2 larger darker ventral blastomeres (also left and right). Internal landmarks: cleavage cavity present. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0007233</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>4-cell stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
@@ -65476,7 +65476,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000013"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 3, corresponding to an embryo of age 2 hours at 22-24 Celsius. Part of the cleavage stage. External landmarks: 4 cells; 2nd cleavage is meridional, perpendicular to the 1st cleavage; in many embryos, the 2 dorsal blastomeres (left and right) are smaller and lighter (on animal surface) than 2 larger darker ventral blastomeres (also left and right). External landmarks: cleavage cavity present. Length 1.4-1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 3, corresponding to an embryo of age 2 hours at 22-24 Celsius. Part of the cleavage stage. External landmarks: 4 cells; 2nd cleavage is meridional, perpendicular to the 1st cleavage; in many embryos, the 2 dorsal blastomeres (left and right) are smaller and lighter (on animal surface) than 2 larger darker ventral blastomeres (also left and right). Internal landmarks: cleavage cavity present. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -65499,7 +65499,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 4, corresponding to an embryo of age 2 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Advanced eight cell stage. Dorsal micro- and macromeres usually smaller than ventral ones; dorsal micromeres less pigmented than ventral ones. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 4, corresponding to an embryo of age 2 hours 15 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: 8 cells; 3rd cleavage plane is equatorial giving 4 smaller animal blastomeres (micromeres) and 4 larger vegetal blastomeres (macromeres); animal dorsal cells are lighter and ventral cells are darker in some embryos. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0007236</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>8-cell stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
@@ -65509,8 +65509,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000014"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 4, corresponding to an embryo of age 2 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Advanced eight cell stage. Dorsal micro- and macromeres usually smaller than ventral ones; dorsal micromeres less pigmented than ventral ones. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 4, corresponding to an embryo of age 2 hours 15 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: 8 cells; 3rd cleavage plane is equatorial giving 4 smaller animal blastomeres (micromeres) and 4 larger vegetal blastomeres (macromeres); animal dorsal cells are lighter and ventral cells are darker in some embryos. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65531,7 +65532,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 5, corresponding to an embryo of age 2 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Advanced sixteen cell stage. Dorsal micromeres distinctly smaller and less pigmented than ventral ones. Macromeres entirely separated by cleavage grooves. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 5, corresponding to an embryo of age 2 hours 45 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: 16 cells; 4th cleavage is again meridional; animal blastomeres smaller than vegetal blastomeres; dorsal blastomeres lighter than ventral. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>16-cell stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000015</oboInOwl:id>
@@ -65540,8 +65541,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000015"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 5, corresponding to an embryo of age 2 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Advanced sixteen cell stage. Dorsal micromeres distinctly smaller and less pigmented than ventral ones. Macromeres entirely separated by cleavage grooves. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 5, corresponding to an embryo of age 2 hours 45 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: 16 cells; 4th cleavage is again meridional; animal blastomeres smaller than vegetal blastomeres; dorsal blastomeres lighter than ventral. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65562,7 +65564,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 6, corresponding to an embryo of age 3 hr at 22-24 Celsius and having the following external morphological criteria: Advanced thirty-two cell stage. Distinction between dorsal and ventral micromeres as in preceding stage. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 6, corresponding to an embryo of age 3 hours at 22-24 Celsius. Part of the cleavage stage. External landmarks: 32 cells; 5th cleavage equatorial, giving 4 rows each with 8 blastomeres; animal pole with smallest rosette of micromeres, 2 middle rows of irregularly shaped cells, larger vegetal rosette of macromeres. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>32-cell stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000016</oboInOwl:id>
@@ -65571,8 +65573,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000016"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 6, corresponding to an embryo of age 3 hr at 22-24 Celsius and having the following external morphological criteria: Advanced thirty-two cell stage. Distinction between dorsal and ventral micromeres as in preceding stage. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 6, corresponding to an embryo of age 3 hours at 22-24 Celsius. Part of the cleavage stage. External landmarks: 32 cells; 5th cleavage equatorial, giving 4 rows each with 8 blastomeres; animal pole with smallest rosette of micromeres, 2 middle rows of irregularly shaped cells, larger vegetal rosette of macromeres. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65593,8 +65596,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 7 (64-cell stage), corresponding to an embryo of age 4 hr at 22-24 Celsius and having the following external morphological criteria: Large-cell blastula stage. In animal view about 10 micromeres along meridian. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>64-cell stage</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 7, corresponding to an embryo of age 4 hours at 22-24 Celsius. Part of the blastula stage. External landmarks: 128-512 cells; 7th-9th cleavages, no longer possible to count cells reliably; size of animal cells used to distinguish embryo stage. Internal landmarks: clear delineation of the three primary germ layer tissues; notochord begins to form from mediolateral convergence of dorsal presumptive axial mesoderm under the neural ectoderm. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>early blastula stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000017</oboInOwl:id>
         <rdfs:label>NF stage 7</rdfs:label>
@@ -65602,8 +65605,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000017"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 7 (64-cell stage), corresponding to an embryo of age 4 hr at 22-24 Celsius and having the following external morphological criteria: Large-cell blastula stage. In animal view about 10 micromeres along meridian. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 7, corresponding to an embryo of age 4 hours at 22-24 Celsius. Part of the blastula stage. External landmarks: 128-512 cells; 7th-9th cleavages, no longer possible to count cells reliably; size of animal cells used to distinguish embryo stage. Internal landmarks: clear delineation of the three primary germ layer tissues; notochord begins to form from mediolateral convergence of dorsal presumptive axial mesoderm under the neural ectoderm. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65624,8 +65628,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 8 (128-cell stage), corresponding to an embryo of age 5 hr at 22-24 Celsius and having the following external morphological criteria: Medium-cell blastula stage. Surface not yet entirely smooth. Border of animal pigment cap more diffuse at dorsal than at lateral and ventral sides. Gradual transition in cell size from animal to vegetative pole. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>128-cell stage</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 8, corresponding to an embryo of age 5 hours at 22-24 Celsius. Part of the blastula stage. External landmarks: ~1000-4000 cells; 10-12+ cleavages; cell number no longer a stage guide; animal hemisphere with small dark pigmented cells referred to as &quot;animal cap&quot;; animal surface looks &quot;pebbly&quot;. Internal landmarks: at NF stage 8.5, after 12th cell divisions the mid-blastula transition (MBT) occurs; asynchronous internal cell division; zygotic genome activation. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>middle blastula stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000018</oboInOwl:id>
         <rdfs:label>NF stage 8</rdfs:label>
@@ -65633,8 +65637,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000018"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 8 (128-cell stage), corresponding to an embryo of age 5 hr at 22-24 Celsius and having the following external morphological criteria: Medium-cell blastula stage. Surface not yet entirely smooth. Border of animal pigment cap more diffuse at dorsal than at lateral and ventral sides. Gradual transition in cell size from animal to vegetative pole. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 8, corresponding to an embryo of age 5 hours at 22-24 Celsius. Part of the blastula stage. External landmarks: ~1000-4000 cells; 10-12+ cleavages; cell number no longer a stage guide; animal hemisphere with small dark pigmented cells referred to as &quot;animal cap&quot;; animal surface looks &quot;pebbly&quot;. Internal landmarks: at NF stage 8.5, after 12th cell divisions the mid-blastula transition (MBT) occurs; asynchronous internal cell division; zygotic genome activation. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65655,7 +65660,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 9, corresponding to an embryo of age 7 hr at 22-24 Celsius and having the following external morphological criteria: Fine-cell blastula stage. Animal cells smaller at dorsal than at ventral side. Border between marginal zone and vegetative field distinct, particularly dorsally, owing to difference in cell size. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 9, corresponding to an embryo of age 7 hours at 22-24 Celsius. Part of the blastula stage. External landmarks: animal hemisphere still darkly pigmented; animal surface more like &quot;grains of sand&quot; than &quot;pebbles&quot; of NF stage 8. Internal landmarks: blastocoel now maximum size; three germ layers becoming distinct; ectoderm in the animal 1/3 of the embryo, a ring of mesoderm in the middle and yolky endoderm on the vegetal 1/3. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>late blastula stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000019</oboInOwl:id>
         <rdfs:label>NF stage 9</rdfs:label>
@@ -65663,8 +65669,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000019"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 9, corresponding to an embryo of age 7 hr at 22-24 Celsius and having the following external morphological criteria: Fine-cell blastula stage. Animal cells smaller at dorsal than at ventral side. Border between marginal zone and vegetative field distinct, particularly dorsally, owing to difference in cell size. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 9, corresponding to an embryo of age 7 hours at 22-24 Celsius. Part of the blastula stage. External landmarks: animal hemisphere still darkly pigmented; animal surface more like &quot;grains of sand&quot; than &quot;pebbles&quot; of NF stage 8. Internal landmarks: blastocoel now maximum size; three germ layers becoming distinct; ectoderm in the animal 1/3 of the embryo, a ring of mesoderm in the middle and yolky endoderm on the vegetal 1/3. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <rdfs:comment>PMID:35833709</rdfs:comment>
     </owl:Axiom>
     
 
@@ -65956,8 +65963,9 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 6.5, corresponding to an embryo of age 3 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Morula stage. About 48 blastomeres. In animal view about 6 micromeres along meridian. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 6.5, corresponding to an embryo of age 3 hours 30 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: 64 cells; 6th cleavage; cleavages becoming asynchronous; animal/dorsal blastomeres divide before vegetal blastomeres. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000085</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>morula stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>morula</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000029</oboInOwl:id>
@@ -65966,14 +65974,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000029"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 6.5, corresponding to an embryo of age 3 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Morula stage. About 48 blastomeres. In animal view about 6 micromeres along meridian. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 6.5, corresponding to an embryo of age 3 hours 30 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: 64 cells; 6th cleavage; cleavages becoming asynchronous; animal/dorsal blastomeres divide before vegetal blastomeres. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000029"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>morula</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
