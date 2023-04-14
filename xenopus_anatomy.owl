@@ -65171,6 +65171,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Nieuwkoop and Faber stage 1, corresponding to an embryo of age 0 hours. External landmarks: 1 cell; vitelline membrane swells; eggs rotate with dark animal hemisphere up, light vegetal hemisphere down; firm texture; sperm entry point indictated by pigment condensation; germinal vesicle breakdown leaving pale spot in animal hemisphere. Internal landmarks: cleavage has not begun; germinal vesicle breaks down and pronuclei fuse; visible cortical layer thickest on animal and dorsal sides. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65418,6 +65419,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Nieuwkoop and Faber stage 2, corresponding to an embryo of age 1 hour 30 min at 22-24 Celsius. Part of the cleavage stage. External landmarks: 2 cells; 1st cleavage plane is meridional along the dorso-ventral plane dividing right and left halves. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65476,6 +65478,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Nieuwkoop and Faber stage 3, corresponding to an embryo of age 2 hours at 22-24 Celsius. Part of the cleavage stage. External landmarks: 4 cells; 2nd cleavage is meridional, perpendicular to the 1st cleavage; in many embryos, the 2 dorsal blastomeres (left and right) are smaller and lighter (on animal surface) than 2 larger darker ventral blastomeres (also left and right). External landmarks: cleavage cavity present. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65932,6 +65935,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Nieuwkoop and Faber stage 2-, corresponding to an embryo of age 1 hour 15 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: first cleavage begins as a top to down furrow in animal hemisphere. Internal landmarks: cleavage furrow has not yet reached the vegetal pole. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
