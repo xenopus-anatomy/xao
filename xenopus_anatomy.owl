@@ -16538,7 +16538,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Xenopus developmental stage that corresponds to the end of the animal&apos;s life.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>XAO:EJS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65141,7 +65141,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000000"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A temporal interval that defines Xenopus life from unfertilized egg to adult and death stages.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>XAO:EJS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65444,8 +65444,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000012"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Xenopus developmental stage that starts with fertilization and ends with the formed feeding larva.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Bgee:curator</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>XAO:EJS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65671,7 +65670,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Nieuwkoop and Faber stage 9, corresponding to an embryo of age 7 hours at 22-24 Celsius. Part of the blastula stage. External landmarks: animal hemisphere still darkly pigmented; animal surface more like &quot;grains of sand&quot; than &quot;pebbles&quot; of NF stage 8. Internal landmarks: blastocoel now maximum size; three germ layers becoming distinct; ectoderm in the animal 1/3 of the embryo, a ring of mesoderm in the middle and yolky endoderm on the vegetal 1/3. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
-        <rdfs:comment>PMID:35833709</rdfs:comment>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65692,7 +65691,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 10, corresponding to an embryo of age 9 hr at 22-24 Celsius and having the following external morphological criteria: Initial gastrula stage. First indication of blastopore only by pigment concentration. No formation of groove. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 10, corresponding to an embryo of age 9 hours at 22-24 Celsius. Part of the gastrulation stage. External landmarks: darker pigment from bottle cells on the dorsal vegetal surface indicate dorsal blastopore lip formation between &quot;11 and 1 o&apos;clock&quot;; blastopore groove where cells ingress is not yet visible. Internal landmarks: initial formation of Spemann Organizer at the dorsal marginal zone/upper blaspore lip. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>initial gastrula	stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000020</oboInOwl:id>
         <rdfs:label>NF stage 10</rdfs:label>
@@ -65700,8 +65700,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000020"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 10, corresponding to an embryo of age 9 hr at 22-24 Celsius and having the following external morphological criteria: Initial gastrula stage. First indication of blastopore only by pigment concentration. No formation of groove. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 10, corresponding to an embryo of age 9 hours at 22-24 Celsius. Part of the gastrulation stage. External landmarks: darker pigment from bottle cells on the dorsal vegetal surface indicate dorsal blastopore lip formation between &quot;11 and 1 o&apos;clock&quot;; blastopore groove where cells ingress is not yet visible. Internal landmarks: initial formation of Spemann Organizer at the dorsal marginal zone/upper blaspore lip. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65722,7 +65723,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 11, corresponding to an embryo of age 11 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Horse-shoe-shaped blastopore stage. Blastopore groove surrounding about half of future yolk plug and indicated at its ventral side; future yolk plug often rounded rectangular, slightly elongated in dorso-ventral direction, diameter more than two-fifths of diameter of egg (plus or minus 50 degrees of circumference). Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 11, corresponding to an embryo of age 11 hours 45 minutes at 22-24 Celsius. Part of the gastrulation stage. External landmarks: pigmented blastopore lip ~ half the circumference, pigmented bottle cells extend to the ventral side; yolk plug ~1/2 diameter of embryo, is slightly elongated in the dorsal-ventral direction. Internal landmarks: Brachet&apos;s cleft begins to open forming the archenteron; ectoderm, mesoderm and endoderm germ layers specified; blastocoel becoming smaller, mesodermal mantle undergoes convergent extension and endoderm is internalized. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>horse-shoe shaped blastopore stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000021</oboInOwl:id>
         <rdfs:label>NF stage 11</rdfs:label>
@@ -65730,8 +65732,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 11, corresponding to an embryo of age 11 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Horse-shoe-shaped blastopore stage. Blastopore groove surrounding about half of future yolk plug and indicated at its ventral side; future yolk plug often rounded rectangular, slightly elongated in dorso-ventral direction, diameter more than two-fifths of diameter of egg (plus or minus 50 degrees of circumference). Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 11, corresponding to an embryo of age 11 hours 45 minutes at 22-24 Celsius. Part of the gastrulation stage. External landmarks: pigmented blastopore lip ~ half the circumference, pigmented bottle cells extend to the ventral side; yolk plug ~1/2 diameter of embryo, is slightly elongated in the dorsal-ventral direction. Internal landmarks: Brachet&apos;s cleft begins to open forming the archenteron; ectoderm, mesoderm and endoderm germ layers specified; blastocoel becoming smaller, mesodermal mantle undergoes convergent extension and endoderm is internalized. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65997,8 +66000,9 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 10.25, corresponding to an embryo of age 10 hr at 22-24 Celsius and having the following external morphological criteria: Early gastrula stage. First formation of dorsal blastopore groove; the groove is still straight. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 10.25, corresponding to an embryo of age 10 hours at 22-24 Celsius. Part of the gastrulation stage. External landmarks: blastopore lip extends laterally ~1/4 around the circumference, from ~ &quot;10 to 2 o&apos;clock&quot;; indentation of blastopore visible as a groove. Internal landmarks: marginal zone involutes on dorsal side; internally, dorsal endomesoderm begins to migrate anteriorly along bastocoel surface; vegetal rotation of endoderm mass. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>NF stage 10+</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>early gastrula stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000030</oboInOwl:id>
         <rdfs:label>NF stage 10.25</rdfs:label>
@@ -66006,8 +66010,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000030"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 10.25, corresponding to an embryo of age 10 hr at 22-24 Celsius and having the following external morphological criteria: Early gastrula stage. First formation of dorsal blastopore groove; the groove is still straight. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 10.25, corresponding to an embryo of age 10 hours at 22-24 Celsius. Part of the gastrulation stage. External landmarks: blastopore lip extends laterally ~1/4 around the circumference, from ~ &quot;10 to 2 o&apos;clock&quot;; indentation of blastopore visible as a groove. Internal landmarks: marginal zone involutes on dorsal side; internally, dorsal endomesoderm begins to migrate anteriorly along bastocoel surface; vegetal rotation of endoderm mass. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66028,7 +66033,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 10.5, corresponding to an embryo of age 11 hr at 22-24 Celsius and having the following external morphological criteria: Crescent-shaped blastopore stage. Blastopore groove angular. Vegetal field slightly decreased in size, ventral border of future yolk plug indicated by pigment contraction. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 10.5, corresponding to an embryo of age 11 hours at 22-24 Celsius. Part of the gastrulation stage. External landmarks: arch of pigmented blastpore lip extends laterally from doral to lateral sides ~1/4 to 1/2 around the circumference; yolk plug almost round. Internal landmarks: medial-lateral intercalation of dorsal mesoderm; Brachet&apos;s cleft forms between internal leading edge endomesoderm and the dorsal mesoderm; neural induction begins, dorsal-ventral patterning. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>crescent-shaped blastopore stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000031</oboInOwl:id>
         <rdfs:label>NF stage 10.5</rdfs:label>
@@ -66036,8 +66042,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000031"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 10.5, corresponding to an embryo of age 11 hr at 22-24 Celsius and having the following external morphological criteria: Crescent-shaped blastopore stage. Blastopore groove angular. Vegetal field slightly decreased in size, ventral border of future yolk plug indicated by pigment contraction. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 10.5, corresponding to an embryo of age 11 hours at 22-24 Celsius. Part of the gastrulation stage. External landmarks: arch of pigmented blastpore lip extends laterally from doral to lateral sides ~1/4 to 1/2 around the circumference; yolk plug almost round. Internal landmarks: medial-lateral intercalation of dorsal mesoderm; Brachet&apos;s cleft forms between internal leading edge endomesoderm and the dorsal mesoderm; neural induction begins, dorsal-ventral patterning. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66058,7 +66065,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 11.5, corresponding to an embryo of age 12 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Large yolk plug stage. Blastopore groove closed ventrally; yolk plug not yet quite circular. At ventral side concentrated superficial pigment still visible. Diameter of yolk plug about a third of diameter of egg (plus or minus 40 degrees). Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 11.5, corresponding to an embryo of age 12 hours 30 minutes at 22-24 Celsius. Part of the gastrulation stage. External landmarks: blastopore lip extends all the way around yolk plug; lower/ventral blastopore lip more darkly pigmented; yolk plug not quite round, ~1/3 of embryo diameter elongated in the dorsal-ventral direction. Internal landmarks: blastocoel displaced to the ventral side; involuting &quot;endomesoderm&quot; mantle continues to extent anteriorly. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>large yolk plug stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000032</oboInOwl:id>
         <rdfs:label>NF stage 11.5</rdfs:label>
@@ -66066,8 +66074,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000032"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 11.5, corresponding to an embryo of age 12 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Large yolk plug stage. Blastopore groove closed ventrally; yolk plug not yet quite circular. At ventral side concentrated superficial pigment still visible. Diameter of yolk plug about a third of diameter of egg (plus or minus 40 degrees). Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 11.5, corresponding to an embryo of age 12 hours 30 minutes at 22-24 Celsius. Part of the gastrulation stage. External landmarks: blastopore lip extends all the way around yolk plug; lower/ventral blastopore lip more darkly pigmented; yolk plug not quite round, ~1/3 of embryo diameter elongated in the dorsal-ventral direction. Internal landmarks: blastocoel displaced to the ventral side; involuting &quot;endomesoderm&quot; mantle continues to extent anteriorly. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67818,7 +67827,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_1000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_1000000"/>
-        <obo:IAO_0000115>Xenopus developmental stage that is one of the 66 standard chronological embryonic and tadpole stages originally described by Nieuwkoop and Faber in the Normal Table of Xenopus laevis (Daudin).</obo:IAO_0000115>
+        <obo:IAO_0000115>Xenopus developmental stage that is one of the 66 standard chronological embryonic and tadpole stages originally described by Nieuwkoop and Faber (1994) in the Normal Table of Xenopus laevis (Daudin). Staging landmarks were updated by Zahn, et al (2022).</obo:IAO_0000115>
         <oboInOwl:created_by>eriksegerdell</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-02-09T18:40:27Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>Nieuwkoop and Faber stage</oboInOwl:hasExactSynonym>
@@ -67830,9 +67839,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000094"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Xenopus developmental stage that is one of the 66 standard chronological embryonic and tadpole stages originally described by Nieuwkoop and Faber in the Normal Table of Xenopus laevis (Daudin).</owl:annotatedTarget>
+        <owl:annotatedTarget>Xenopus developmental stage that is one of the 66 standard chronological embryonic and tadpole stages originally described by Nieuwkoop and Faber (1994) in the Normal Table of Xenopus laevis (Daudin). Staging landmarks were updated by Zahn, et al (2022).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>XAO:EJS</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
