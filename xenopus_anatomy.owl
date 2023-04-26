@@ -65207,8 +65207,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Embryonic stage during which the solid morula acquires an internal cavity, comprising Nieuwkoop and Faber stages 7 to 9.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>blastula</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>UBERON:0000108</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>blastula</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000003</oboInOwl:id>
         <rdfs:label>blastula stage</rdfs:label>
@@ -65228,8 +65228,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_1000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_1000012"/>
         <obo:IAO_0000115>Embryonic stage during which the zygote undergoes synchronous divisions into 2, 4, 8, 16, etc. blastomeres, comprising Nieuwkoop and Faber stages 2 to 6.5.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>cleavage</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>UBERON:0000107</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>cleavage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000004</oboInOwl:id>
         <rdfs:label>cleavage stage</rdfs:label>
@@ -65256,8 +65256,9 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Embryonic stage during which gastrulation takes place, with a proportion of cells migrating below the surface of the embryo to form two inner layers (endoderm and mesoderm) and the cells which remain outside spreading over the whole surface of the embryo to form the ectoderm; comprising Nieuwkoop and Faber stages 10 to 12.5.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000109</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>gastrula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gastrulation stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>gastrula</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000005</oboInOwl:id>
         <rdfs:label>gastrula stage</rdfs:label>
     </owl:Class>
@@ -65283,8 +65284,9 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Embryonic stage during which the future nervous system appears as a thickened plate in dorsal ectoderm, the plate then rolling up at its sides to form a tube; comprising Nieuwkoop and Faber stages 13 to 21.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000110</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>neurula</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neurulation stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>neurula</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000006</oboInOwl:id>
         <rdfs:label>neurula stage</rdfs:label>
     </owl:Class>
@@ -65751,11 +65753,18 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#preceded_by"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000032"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 12, corresponding to an embryo of age 13 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Medium yolk plug stage. Yolk plug circular; diameter somewhat less than one fourth of diameter of egg (plus or minus 25 degrees). More and less pigmented fields radiating from yolk plug. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 12, corresponding to an embryo of age 13 hours 15 minutes at 22-24 Celsius. Part of the gastrulation and neurulation stages. External landmarks: areas of light and dark pigment radiating from the yolk plug (flower petal-like); yolk plug small and circular, a little less than 1/4 of egg diameter, diameter decreasing; neurectoderm transforming into the discernible neural plate. Internal landmarks: blastocoel begining to close as the archenteron expands. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>medium yolk plug stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000022</oboInOwl:id>
         <rdfs:label>NF stage 12</rdfs:label>
@@ -65763,8 +65772,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000022"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 12, corresponding to an embryo of age 13 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Medium yolk plug stage. Yolk plug circular; diameter somewhat less than one fourth of diameter of egg (plus or minus 25 degrees). More and less pigmented fields radiating from yolk plug. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 12, corresponding to an embryo of age 13 hours 15 minutes at 22-24 Celsius. Part of the gastrulation and neurulation stages. External landmarks: areas of light and dark pigment radiating from the yolk plug (flower petal-like); yolk plug small and circular, a little less than 1/4 of egg diameter, diameter decreasing; neurectoderm transforming into the discernible neural plate. Internal landmarks: blastocoel begining to close as the archenteron expands. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66097,7 +66107,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 12.5, corresponding to an embryo of age 14 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Small yolk plug stage. Future position of neural plate and median groove indicated by darker pigment lines. Yolk plug usually ovoid, variable in size. Length: 1.4 - 1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 12.5, corresponding to an embryo of age 14 hours 15 minutes at 22-24 Celsius. Part of the gastrulation and neurulation stages. External landmarks: darker pigment lines on dorsal surface indicate future neural groove and neural plate; blastopore slit is slightly open, diameter decreasing and oval shaped. Internal landmarks: clear delineation of the three primary germ layer tissues; notochord forms from mediolateral convergence of dorsal axial mesoderm under the neural ectoderm. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>small yolk plug stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000033</oboInOwl:id>
         <rdfs:label>NF stage 12.5</rdfs:label>
@@ -66105,8 +66116,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000033"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 12.5, corresponding to an embryo of age 14 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Small yolk plug stage. Future position of neural plate and median groove indicated by darker pigment lines. Yolk plug usually ovoid, variable in size. Length: 1.4 - 1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 12.5, corresponding to an embryo of age 14 hours 15 minutes at 22-24 Celsius. Part of the gastrulation and neurulation stages. External landmarks: darker pigment lines on dorsal surface indicate future neural groove and neural plate; blastopore slit is slightly open, diameter decreasing and oval shaped. Internal landmarks: clear delineation of the three primary germ layer tissues; notochord forms from mediolateral convergence of dorsal axial mesoderm under the neural ectoderm. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
