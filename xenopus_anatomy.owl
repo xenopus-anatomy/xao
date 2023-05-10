@@ -65157,12 +65157,12 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 1, corresponding to an embryo of age 0 hours. External landmarks: 1 cell; vitelline membrane swells; eggs rotate with dark animal hemisphere up, light vegetal hemisphere down; firm texture; sperm entry point indictated by pigment condensation; germinal vesicle breakdown leaving pale spot in animal hemisphere. Internal landmarks: cleavage has not begun; germinal vesicle breaks down and pronuclei fuse; visible cortical layer thickest on animal and dorsal sides. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>zygote</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>UBERON:0000106</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>1-cell stage</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>fertilized egg stage</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>zygote stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>zygote</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fertilized egg stage</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>zygote stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000001</oboInOwl:id>
         <rdfs:label>NF stage 1</rdfs:label>
     </owl:Class>
@@ -65412,6 +65412,7 @@
         <obo:IAO_0000115>Nieuwkoop and Faber stage 2, corresponding to an embryo of age 1 hour 30 min at 22-24 Celsius. Part of the cleavage stage. External landmarks: 2 cells; 1st cleavage plane is meridional along the dorso-ventral plane dividing right and left halves. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0007232</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>2-cell stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NF stage 2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000011</oboInOwl:id>
         <rdfs:label>NF stage 2 (2-cell)</rdfs:label>
@@ -65470,6 +65471,7 @@
         <obo:IAO_0000115>Nieuwkoop and Faber stage 3, corresponding to an embryo of age 2 hours at 22-24 Celsius. Part of the cleavage stage. External landmarks: 4 cells; 2nd cleavage is meridional, perpendicular to the 1st cleavage; in many embryos, the 2 dorsal blastomeres (left and right) are smaller and lighter (on animal surface) than 2 larger darker ventral blastomeres (also left and right). Internal landmarks: cleavage cavity present. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0007233</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>4-cell stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NF stage 3</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000013</oboInOwl:id>
         <rdfs:label>NF stage 3 (4-cell)</rdfs:label>
@@ -65503,6 +65505,7 @@
         <obo:IAO_0000115>Nieuwkoop and Faber stage 4, corresponding to an embryo of age 2 hours 15 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: 8 cells; 3rd cleavage plane is equatorial giving 4 smaller animal blastomeres (micromeres) and 4 larger vegetal blastomeres (macromeres); animal dorsal cells are lighter and ventral cells are darker in some embryos. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0007236</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>8-cell stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NF stage 4</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000014</oboInOwl:id>
         <rdfs:label>NF stage 4 (8-cell)</rdfs:label>
@@ -65535,6 +65538,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 5, corresponding to an embryo of age 2 hours 45 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: 16 cells; 4th cleavage is again meridional; animal blastomeres smaller than vegetal blastomeres; dorsal blastomeres lighter than ventral. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>16-cell stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NF stage 5</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000015</oboInOwl:id>
         <rdfs:label>NF stage 5 (16-cell)</rdfs:label>
@@ -65567,6 +65571,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 6, corresponding to an embryo of age 3 hours at 22-24 Celsius. Part of the cleavage stage. External landmarks: 32 cells; 5th cleavage equatorial, giving 4 rows each with 8 blastomeres; animal pole with smallest rosette of micromeres, 2 middle rows of irregularly shaped cells, larger vegetal rosette of macromeres. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>32-cell stage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NF stage 6</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000016</oboInOwl:id>
         <rdfs:label>NF stage 6 (32-cell)</rdfs:label>
@@ -65598,8 +65603,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 7, corresponding to an embryo of age 4 hours at 22-24 Celsius. Part of the blastula stage. External landmarks: 128-512 cells; 7th-9th cleavages, no longer possible to count cells reliably; size of animal cells used to distinguish embryo stage. Internal landmarks: clear delineation of the three primary germ layer tissues; notochord begins to form from mediolateral convergence of dorsal presumptive axial mesoderm under the neural ectoderm. Length 1.4-1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>early blastula stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>early blastula stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000017</oboInOwl:id>
         <rdfs:label>NF stage 7</rdfs:label>
     </owl:Class>
@@ -65630,8 +65635,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 8, corresponding to an embryo of age 5 hours at 22-24 Celsius. Part of the blastula stage. External landmarks: ~1000-4000 cells; 10-12+ cleavages; cell number no longer a stage guide; animal hemisphere with small dark pigmented cells referred to as &quot;animal cap&quot;; animal surface looks &quot;pebbly&quot;. Internal landmarks: at NF stage 8.5, after 12th cell divisions the mid-blastula transition (MBT) occurs; asynchronous internal cell division; zygotic genome activation. Length 1.4-1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>middle blastula stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>middle blastula stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000018</oboInOwl:id>
         <rdfs:label>NF stage 8</rdfs:label>
     </owl:Class>
@@ -65662,8 +65667,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 9, corresponding to an embryo of age 7 hours at 22-24 Celsius. Part of the blastula stage. External landmarks: animal hemisphere still darkly pigmented; animal surface more like &quot;grains of sand&quot; than &quot;pebbles&quot; of NF stage 8. Internal landmarks: blastocoel now maximum size; three germ layers becoming distinct; ectoderm in the animal 1/3 of the embryo, a ring of mesoderm in the middle and yolky endoderm on the vegetal 1/3. Length 1.4-1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>late blastula stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>late blastula stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000019</oboInOwl:id>
         <rdfs:label>NF stage 9</rdfs:label>
     </owl:Class>
@@ -65694,8 +65699,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 10, corresponding to an embryo of age 9 hours at 22-24 Celsius. Part of the gastrulation stage. External landmarks: darker pigment from bottle cells on the dorsal vegetal surface indicate dorsal blastopore lip formation between &quot;11 and 1 o&apos;clock&quot;; blastopore groove where cells ingress is not yet visible. Internal landmarks: initial formation of Spemann Organizer at the dorsal marginal zone/upper blaspore lip. Length 1.4-1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>initial gastrula	stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>initial gastrula	stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000020</oboInOwl:id>
         <rdfs:label>NF stage 10</rdfs:label>
     </owl:Class>
@@ -65726,8 +65731,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 11, corresponding to an embryo of age 11 hours 45 minutes at 22-24 Celsius. Part of the gastrulation stage. External landmarks: pigmented blastopore lip ~ half the circumference, pigmented bottle cells extend to the ventral side; yolk plug ~1/2 diameter of embryo, is slightly elongated in the dorsal-ventral direction. Internal landmarks: Brachet&apos;s cleft begins to open forming the archenteron; ectoderm, mesoderm and endoderm germ layers specified; blastocoel becoming smaller, mesodermal mantle undergoes convergent extension and endoderm is internalized. Length 1.4-1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>horse-shoe shaped blastopore stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>horse-shoe shaped blastopore stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000021</oboInOwl:id>
         <rdfs:label>NF stage 11</rdfs:label>
     </owl:Class>
@@ -65764,8 +65769,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 12, corresponding to an embryo of age 13 hours 15 minutes at 22-24 Celsius. Part of the gastrulation and neurulation stages. External landmarks: areas of light and dark pigment radiating from the yolk plug (flower petal-like); yolk plug small and circular, a little less than 1/4 of egg diameter, diameter decreasing; neurectoderm transforming into the discernible neural plate. Internal landmarks: blastocoel begining to close as the archenteron expands. Length 1.4-1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>medium yolk plug stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>medium yolk plug stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000022</oboInOwl:id>
         <rdfs:label>NF stage 12</rdfs:label>
     </owl:Class>
@@ -65795,16 +65800,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 13, corresponding to an embryo of age 14 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Slit-blastopore stage. Neural plate faintly delimited; slight elevation of its rostral part and slight flattening of its caudal part. Caudal part of median groove formed. Length: 1.5 - 1.6 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 13, corresponding to an embryo of age 14 hours 45 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: blastopore completely closed to a &quot;slit&quot;; neural plate on dorsal side clearly outlined. Internal landmarks: neural crest form at the neural plate border, i.e. the boundary between the neural and non-neural ectoderm. Length 1.5-1.6 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>slit blastopore stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000023</oboInOwl:id>
         <rdfs:label>NF stage 13</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000023"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 13, corresponding to an embryo of age 14 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Slit-blastopore stage. Neural plate faintly delimited; slight elevation of its rostral part and slight flattening of its caudal part. Caudal part of median groove formed. Length: 1.5 - 1.6 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 13, corresponding to an embryo of age 14 hours 45 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: blastopore completely closed to a &quot;slit&quot;; neural plate on dorsal side clearly outlined. Internal landmarks: neural crest form at the neural plate border, i.e. the boundary between the neural and non-neural ectoderm. Length 1.5-1.6 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65822,19 +65829,21 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#preceded_by"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000023"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000096"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 14, corresponding to an embryo of age 16 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Neural plate stage. Cerebral part of neural plate bent downwards, with median elevation at rostral end of median groove. Initial elevation of neural folds, most pronounced in future nucal region. Blastopore always slit-shaped. Length: 1.5 - 1.6 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 14, corresponding to an embryo of age 16 hours 15 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: neural plate obvious; dorsal midline thin with neural folds thickening anteriorly and laterally; neural folds begin to elevate; convergent extension begins to narrow neural plate posteriorly. Internal landmarks: blastocoel continues to close in the ventral foregut region as archenteron expands on the internal dorsal side. Length 1.5-1.6 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>neural plate stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000024</oboInOwl:id>
         <rdfs:label>NF stage 14</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000024"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 14, corresponding to an embryo of age 16 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Neural plate stage. Cerebral part of neural plate bent downwards, with median elevation at rostral end of median groove. Initial elevation of neural folds, most pronounced in future nucal region. Blastopore always slit-shaped. Length: 1.5 - 1.6 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 14, corresponding to an embryo of age 16 hours 15 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: neural plate obvious; dorsal midline thin with neural folds thickening anteriorly and laterally; neural folds begin to elevate; convergent extension begins to narrow neural plate posteriorly. Internal landmarks: blastocoel continues to close in the ventral foregut region as archenteron expands on the internal dorsal side. Length 1.5-1.6 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65855,16 +65864,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 15, corresponding to an embryo of age 17 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Early neural fold stage. Presumptive cement gland faintly circumscribed. Anterior part of neural plate roundish. Neural folds distinct, except medio-rostrally; initial formation of sharp inner ridges on neural folds in rhombencephalic region. Length: 1.5 - 1.6 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 15, corresponding to an embryo of age 17 hours 30 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: neural folds distinct; anterior neural fold round; demarcation of neural plate clear caudally, narrowing in middle and caudal regions; neural groove deepens; pigmented cement gland primordium faintly visible at the ventral-anterior border of neural plate, cells stand out from epithelial layer. Internal landmarks: physical segregation of cranial neural crest from anterior (pre-chordal) neural plate; blastocoel closes in the ventral foregut. Length 1.5-1.6 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>early neural fold stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000025</oboInOwl:id>
         <rdfs:label>NF stage 15</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000025"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 15, corresponding to an embryo of age 17 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Early neural fold stage. Presumptive cement gland faintly circumscribed. Anterior part of neural plate roundish. Neural folds distinct, except medio-rostrally; initial formation of sharp inner ridges on neural folds in rhombencephalic region. Length: 1.5 - 1.6 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 15, corresponding to an embryo of age 17 hours 30 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: neural folds distinct; anterior neural fold round; demarcation of neural plate clear caudally, narrowing in middle and caudal regions; neural groove deepens; pigmented cement gland primordium faintly visible at the ventral-anterior border of neural plate, cells stand out from epithelial layer. Internal landmarks: physical segregation of cranial neural crest from anterior (pre-chordal) neural plate; blastocoel closes in the ventral foregut. Length 1.5-1.6 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66012,8 +66023,8 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 10.25, corresponding to an embryo of age 10 hours at 22-24 Celsius. Part of the gastrulation stage. External landmarks: blastopore lip extends laterally ~1/4 around the circumference, from ~ &quot;10 to 2 o&apos;clock&quot;; indentation of blastopore visible as a groove. Internal landmarks: marginal zone involutes on dorsal side; internally, dorsal endomesoderm begins to migrate anteriorly along bastocoel surface; vegetal rotation of endoderm mass. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>NF stage 10+</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>early gastrula stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>early gastrula stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000030</oboInOwl:id>
         <rdfs:label>NF stage 10.25</rdfs:label>
     </owl:Class>
@@ -66044,8 +66055,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 10.5, corresponding to an embryo of age 11 hours at 22-24 Celsius. Part of the gastrulation stage. External landmarks: arch of pigmented blastpore lip extends laterally from doral to lateral sides ~1/4 to 1/2 around the circumference; yolk plug almost round. Internal landmarks: medial-lateral intercalation of dorsal mesoderm; Brachet&apos;s cleft forms between internal leading edge endomesoderm and the dorsal mesoderm; neural induction begins, dorsal-ventral patterning. Length 1.4-1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>crescent-shaped blastopore stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>crescent-shaped blastopore stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000031</oboInOwl:id>
         <rdfs:label>NF stage 10.5</rdfs:label>
     </owl:Class>
@@ -66076,8 +66087,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 11.5, corresponding to an embryo of age 12 hours 30 minutes at 22-24 Celsius. Part of the gastrulation stage. External landmarks: blastopore lip extends all the way around yolk plug; lower/ventral blastopore lip more darkly pigmented; yolk plug not quite round, ~1/3 of embryo diameter elongated in the dorsal-ventral direction. Internal landmarks: blastocoel displaced to the ventral side; involuting &quot;endomesoderm&quot; mantle continues to extent anteriorly. Length 1.4-1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>large yolk plug stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>large yolk plug stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000032</oboInOwl:id>
         <rdfs:label>NF stage 11.5</rdfs:label>
     </owl:Class>
@@ -66103,13 +66114,19 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#preceded_by"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Nieuwkoop and Faber stage 12.5, corresponding to an embryo of age 14 hours 15 minutes at 22-24 Celsius. Part of the gastrulation and neurulation stages. External landmarks: darker pigment lines on dorsal surface indicate future neural groove and neural plate; blastopore slit is slightly open, diameter decreasing and oval shaped. Internal landmarks: clear delineation of the three primary germ layer tissues; notochord forms from mediolateral convergence of dorsal axial mesoderm under the neural ectoderm. Length 1.4-1.5 mm.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>small yolk plug stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>small yolk plug stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000033</oboInOwl:id>
         <rdfs:label>NF stage 12.5</rdfs:label>
     </owl:Class>
@@ -67879,6 +67896,37 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Xenopus developmental stage that succeeds the embryonic stage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>XAO:EJS</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_1000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_1000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_1000094"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#preceded_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 13.5. Part of the neurulation stage. External landmarks: sharp demarcation of anterior neural plate; anterior aspect of neural plate bent down; yolk plug internalized. Length 1.5-1.6 mm.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>initial neural plate stage</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>XAO:1000096</oboInOwl:id>
+        <rdfs:label>NF stage 13.5</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000096"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 13.5. Part of the neurulation stage. External landmarks: sharp demarcation of anterior neural plate; anterior aspect of neural plate bent down; yolk plug internalized. Length 1.5-1.6 mm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5495-4588</oboInOwl:hasDbXref>
     </owl:Axiom>
     <rdf:Description>
         <xao:PLURAL></xao:PLURAL>
