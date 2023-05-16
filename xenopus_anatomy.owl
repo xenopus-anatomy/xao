@@ -65896,16 +65896,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 16, corresponding to an embryo of age 18 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Mid neural fold stage. Anterior part of neural plate rectangular; darkly pigmented eye anlagen present; neural plate sharply constricted in the middle. Inner ridges on neural folds forming angle of about 90 degrees with neural plate in rhombencephalic region. Length: 1.5 - 1.6 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 16, corresponding to an embryo of age 18 hours 15 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: eye primordia become discernable as indentations near the lateral edges of the anterior neural plate; anterior neural plate &quot;rectangular&quot; in shape; neural plate sharply constricted in the middle. Internal landmarks: right and left cardiac mesoderm migrates to anterior-ventral midline; foregut diverticulum forms. Length 1.5-1.6 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>mid-neural fold stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000026</oboInOwl:id>
         <rdfs:label>NF stage 16</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000026"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 16, corresponding to an embryo of age 18 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Mid neural fold stage. Anterior part of neural plate rectangular; darkly pigmented eye anlagen present; neural plate sharply constricted in the middle. Inner ridges on neural folds forming angle of about 90 degrees with neural plate in rhombencephalic region. Length: 1.5 - 1.6 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 16, corresponding to an embryo of age 18 hours 15 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: eye primordia become discernable as indentations near the lateral edges of the anterior neural plate; anterior neural plate &quot;rectangular&quot; in shape; neural plate sharply constricted in the middle. Internal landmarks: right and left cardiac mesoderm migrates to anterior-ventral midline; foregut diverticulum forms. Length 1.5-1.6 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65926,16 +65928,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 17, corresponding to an embryo of age 18 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Late neural fold stage. Anterior part of neural plate oblong triangular, angles formed by eye anlagen. Neural folds approaching each other from blastopore up to anterior trunk region. Length: 1.5 - 1.6 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 17, corresponding to an embryo of age 18 hours 45 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: anterior neural plate oblong, triangular, angles formed by eye primordia; clear neurenteric canal along midline, posterior end of which continues over closed blastopore slit; neural folds closing in trunk region. Internal landmarks: delineation of cranial neural crest lateral to the anterior neural plate; first indication of somite segregation from presomitic mesoderm. Length 1.5-1.6 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>late neural fold stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000027</oboInOwl:id>
         <rdfs:label>NF stage 17</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000027"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 17, corresponding to an embryo of age 18 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Late neural fold stage. Anterior part of neural plate oblong triangular, angles formed by eye anlagen. Neural folds approaching each other from blastopore up to anterior trunk region. Length: 1.5 - 1.6 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 17, corresponding to an embryo of age 18 hours 45 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: anterior neural plate oblong, triangular, angles formed by eye primordia; clear neurenteric canal along midline, posterior end of which continues over closed blastopore slit; neural folds closing in trunk region. Internal landmarks: delineation of cranial neural crest lateral to the anterior neural plate; first indication of somite segregation from presomitic mesoderm. Length 1.5-1.6 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66156,16 +66160,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 18, corresponding to an embryo of age 19 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Neural groove stage. Anterior part of neural plate narrow, more or less club-shaped, often narrower towards rostral end. Parallel neural folds in trunk region very close to each other, not yet touching. Length: 1.5 - 1.6 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 18, corresponding to an embryo of age 19 hours 45 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: anterior part of neural plate narrow, club shaped; parallel neural folds very close but not touching. Internal landmarks: neural crest segregation begins; 3-4 anterior somites segregate from paraxial mesoderm. Length 1.5-1.6 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>neural groove stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000034</oboInOwl:id>
         <rdfs:label>NF stage 18</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000034"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 18, corresponding to an embryo of age 19 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Neural groove stage. Anterior part of neural plate narrow, more or less club-shaped, often narrower towards rostral end. Parallel neural folds in trunk region very close to each other, not yet touching. Length: 1.5 - 1.6 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 18, corresponding to an embryo of age 19 hours 45 minutes at 22-24 Celsius. Part of the neurulation stage. External landmarks: anterior part of neural plate narrow, club shaped; parallel neural folds very close but not touching. Internal landmarks: neural crest segregation begins; 3-4 anterior somites segregate from paraxial mesoderm. Length 1.5-1.6 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66186,16 +66192,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 19, corresponding to an embryo of age 20 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Initial neural tube stage. Neural folds touching each other, except for inconstant openings at anterior and posterior end and behind nucal region. Considerable lateral extension of brain. Lateral outline of embryo still convex. Length: 1.5 - 1.6 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 19, corresponding to an embryo of age 20 hours 45 minutes at 22-24 Celsius. Part of the neurulation and early organogenesis stages. External landmarks: neural folds mostly closed forming a neural tube, except for an open slit in the anterior neural plate; neurenteric canal deepening; dark pigmented cement gland primordium immediately ventral to anterior neural plate; lateral view of embryo convex oval, not elongated. Internal landmarks: migration of 4 neural crest streams begins; 4-6 anterior somites segregated. Length 1.5-1.6 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>initial neural tube stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000035</oboInOwl:id>
         <rdfs:label>NF stage 19</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000035"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 19, corresponding to an embryo of age 20 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Initial neural tube stage. Neural folds touching each other, except for inconstant openings at anterior and posterior end and behind nucal region. Considerable lateral extension of brain. Lateral outline of embryo still convex. Length: 1.5 - 1.6 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 19, corresponding to an embryo of age 20 hours 45 minutes at 22-24 Celsius. Part of the neurulation and early organogenesis stages. External landmarks: neural folds mostly closed forming a neural tube, except for an open slit in the anterior neural plate; neurenteric canal deepening; dark pigmented cement gland primordium immediately ventral to anterior neural plate; lateral view of embryo convex oval, not elongated. Internal landmarks: migration of 4 neural crest streams begins; 4-6 anterior somites segregated. Length 1.5-1.6 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66216,16 +66224,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 20, corresponding to an embryo of age 21 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Neural folds fused, suture still present. The two eye anlagen showing through dumb-bell-shaped, eyes hardly protruding. Beginning of stretching of embryos. Lateral outline flat. Length: 1.7 - 1.8 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 20, corresponding to an embryo of age 21 hours 45 minutes at 22-24 Celsius. Part of the neurulation and early organogenesis stages. External landmarks: neural tube fused anteriorly; no pharyngeal bulge visible; dark oval cement gland primordium below border of anterior neural plate; embryo starts to elongate; optic cup (eye primordium) forms; oral evagination (mouth) visible. Internal landmarks: neural crest extends to front to eye; paired glomus primordia present; anterior 6-7 somites; thickening of cardiac mesoderm. Length 1.7-1.8 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>fused neural tube stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000036</oboInOwl:id>
         <rdfs:label>NF stage 20</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000036"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 20, corresponding to an embryo of age 21 hr 45 min at 22-24 Celsius and having the following external morphological criteria: Neural folds fused, suture still present. The two eye anlagen showing through dumb-bell-shaped, eyes hardly protruding. Beginning of stretching of embryos. Lateral outline flat. Length: 1.7 - 1.8 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 20, corresponding to an embryo of age 21 hours 45 minutes at 22-24 Celsius. Part of the neurulation and early organogenesis stages. External landmarks: neural tube fused anteriorly; no pharyngeal bulge visible; dark oval cement gland primordium below border of anterior neural plate; embryo starts to elongate; optic cup (eye primordium) forms; oral evagination (mouth) visible. Internal landmarks: neural crest extends to front to eye; paired glomus primordia present; anterior 6-7 somites; thickening of cardiac mesoderm. Length 1.7-1.8 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
