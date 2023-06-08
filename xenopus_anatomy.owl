@@ -65181,8 +65181,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_1000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_1000007"/>
         <obo:IAO_0000115>Tailbud stage that refers to the earlier events associated with this stage, comprising Nieuwkoop and Faber stages 22 to 28.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>early tailbud</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>early tailbud</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000002</oboInOwl:id>
         <rdfs:label>early tailbud stage</rdfs:label>
     </owl:Class>
@@ -65190,7 +65190,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Tailbud stage that refers to the earlier events associated with this stage, comprising Nieuwkoop and Faber stages 22 to 28.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Bgee:curator</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -65338,10 +65337,10 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>The post-embryonic Xenopus developmental stage from feeding to the end of metamorphosis, encompassing Weisz&apos;s first-form tadpole (equivalent to Nieuwkoop and Faber 45 to 49), second-form tadpole (NF 49 to 56) and third-form tadpole (NF 56 to 60-plus) stages.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0009849</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>tadpole</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>larva</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>larval stage</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>tadpole</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000008</oboInOwl:id>
         <rdfs:label>tadpole stage</rdfs:label>
     </owl:Class>
@@ -65379,8 +65378,8 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Xenopus developmental stage that corresponds to a sexually immature post-tadpole animal.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000112</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>juvenile frog</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>juvenile frog</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000010</oboInOwl:id>
         <rdfs:label>juvenile frog stage</rdfs:label>
     </owl:Class>
@@ -66256,16 +66255,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 21, corresponding to an embryo of age 22 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Suture of neural tube completely closed. Delimitation of frontal field by pigment lines. Primary eye vesicles showing through in the form of two separate, obliquely placed oval spots; beginning of protrusion of eyes. Lateral outline of embryo just becoming concave, ventral outline flat. Length: 1.9 - 2.0 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 21, corresponding to an embryo of age 22 hours 30 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: embryo has a dorsal curvature, with flat ventral surface; one pharyngeal arch bulge; neural tube completely closed; optic vesicle (&quot;eyes&quot;) begin protuding, forming 2 oblique &quot;oval spots&quot;; multiciliated cells form on the surface of the epidermis. Internal landmarks: 8-9 somites; first indication of pronephric mesenchyme; otic placodes form posterior to optic vesicle. Length 1.9-2.0 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>neural tube stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000037</oboInOwl:id>
         <rdfs:label>NF stage 21</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000037"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 21, corresponding to an embryo of age 22 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Suture of neural tube completely closed. Delimitation of frontal field by pigment lines. Primary eye vesicles showing through in the form of two separate, obliquely placed oval spots; beginning of protrusion of eyes. Lateral outline of embryo just becoming concave, ventral outline flat. Length: 1.9 - 2.0 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 21, corresponding to an embryo of age 22 hours 30 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: embryo has a dorsal curvature, with flat ventral surface; one pharyngeal arch bulge; neural tube completely closed; optic vesicle (&quot;eyes&quot;) begin protuding, forming 2 oblique &quot;oval spots&quot;; multiciliated cells form on the surface of the epidermis. Internal landmarks: 8-9 somites; first indication of pronephric mesenchyme; otic placodes form posterior to optic vesicle. Length 1.9-2.0 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66286,7 +66287,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 22, corresponding to an embryo of age 24 hr at 22-24 Celsius and having the following external morphological criteria: Distinct protrusion of eyes. Initial groove between jaw- and gill-areas only at latero-dorsal side. Lateral and ventral outlines of embryo slightly concave. Anal opening displaced to ventral side. Vitelline membrane becoming wider. Length: 2.0 - 2.2 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 22, corresponding to an embryo of age 24 hours at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: embryo begins to elongate (convergent extension); ventral surface slightly concaved; two pharyngeal arch bulges; distinct eye protrusion; anal opening displaced to ventral side. Internal landmarks: 9-10 somites; ventral blood island forms; segregation of forebrain, midbrain and hindbrain. Length 2.0-2.2 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000038</oboInOwl:id>
         <rdfs:label>NF stage 22</rdfs:label>
@@ -66294,8 +66295,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 22, corresponding to an embryo of age 24 hr at 22-24 Celsius and having the following external morphological criteria: Distinct protrusion of eyes. Initial groove between jaw- and gill-areas only at latero-dorsal side. Lateral and ventral outlines of embryo slightly concave. Anal opening displaced to ventral side. Vitelline membrane becoming wider. Length: 2.0 - 2.2 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 22, corresponding to an embryo of age 24 hours at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: embryo begins to elongate (convergent extension); ventral surface slightly concaved; two pharyngeal arch bulges; distinct eye protrusion; anal opening displaced to ventral side. Internal landmarks: 9-10 somites; ventral blood island forms; segregation of forebrain, midbrain and hindbrain. Length 2.0-2.2 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66316,7 +66318,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 23, corresponding to an embryo of age 1 day, 45 min at 22-24 Celsius and having the following external morphological criteria: Jaw- and gill-areas completely separated by groove. Ventral outline of embryo more concave. Length: 2.2 - 2.4 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 23, corresponding to an embryo of age 1 day 45 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: ventral surface concave giving embryo a &quot;coffee bean&quot; look; two pharyngeal arch bulges; olfactory placodes thicken between eyes; slight depression of otic placode; jaw and gills separated by groove; &quot;inverted Y shaped&quot; hatching gland between eyes to cement gland. Internal landmarks: 12 somites; forebrain regions telencephalon and diencephalon distinguishable. Length 2.2-2.4 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000039</oboInOwl:id>
         <rdfs:label>NF stage 23</rdfs:label>
@@ -66324,8 +66326,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 23, corresponding to an embryo of age 1 day, 45 min at 22-24 Celsius and having the following external morphological criteria: Jaw- and gill-areas completely separated by groove. Ventral outline of embryo more concave. Length: 2.2 - 2.4 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 23, corresponding to an embryo of age 1 day 45 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: ventral surface concave giving embryo a &quot;coffee bean&quot; look; two pharyngeal arch bulges; olfactory placodes thicken between eyes; slight depression of otic placode; jaw and gills separated by groove; &quot;inverted Y shaped&quot; hatching gland between eyes to cement gland. Internal landmarks: 12 somites; forebrain regions telencephalon and diencephalon distinguishable. Length 2.2-2.4 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67511,8 +67514,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Tadpole stage during which toe differentiation and rapid hindlimb growth continue, followed by tail resorption; comprising Nieuwkoop and Faber stages 54 to 66.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>metamorphosing tadpole</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>metamorphosing tadpole</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000079</oboInOwl:id>
         <rdfs:label>metamorphosing tadpole stage</rdfs:label>
     </owl:Class>
@@ -67520,7 +67523,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000079"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Tadpole stage during which toe differentiation and rapid hindlimb growth continue, followed by tail resorption; comprising Nieuwkoop and Faber stages 54 to 66.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Bgee:curator</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -67537,8 +67539,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Tailbud stage that refers to the later events associated with this stage, comprising Nieuwkoop and Faber stages 29/30 to 44.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>late tailbud</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>late tailbud</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000080</oboInOwl:id>
         <rdfs:label>late tailbud stage</rdfs:label>
     </owl:Class>
@@ -67546,7 +67548,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000080"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Tailbud stage that refers to the later events associated with this stage, comprising Nieuwkoop and Faber stages 29/30 to 44.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Bgee:curator</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -67575,8 +67576,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_1000082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_1000000"/>
         <obo:IAO_0000115>Any of the stages of the developing or mature Xenopus female gamete.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>unfertilized egg</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>unfertilized egg</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000082</oboInOwl:id>
         <rdfs:label>unfertilized egg stage</rdfs:label>
     </owl:Class>
@@ -67750,8 +67751,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Tadpole stage during which limb bud growth occurs, comprising Nieuwkoop and Faber stages 45 to 54.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>premetamorphosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>premetamorphosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000089</oboInOwl:id>
         <rdfs:label>premetamorphosis stage</rdfs:label>
     </owl:Class>
@@ -67769,8 +67770,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_1000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_1000079"/>
         <obo:IAO_0000115>Metamorphosing tadpole stage during which toe differentiation and rapid hindlimb growth continue, comprising Nieuwkoop and Faber stages 55 to 57.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>prometamorphosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>prometamorphosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000090</oboInOwl:id>
         <rdfs:label>prometamorphosis stage</rdfs:label>
     </owl:Class>
@@ -67794,8 +67795,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Metamorphosing tadpole stage during which tail resorption occurs, comprising Nieuwkoop and Faber stages 58 to 66.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>climax</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>climax</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000091</oboInOwl:id>
         <rdfs:label>climax stage</rdfs:label>
     </owl:Class>
@@ -67848,8 +67849,8 @@
         <obo:IAO_0000115>Xenopus developmental stage that corresponds to a fully formed, mature animal.</obo:IAO_0000115>
         <oboInOwl:created_by>lab</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-09-19T01:53:23Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym>adult frog</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>adult frog</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000093</oboInOwl:id>
         <rdfs:label>adult frog stage</rdfs:label>
     </owl:Class>
