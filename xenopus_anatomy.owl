@@ -66349,7 +66349,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 24, corresponding to an embryo of age 1 day, 2 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Eyes protruding less far laterally than gill-area. Gill-area more prominent than jaw-area, gill-area not yet grooved. Ventral outline of embryo nicked. Tail bud discernible. Initial motor reactions to external stimulation. Length: 2.5 - 2.7 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 24, corresponding to an embryo of age 1 day, 2 hours 15 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: noticeable elongation of the embryo and tail bud outgrowth; in dorsal view, eyes protruding out laterally less than gills; gill primordium area smooth (ungrooved). Internal landmarks: 15 somites; primary germ cells detectable in cell trunk endoderm; primary and secondary heart fields indicated in heart primordium. Initial motor reactions to external stimuli. Length 2.2-2.4 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000040</oboInOwl:id>
         <rdfs:label>NF stage 24</rdfs:label>
@@ -66357,8 +66357,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000040"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 24, corresponding to an embryo of age 1 day, 2 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Eyes protruding less far laterally than gill-area. Gill-area more prominent than jaw-area, gill-area not yet grooved. Ventral outline of embryo nicked. Tail bud discernible. Initial motor reactions to external stimulation. Length: 2.5 - 2.7 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 24, corresponding to an embryo of age 1 day, 2 hours 15 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: noticeable elongation of the embryo and tail bud outgrowth; in dorsal view, eyes protruding out laterally less than gills; gill primordium area smooth (ungrooved). Internal landmarks: 15 somites; primary germ cells detectable in cell trunk endoderm; primary and secondary heart fields indicated in heart primordium. Initial motor reactions to external stimuli. Length 2.2-2.4 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66379,7 +66380,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 25, corresponding to an embryo of age 1 day, 3 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Eyes protruding equally far or further laterally than gill-area. Gill-area grooved. Invagination of otic vesicle indicated by pigment spot. Beginning of fin formation. Length: 2.8 - 3.0 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 25, corresponding to an embryo of age 1 day, 3 hours 30 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: embryo still convex dorsally and concave ventrally; eyes protruding out laterally equal to or more than gills, gills now grooved; otic vesicle pigmented. Internal landmarks: 16 somites; head somite 1 diminished; brain flexure ~90°. Multi-cilliated cells in the epidermis become active. Length 2.8-3.0 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000041</oboInOwl:id>
         <rdfs:label>NF stage 25</rdfs:label>
@@ -66387,8 +66388,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000041"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 25, corresponding to an embryo of age 1 day, 3 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Eyes protruding equally far or further laterally than gill-area. Gill-area grooved. Invagination of otic vesicle indicated by pigment spot. Beginning of fin formation. Length: 2.8 - 3.0 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 25, corresponding to an embryo of age 1 day, 3 hours 30 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: embryo still convex dorsally and concave ventrally; eyes protruding out laterally equal to or more than gills, gills now grooved; otic vesicle pigmented. Internal landmarks: 16 somites; head somite 1 diminished; brain flexure ~90°. Multi-cilliated cells in the epidermis become active. Length 2.8-3.0 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66409,7 +66411,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 26, corresponding to an embryo of age 1 day, 5 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Otic vesicle protruding. Pronephros distinctly visible. Myotomes showing through for the first time. Fin somewhat broadened at dorso-caudal end of body. Beginning of spontaneous movements. Length: 3.0 - 3.3 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 26, corresponding to an embryo of age 1 day, 5 hours 30 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: if liberated from the vitelline membrane the embryo is straight, not convex dorsally; if the embryo remains in the vitelline membrane it is curved laterally; tail bud obvious; otic (ear) vesicle protruding. Internal landmarks: 17 somites; head somite I disintegrated; pronephros distinct; myotomes distinct. Spontaneous movements begin. Length 3.0-3.3 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000042</oboInOwl:id>
         <rdfs:label>NF stage 26</rdfs:label>
@@ -66417,8 +66419,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000042"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 26, corresponding to an embryo of age 1 day, 5 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Otic vesicle protruding. Pronephros distinctly visible. Myotomes showing through for the first time. Fin somewhat broadened at dorso-caudal end of body. Beginning of spontaneous movements. Length: 3.0 - 3.3 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 26, corresponding to an embryo of age 1 day, 5 hours 30 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: if liberated from the vitelline membrane the embryo is straight, not convex dorsally; if the embryo remains in the vitelline membrane it is curved laterally; tail bud obvious; otic (ear) vesicle protruding. Internal landmarks: 17 somites; head somite I disintegrated; pronephros distinct; myotomes distinct. Spontaneous movements begin. Length 3.0-3.3 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66439,7 +66442,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 27, corresponding to an embryo of age 1 day, 7 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Lateral flattening of eyes. Fin transluscent, except for region behind anus. Tail bud formation accentuated in lateral outline. Length: 3.4 - 3.7 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 27, corresponding to an embryo of age 1 day, 7 hours 15 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: tail bud defined in lateral view; fin translucent; lens begins to form, eyes flatten laterally; otic vesicle closes. Internal landmarks: heart fields merge forming a triangular shape at ventral midline, behind the cement gland primordium and anterior to liver diverticulum; 19 somites. Length 3.4-3.7 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000043</oboInOwl:id>
         <rdfs:label>NF stage 27</rdfs:label>
@@ -66447,8 +66450,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000043"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 27, corresponding to an embryo of age 1 day, 7 hr 15 min at 22-24 Celsius and having the following external morphological criteria: Lateral flattening of eyes. Fin transluscent, except for region behind anus. Tail bud formation accentuated in lateral outline. Length: 3.4 - 3.7 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 27, corresponding to an embryo of age 1 day, 7 hours 15 minutes at 22-24 Celsius. Part of the early organogenesis stage. External landmarks: tail bud defined in lateral view; fin translucent; lens begins to form, eyes flatten laterally; otic vesicle closes. Internal landmarks: heart fields merge forming a triangular shape at ventral midline, behind the cement gland primordium and anterior to liver diverticulum; 19 somites. Length 3.4-3.7 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
