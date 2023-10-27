@@ -6,7 +6,7 @@ subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
 subsetdef: organism_views "Organism View slim"
 subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
-synonymtypedef: PLURAL "PLURAL"
+synonymtypedef: OMO:0003004 "plural form"
 default-namespace: xenopus_anatomy
 namespace-id-rule: * XAO:$sequence(7,5000,9999999)$
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:8353
