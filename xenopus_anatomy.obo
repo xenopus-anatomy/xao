@@ -329,7 +329,7 @@ relationship: start_stage XAO:1000025 ! NF stage 15
 id: XAO:0000027
 name: cranial ganglion
 def: "Ganglion that is located in the head." [XAO:EJS, ZFA:0000013]
-synonym: "cranial ganglia" RELATED PLURAL []
+synonym: "cranial ganglia" RELATED OMO:0003004 []
 xref: UBERON:0001714
 is_a: XAO:0000209 ! ganglion
 relationship: develops_from XAO:0000270 ! sensorial layer of neurectoderm
@@ -676,7 +676,7 @@ id: XAO:0000058
 name: somite
 def: "Any of the approximately 45 bilaterally paired blocks of mesoderm cells, lying on either side of the notochord and neural tube, and forming sequentially starting at the head during development of the embryo. Together they give rise to the axial skeleton (from the sclerotome), associated musculature (from the myotome), and dermis (from the dermatome)." [http://dictionary.reference.com/medical/somite, XAO:curators]
 subset: frequent_anatomy_items
-synonym: "somites" RELATED PLURAL []
+synonym: "somites" RELATED OMO:0003004 []
 synonym: "somitic mesoderm" RELATED []
 xref: UBERON:0002329
 is_a: XAO:0003040 ! tissue
@@ -1072,7 +1072,7 @@ id: XAO:0000096
 name: pharyngeal arch
 def: "One of a series of bony or cartilaginous arches that develop in the walls of the mouth cavity and pharynx of the embryo." [http://www.merriam-webster.com/medlineplus/branchial+arch]
 subset: frequent_anatomy_items
-synonym: "pharyngeal arches" RELATED PLURAL []
+synonym: "pharyngeal arches" RELATED OMO:0003004 []
 synonym: "visceral arch" RELATED []
 xref: UBERON:0002539
 is_a: XAO:0003037 ! multi-tissue structure
@@ -1108,7 +1108,7 @@ relationship: start_stage XAO:1000040 ! NF stage 24
 id: XAO:0000099
 name: branchial arch
 def: "Structures that develop from the pharyngeal arches. Pharyngeal arches are anlage for a multitude of structures. Each pharyngeal arch has a cartilaginous stick, a muscle component which differentiates from the cartilaginous tissue, an artery, and a cranial nerve. Each of these is surrounded by mesenchyme. Arches do not develop simultaneously, but instead possess a staggered development." [ISBN:0023771100]
-synonym: "branchial arches" RELATED PLURAL []
+synonym: "branchial arches" RELATED OMO:0003004 []
 xref: UBERON:0008896
 is_a: XAO:0000096 ! pharyngeal arch
 relationship: end_stage XAO:0000437 ! death
@@ -1244,9 +1244,9 @@ relationship: start_stage XAO:1000037 ! NF stage 21
 id: XAO:0000111
 name: germ cell
 def: "A cell that is within the developmental lineage of gametes and is able to pass along its genetic material to offspring." [XAO:curators]
-synonym: "germ cells" EXACT PLURAL []
+synonym: "germ cells" EXACT OMO:0003004 []
 synonym: "germ line cell" RELATED []
-synonym: "germ line cells" RELATED PLURAL []
+synonym: "germ line cells" RELATED OMO:0003004 []
 xref: CL:0000586
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
@@ -1688,7 +1688,7 @@ relationship: start_stage XAO:1000067 ! NF stage 55
 id: XAO:0000155
 name: male genitalia
 def: "Anatomical system comprising the organs of the male reproductive system." [http://www.merriam-webster.com/medlineplus/genitalia]
-synonym: "male genitals" RELATED PLURAL []
+synonym: "male genitals" RELATED OMO:0003004 []
 xref: UBERON:0000079
 is_a: XAO:0000142 ! genital system
 relationship: end_stage XAO:0000437 ! death
@@ -1699,7 +1699,7 @@ relationship: start_stage XAO:1000064 ! NF stage 52
 id: XAO:0000156
 name: female genitalia
 def: "Anatomical system comprising the organs of the female reproductive system." [http://www.merriam-webster.com/medlineplus/genitalia]
-synonym: "female genitals" RELATED PLURAL []
+synonym: "female genitals" RELATED OMO:0003004 []
 xref: UBERON:0000474
 is_a: XAO:0000142 ! genital system
 relationship: end_stage XAO:0000437 ! death
@@ -1710,7 +1710,7 @@ relationship: start_stage XAO:1000064 ! NF stage 52
 id: XAO:0000157
 name: testis
 def: "Reproductive organ that produces and releases sperm." [XAO:curators]
-synonym: "testes" RELATED PLURAL []
+synonym: "testes" RELATED OMO:0003004 []
 xref: UBERON:0000473
 is_a: XAO:0003146 ! gonad
 relationship: end_stage XAO:0000437 ! death
@@ -1947,7 +1947,7 @@ id: XAO:0000179
 name: eye
 def: "The organ of sight (visual apparatus), almost spherical in shape. At the end of development (NF stage 66) the eyes bulge out of their orbital capsules near the lateral edge of the dorsal side of the head." [ISBN:0815318960, XAO:curators]
 subset: frequent_anatomy_items
-synonym: "eyes" RELATED PLURAL []
+synonym: "eyes" RELATED OMO:0003004 []
 xref: UBERON:0000019
 is_a: XAO:0003165 ! cavitated compound organ
 relationship: develops_from XAO:0000228 ! optic vesicle
@@ -1982,8 +1982,8 @@ relationship: start_stage XAO:1000057 ! NF stage 45
 id: XAO:0000182
 name: conjunctiva
 def: "A clear mucous membrane consisting of cells and underlying basement membrane that covers the sclera and lines the inside of the eyelids. It is made of epithelial tissue." [UBERON:0001811]
-synonym: "conjunctivae" EXACT PLURAL []
-synonym: "conjunctivas" EXACT PLURAL []
+synonym: "conjunctivae" EXACT OMO:0003004 []
+synonym: "conjunctivas" EXACT OMO:0003004 []
 xref: UBERON:0001811
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:0000437 ! death
@@ -2144,8 +2144,8 @@ relationship: start_stage XAO:1000059 ! NF stage 47
 id: XAO:0000198
 name: semicircular canal
 def: "Any of the three fluid-filled ducts that loop from the utriculus in the inner ear, and help detect movement and maintain balance." [ISBN:0070179778]
-synonym: "semicircular canals" RELATED PLURAL []
-synonym: "semicircular ducts" RELATED PLURAL []
+synonym: "semicircular canals" RELATED OMO:0003004 []
+synonym: "semicircular ducts" RELATED OMO:0003004 []
 xref: UBERON:0001840
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:0000437 ! death
@@ -2252,7 +2252,7 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 id: XAO:0000209
 name: ganglion
 def: "A cluster of nervous tissue principally composed of neuronal cell bodies external to the central nervous system (CNS)." [UBERON:0000045]
-synonym: "ganglia" RELATED PLURAL []
+synonym: "ganglia" RELATED OMO:0003004 []
 xref: UBERON:0000045
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:0000437 ! death
@@ -2264,7 +2264,7 @@ id: XAO:0000210
 name: spinal ganglion
 def: "Type of ganglion that is a condensation of sensory neurons on the dorsal root of each spinal nerve. There is one pair of spinal ganglia per myotome, with the spinal ganglia of the trunk region larger and more distinct from each other than those of the tail region." [PMID:17521450, XAO:curators]
 synonym: "dorsal root ganglion" RELATED []
-synonym: "spinal ganglia" RELATED PLURAL []
+synonym: "spinal ganglia" RELATED OMO:0003004 []
 xref: UBERON:0000044
 is_a: XAO:0000209 ! ganglion
 relationship: end_stage XAO:0000437 ! death
@@ -2336,7 +2336,7 @@ relationship: start_stage XAO:1000039 ! NF stage 23
 id: XAO:0000218
 name: appendage
 def: "An internal or external body part or prolongation that projects from, and is attached to, an organ or the main body of an organism." [XAO:curators]
-synonym: "appendages" RELATED PLURAL []
+synonym: "appendages" RELATED OMO:0003004 []
 xref: UBERON:0000026
 is_a: XAO:0003013 ! organism subdivision
 relationship: end_stage XAO:0000437 ! death
@@ -2825,7 +2825,7 @@ relationship: start_stage XAO:1000083 ! oocyte stage I
 id: XAO:0000263
 name: primary oogonium
 def: "A germ cell that is a primordial oocyte in a female and that develops into secondary oogonia by mitotic division." [XAO:EJS]
-synonym: "primary oogonia" RELATED PLURAL []
+synonym: "primary oogonia" RELATED OMO:0003004 []
 is_a: XAO:0000111 ! germ cell
 relationship: develops_from XAO:0003149 ! primordial germ cell
 relationship: end_stage XAO:0000437 ! death
@@ -2879,7 +2879,7 @@ relationship: start_stage XAO:1000045 ! NF stage 29 and 30
 id: XAO:0000268
 name: secondary oogonium
 def: "A type of germ cell that results from the mitotic division of a primary oogonium." [XAO:EJS]
-synonym: "secondary oogonia" RELATED PLURAL []
+synonym: "secondary oogonia" RELATED OMO:0003004 []
 is_a: XAO:0000111 ! germ cell
 relationship: develops_from XAO:0000263 ! primary oogonium
 relationship: end_stage XAO:0000437 ! death
@@ -2987,7 +2987,7 @@ relationship: start_stage XAO:1000026 ! NF stage 16
 id: XAO:0000277
 name: choana
 def: "The internal nasal passages, aperture or cavity in the roof of the buccopharynx." [ISBN:0226557634]
-synonym: "choanae" RELATED PLURAL []
+synonym: "choanae" RELATED OMO:0003004 []
 synonym: "internal nares" RELATED []
 synonym: "posterior nasal apperture" EXACT []
 xref: UBERON:0004771
@@ -3041,7 +3041,7 @@ relationship: start_stage XAO:1000001 ! NF stage 1
 id: XAO:0000282
 name: visceral pouch
 def: "Pharyngeal (endodermal) evaginations between the visceral arches from which the Eustachian tube is derived; pouches 2-4 open as gill slits." [ISBN:0226557634]
-synonym: "visceral pouches" RELATED PLURAL []
+synonym: "visceral pouches" RELATED OMO:0003004 []
 xref: UBERON:0004117
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000232 ! foregut
@@ -3264,7 +3264,7 @@ is_a: XAO:0003185 ! anatomical direction
 id: XAO:0000305
 name: cranial placode
 def: "A localized ectodermal thickening that develops by apicobasal elongation of cuboidal cells in the inner layer of the ectoderm in the head of the embryos, and is involved in formation of sense organs." [UBERON:0002546]
-synonym: "cranial placodes" RELATED PLURAL []
+synonym: "cranial placodes" RELATED OMO:0003004 []
 xref: UBERON:0002546
 is_a: XAO:0003042 ! embryonic structure
 relationship: develops_from XAO:0000037 ! animal cap inner layer
@@ -3355,7 +3355,7 @@ relationship: start_stage XAO:1000035 ! NF stage 19
 id: XAO:0000315
 name: myotome
 def: "Somitic compartment that is a precursor of muscle." [PMID:17313522]
-synonym: "myotomes" RELATED PLURAL []
+synonym: "myotomes" RELATED OMO:0003004 []
 xref: UBERON:0003082
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000059 ! NF stage 47
@@ -3381,7 +3381,7 @@ name: glomus
 def: "Multi-tissue structure that is the filtration unit of the pronephric kidney. A glomus is a glomerulus that spans more than one body segment. It is the vascularized filter of the pronephric kidney. Blood is filtered through the glomus and the filtrate deposited into the coelom early in development, or the nephrocoel later in development. The glomus contains podocytes with well developed foot processes that are anatomically indistinguishable from the podocytes of adult glomeruli. The two glomera are linked via a narrow bridge called the glomeral nexus." [PMID:9268568, XAO:curators]
 comment: Properly called a glomus as it extends over multiple body segments.
 synonym: "corpuscle" RELATED []
-synonym: "glomera" RELATED PLURAL []
+synonym: "glomera" RELATED OMO:0003004 []
 synonym: "glomerulus" RELATED []
 synonym: "renal corpuscle" RELATED []
 xref: UBERON:0004739
@@ -3419,7 +3419,7 @@ id: XAO:0000323
 name: profundus ganglion
 def: "Type of ganglion that is separate distally from the trigeminal ganglia; they become fused at their proximal end as they condense." [PMID:21452441]
 synonym: "cranial ganglion" RELATED []
-synonym: "profundus ganglia" RELATED PLURAL []
+synonym: "profundus ganglia" RELATED OMO:0003004 []
 is_a: XAO:0000209 ! ganglion
 relationship: develops_from XAO:0004093 ! profundal placode
 relationship: end_stage XAO:0000437 ! death
@@ -3595,7 +3595,7 @@ relationship: start_stage XAO:1000046 ! NF stage 31
 id: XAO:0000341
 name: aortic arch
 def: "One of a series of six paired embryological vascular structures that give rise to several major arteries." [UBERON:0004363]
-synonym: "aortic arches" RELATED PLURAL []
+synonym: "aortic arches" RELATED OMO:0003004 []
 xref: UBERON:0004363
 is_a: XAO:0000114 ! artery
 relationship: develops_from XAO:0000339 ! left channel of ventral aorta
@@ -3706,7 +3706,7 @@ relationship: start_stage XAO:1000049 ! NF stage 35 and 36
 id: XAO:0000356
 name: vascular endothelium
 def: "Simple squamous epithelium that lines blood and lymphatic vessels and the heart." [XAO:EJS, ZFA:0001639]
-synonym: "vascular endothelia" RELATED PLURAL []
+synonym: "vascular endothelia" RELATED OMO:0003004 []
 xref: UBERON:0004852
 is_a: XAO:0004010 ! simple squamous epithelium
 relationship: develops_from XAO:0000085 ! intermediate mesoderm
@@ -4136,7 +4136,7 @@ relationship: start_stage XAO:1000027 ! NF stage 17
 id: XAO:0000397
 name: sclerotome
 def: "Somitic compartment that is a precursor of the axial skeleton." [XAO:curators]
-synonym: "sclerotomes" RELATED PLURAL []
+synonym: "sclerotomes" RELATED OMO:0003004 []
 xref: UBERON:0003089
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:1000059 ! NF stage 47
@@ -4384,7 +4384,7 @@ relationship: start_stage XAO:1000047 ! NF stage 32
 id: XAO:0000427
 name: gasserian ganglion
 def: "Sensory ganglion of the trigeminal nerve." [http://en.wikipedia.org/wiki/Trigeminal_ganglion]
-synonym: "gasserian ganglia" RELATED PLURAL []
+synonym: "gasserian ganglia" RELATED OMO:0003004 []
 xref: UBERON:0001675
 is_a: XAO:0000209 ! ganglion
 relationship: develops_from XAO:0000225 ! trigeminal placode
@@ -4395,7 +4395,7 @@ relationship: start_stage XAO:1000040 ! NF stage 24
 id: XAO:0000428
 name: trigeminal ganglion
 def: "A prominent collection of touch-sensory neurons of the trigeminal or fifth cranial nerve, positioned beside the brain between the eye and the ear." [UBERON:0001675]
-synonym: "trigeminal ganglia" RELATED PLURAL []
+synonym: "trigeminal ganglia" RELATED OMO:0003004 []
 synonym: "trigeminus ganglion" RELATED []
 xref: UBERON:0001675
 is_a: XAO:0000209 ! ganglion
@@ -4431,7 +4431,7 @@ id: XAO:0000431
 name: tooth
 def: "Each of a set of hard, bony enamel-coated structures in the jaws, used for biting." [AEO:0000220]
 synonym: "dentition" BROAD []
-synonym: "teeth" RELATED PLURAL []
+synonym: "teeth" RELATED OMO:0003004 []
 xref: UBERON:0001091
 is_a: XAO:0004012 ! skeletal element
 relationship: develops_from XAO:0000269 ! mouth primordium
@@ -4466,7 +4466,7 @@ id: XAO:0000440
 name: lateral line placode
 def: "Thickened placodal areas located anterior and posterior to the otic vesicle. There are 5 distinct lateral line placodes, each giving rise to a single lateral line nerve that will innervate lateral line hair cells and convey information on motion to the adjacent hindbrain." [ISBN:0878933840]
 synonym: "lateral line" BROAD []
-synonym: "lateral line placodes" RELATED PLURAL []
+synonym: "lateral line placodes" RELATED OMO:0003004 []
 xref: UBERON:0009128
 is_a: XAO:0004620 ! neurogenic placode
 relationship: develops_from XAO:0004207 ! posterior placodal area
@@ -4844,7 +4844,7 @@ relationship: start_stage XAO:1000027 ! NF stage 17
 id: XAO:0001011
 name: blood vessel
 def: "Any of the vessels through which blood circulates in the body." [BTO:0001102]
-synonym: "blood vessels" RELATED PLURAL []
+synonym: "blood vessels" RELATED OMO:0003004 []
 synonym: "vasculature" RELATED []
 xref: UBERON:0001981
 is_a: XAO:0003037 ! multi-tissue structure
@@ -4869,7 +4869,7 @@ id: XAO:0001013
 name: musculature of face
 def: "Muscle tissue forming the facial muscles, a group of striated muscles innervated by the facial nerves." [XAO:curators]
 synonym: "facial muscle" EXACT []
-synonym: "facial muscles" EXACT PLURAL []
+synonym: "facial muscles" EXACT OMO:0003004 []
 xref: UBERON:0001577
 is_a: XAO:0000172 ! muscle
 relationship: end_stage XAO:0000437 ! death
@@ -4892,7 +4892,7 @@ relationship: start_stage XAO:1000048 ! NF stage 33 and 34
 id: XAO:0001015
 name: rectal diverticulum
 def: "Paired outgrowths of the cloaca that link the pronephric ducts to the exterior of the organism." [UBERON:0006172, XAO:curators]
-synonym: "rectal diverticula" RELATED PLURAL []
+synonym: "rectal diverticula" RELATED OMO:0003004 []
 xref: UBERON:0006172
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: develops_from XAO:0000244 ! cloaca
@@ -5210,7 +5210,7 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 id: XAO:0003018
 name: primary spermatogonium
 def: "A germ cell that is a primordial spermatocyte in a male and that develops into secondary spermatogonia by mitotic division." [ISSN:0289-0003]
-synonym: "primary spermatogonia" RELATED PLURAL []
+synonym: "primary spermatogonia" RELATED OMO:0003004 []
 is_a: XAO:0000111 ! germ cell
 relationship: develops_from XAO:0003149 ! primordial germ cell
 relationship: end_stage XAO:0000437 ! death
@@ -5231,7 +5231,7 @@ relationship: start_stage XAO:1000071 ! NF stage 59
 id: XAO:0003020
 name: secondary spermatogonium
 def: "A type of germ cell that results from the mitotic division of a primary spermatogonium." [ISSN:0289-0003]
-synonym: "secondary spermatogonia" RELATED PLURAL []
+synonym: "secondary spermatogonia" RELATED OMO:0003004 []
 is_a: XAO:0000111 ! germ cell
 relationship: develops_from XAO:0003018 ! primary spermatogonium
 relationship: end_stage XAO:0000437 ! death
@@ -5381,7 +5381,7 @@ relationship: start_stage XAO:1000070 ! NF stage 58
 id: XAO:0003034
 name: viscus
 def: "An internal organ of the body; especially: one (as the heart, liver, or intestine) located in the great cavity of the trunk proper." [BTO:0001491]
-synonym: "viscera" RELATED PLURAL []
+synonym: "viscera" RELATED OMO:0003004 []
 xref: UBERON:0002075
 is_a: XAO:0003160 ! anatomical cluster
 relationship: end_stage XAO:0000437 ! death
@@ -5483,7 +5483,7 @@ relationship: start_stage XAO:1000001 ! NF stage 1
 id: XAO:0003043
 name: primordium
 def: "An embryonic structure that is the rudiment or commencement of a part or organ." [UBERON:0001048]
-synonym: "primordia" RELATED PLURAL []
+synonym: "primordia" RELATED OMO:0003004 []
 xref: UBERON:0001048
 is_a: XAO:0003042 ! embryonic structure
 relationship: end_stage XAO:1000056 ! NF stage 44
@@ -5797,7 +5797,7 @@ name: cervical vertebra
 def: "The first vertebra, which arises from the trunk somites 1 and 2." [XAO:CJZ]
 synonym: "atlas vertebra" EXACT []
 synonym: "first vertebra" EXACT []
-synonym: "first vertebrae" RELATED PLURAL []
+synonym: "first vertebrae" RELATED OMO:0003004 []
 xref: UBERON:0002413
 is_a: XAO:0004019 ! vertebra
 relationship: develops_from XAO:0000406 ! trunk somite 1
@@ -5809,7 +5809,7 @@ relationship: start_stage XAO:1000057 ! NF stage 45
 id: XAO:0003077
 name: presacral vertebra
 def: "The vertebra anterior to the sacral vetebra." [XAO:CJZ]
-synonym: "presacral vertebrae" RELATED PLURAL []
+synonym: "presacral vertebrae" RELATED OMO:0003004 []
 xref: UBERON:0004451
 is_a: XAO:0004019 ! vertebra
 relationship: end_stage XAO:0000437 ! death
@@ -5820,8 +5820,8 @@ id: XAO:0003078
 name: sacral vertebra
 def: "The 9th vertebra, which arises from the trunk somites 9 and 10. It joins the illia laterally at NF stage 60 and later coalesces with the urostyle in the midline of the pelvic girdle to form a single unit in the adult frog." [PMID:15679868, XAO:CJZ]
 synonym: "ninth vertebra" EXACT []
-synonym: "ninth vertebrae" RELATED PLURAL []
-synonym: "sacral vertebrae" RELATED PLURAL []
+synonym: "ninth vertebrae" RELATED OMO:0003004 []
+synonym: "sacral vertebrae" RELATED OMO:0003004 []
 xref: UBERON:0001094
 is_a: XAO:0004019 ! vertebra
 relationship: develops_from XAO:0000417 ! trunk somite 9
@@ -5833,7 +5833,7 @@ relationship: start_stage XAO:1000060 ! NF stage 48
 id: XAO:0003079
 name: caudal vertebra
 def: "The bones that make up the tail region of the tadpole." [XAO:curators]
-synonym: "caudal vertebrae" RELATED PLURAL []
+synonym: "caudal vertebrae" RELATED OMO:0003004 []
 synonym: "postsacral vertebra" RELATED []
 xref: UBERON:0001095
 is_a: XAO:0004019 ! vertebra
@@ -6534,7 +6534,7 @@ id: XAO:0003147
 name: spermatozoon
 def: "A mature male germ cell that develops from a spermatid." [CL:0000019]
 synonym: "sperm" RELATED []
-synonym: "spermatozoa" RELATED PLURAL []
+synonym: "spermatozoa" RELATED OMO:0003004 []
 xref: CL:0000019
 is_a: XAO:0003150 ! gamete
 relationship: develops_from XAO:0003151 ! spermatid
@@ -7099,7 +7099,7 @@ relationship: start_stage XAO:1000048 ! NF stage 33 and 34
 id: XAO:0003206
 name: podocyte
 def: "Cell type that is a component of the glomus." [XAO:curators]
-synonym: "podocytes" RELATED PLURAL []
+synonym: "podocytes" RELATED OMO:0003004 []
 xref: CL:0000653
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:1000067 ! NF stage 55
@@ -7385,7 +7385,7 @@ creation_date: 2009-07-16T02:14:05Z
 id: XAO:0003229
 name: epaxial muscle
 def: "Trunk muscle that lies dorsal to the horizontal septum of the vertebrae." [XAO:curators]
-synonym: "epaxial muscles" EXACT PLURAL []
+synonym: "epaxial muscles" EXACT OMO:0003004 []
 xref: UBERON:0008778
 is_a: XAO:0000174 ! skeletal muscle
 relationship: end_stage XAO:0000437 ! death
@@ -7512,7 +7512,7 @@ creation_date: 2009-07-20T01:26:48Z
 id: XAO:0003240
 name: digestive enzyme secreting cell
 def: "A type of cell, found in the digestive tract, that secrete enzymes that break down polymeric macromolecules into their smaller building blocks, in order to facilitate their absorption by the body." [http://en.wikipedia.org/wiki/Digestive_enzyme]
-synonym: "digestive enzyme secreting cells" EXACT PLURAL []
+synonym: "digestive enzyme secreting cells" EXACT OMO:0003004 []
 xref: CL:0000470
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
@@ -7858,7 +7858,7 @@ creation_date: 2009-12-01T04:45:17Z
 id: XAO:0004000
 name: duct
 def: "A tube shaped portion of tissue lined with epithelial cells that collects secretions and routes them to their destination." [UBERON:0000058]
-synonym: "ducts" RELATED PLURAL []
+synonym: "ducts" RELATED OMO:0003004 []
 xref: UBERON:0000058
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: end_stage XAO:0000437 ! death
@@ -8090,7 +8090,7 @@ creation_date: 2011-08-22T03:39:53Z
 id: XAO:0004019
 name: vertebra
 def: "Main component of the vertebral column. It consists of two essential parts, a dorsal neural arch and a ventral centrum." [AAO:0000691]
-synonym: "vertebrae" RELATED PLURAL []
+synonym: "vertebrae" RELATED OMO:0003004 []
 xref: UBERON:0002412
 is_a: XAO:0004018 ! endochondral bone
 relationship: end_stage XAO:0000437 ! death
@@ -8698,9 +8698,9 @@ id: XAO:0004069
 name: migratory neural crest cell
 def: "Neural crest that lose their connections to other neuroepithelial cells during the delamination process and begin to migrate. This involves either partial or complete epithelial-to-mesenchymal transition. Numerous molecules have been demonstrated to guide a neural crest cell's migration to its target tissue." [XAO:CJZ]
 synonym: "migratory neural crest" RELATED []
-synonym: "migratory neural crest cells" RELATED PLURAL []
+synonym: "migratory neural crest cells" RELATED OMO:0003004 []
 synonym: "NCMC" RELATED []
-synonym: "neural crest migrating cells" RELATED PLURAL []
+synonym: "neural crest migrating cells" RELATED OMO:0003004 []
 xref: CL:0000333
 is_a: XAO:0003012 ! cell
 relationship: develops_from XAO:0000048 ! neural crest
@@ -8814,7 +8814,7 @@ creation_date: 2011-08-24T12:34:45Z
 id: XAO:0004079
 name: rhombomere
 def: "Any of the transient sequential subdivisions of the developing hindbrain, all posterior to the midbrain-hindbrain boundary." [XAO:EJS]
-synonym: "rhombomeres" RELATED PLURAL []
+synonym: "rhombomeres" RELATED OMO:0003004 []
 xref: UBERON:0001892
 is_a: XAO:0004597 ! neuromere
 relationship: develops_from XAO:0005026 ! presumptive rhombomere
@@ -9393,7 +9393,7 @@ creation_date: 2011-08-25T11:19:42Z
 id: XAO:0004125
 name: atrioventricular valve leaflet
 def: "A portion of tissue forming a cusp guarding the opening of the atrioventricular valve." [XAO:EJS]
-synonym: "atrioventricular valve leaflets" RELATED PLURAL []
+synonym: "atrioventricular valve leaflets" RELATED OMO:0003004 []
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0005308 ! atrioventricular valve
@@ -9544,7 +9544,7 @@ creation_date: 2011-08-26T09:31:03Z
 id: XAO:0004137
 name: anterior crista
 def: "Anterior patch of cristae/sensory epithelia cells of the inner ear." [PMID:20201105]
-synonym: "anterior cristae" RELATED PLURAL []
+synonym: "anterior cristae" RELATED OMO:0003004 []
 xref: UBERON:0007274
 is_a: XAO:0004138 ! sensory epithelial cell
 relationship: end_stage XAO:0000437 ! death
@@ -9593,7 +9593,7 @@ creation_date: 2011-08-26T10:17:59Z
 id: XAO:0004141
 name: spiral septum
 def: "The thin, spiral-shaped membranous structure within the ventricular outflow tract of the heart." [PMID:10644411]
-synonym: "spiral septa" RELATED PLURAL []
+synonym: "spiral septa" RELATED OMO:0003004 []
 xref: UBERON:0002099
 is_a: XAO:0005422 ! septum
 relationship: develops_from XAO:0004186 ! secondary heart field
@@ -9609,7 +9609,7 @@ name: vestibulocochlear ganglion
 def: "Ganglion that provides afferent innervation for hair cells associated with both the auditory and vestibular components of the inner ear. As the otic placode invaginates into a cup neuroblasts delaminate from the anterior ventral aspect of the otic epithelium to give rise to neurons of the vestibulocochlear (statoacoustic) ganglion of cranial nerve VIII." [PMID:21452441]
 synonym: "statoacoustic (VIII) ganglion" EXACT []
 synonym: "statoacoustic ganglion" EXACT []
-synonym: "vestibulocochlear ganglia" RELATED PLURAL []
+synonym: "vestibulocochlear ganglia" RELATED OMO:0003004 []
 synonym: "vestibulocochlear VIII ganglion" EXACT []
 xref: UBERON:0002827
 is_a: XAO:0000209 ! ganglion
@@ -9674,7 +9674,7 @@ id: XAO:0004147
 name: vitelline vein
 def: "One of two veins that run upward at first in front, and subsequently on either side of the intestinal canal. They unite on the ventral aspect of the canal, and beyond this are connected to one another by two anastomotic branches, one on the dorsal, and the other on the ventral aspect of the duodenal portion of the intestine, which is thus encircled by two venous rings; into the middle or dorsal anastomosis the superior mesenteric vein opens. The portions of the veins above the upper ring become interrupted by the developing liver and broken up by it into a plexus of small capillary-like vessels termed sinusoids." [UBERON:0005487]
 synonym: "vascular vitelline network" EXACT []
-synonym: "vitelline veins" RELATED PLURAL []
+synonym: "vitelline veins" RELATED OMO:0003004 []
 xref: UBERON:0005487
 is_a: XAO:0000115 ! vein
 relationship: develops_from XAO:0004144 ! anterior ventral blood island
@@ -9755,7 +9755,7 @@ creation_date: 2011-08-30T11:05:38Z
 id: XAO:0004153
 name: retinal blood vessel
 def: "Blood vessels of the retina. May be visible in periocular stainings." [XAO:curators]
-synonym: "retinal blood vessels" RELATED PLURAL []
+synonym: "retinal blood vessels" RELATED OMO:0003004 []
 xref: UBERON:0004864
 is_a: XAO:0001011 ! blood vessel
 relationship: end_stage XAO:0000437 ! death
@@ -9768,9 +9768,9 @@ creation_date: 2011-08-30T11:39:54Z
 id: XAO:0004154
 name: hyaloid blood vessel
 def: "Vessels that are associated with the posterior region of the lens." [XAO:EJS, ZFA:0005046]
-synonym: "hyaloid blood vessels" EXACT PLURAL []
+synonym: "hyaloid blood vessels" EXACT OMO:0003004 []
 synonym: "hyaloid vessel" EXACT []
-synonym: "hyaloid vessels" EXACT PLURAL []
+synonym: "hyaloid vessels" EXACT OMO:0003004 []
 xref: UBERON:0005492
 is_a: XAO:0001011 ! blood vessel
 relationship: end_stage XAO:0000437 ! death
@@ -9874,7 +9874,7 @@ creation_date: 2011-08-30T01:59:48Z
 id: XAO:0004163
 name: angioblast
 def: "A mesenchymal stem cell capable of developing into blood vessel endothelium." [CL:0000566]
-synonym: "angioblasts" EXACT PLURAL []
+synonym: "angioblasts" EXACT OMO:0003004 []
 xref: CL:0000566
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
@@ -10095,10 +10095,10 @@ id: XAO:0004181
 name: cardiac myocyte
 def: "Type of myocyte that is responsible for heart contraction." [CL:0000746]
 synonym: "cardiac muscle cell" RELATED []
-synonym: "cardiac muscle cells" RELATED PLURAL []
-synonym: "cardiac myocytes" RELATED PLURAL []
+synonym: "cardiac muscle cells" RELATED OMO:0003004 []
+synonym: "cardiac myocytes" RELATED OMO:0003004 []
 synonym: "cardiomyocyte" RELATED []
-synonym: "cardiomyocytes" RELATED PLURAL []
+synonym: "cardiomyocytes" RELATED OMO:0003004 []
 xref: CL:0000746
 is_a: XAO:0004475 ! myocyte
 relationship: end_stage XAO:0000437 ! death
@@ -10514,8 +10514,8 @@ id: XAO:0004213
 name: vagal epibranchial placode
 def: "The most posterior of the epibranchial placodes, in 3 distinct zones, associated with the 3rd to 6th pharyngeal clefts, and contributing to the facial, lateral line and glossopharyngeal ganglion." [ISBN:0878933840]
 synonym: "nodose placode" EXACT []
-synonym: "nodose placodes" EXACT PLURAL []
-synonym: "vagal epibranchial placodes" EXACT PLURAL []
+synonym: "nodose placodes" EXACT OMO:0003004 []
+synonym: "vagal epibranchial placodes" EXACT OMO:0003004 []
 xref: UBERON:0009126
 is_a: XAO:0000284 ! epibranchial placode
 relationship: end_stage XAO:1000050 ! NF stage 37 and 38
@@ -10645,7 +10645,7 @@ created_by: eriksegerdell
 id: XAO:0004224
 name: transporting epithelium
 def: "Type of epithelium that facilitates the transcellular transport of solutes. This transport can either be absorption, transport from lumen (apical membrane surface) to blood; or secretion, transport from blood (basolateral membrane surface) to lumen." [http://en.wikipedia.org/wiki/Transcellular_transport]
-synonym: "transporting epithelia" RELATED PLURAL []
+synonym: "transporting epithelia" RELATED OMO:0003004 []
 is_a: XAO:0003045 ! epithelium
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000020 ! NF stage 10
@@ -10656,7 +10656,7 @@ id: XAO:0004225
 name: non-ciliated epithelial cell
 def: "Type of cell of the epidermis lacking cilia, which separate and space the ciliated epidermal cells." [PMID:16728476]
 synonym: "intercalating non-ciliated cell" RELATED []
-synonym: "non-ciliated epithelial cells" RELATED PLURAL []
+synonym: "non-ciliated epithelial cells" RELATED OMO:0003004 []
 is_a: XAO:0003249 ! epithelial cell
 relationship: develops_from XAO:0000001 ! ectoderm
 relationship: end_stage XAO:0000437 ! death
@@ -11028,7 +11028,7 @@ created_by: eriksegerdell
 id: XAO:0004260
 name: pharyngeal pouch
 def: "Any of the outpocketings of pharyngeal endoderm that interdigitate with the neural crest derived pharyngeal arches. The pouches later fuse with the surface ectoderm to form the gill slits." [TAO:0001106, XAO:EJS]
-synonym: "pharyngeal pouches" RELATED PLURAL []
+synonym: "pharyngeal pouches" RELATED OMO:0003004 []
 xref: UBERON:0004117
 is_a: XAO:0003037 ! multi-tissue structure
 relationship: develops_from XAO:0004463 ! pharyngeal endoderm
@@ -11142,7 +11142,7 @@ created_by: eriksegerdell
 id: XAO:0004270
 name: hepato-pancreatic progenitor cell
 def: "Any of a field of cells in the posterior section of the foregut that will give rise to the liver bud and dorsal and ventral pancreatic buds." [XAO:curators]
-synonym: "hepato-pancreatic progenitor cells" RELATED PLURAL []
+synonym: "hepato-pancreatic progenitor cells" RELATED OMO:0003004 []
 is_a: XAO:0005033 ! progenitor cell
 relationship: develops_from XAO:0000090 ! endoderm
 relationship: develops_from XAO:0000101 ! liver diverticulum
@@ -11355,7 +11355,7 @@ id: XAO:0004291
 name: cell-free extract
 namespace: xenopus_anatomy_in_vitro
 def: "A solution obtained by rupturing cells (especially unfertilized oocytes) and removing all particulate matter." [http://medical-dictionary.thefreedictionary.com/cell-free+extract]
-synonym: "cell-free extracts" RELATED PLURAL []
+synonym: "cell-free extracts" RELATED OMO:0003004 []
 is_a: XAO:0003007 ! anatomical entity in vitro
 created_by: eriksegerdell
 creation_date: 2012-03-10T01:20:30Z
@@ -11558,10 +11558,10 @@ creation_date: 2012-03-10T04:21:21Z
 id: XAO:0004308
 name: glial cell
 def: "Any of the non-neuronal cells that maintain homeostasis, form myelin, and provide support and protection for neurons in the brain, and for neurons in other parts of the nervous system such as in the autonomic nervous system. Neural crest derived." [XAO:CJZ]
-synonym: "glia" RELATED PLURAL []
-synonym: "glial cells" RELATED PLURAL []
-synonym: "neuroglia" RELATED PLURAL []
-synonym: "neuroglial cells" RELATED PLURAL []
+synonym: "glia" RELATED OMO:0003004 []
+synonym: "glial cells" RELATED OMO:0003004 []
+synonym: "neuroglia" RELATED OMO:0003004 []
+synonym: "neuroglial cells" RELATED OMO:0003004 []
 xref: CL:0000125
 is_a: XAO:0003012 ! cell
 relationship: develops_from XAO:0000048 ! neural crest
@@ -11575,7 +11575,7 @@ creation_date: 2012-03-10T09:44:35Z
 id: XAO:0004309
 name: postmigratory neural crest cell
 def: "Any of the cells that are of neural crest origin, now in place in their postmigratory target tissues, such as the sciatic nerve, dorsal root ganglia, gut or skin. They can be visualised or detected by specific molecular markers." [XAO:CJZ]
-synonym: "postmigratory neural crest cells" RELATED PLURAL []
+synonym: "postmigratory neural crest cells" RELATED OMO:0003004 []
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:1000046 ! NF stage 31
 relationship: part_of XAO:0000048 ! neural crest
@@ -11644,7 +11644,7 @@ creation_date: 2012-03-10T10:14:19Z
 id: XAO:0004315
 name: perichondrial cell
 def: "A cell of the perichondrium, the fibrous membrane of connective tissue covering the surface of cartilage." [http://medical-dictionary.thefreedictionary.com/Perichondrial]
-synonym: "perichondrial cells" RELATED PLURAL []
+synonym: "perichondrial cells" RELATED OMO:0003004 []
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004049 ! perichondrium
@@ -11697,7 +11697,7 @@ id: XAO:0004320
 name: mesenchymal stem cell
 def: "Multipotent stromal cell that can differentiate into a variety of cell types, including: osteoblasts/osteocytes (bone cells), chondroblasts/chondrocytes (cartilage cells), and adipoblasts/adipocytes (fat cells)." [XAO:curators]
 synonym: "mesenchymal cell" RELATED []
-synonym: "mesenchymal stem cells" RELATED PLURAL []
+synonym: "mesenchymal stem cells" RELATED OMO:0003004 []
 is_a: XAO:0003054 ! stem cell
 relationship: develops_from XAO:0000050 ! mesoderm
 relationship: end_stage XAO:0000437 ! death
@@ -12197,7 +12197,7 @@ creation_date: 2012-05-05T05:15:00Z
 id: XAO:0004364
 name: cornua trabecula
 def: "Cartilaginous element that supports the anterior end of the nasal organ." [ISBN:1276806469]
-synonym: "cornua trabeculae" RELATED PLURAL []
+synonym: "cornua trabeculae" RELATED OMO:0003004 []
 synonym: "ct" EXACT []
 is_a: XAO:0004013 ! cartilage element
 relationship: develops_from XAO:0003205 ! chondrocyte
@@ -12329,7 +12329,7 @@ id: XAO:0004374
 name: planum hypobranchiale
 alt_id: XAO:0004383
 def: "One of the cartilaginous elements that meet and articulate in the median plane posterior to the basibranchial." [http://amphibiatree.org/node/407]
-synonym: "plana hypobranchiale" RELATED PLURAL []
+synonym: "plana hypobranchiale" RELATED OMO:0003004 []
 synonym: "plhb" EXACT []
 is_a: XAO:0004013 ! cartilage element
 relationship: develops_from XAO:0003205 ! chondrocyte
@@ -12427,7 +12427,7 @@ id: XAO:0004381
 name: trabecula cranii
 def: "Cartilaginous element comprising a pair of chondrification centers in the base of the embryonic cartilaginous neurocranium." [http://www.medilexicon.com/medicaldictionary.php?t=92818]
 synonym: "tc" EXACT []
-synonym: "trabeculae cranii" RELATED PLURAL []
+synonym: "trabeculae cranii" RELATED OMO:0003004 []
 is_a: XAO:0004013 ! cartilage element
 relationship: develops_from XAO:0003205 ! chondrocyte
 relationship: end_stage XAO:1000078 ! NF stage 66
@@ -12536,7 +12536,7 @@ creation_date: 2012-05-05T05:15:00Z
 id: XAO:0004392
 name: goblet cell
 def: "A type of mucus surface cell in the tadpole." [ISBN:080184780X]
-synonym: "goblet cells" RELATED PLURAL []
+synonym: "goblet cells" RELATED OMO:0003004 []
 is_a: XAO:0003249 ! epithelial cell
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0000023 ! skin
@@ -12674,7 +12674,7 @@ creation_date: 2012-05-05T05:15:00Z
 id: XAO:0004404
 name: keratinocyte
 def: "The predominant cell type in the epidermis, the primary function of which is the formation of a barrier against environmental damage." [http://en.wikipedia.org/wiki/Keratinocyte]
-synonym: "keratinocytes" RELATED PLURAL []
+synonym: "keratinocytes" RELATED OMO:0003004 []
 is_a: XAO:0003252 ! keratin accumulating cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000028 ! epidermis
@@ -12687,7 +12687,7 @@ creation_date: 2012-05-05T05:15:00Z
 id: XAO:0004405
 name: Leydig cell
 def: "A type of special epithelial cell that secretes mucus into the subsurface extracellular compartments of the epidermis." [ISBN:080184780X]
-synonym: "Leydig cells" RELATED PLURAL []
+synonym: "Leydig cells" RELATED OMO:0003004 []
 synonym: "Leydig gland cell" RELATED []
 is_a: XAO:0003249 ! epithelial cell
 relationship: end_stage XAO:1000078 ! NF stage 66
@@ -12896,7 +12896,7 @@ creation_date: 2012-05-05T05:15:00Z
 id: XAO:0004422
 name: posterior lateral line ganglion
 def: "Ganglion that develops from a cranial ectodermal placode and contains sensory neurons that innervate the posterior lateral line system." [XAO:EJS, ZFA:0001314]
-synonym: "posterior lateral line ganglia" RELATED PLURAL []
+synonym: "posterior lateral line ganglia" RELATED OMO:0003004 []
 is_a: XAO:0004457 ! lateral line ganglion
 relationship: develops_from XAO:0004223 ! posterior lateral line placode
 relationship: end_stage XAO:0000437 ! death
@@ -13275,7 +13275,7 @@ creation_date: 2012-05-31T11:43:41Z
 id: XAO:0004457
 name: lateral line ganglion
 def: "Ganglion that develops from a cranial ectodermal placode and contains sensory neurons that innervate a lateral line." [XAO:EJS, ZFA:0000120]
-synonym: "lateral line ganglia" RELATED PLURAL []
+synonym: "lateral line ganglia" RELATED OMO:0003004 []
 is_a: XAO:0000027 ! cranial ganglion
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000095 ! lateral line system
@@ -13414,7 +13414,7 @@ creation_date: 2012-09-18T03:51:06Z
 id: XAO:0004469
 name: trabecula
 def: "A small tissue element in the form of a beam, strut, or rod that generally has a mechanical function and is usually composed of dense cartilaginous tissue." [http://en.wikipedia.org/wiki/Trabecula]
-synonym: "trabeculae" RELATED PLURAL []
+synonym: "trabeculae" RELATED OMO:0003004 []
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000052 ! NF stage 40
@@ -13423,7 +13423,7 @@ relationship: start_stage XAO:1000052 ! NF stage 40
 id: XAO:0004470
 name: trabecula carnea
 def: "A type of trabecula that consists of a rounded or irregular column that projects from the inner surface of the ventricle of the heart." [http://en.wikipedia.org/wiki/Trabeculae_carneae]
-synonym: "trabeculae carneae" RELATED PLURAL []
+synonym: "trabeculae carneae" RELATED OMO:0003004 []
 is_a: XAO:0004469 ! trabecula
 relationship: develops_from XAO:0000065 ! myocardium
 relationship: end_stage XAO:0000437 ! death
@@ -13478,9 +13478,9 @@ id: XAO:0004475
 name: myocyte
 def: "A mature contractile cell, which has as part of its cytoplasm myofibrils organized in various patterns. Found in muscle tissue, myocytes are long, tubular cells that arise developmentally from myoblasts to form muscle. There are specialized forms: cardiac, skeletal, and smooth muscle myocytes, with various properties." [CL:0000187, XAO:curators]
 synonym: "muscle cell" RELATED []
-synonym: "muscle cells" RELATED PLURAL []
+synonym: "muscle cells" RELATED OMO:0003004 []
 synonym: "muscle fiber" RELATED []
-synonym: "myocytes" RELATED PLURAL []
+synonym: "myocytes" RELATED OMO:0003004 []
 xref: CL:0000187
 is_a: XAO:0003012 ! cell
 relationship: develops_from XAO:0003015 ! myoblast
@@ -13495,8 +13495,8 @@ id: XAO:0004476
 name: skeletal myocyte
 def: "A myocyte of the skeletal muscle." [XAO:curators]
 synonym: "skeletal muscle cell" RELATED []
-synonym: "skeletal muscle cells" RELATED PLURAL []
-synonym: "skeletal myocytes" RELATED PLURAL []
+synonym: "skeletal muscle cells" RELATED OMO:0003004 []
+synonym: "skeletal myocytes" RELATED OMO:0003004 []
 xref: CL:0000188
 is_a: XAO:0004475 ! myocyte
 relationship: end_stage XAO:0000437 ! death
@@ -13510,8 +13510,8 @@ id: XAO:0004477
 name: smooth muscle myocyte
 def: "A myocyte of the smooth muscle." [XAO:curators]
 synonym: "smooth muscle cell" RELATED []
-synonym: "smooth muscle cells" RELATED PLURAL []
-synonym: "smooth muscle myocytes" RELATED PLURAL []
+synonym: "smooth muscle cells" RELATED OMO:0003004 []
+synonym: "smooth muscle myocytes" RELATED OMO:0003004 []
 xref: CL:0000192
 is_a: XAO:0004475 ! myocyte
 relationship: end_stage XAO:0000437 ! death
@@ -13572,7 +13572,7 @@ creation_date: 2013-03-17T13:50:51Z
 id: XAO:0004482
 name: epicardial precursor cell
 def: "Neural crest-derived cell type that gives rise to the epicardium." [XAO:curators]
-synonym: "epicardial precursor cells" RELATED PLURAL []
+synonym: "epicardial precursor cells" RELATED OMO:0003004 []
 synonym: "pro-epicardial organ" RELATED []
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:1000044 ! NF stage 28
@@ -13586,7 +13586,7 @@ creation_date: 2013-04-10T12:31:30Z
 id: XAO:0004483
 name: retinal stem cell
 def: "Cell that is present in the stem cell region of the retinal ciliary marginal zone." [XAO:CJZ]
-synonym: "retinal stem cells" RELATED PLURAL []
+synonym: "retinal stem cells" RELATED OMO:0003004 []
 is_a: XAO:0003054 ! stem cell
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0004387 ! retinal stem cell region
@@ -13598,7 +13598,7 @@ creation_date: 2013-04-10T12:52:47Z
 id: XAO:0004484
 name: retinal progenitor cell
 def: "Cell that is present in the progenitor cell region of the retinal ciliary marginal zone." [XAO:CJZ]
-synonym: "retinal progenitor cells" RELATED PLURAL []
+synonym: "retinal progenitor cells" RELATED OMO:0003004 []
 is_a: XAO:0005033 ! progenitor cell
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: part_of XAO:0004388 ! retinal progenitor cell region
@@ -13610,7 +13610,7 @@ creation_date: 2013-04-10T12:57:10Z
 id: XAO:0004485
 name: neuroendocrine cell
 def: "An endocrine cell that has the specialized function to produce and secrete hormones in response to neuronal signals." [CL:0000165]
-synonym: "neuroendocrine cells" RELATED PLURAL []
+synonym: "neuroendocrine cells" RELATED OMO:0003004 []
 xref: CL:0000165
 is_a: XAO:0003247 ! endocrine cell
 relationship: end_stage XAO:0000437 ! death
@@ -13738,7 +13738,7 @@ creation_date: 2013-04-10T18:49:21Z
 id: XAO:0004496
 name: ilium
 def: "Either of the paired bones that are the dorsal-most and largest bones of the pelvic girdle. They begin to connect to the sacral vertebra (9th vertebra) at NF stage 59." [XAO:CJZ]
-synonym: "ilia" RELATED PLURAL []
+synonym: "ilia" RELATED OMO:0003004 []
 synonym: "iliac bone" EXACT []
 is_a: XAO:0004018 ! endochondral bone
 relationship: end_stage XAO:0000437 ! death
@@ -13751,7 +13751,7 @@ creation_date: 2013-04-10T18:56:57Z
 id: XAO:0004497
 name: ischium
 def: "Any of the posterior and smaller bones of the pelvic girdle. The ischia appear at NF stage 53, grow toward each other at NF stage 55, fusing and beginning to ossify by NF stage 58/59." [XAO:CJZ]
-synonym: "ischia" RELATED PLURAL []
+synonym: "ischia" RELATED OMO:0003004 []
 is_a: XAO:0004018 ! endochondral bone
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003064 ! pelvic girdle
@@ -13763,7 +13763,7 @@ creation_date: 2013-04-10T19:03:50Z
 id: XAO:0004498
 name: pubis
 def: "The ventral and anterior of the three principal bones composing the pelvic girdle. The pubes fuse with the ilia at NF stage 53, and touch each other at NF stage 62. Full contact of the medial surfaces occurs at NF stage 63 when ossification also begins. Ossification continues through metamorphosis." [PMID:15679868, XAO:CJZ]
-synonym: "pubes" RELATED PLURAL []
+synonym: "pubes" RELATED OMO:0003004 []
 is_a: XAO:0004018 ! endochondral bone
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0003064 ! pelvic girdle
@@ -13775,7 +13775,7 @@ creation_date: 2013-04-10T19:18:02Z
 id: XAO:0004499
 name: postsacral vertebra
 def: "Vertebra posterior to the sacral vertebra. The 4 postsacral vertebrae fuse and ossify (NF stage 66) to form the urostyle." [XAO:CJZ]
-synonym: "postsacral vertebrae" RELATED PLURAL []
+synonym: "postsacral vertebrae" RELATED OMO:0003004 []
 is_a: XAO:0004019 ! vertebra
 relationship: end_stage XAO:1000078 ! NF stage 66
 relationship: start_stage XAO:1000060 ! NF stage 48
@@ -13786,7 +13786,7 @@ creation_date: 2013-04-10T19:27:34Z
 id: XAO:0004500
 name: rib
 def: "Any of the bony lateral projections from the presacral veterebrae of the anterior trunk region, enabling the lungs to expand and thus facilitate breathing by expanding the chest cavity. They serve to protect the lungs, heart, and other internal organs of the thorax." [http://en.wikipedia.org/wiki/Rib]
-synonym: "ribs" RELATED PLURAL []
+synonym: "ribs" RELATED OMO:0003004 []
 synonym: "vertebral rib" EXACT []
 is_a: XAO:0004020 ! process
 relationship: end_stage XAO:0000437 ! death
@@ -14047,7 +14047,7 @@ creation_date: 2013-04-26T15:36:18Z
 id: XAO:0004522
 name: premigratory neural crest cell
 def: "Cell that is part of the neural crest region of the neuroepithelium, prior to migration." [CL:0007004]
-synonym: "premigratory neural crest cells" RELATED PLURAL []
+synonym: "premigratory neural crest cells" RELATED OMO:0003004 []
 xref: CL:0007004
 is_a: XAO:0003012 ! cell
 relationship: end_stage XAO:1000046 ! NF stage 31
@@ -14242,7 +14242,7 @@ relationship: start_stage XAO:1000047 ! NF stage 32
 id: XAO:0004540
 name: basal ganglion
 def: "Composite structure derived principally from the subpallium and containing numerous ganglia of the ventral telencephalon." [XAO:KAB]
-synonym: "basal ganglia" RELATED PLURAL []
+synonym: "basal ganglia" RELATED OMO:0003004 []
 synonym: "basal ganglia nuclei" RELATED []
 synonym: "basal nuclei" RELATED []
 xref: UBERON:0010011
@@ -14942,7 +14942,7 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 id: XAO:0004613
 name: non-cililated epidermal cell
 def: "Epidermal cell that lacks cilia." [XAO:EJS]
-synonym: "non-ciliated epidermal cells" RELATED PLURAL []
+synonym: "non-ciliated epidermal cells" RELATED OMO:0003004 []
 is_a: XAO:0004621 ! epidermal cell
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000025 ! NF stage 15
@@ -15187,7 +15187,7 @@ creation_date: 2015-05-14T17:41:09Z
 id: XAO:0005007
 name: Muller cell
 def: "Astrocyte-like radial glial cell that extends vertically throughout the retina, with the nucleus usually in the middle of the inner nuclear layer." [CL:0011107]
-synonym: "Muller glia" RELATED PLURAL []
+synonym: "Muller glia" RELATED OMO:0003004 []
 xref: CL:0011107
 is_a: XAO:0004308 ! glial cell
 relationship: end_stage XAO:0000437 ! death
@@ -15200,7 +15200,7 @@ creation_date: 2015-05-14T17:43:09Z
 id: XAO:0005008
 name: cilium
 def: "Specialized protrusion of a cell composed of microtubules and serving a role in intercellular signaling." [XAO:KAB]
-synonym: "cilia" RELATED PLURAL []
+synonym: "cilia" RELATED OMO:0003004 []
 xref: GO:0005929
 is_a: XAO:0004290 ! cell part
 relationship: end_stage XAO:0000437 ! death
@@ -15329,7 +15329,7 @@ id: XAO:0005019
 name: paired dorsal aorta
 def: "The embryonic right and left aortas that develop in parallel with the heart and gain access to it via the aortic arches. Later the paired dorsal aortic anlagen unite and finally form the unpaired descending aorta of the adult." [http://www.embryology.ch/anglais/pcardio/arterien02.html]
 synonym: "left dorsal aorta" NARROW []
-synonym: "paired dorsal aortae" RELATED PLURAL []
+synonym: "paired dorsal aortae" RELATED OMO:0003004 []
 synonym: "right dorsal aorta" NARROW []
 is_a: XAO:0003010 ! aorta
 relationship: develops_from XAO:0000085 ! intermediate mesoderm
@@ -15477,7 +15477,7 @@ creation_date: 2015-05-18T17:43:13Z
 id: XAO:0005031
 name: radial glial cell
 def: "A cell present in the developing central nervous system. It functions as both a precursor cell and as a scaffold to support neuronal migration. Some have a multipotent ability, as they can differentiate into neurons and radial glial cells by asymmetric divisions during the period of embryonic neurogenesis. They occur mainly in the ventricular layer of the tectum and decrease in number as the brain matures." [CL:0000681, XAO:curators]
-synonym: "radial glia" RELATED PLURAL []
+synonym: "radial glia" RELATED OMO:0003004 []
 synonym: "RG" EXACT []
 xref: CL:0000681
 is_a: XAO:0004308 ! glial cell
@@ -15493,7 +15493,7 @@ creation_date: 2015-05-18T17:46:16Z
 id: XAO:0005032
 name: neural stem cell
 def: "A cell that, in the early stages of the brain, are generated from the ectoderm-derived neural epithelium and commit to differentiate into either neurons or radial glial cells. It is well known that radial glial cells have distinctive morphological characteristics and can act as neural progenitor cells (NPCs) or neural stem cells (NSCs), in addition to guiding the migration of differentiating neurons in the central nervous system." [XAO:curators]
-synonym: "neural stem cells" RELATED PLURAL []
+synonym: "neural stem cells" RELATED OMO:0003004 []
 synonym: "neuronal stem cell" EXACT []
 synonym: "NSC" EXACT []
 xref: CL:0000047
@@ -15944,7 +15944,7 @@ creation_date: 2015-05-24T12:26:06Z
 id: XAO:0005068
 name: motor axon
 def: "An axon that is part of a motor neuron and which projects outside the spinal cord to directly or indirectly control muscles." [http://en.wikipedia.org/wiki/Motor_neuron]
-synonym: "motor axons" RELATED PLURAL []
+synonym: "motor axons" RELATED OMO:0003004 []
 is_a: XAO:0005015 ! axon
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0004217 ! motor neuron
@@ -16721,8 +16721,8 @@ creation_date: 2016-09-03T19:21:41Z
 id: XAO:0005132
 name: astrocyte end-foot
 def: "The terminal process of an astrocyte." [GO:0097450]
-synonym: "astrocyte end-feet" RELATED PLURAL []
-synonym: "astrocyte endfeet" RELATED PLURAL []
+synonym: "astrocyte end-feet" RELATED OMO:0003004 []
+synonym: "astrocyte endfeet" RELATED OMO:0003004 []
 synonym: "astrocyte endfoot" EXACT []
 xref: GO:0097450
 is_a: XAO:0004290 ! cell part
@@ -17121,9 +17121,9 @@ creation_date: 2016-11-16T18:07:16Z
 id: XAO:0005164
 name: alpha cell
 def: "A type of endocrine cell in the pancreatic islets of the pancreas. They make up some of the islet cells synthesizing and secreting the peptide hormone glucagon, which elevates the glucose levels in the blood." [XAO:curators]
-synonym: "alpha cells" RELATED PLURAL []
+synonym: "alpha cells" RELATED OMO:0003004 []
 synonym: "alpha-cell" EXACT []
-synonym: "alpha-cells" RELATED PLURAL []
+synonym: "alpha-cells" RELATED OMO:0003004 []
 synonym: "pancreatic A cell" RELATED []
 xref: CL:0000171
 is_a: XAO:0005135 ! enteroendocrine cell
@@ -17137,9 +17137,9 @@ creation_date: 2016-11-16T18:07:16Z
 id: XAO:0005165
 name: beta cell
 def: "A type of cell that is found in the pancreatic islets of the pancreas and secretes insulin." [XAO:curators]
-synonym: "beta cells" RELATED PLURAL []
+synonym: "beta cells" RELATED OMO:0003004 []
 synonym: "beta-cell" EXACT []
-synonym: "beta-cells" RELATED PLURAL []
+synonym: "beta-cells" RELATED OMO:0003004 []
 synonym: "type B pancreatic cell" RELATED []
 xref: CL:0000169
 is_a: XAO:0005135 ! enteroendocrine cell
@@ -17155,9 +17155,9 @@ name: delta cell
 def: "Somatostatin-producing cell that is found in the stomach, intestine and the pancreatic islets." [XAO:curators]
 synonym: "D cell" RELATED []
 synonym: "D-cell" RELATED []
-synonym: "delta cells" RELATED PLURAL []
+synonym: "delta cells" RELATED OMO:0003004 []
 synonym: "delta-cell" EXACT []
-synonym: "delta-cells" RELATED PLURAL []
+synonym: "delta-cells" RELATED OMO:0003004 []
 synonym: "type D enteroendocrine cell" RELATED []
 xref: CL:0000502
 is_a: XAO:0005135 ! enteroendocrine cell
@@ -17171,9 +17171,9 @@ creation_date: 2016-11-16T18:07:16Z
 id: XAO:0005167
 name: epsilon cell
 def: "A type of endocrine cell that is found in the islets of Langerhans and produces the hormone ghrelin." [XAO:curators]
-synonym: "epsilon cells" RELATED PLURAL []
+synonym: "epsilon cells" RELATED OMO:0003004 []
 synonym: "epsilon-cell" EXACT []
-synonym: "epsilon-cells" RELATED PLURAL []
+synonym: "epsilon-cells" RELATED OMO:0003004 []
 is_a: XAO:0005135 ! enteroendocrine cell
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000159 ! islets of Langerhans
@@ -18688,7 +18688,7 @@ relationship: start_stage XAO:1000020 ! NF stage 10
 id: XAO:0005324
 name: anterior lateral line ganglion
 def: "Ganglion that develops from a cranial ectodermal placode and contains sensory neurons that innervate the anterior lateral line system." [XAO:EJS]
-synonym: "anterior lateral line ganglia" RELATED PLURAL []
+synonym: "anterior lateral line ganglia" RELATED OMO:0003004 []
 is_a: XAO:0004457 ! lateral line ganglion
 relationship: develops_from XAO:0004221 ! anterior lateral line placode
 relationship: end_stage XAO:0000437 ! death
@@ -18731,7 +18731,7 @@ relationship: start_stage XAO:1000023 ! NF stage 13
 id: XAO:0005422
 name: septum
 def: "A wall, dividing a cavity or structure into smaller ones." [UBERON:0003037]
-synonym: "septa" RELATED PLURAL []
+synonym: "septa" RELATED OMO:0003004 []
 xref: UBERON:0003037
 is_a: XAO:0003040 ! tissue
 relationship: end_stage XAO:0000437 ! death
@@ -18775,7 +18775,7 @@ id: XAO:0005426
 name: tracheoesophageal fold
 def: "Any of the longitudinal folds in the respiratory diverticulum that fuse to form the tracheoesophageal septum, which separates the esophagus from the trachea." [XAO:MEF]
 synonym: "tracheoesophageal crest" RELATED []
-synonym: "tracheoesophageal folds" RELATED PLURAL []
+synonym: "tracheoesophageal folds" RELATED OMO:0003004 []
 synonym: "tracheoesophageal ridge" RELATED []
 is_a: XAO:0003040 ! tissue
 relationship: develops_from XAO:0005127 ! anterior foregut
