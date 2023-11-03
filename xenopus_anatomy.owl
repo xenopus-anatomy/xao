@@ -65408,7 +65408,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 2, corresponding to an embryo of age 1 hour 30 min at 22-24 Celsius. Part of the cleavage stage. External landmarks: 2 cells; 1st cleavage plane is meridional along the dorso-ventral plane dividing right and left halves. Length 1.4-1.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 2, corresponding to an embryo of age 1 hour 30 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: 2 cells; 1st cleavage plane is meridional along the dorso-ventral plane dividing right and left halves. Length 1.4-1.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0007232</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>2-cell stage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>NF stage 2</oboInOwl:hasExactSynonym>
@@ -65419,7 +65419,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000011"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 2, corresponding to an embryo of age 1 hour 30 min at 22-24 Celsius. Part of the cleavage stage. External landmarks: 2 cells; 1st cleavage plane is meridional along the dorso-ventral plane dividing right and left halves. Length 1.4-1.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 2, corresponding to an embryo of age 1 hour 30 minutes at 22-24 Celsius. Part of the cleavage stage. External landmarks: 2 cells; 1st cleavage plane is meridional along the dorso-ventral plane dividing right and left halves. Length 1.4-1.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -66473,7 +66473,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000043"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 28, corresponding to an embryo of age 1 day, 8 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Fin extending up to anus. Fin broadened and distinctly divided into outer transparent and inner translucent band. Length: 3.8 - 4.0 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 28, corresponding to an embryo of age 1 day, 8 hours 30 minutes at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud elongates distally and extends downward to cloaca; fin divided into outer transparent (outer fin) and inner translucent bands (inner fin); black cement gland fully formed; otic vesicle separates from epidermis. Internal landmarks: heart primordium and pericardial cavity discernible; pronephric nephrostomes form; 20-22 somites; epibranchial placodes first segregate. Embryos liberated from the vitelline membrane glide around due to multi-cilliated cell fluid flow. Length 3.8-4.0 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000044</oboInOwl:id>
         <rdfs:label>NF stage 28</rdfs:label>
@@ -66481,8 +66481,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000044"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 28, corresponding to an embryo of age 1 day, 8 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Fin extending up to anus. Fin broadened and distinctly divided into outer transparent and inner translucent band. Length: 3.8 - 4.0 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 28, corresponding to an embryo of age 1 day, 8 hours 30 minutes at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud elongates distally and extends downward to cloaca; fin divided into outer transparent (outer fin) and inner translucent bands (inner fin); black cement gland fully formed; otic vesicle separates from epidermis. Internal landmarks: heart primordium and pericardial cavity discernible; pronephric nephrostomes form; 20-22 somites; epibranchial placodes first segregate. Embryos liberated from the vitelline membrane glide around due to multi-cilliated cell fluid flow. Length 3.8-4.0 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66503,7 +66504,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 29/30, corresponding to an embryo of age 1 day, 11 hr at 22-24 Celsius and having the following external morphological criteria: Gray eye cup showing through for the first time. Fin transparent up to the base over its whole length. Tail bud distinct. Length: 4.0 - 4.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 29 &amp; 30, corresponding to an embryo of age 1 day, 11 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud distinct; outer fin edge transparent over entire length; gray disc of the eye cup now visible. Internal landmarks: 23-25 somites segregated to end of tail; lumen in pronephric kidney collecting duct; appearance of glomus and thyroid; neural tube closure has formed the spinal cord. Length 4.0-4.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000045</oboInOwl:id>
         <rdfs:label>NF stage 29 and 30</rdfs:label>
@@ -66511,8 +66512,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000045"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 29/30, corresponding to an embryo of age 1 day, 11 hr at 22-24 Celsius and having the following external morphological criteria: Gray eye cup showing through for the first time. Fin transparent up to the base over its whole length. Tail bud distinct. Length: 4.0 - 4.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 29 &amp; 30, corresponding to an embryo of age 1 day, 11 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud distinct; outer fin edge transparent over entire length; gray disc of the eye cup now visible. Internal landmarks: 23-25 somites segregated to end of tail; lumen in pronephric kidney collecting duct; appearance of glomus and thyroid; neural tube closure has formed the spinal cord. Length 4.0-4.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66533,7 +66535,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 31, corresponding to an embryo of age 1 day, 13 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Tail bud equally long as broad. Length: 4.2 - 4.8 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 31, corresponding to an embryo of age 1 day, 13 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud equal in length and height; nasal/olfactory pits first indicated. Internal landmarks: heart primordium extends ventrally and bends slightly to right; 22-23 post-otic somites; midbrain-hindbrain boundary distinct. Length 4.2-4.8 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000046</oboInOwl:id>
         <rdfs:label>NF stage 31</rdfs:label>
@@ -66541,8 +66543,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000046"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 31, corresponding to an embryo of age 1 day, 13 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Tail bud equally long as broad. Length: 4.2 - 4.8 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 31, corresponding to an embryo of age 1 day, 13 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud equal in length and height; nasal/olfactory pits first indicated. Internal landmarks: heart primordium extends ventrally and bends slightly to right; 22-23 post-otic somites; midbrain-hindbrain boundary distinct. Length 4.2-4.8 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66563,7 +66566,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 32, corresponding to an embryo of age 1 day, 16 hr at 22-24 Celsius and having the following external morphological criteria: Eye cup horse-shoe-shaped, standing out distinctly. Length of tail bud about 1.5 times its breadth. Length: 4.5 - 5.1 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 32, corresponding to an embryo of age 1 day, 16 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud ~1.5x longer than height; eye cup distinct, U-shaped (open); mouth primordium not visible. Internal landmarks: heart a linear tube with anterior outflow tract, left ventricle, atrioventricular canal and atrium; 26 post-otic somites; pronephric nephrostomes form; lung buds visible. Length 4.5-5.1 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000047</oboInOwl:id>
         <rdfs:label>NF stage 32</rdfs:label>
@@ -66571,8 +66574,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000047"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 32, corresponding to an embryo of age 1 day, 16 hr at 22-24 Celsius and having the following external morphological criteria: Eye cup horse-shoe-shaped, standing out distinctly. Length of tail bud about 1.5 times its breadth. Length: 4.5 - 5.1 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 32, corresponding to an embryo of age 1 day, 16 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud ~1.5x longer than height; eye cup distinct, U-shaped (open); mouth primordium not visible. Internal landmarks: heart a linear tube with anterior outflow tract, left ventricle, atrioventricular canal and atrium; 26 post-otic somites; pronephric nephrostomes form; lung buds visible. Length 4.5-5.1 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66593,7 +66597,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 33/34, corresponding to an embryo of age 1 day, 20 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Stomodeal invagination a shallow vertical groove. Dorsal part of eye more pigmented than ventral part; distinct melanophores in dorsal part. Melanophores appearing dorsally on the head and laterally in a row extending from just below the pronephros backwards. Length of tail bud about twice its breadth. Beginning of heart beat. Length: 4.7 - 5.3 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 33 &amp; 34, corresponding to an embryo of age 1 day, 20 hours 30 minutes at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud ~2x longer than height; gut ~3x longer than tail; eye cup open C-shape with darker pigmentation dorsally; mouth primordium a shallow vertical groove; 32 post-otic somites; pigmented cells (melanophores) first appear on head (near hindbrain) and anterior trunk (near pronephric kidney). Internal landmarks: heart looping begins; heart beat clearly observable; foregut begin to constrict at trachea-eophagus boundary; cranial nerves distinct; thyroid primordium discernible]; pronephric kidney and duct formed with surrounding vasculature; thyroid primordium detectable. Length 4.7-5.3 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000048</oboInOwl:id>
         <rdfs:label>NF stage 33 and 34</rdfs:label>
@@ -66601,8 +66605,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000048"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 33/34, corresponding to an embryo of age 1 day, 20 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Stomodeal invagination a shallow vertical groove. Dorsal part of eye more pigmented than ventral part; distinct melanophores in dorsal part. Melanophores appearing dorsally on the head and laterally in a row extending from just below the pronephros backwards. Length of tail bud about twice its breadth. Beginning of heart beat. Length: 4.7 - 5.3 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 33 &amp; 34, corresponding to an embryo of age 1 day, 20 hours 30 minutes at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud ~2x longer than height; gut ~3x longer than tail; eye cup open C-shape with darker pigmentation dorsally; mouth primordium a shallow vertical groove; 32 post-otic somites; pigmented cells (melanophores) first appear on head (near hindbrain) and anterior trunk (near pronephric kidney). Internal landmarks: heart looping begins; heart beat clearly observable; foregut begin to constrict at trachea-eophagus boundary; cranial nerves distinct; thyroid primordium discernible]; pronephric kidney and duct formed with surrounding vasculature; thyroid primordium detectable. Length 4.7-5.3 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66623,7 +66628,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000048"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 35/36, corresponding to an embryo of age 2 days, 2 hr at 22-24 Celsius and having the following external morphological criteria: Stomodeal invagination roundish. Eye entirely black, choroid fissure nearly closed. Formation of two gill rudiments, anterior one nipple-shaped. Melanophores appearing on back. Posterior outline of proctodeum still curved. Length of tail bud about three times its breadth. Beginning of hatching. Length: 5.3 - 6.0 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 35 &amp; 36, corresponding to an embryo of age 2 days, 2 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud ~3x longer than height; gut ~2x longer than tail; outline of the proctodeum still curved; optic vesicle/retina completely black, choroidal fissure open; cardiac mesoderm starts to spontaneously contract; mouth invagination not quite round; 2 gill lobes; 36 post-otic somites; melanophores extend over top of head and along dorsal trunk. Internal landmarks: heart S-shaped, with distinct atrium lying dorsal to ventricle; vasculature to head and tail developing; liver bud visible posterior to heart; pronephric duct fused with rectal diverticulum, pronephric nephrostomes obvious. Embryos naturally hatch from vitelline membrane to become free swimming. Length 5.3-6.0 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000049</oboInOwl:id>
         <rdfs:label>NF stage 35 and 36</rdfs:label>
@@ -66631,8 +66636,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000049"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 35/36, corresponding to an embryo of age 2 days, 2 hr at 22-24 Celsius and having the following external morphological criteria: Stomodeal invagination roundish. Eye entirely black, choroid fissure nearly closed. Formation of two gill rudiments, anterior one nipple-shaped. Melanophores appearing on back. Posterior outline of proctodeum still curved. Length of tail bud about three times its breadth. Beginning of hatching. Length: 5.3 - 6.0 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 35 &amp; 36, corresponding to an embryo of age 2 days, 2 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail bud ~3x longer than height; gut ~2x longer than tail; outline of the proctodeum still curved; optic vesicle/retina completely black, choroidal fissure open; cardiac mesoderm starts to spontaneously contract; mouth invagination not quite round; 2 gill lobes; 36 post-otic somites; melanophores extend over top of head and along dorsal trunk. Internal landmarks: heart S-shaped, with distinct atrium lying dorsal to ventricle; vasculature to head and tail developing; liver bud visible posterior to heart; pronephric duct fused with rectal diverticulum, pronephric nephrostomes obvious. Embryos naturally hatch from vitelline membrane to become free swimming. Length 5.3-6.0 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66653,7 +66659,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 37/38, corresponding to an embryo of age 2 days, 5 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Stomodeal invagination much deeper, opening round. Both gill rudiments nipple-shaped, a branch of the anterior one indicated. Posterior outline of proctodeum straight, forming very obtuse angle with ventral border of tail myotomes. Melanophores spreading over tail. Length: 5.6 - 6.2 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 37 &amp; 38, corresponding to an embryo of age 2 days, 5 hours 30 minutes at 22-24 Celsius. Part of the organogenesis stage. External landmarks: gut almost same length as tail; eyes&apos; choroid fissure closing ventrally but remain open; mouth invagination deep, round-shaped; heart contractions obvious, blood flow visible; proctodeum at obtuse angle (~140 degrees) to tail somites; 40 post-otic somites; melanophores extend over tail. Internal landmarks: paired lymph hearts; entire pronephric kidney functioning; ventral bud of pancreas formed. Length 5.6-6.2 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000050</oboInOwl:id>
         <rdfs:label>NF stage 37 and 38</rdfs:label>
@@ -66661,8 +66667,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000050"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 37/38, corresponding to an embryo of age 2 days, 5 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Stomodeal invagination much deeper, opening round. Both gill rudiments nipple-shaped, a branch of the anterior one indicated. Posterior outline of proctodeum straight, forming very obtuse angle with ventral border of tail myotomes. Melanophores spreading over tail. Length: 5.6 - 6.2 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 37 &amp; 38, corresponding to an embryo of age 2 days, 5 hours 30 minutes at 22-24 Celsius. Part of the organogenesis stage. External landmarks: gut almost same length as tail; eyes&apos; choroid fissure closing ventrally but remain open; mouth invagination deep, round-shaped; heart contractions obvious, blood flow visible; proctodeum at obtuse angle (~140 degrees) to tail somites; 40 post-otic somites; melanophores extend over tail. Internal landmarks: paired lymph hearts; entire pronephric kidney functioning; ventral bud of pancreas formed. Length 5.6-6.2 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66683,7 +66690,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 39, corresponding to an embryo of age 2 days, 8 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Melanophores appearing around nasal pits. Opening of stomodeal invagination transversely elongated. Melanophores on back arranged in a superficial and a deeper layer. Outlines of proctodeum and tail myotomes forming angle of about 135 degrees. Melanophores appearing along ventral edge of tail musculature. Length: 5.9 - 6.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 39, corresponding to an embryo of age 2 days, 8 hours 30 minutes at 22-24 Celsius. Part of the organogenesis stage. External landmarks: gut equal in length to tail somites; melanophores around nasal pits and along ventral edge of tail somites; ventral choroid fissure nearly closed; proctodeum at ~125 degree angle to tail somites; 43 post-otic somites. Internal landmarks: retinal ganglion cell axons reach optic tectum; mesonephric kidney begins to form. Length 5.9-6.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000051</oboInOwl:id>
         <rdfs:label>NF stage 39</rdfs:label>
@@ -66691,8 +66698,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000051"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 39, corresponding to an embryo of age 2 days, 8 hr 30 min at 22-24 Celsius and having the following external morphological criteria: Melanophores appearing around nasal pits. Opening of stomodeal invagination transversely elongated. Melanophores on back arranged in a superficial and a deeper layer. Outlines of proctodeum and tail myotomes forming angle of about 135 degrees. Melanophores appearing along ventral edge of tail musculature. Length: 5.9 - 6.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 39, corresponding to an embryo of age 2 days, 8 hours 30 minutes at 22-24 Celsius. Part of the organogenesis stage. External landmarks: gut equal in length to tail somites; melanophores around nasal pits and along ventral edge of tail somites; ventral choroid fissure nearly closed; proctodeum at ~125 degree angle to tail somites; 43 post-otic somites. Internal landmarks: retinal ganglion cell axons reach optic tectum; mesonephric kidney begins to form. Length 5.9-6.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66713,7 +66721,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 40, corresponding to an embryo of age 2 days, 18 hr at 22-24 Celsius and having the following external morphological criteria: Mouth broken through. Length of gills about twice their breadth, posterior one sometimes also showing a branch. Outlines of proctodeum and tail myotomes forming angles of 90 degrees. Beginning of blood circulation in gills. Length: 6.3 - 6.8 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 40, corresponding to an embryo of age 2 days, 18 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail now longer than the abdomin; optic choroid fissure completely closed; mouth opening &quot;breaks through&quot;; stomach and pancreas visible on the left side of gut; proctodeum at 90 degree angle to tail somites (lateral view), ~45 post-otic somites. Internal landmarks: gall bladder primordium formed and sometimes visible (iridescent on ventral view); blood circulation in gills visible. Embryos begin taking gulps of air from the surface. Length 6.3-6.8 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000052</oboInOwl:id>
         <rdfs:label>NF stage 40</rdfs:label>
@@ -66721,8 +66729,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 40, corresponding to an embryo of age 2 days, 18 hr at 22-24 Celsius and having the following external morphological criteria: Mouth broken through. Length of gills about twice their breadth, posterior one sometimes also showing a branch. Outlines of proctodeum and tail myotomes forming angles of 90 degrees. Beginning of blood circulation in gills. Length: 6.3 - 6.8 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 40, corresponding to an embryo of age 2 days, 18 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: tail now longer than the abdomin; optic choroid fissure completely closed; mouth opening &quot;breaks through&quot;; stomach and pancreas visible on the left side of gut; proctodeum at 90 degree angle to tail somites (lateral view), ~45 post-otic somites. Internal landmarks: gall bladder primordium formed and sometimes visible (iridescent on ventral view); blood circulation in gills visible. Embryos begin taking gulps of air from the surface. Length 6.3-6.8 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66743,7 +66752,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 41, corresponding to an embryo of age 3 days, 4 hr at 22-24 Celsius and having the following external morphological criteria: Gills broader and flatter, more laterally directed. Formation of a left-rostral and a right-caudal furrow in yolk mass; torsion of interjacent part about 45 degrees; formation of conical proctodeum, forming angle of about 60 degrees with tail myotomes. Formation of fin rostral to proctodeum; ventral outline of yolk mass and proctodeum a smooth concave line. Length: 6.7 - 7.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 41, corresponding to an embryo of age 3 days, 4 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: conical shaped proctodeum formed, at angle of ~ 60 degrees to tail somites. Internal landmarks: myocardium thickens and develops trabeculae, atrium posterior to ventricle; torsion of gut starts; post-anal gut disappears; the pancreas, now visible in ventral view, posterior to left-sided stomach. Length 6.7-7.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000053</oboInOwl:id>
         <rdfs:label>NF stage 41</rdfs:label>
@@ -66751,8 +66760,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000053"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 41, corresponding to an embryo of age 3 days, 4 hr at 22-24 Celsius and having the following external morphological criteria: Gills broader and flatter, more laterally directed. Formation of a left-rostral and a right-caudal furrow in yolk mass; torsion of interjacent part about 45 degrees; formation of conical proctodeum, forming angle of about 60 degrees with tail myotomes. Formation of fin rostral to proctodeum; ventral outline of yolk mass and proctodeum a smooth concave line. Length: 6.7 - 7.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 41, corresponding to an embryo of age 3 days, 4 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: conical shaped proctodeum formed, at angle of ~ 60 degrees to tail somites. Internal landmarks: myocardium thickens and develops trabeculae, atrium posterior to ventricle; torsion of gut starts; post-anal gut disappears; the pancreas, now visible in ventral view, posterior to left-sided stomach. Length 6.7-7.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66773,7 +66783,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 42, corresponding to an embryo of age 3 days, 8 hr at 22-24 Celsius and having the following external morphological criteria: Beginning of formation of opercular folds. Torsion of intestine about 90 degrees; proctodeum connected with yolk mass by short horizontal intestinal tube. Length: 7.0 - 7.7 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 42, corresponding to an embryo of age 3 days, 8 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: opercular fold first visible; head somites I and II disappeared. Internal landmarks: trachea and esophagus separate. Length 7.0-7.7 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000054</oboInOwl:id>
         <rdfs:label>NF stage 42</rdfs:label>
@@ -66781,8 +66791,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000054"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 42, corresponding to an embryo of age 3 days, 8 hr at 22-24 Celsius and having the following external morphological criteria: Beginning of formation of opercular folds. Torsion of intestine about 90 degrees; proctodeum connected with yolk mass by short horizontal intestinal tube. Length: 7.0 - 7.7 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 42, corresponding to an embryo of age 3 days, 8 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: opercular fold first visible; head somites I and II disappeared. Internal landmarks: trachea and esophagus separate. Length 7.0-7.7 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66803,7 +66814,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 43, corresponding to an embryo of age 3 days, 15 hr at 22-24 Celsius and having the following external morphological criteria: Lateral line system becoming visible externally. Cement gland losing its pigment. Torsion of intestine about 180 degrees; proctodeum narrower, arched or S-shaped. Length: 7.5 - 8.3 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 43, corresponding to an embryo of age 3 days, 15 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: cement gland starts to lose pigmentation; lateral line pits visible. Internal landmarks: stomach has lengthened further; pancreas shifted to right side; duodenum formed by 1st gut coil constriction to anterior-right; midgut and hindgut form hairpin curve, visible on left side (will become the &quot;apex&quot; of future intestinal coil). Length 7.5-8.3 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000055</oboInOwl:id>
         <rdfs:label>NF stage 43</rdfs:label>
@@ -66811,8 +66822,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000055"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 43, corresponding to an embryo of age 3 days, 15 hr at 22-24 Celsius and having the following external morphological criteria: Lateral line system becoming visible externally. Cement gland losing its pigment. Torsion of intestine about 180 degrees; proctodeum narrower, arched or S-shaped. Length: 7.5 - 8.3 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 43, corresponding to an embryo of age 3 days, 15 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: cement gland starts to lose pigmentation; lateral line pits visible. Internal landmarks: stomach has lengthened further; pancreas shifted to right side; duodenum formed by 1st gut coil constriction to anterior-right; midgut and hindgut form hairpin curve, visible on left side (will become the &quot;apex&quot; of future intestinal coil). Length 7.5-8.3 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66833,7 +66845,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 44, corresponding to an embryo of age 3 days, 20 hr at 22-24 Celsius and having the following external morphological criteria: Appearance of tentacle rudiments. Opercular folds protruding further. Coiling part of intestine showing S-shaped loop; torsion about 360 degrees. Blood-circulation in gills usually ceased (gills smaller). Length: 7.8 - 8.5 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 44, corresponding to an embryo of age 3 days, 20 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: heart fully formed and clearly visible; barbels/tentacles start to grow; gills/branchial basket shrinking. Internal landmarks: septum begins to form in cardiac atrium which is slightly anterior to ventricle; midgut and hindgut lengthened more; the intestinal apex visible in ventral view as a &quot;U&quot; shape in the upper left quadrant of the gut cavity. Visual avoidance behavior begins. Length 7.8-8.5 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000056</oboInOwl:id>
         <rdfs:label>NF stage 44</rdfs:label>
@@ -66841,8 +66853,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000056"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 44, corresponding to an embryo of age 3 days, 20 hr at 22-24 Celsius and having the following external morphological criteria: Appearance of tentacle rudiments. Opercular folds protruding further. Coiling part of intestine showing S-shaped loop; torsion about 360 degrees. Blood-circulation in gills usually ceased (gills smaller). Length: 7.8 - 8.5 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 44, corresponding to an embryo of age 3 days, 20 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: heart fully formed and clearly visible; barbels/tentacles start to grow; gills/branchial basket shrinking. Internal landmarks: septum begins to form in cardiac atrium which is slightly anterior to ventricle; midgut and hindgut lengthened more; the intestinal apex visible in ventral view as a &quot;U&quot; shape in the upper left quadrant of the gut cavity. Visual avoidance behavior begins. Length 7.8-8.5 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66863,7 +66876,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 45, corresponding to a tadpole of age 4 days, 2 hr at 22-24 Celsius and having the following external morphological criteria: Operculum partly covering gills, edge still straight. Intestine spiralized in ventral aspects, showing 1.5 revolutions. Beginning of feeding. Length: 8 - 10 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 45, corresponding to a tadpole of age 4 days, 2 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: operculum partly covers the gills, hindlimb bud not visible. Internal landmarks: midgut and hindgut continue to lengthen; the intestinal apex begins to rotate inward in a counterclockwise trajectory; spleen forms; mesonephric kidney. Tadpoles to start swim continuously and begin feeding. Length 8-10 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000057</oboInOwl:id>
         <rdfs:label>NF stage 45</rdfs:label>
@@ -66871,8 +66884,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000057"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 45, corresponding to a tadpole of age 4 days, 2 hr at 22-24 Celsius and having the following external morphological criteria: Operculum partly covering gills, edge still straight. Intestine spiralized in ventral aspects, showing 1.5 revolutions. Beginning of feeding. Length: 8 - 10 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 45, corresponding to a tadpole of age 4 days, 2 hours at 22-24 Celsius. Part of the organogenesis stage. External landmarks: operculum partly covers the gills, hindlimb bud not visible. Internal landmarks: midgut and hindgut continue to lengthen; the intestinal apex begins to rotate inward in a counterclockwise trajectory; spleen forms; mesonephric kidney. Tadpoles to start swim continuously and begin feeding. Length 8-10 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66893,7 +66907,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000057"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 46, corresponding to a tadpole of age 4 days, 10 hr at 22-24 Celsius and having the following external morphological criteria: Edge of operculum becoming convex. Xantophores appearing on eye and abdomen. Intestine showing 2 to 2.5 revolutions. Hindlimb bud visible for the first time. Length: 9 - 12 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 46, corresponding to a tadpole of age 4 days, 10 hours at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: crescent-shaped hindlimb bud first appears although is difficult to see; pigment cells appear on eye and around abdomen; trunk somite 1 disappeared. Internal landmarks: midgut and hindgut lengthen further; apex continues to rotate inward, forming multiple coils of intestine; blood circulation to gills diminishing. Food can be seen in intestine as now feeding. Length 9-12 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000058</oboInOwl:id>
         <rdfs:label>NF stage 46</rdfs:label>
@@ -66901,8 +66915,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000058"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 46, corresponding to a tadpole of age 4 days, 10 hr at 22-24 Celsius and having the following external morphological criteria: Edge of operculum becoming convex. Xantophores appearing on eye and abdomen. Intestine showing 2 to 2.5 revolutions. Hindlimb bud visible for the first time. Length: 9 - 12 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 46, corresponding to a tadpole of age 4 days, 10 hours at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: crescent-shaped hindlimb bud first appears although is difficult to see; pigment cells appear on eye and around abdomen; trunk somite 1 disappeared. Internal landmarks: midgut and hindgut lengthen further; apex continues to rotate inward, forming multiple coils of intestine; blood circulation to gills diminishing. Food can be seen in intestine as now feeding. Length 9-12 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66923,7 +66938,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 47, corresponding to a tadpole of age 5 days, 12 hr at 22-24 Celsius and having the following external morphological criteria: Tentacles larger. Edge of operculum forming quarter of a circle. Xantophores forming opaque layer on abdomen. Intestine showing 2.5 to 3.5 revolutions. Hindlimb bud more distinct. Length: 12 - 15 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 47, corresponding to a tadpole of age 5 days, 12 hours at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: iridescent gold-coloured abdominal wall surrounds coiled gut; blood circulation visible from heart to gills, and through paired dorsal aorta; cement gland starts to degenerate; barbels/tentacles longer. Internal landmarks: retinal ganglion cells have formed complex synapses with optic tectum neurons; thyroid gland begins to function; thymus gland detectable. Length 12-15 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000059</oboInOwl:id>
         <rdfs:label>NF stage 47</rdfs:label>
@@ -66931,8 +66946,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000059"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 47, corresponding to a tadpole of age 5 days, 12 hr at 22-24 Celsius and having the following external morphological criteria: Tentacles larger. Edge of operculum forming quarter of a circle. Xantophores forming opaque layer on abdomen. Intestine showing 2.5 to 3.5 revolutions. Hindlimb bud more distinct. Length: 12 - 15 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 47, corresponding to a tadpole of age 5 days, 12 hours at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: iridescent gold-coloured abdominal wall surrounds coiled gut; blood circulation visible from heart to gills, and through paired dorsal aorta; cement gland starts to degenerate; barbels/tentacles longer. Internal landmarks: retinal ganglion cells have formed complex synapses with optic tectum neurons; thyroid gland begins to function; thymus gland detectable. Length 12-15 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66953,7 +66969,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 48, corresponding to a tadpole of age 7.5 days at 22-24 Celsius and having the following external morphological criteria: Beginning of pigmentation around n. acusticus. Forelimb bud visible for the first time. Shining gold-coloured abdomen. Hindlimb bud semicircular in lateral aspect. Length: 14 - 17 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 48, corresponding to a tadpole of age 7.5 days at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud now clearly visible, with nearly semicircular shape. Internal landmarks: retinal ganglion cells-optic tectum synapses more compact. Length 14-17 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000060</oboInOwl:id>
         <rdfs:label>NF stage 48</rdfs:label>
@@ -66961,8 +66977,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000060"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 48, corresponding to a tadpole of age 7.5 days at 22-24 Celsius and having the following external morphological criteria: Beginning of pigmentation around n. acusticus. Forelimb bud visible for the first time. Shining gold-coloured abdomen. Hindlimb bud semicircular in lateral aspect. Length: 14 - 17 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 48, corresponding to a tadpole of age 7.5 days at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud now clearly visible, with nearly semicircular shape. Internal landmarks: retinal ganglion cells-optic tectum synapses more compact. Length 14-17 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66983,7 +67000,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 49, corresponding to a tadpole of age about 12 days at 22-24 Celsius and having the following external morphological criteria: Melanophores usually appearing around thymus gland and nerves and blood vessels of head; xantophores appearing on pericard. Forelimb bud distinct. Hindlimb bud somewhat longer, distal outline still circular, no constrictions at base. Melanophores appearing on dorsal and ventral fin. Length: 17 - 23 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 49, corresponding to a tadpole of about 12 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud length equal to its width. Internal landmarks: thyroid follicles first appear. Length 17-23 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000061</oboInOwl:id>
         <rdfs:label>NF stage 49</rdfs:label>
@@ -66991,8 +67008,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000061"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 49, corresponding to a tadpole of age about 12 days at 22-24 Celsius and having the following external morphological criteria: Melanophores usually appearing around thymus gland and nerves and blood vessels of head; xantophores appearing on pericard. Forelimb bud distinct. Hindlimb bud somewhat longer, distal outline still circular, no constrictions at base. Melanophores appearing on dorsal and ventral fin. Length: 17 - 23 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 49, corresponding to a tadpole of about 12 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud length equal to its width. Internal landmarks: thyroid follicles first appear. Length 17-23 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67013,7 +67031,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000061"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 50, corresponding to a tadpole of age about 15 days at 22-24 Celsius and having the following external morphological criteria: Forelimb bud somewhat oval-shaped in dorsal aspect. Hindlimb bud longer than broad, constricted at base, distal outline somewhat conical. Length: 20 - 27 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 50, corresponding to a tadpole of about 15 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud slightly constricted at base; tiny oval forelimb buds just visible. Internal landmarks: gonads undifferentiated. Length 20-27 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000062</oboInOwl:id>
         <rdfs:label>NF stage 50</rdfs:label>
@@ -67021,8 +67039,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000062"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 50, corresponding to a tadpole of age about 15 days at 22-24 Celsius and having the following external morphological criteria: Forelimb bud somewhat oval-shaped in dorsal aspect. Hindlimb bud longer than broad, constricted at base, distal outline somewhat conical. Length: 20 - 27 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 50, corresponding to a tadpole of about 15 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud slightly constricted at base; tiny oval forelimb buds just visible. Internal landmarks: gonads undifferentiated. Length 20-27 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67043,7 +67062,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 51, corresponding to a tadpole of age about 17 days at 22-24 Celsius and having the following external morphological criteria: Tentacles much longer. Forelimb bud oval-shaped in lateral aspect. Hindlimb bud conical in shape, its length about 1.5 times its breadth; melanophores appearing on it. Length: 28 - 36 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 51, corresponding to a tadpole of about 17 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud is cone-shaped; forelimb bud is oval shaped (in lateral view). Internal landmarks: resorption vacuoles in thyroid follicles first appear. Length 28-36 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000063</oboInOwl:id>
         <rdfs:label>NF stage 51</rdfs:label>
@@ -67051,8 +67070,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000063"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 51, corresponding to a tadpole of age about 17 days at 22-24 Celsius and having the following external morphological criteria: Tentacles much longer. Forelimb bud oval-shaped in lateral aspect. Hindlimb bud conical in shape, its length about 1.5 times its breadth; melanophores appearing on it. Length: 28 - 36 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 51, corresponding to a tadpole of about 17 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud is cone-shaped; forelimb bud is oval shaped (in lateral view). Internal landmarks: resorption vacuoles in thyroid follicles first appear. Length 28-36 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67073,7 +67093,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 52, corresponding to a tadpole of age about 21 days at 22-24 Celsius and having the following external morphological criteria: Forelimb bud irregularly conical. Hindlimb bud showing first indication of ankle constriction and first sign of flattening of foot. Length: 42 - 56 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 52, corresponding to a tadpole of about 21 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud with slight &quot;wrist&quot; indent; forelimb bud slightly constricted at base. Internal landmarks: 5 complete coils of the intestine (internal and external coils). Regeneration competent. Length 42-56 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000064</oboInOwl:id>
         <rdfs:label>NF stage 52</rdfs:label>
@@ -67081,8 +67101,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000064"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 52, corresponding to a tadpole of age about 21 days at 22-24 Celsius and having the following external morphological criteria: Forelimb bud irregularly conical. Hindlimb bud showing first indication of ankle constriction and first sign of flattening of foot. Length: 42 - 56 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 52, corresponding to a tadpole of about 21 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud with slight &quot;wrist&quot; indent; forelimb bud slightly constricted at base. Internal landmarks: 5 complete coils of the intestine (internal and external coils). Regeneration competent. Length 42-56 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67103,7 +67124,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 53, corresponding to a tadpole of age about 24 days at 22-24 Celsius and having the following external morphological criteria: Fore- and hindlimbs in paddle stage. Hindlimb whithout foot somewhat longer than broad; 4th and 5th toe indicated. Length: 50 - 60 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 53, corresponding to a tadpole of about 24 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud paddle-like, with wrist constriction, hindlimb digits not discernable; forelimb bud with slight wrist constriction. Internal landmarks: onset of sexual differentiation of gonads. Regeneration competent; athyroid animals have arrested development. Length 50-60 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000065</oboInOwl:id>
         <rdfs:label>NF stage 53</rdfs:label>
@@ -67111,8 +67132,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000065"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 53, corresponding to a tadpole of age about 24 days at 22-24 Celsius and having the following external morphological criteria: Fore- and hindlimbs in paddle stage. Hindlimb whithout foot somewhat longer than broad; 4th and 5th toe indicated. Length: 50 - 60 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 53, corresponding to a tadpole of about 24 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud paddle-like, with wrist constriction, hindlimb digits not discernable; forelimb bud with slight wrist constriction. Internal landmarks: onset of sexual differentiation of gonads. Regeneration competent; athyroid animals have arrested development. Length 50-60 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67133,7 +67155,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 54, corresponding to a tadpole of age about 26 days at 22-24 Celsius and having the following external morphological criteria: All four fingers indicated; edge of hand slightly scalloped between fingers; melanophores appearing on forelimb. Length of hindlimb without foot nearly twice its breadth; all five toes indicated, the second only very slightly. Length: 58 - 65 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 54, corresponding to a tadpole of about 26 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud length (not including foot) 2x the width; foot paddle splayed with 5 digits and thinner inter-digital webbing; forelimb paddle with 4 digits and thinner inter-digital membranes. Internal landmarks: pronephric kidney begins to atrophy. Thyroid hormone detectable in blood. Length 58-65 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000066</oboInOwl:id>
         <rdfs:label>NF stage 54</rdfs:label>
@@ -67141,8 +67163,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000066"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 54, corresponding to a tadpole of age about 26 days at 22-24 Celsius and having the following external morphological criteria: All four fingers indicated; edge of hand slightly scalloped between fingers; melanophores appearing on forelimb. Length of hindlimb without foot nearly twice its breadth; all five toes indicated, the second only very slightly. Length: 58 - 65 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 54, corresponding to a tadpole of about 26 days in age at 22-24 Celsius. Part of the premetamorphosis stage. External landmarks: hindlimb bud length (not including foot) 2x the width; foot paddle splayed with 5 digits and thinner inter-digital webbing; forelimb paddle with 4 digits and thinner inter-digital membranes. Internal landmarks: pronephric kidney begins to atrophy. Thyroid hormone detectable in blood. Length 58-65 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67163,7 +67186,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000066"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 55, corresponding to a tadpole of age about 32 days at 22-24 Celsius and having the following external morphological criteria: Hand pronated about 90 degrees; free parts of fingers about equally long as broad. Length of hindlimb without foot about 3 times its breadth; length of cartilages of 4th and 5th toe about 4 times their breadth. Length: 70 - 80 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 55, corresponding to a tadpole of about 32 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: hindlimb length (not including foot) 3x width; forelimb hand rotates 90 degress, free parts of fingers as long as they are wide. Internal landmarks: all major muscles of hindlimb developed. Regeneration restricted. Length 70-80 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000067</oboInOwl:id>
         <rdfs:label>NF stage 55</rdfs:label>
@@ -67171,8 +67194,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000067"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 55, corresponding to a tadpole of age about 32 days at 22-24 Celsius and having the following external morphological criteria: Hand pronated about 90 degrees; free parts of fingers about equally long as broad. Length of hindlimb without foot about 3 times its breadth; length of cartilages of 4th and 5th toe about 4 times their breadth. Length: 70 - 80 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 55, corresponding to a tadpole of about 32 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: hindlimb length (not including foot) 3x width; forelimb hand rotates 90 degress, free parts of fingers as long as they are wide. Internal landmarks: all major muscles of hindlimb developed. Regeneration restricted. Length 70-80 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67193,7 +67217,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000067"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 56, corresponding to a tadpole of age about 38 days at 22-24 Celsius and having the following external morphological criteria: Elbow and wrist clearly indicated; length of free parts of fingers 3 to 4 times their breadth. Length of cartilages of 4th and 5th toe about 6 times their breadth. Length: 70 - 100 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 56, corresponding to a tadpole of about 38 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: hindlimbs visible from above as they can rotate away from body; hindlimb length equal to ~5 tail somites; larval pigmentation pattern established. Internal landmarks: sexual differentiation of gonads into ovary or testis; hindlimb skeleton completely chondrified. Regeneration restricted. Length 70-100 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000068</oboInOwl:id>
         <rdfs:label>NF stage 56</rdfs:label>
@@ -67201,8 +67225,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000068"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 56, corresponding to a tadpole of age about 38 days at 22-24 Celsius and having the following external morphological criteria: Elbow and wrist clearly indicated; length of free parts of fingers 3 to 4 times their breadth. Length of cartilages of 4th and 5th toe about 6 times their breadth. Length: 70 - 100 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 56, corresponding to a tadpole of about 38 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: hindlimbs visible from above as they can rotate away from body; hindlimb length equal to ~5 tail somites; larval pigmentation pattern established. Internal landmarks: sexual differentiation of gonads into ovary or testis; hindlimb skeleton completely chondrified. Regeneration restricted. Length 70-100 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67223,7 +67248,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 57, corresponding to a tadpole of age about 41 days at 22-24 Celsius and having the following external morphological criteria: Pigment-free spot appearing above &quot;Stirnorgan&quot;. Angle of elbow more than 90 degrees; fingers stretched out in forelimb atrium, their length about 7 times their breadth. Length: 75 - 105 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 57, corresponding to a tadpole of about 41 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: hindlimb length equal to ~9 tail somites; forelimb remains enclosed in operculum; lip folds form. Length 75-105 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000069</oboInOwl:id>
         <rdfs:label>NF stage 57</rdfs:label>
@@ -67231,8 +67256,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000069"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 57, corresponding to a tadpole of age about 41 days at 22-24 Celsius and having the following external morphological criteria: Pigment-free spot appearing above &quot;Stirnorgan&quot;. Angle of elbow more than 90 degrees; fingers stretched out in forelimb atrium, their length about 7 times their breadth. Length: 75 - 105 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 57, corresponding to a tadpole of about 41 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: hindlimb length equal to ~9 tail somites; forelimb remains enclosed in operculum; lip folds form. Length 75-105 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67253,7 +67279,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 58, corresponding to a tadpole of age about 44 days at 22-24 Celsius and having the following external morphological criteria: Forelimbs broken through. Guanophores appearing on abdomen and thighs (adult skin areas). All three claws present on hindlimbs. Length: 80 - 110 mm.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 58, corresponding to a tadpole of about 44 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: hindlimb length equal to 11-12 tail somites; claws form on toes 1-3 (mostly always still white); forelimb emerges from operculum, elbows first; tail tip begins to atrophy. Internal landmarks: melanin/pigment deposited in under skin especially in tail. Regeneration incompetent. Length 80-110 mm.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000070</oboInOwl:id>
         <rdfs:label>NF stage 58</rdfs:label>
@@ -67261,8 +67287,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000070"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 58, corresponding to a tadpole of age about 44 days at 22-24 Celsius and having the following external morphological criteria: Forelimbs broken through. Guanophores appearing on abdomen and thighs (adult skin areas). All three claws present on hindlimbs. Length: 80 - 110 mm.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 58, corresponding to a tadpole of about 44 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: hindlimb length equal to 11-12 tail somites; claws form on toes 1-3 (mostly always still white); forelimb emerges from operculum, elbows first; tail tip begins to atrophy. Internal landmarks: melanin/pigment deposited in under skin especially in tail. Regeneration incompetent. Length 80-110 mm.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67283,7 +67310,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000070"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 59, corresponding to a tadpole of age about 45 days at 22-24 Celsius and having the following external morphological criteria: Tentacles beginning to shrivel up. Stretched forelimb reaching down to base of hindlimb. Guanophores appearing near base of forelimb (adult skin area); anterior border of adult skin area on abdomen not yet sharp; appearance of irregular dark spots on back.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 59, corresponding to a tadpole of about 45 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: hindlimb muscular, claws start to harden and turn black, shortest toes first; finger tips reach base of hindlimb when forelimb is positioned along the abdomen; tentacles/barbels regress. Internal landmarks: melanin/pigment surrounds intersomitic blood vessels and between fibres of somites; forelimb muscles differentiated; pronephros no longer functional. Regeneration incompetent.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000071</oboInOwl:id>
         <rdfs:label>NF stage 59</rdfs:label>
@@ -67291,8 +67318,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000071"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 59, corresponding to a tadpole of age about 45 days at 22-24 Celsius and having the following external morphological criteria: Tentacles beginning to shrivel up. Stretched forelimb reaching down to base of hindlimb. Guanophores appearing near base of forelimb (adult skin area); anterior border of adult skin area on abdomen not yet sharp; appearance of irregular dark spots on back.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 59, corresponding to a tadpole of about 45 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: hindlimb muscular, claws start to harden and turn black, shortest toes first; finger tips reach base of hindlimb when forelimb is positioned along the abdomen; tentacles/barbels regress. Internal landmarks: melanin/pigment surrounds intersomitic blood vessels and between fibres of somites; forelimb muscles differentiated; pronephros no longer functional. Regeneration incompetent.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67313,7 +67341,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 60, corresponding to a tadpole of age about 46 days at 22-24 Celsius and having the following external morphological criteria: N. olfactorius still longer than bulbus olfactorius. Guanophores appearing on lower jaw (adult skin area). Openings of gill chambers still wide. Distal half of fingers of stretched forelimb extending beyond base of hindlimb; forelimb still situated behind level of heart. Adult skin area of base of forelimb covered with guanophores; anterior border of adult skin area on abdomen sharper, reaching up to heart.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 60, corresponding to a tadpole of about 46 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: gill chamber opening still wide; fingertips reach beyond base of hindlimb (almost to &quot;knee&quot;) when forelimb/arm is positioned along side of the abdomen; forelimb held posterior to heart; tail fins greatly reduced. Internal landmarks: pigmentation across body increases. Regeneration incompetent; animal switches from tail to leg swimming.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000072</oboInOwl:id>
         <rdfs:label>NF stage 60</rdfs:label>
@@ -67321,8 +67349,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000072"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 60, corresponding to a tadpole of age about 46 days at 22-24 Celsius and having the following external morphological criteria: N. olfactorius still longer than bulbus olfactorius. Guanophores appearing on lower jaw (adult skin area). Openings of gill chambers still wide. Distal half of fingers of stretched forelimb extending beyond base of hindlimb; forelimb still situated behind level of heart. Adult skin area of base of forelimb covered with guanophores; anterior border of adult skin area on abdomen sharper, reaching up to heart.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 60, corresponding to a tadpole of about 46 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: gill chamber opening still wide; fingertips reach beyond base of hindlimb (almost to &quot;knee&quot;) when forelimb/arm is positioned along side of the abdomen; forelimb held posterior to heart; tail fins greatly reduced. Internal landmarks: pigmentation across body increases. Regeneration incompetent; animal switches from tail to leg swimming.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67343,7 +67372,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000072"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 61, corresponding to a tadpole of age about 48 days at 22-24 Celsius and having the following external morphological criteria: Head narrower. Tentacles considerably shortened, mostly curved backwards. Length of n. olfactorius equal to diameter of bulbus olfactorius. 4th arterial arch seen just in front of adult skin area of forelimb. Openings of gill chambers considerably narrowed. Forelimb at level of posterior half of heart. Adult skin area on abdomen covering posterior half of heart. Fins considerably reduced.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 61, corresponding to a tadpole of about 48 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: first sign of gill resorption, openings to gill chamber much narrower; hindlimb and forelimb fully formed; forelimb at level of posterior half of heart. Internal landmarks: lateral finger-like protrusions from olfactory organ. Cessation of feeding (due to oral and intestinal remodeling).</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000073</oboInOwl:id>
         <rdfs:label>NF stage 61</rdfs:label>
@@ -67351,8 +67380,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000073"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 61, corresponding to a tadpole of age about 48 days at 22-24 Celsius and having the following external morphological criteria: Head narrower. Tentacles considerably shortened, mostly curved backwards. Length of n. olfactorius equal to diameter of bulbus olfactorius. 4th arterial arch seen just in front of adult skin area of forelimb. Openings of gill chambers considerably narrowed. Forelimb at level of posterior half of heart. Adult skin area on abdomen covering posterior half of heart. Fins considerably reduced.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 61, corresponding to a tadpole of about 48 days in age at 22-24 Celsius. Part of the prometamorphosis stage. External landmarks: first sign of gill resorption, openings to gill chamber much narrower; hindlimb and forelimb fully formed; forelimb at level of posterior half of heart. Internal landmarks: lateral finger-like protrusions from olfactory organ. Cessation of feeding (due to oral and intestinal remodeling).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67373,7 +67403,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000073"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 62, corresponding to a tadpole of age about 49 days at 22-24 Celsius and having the following external morphological criteria: Head still somewhat broader than cranial part of trunk. Tentacles short, straight. N. olfactorius shorter than diameter of bulbus olfactorius. Corner of mouth still in front of eye. Thymus gland somewhat protruding. 3rd arterial arch (&quot;larval aorta&quot;) seen at distance of its own diameter in front of adult skin area of forelimb. Opening of operculum reduced to curved slit. Forelimb at level of middle of heart. Anterior border of adult skin area on abdomen entirely sharp, mostly nicked medially. Ventral fin disappeared from abdomen.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 62, corresponding to a tadpole of about 49 days in age at 22-24 Celsius. Part of the climax of metamorphosis stage. External landmarks: head slightly broader than abdomen; corner of mouth still in front of eye; forelimb reaches middle of heart; ventral tail fin gone from abdomen; adult skin on hindlimbs; only tiny nubs of barbels/tentacles remain. Internal landmarks: tiny &quot;stirnorgan&quot; (light detecting cells/part of pineal gland) appears; notochord atrophies along length of tail. Peak levels of thyroid hormone in plasma.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000074</oboInOwl:id>
         <rdfs:label>NF stage 62</rdfs:label>
@@ -67381,8 +67411,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000074"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 62, corresponding to a tadpole of age about 49 days at 22-24 Celsius and having the following external morphological criteria: Head still somewhat broader than cranial part of trunk. Tentacles short, straight. N. olfactorius shorter than diameter of bulbus olfactorius. Corner of mouth still in front of eye. Thymus gland somewhat protruding. 3rd arterial arch (&quot;larval aorta&quot;) seen at distance of its own diameter in front of adult skin area of forelimb. Opening of operculum reduced to curved slit. Forelimb at level of middle of heart. Anterior border of adult skin area on abdomen entirely sharp, mostly nicked medially. Ventral fin disappeared from abdomen.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 62, corresponding to a tadpole of about 49 days in age at 22-24 Celsius. Part of the climax of metamorphosis stage. External landmarks: head slightly broader than abdomen; corner of mouth still in front of eye; forelimb reaches middle of heart; ventral tail fin gone from abdomen; adult skin on hindlimbs; only tiny nubs of barbels/tentacles remain. Internal landmarks: tiny &quot;stirnorgan&quot; (light detecting cells/part of pineal gland) appears; notochord atrophies along length of tail. Peak levels of thyroid hormone in plasma.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67403,7 +67434,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000074"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 63, corresponding to a tadpole of age about 51 days at 22-24 Celsius and having the following external morphological criteria: Head narrower than trunk. Tentacles mostly disappeared. Corner of mouth at level of caudal border of eye. &quot;Larval aorta&quot; and thymus gland no longer externally visible. Operculum closed. Adult skin areas on abdomen and lower jaw separated by narrow band of larval skin. Forelimb at level of anterior half of heart. Fin mostly perforated near anus. Tail still slightly longer than body.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 63, corresponding to a tadpole of about 51 days in age at 22-24 Celsius. Part of the climax of metamorphosis stage. External landmarks: head narrower than abdomen; barbels/tentacles (most often) completely gone; forelimb at level of anterior half of heart; tail shortens as tail somites are rapidly resorbed, tail still slightly longer than body.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000075</oboInOwl:id>
         <rdfs:label>NF stage 63</rdfs:label>
@@ -67411,8 +67442,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000075"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 63, corresponding to a tadpole of age about 51 days at 22-24 Celsius and having the following external morphological criteria: Head narrower than trunk. Tentacles mostly disappeared. Corner of mouth at level of caudal border of eye. &quot;Larval aorta&quot; and thymus gland no longer externally visible. Operculum closed. Adult skin areas on abdomen and lower jaw separated by narrow band of larval skin. Forelimb at level of anterior half of heart. Fin mostly perforated near anus. Tail still slightly longer than body.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 63, corresponding to a tadpole of about 51 days in age at 22-24 Celsius. Part of the climax of metamorphosis stage. External landmarks: head narrower than abdomen; barbels/tentacles (most often) completely gone; forelimb at level of anterior half of heart; tail shortens as tail somites are rapidly resorbed, tail still slightly longer than body.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67433,7 +67465,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000075"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 64, corresponding to a tadpole of age about 53 days at 22-24 Celsius and having the following external morphological criteria: Corner of mouth well behind eye. Various adult skin areas joined almost everywhere, borderlines still clearly visible. Length of tail (from anus) is a third of body length.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 64, corresponding to a tadpole of about 53 days in age at 22-24 Celsius. Part of the climax of metamorphosis stage. External landmarks: corner of mouth behind eye; tail length is about 1/3 of body length, at level of ankle when legs are in typical neutral position; body completely covered in adult skin, but &quot;border lines&quot; clearly visible. Thymus gland ventral-lateral to otic capsule.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000076</oboInOwl:id>
         <rdfs:label>NF stage 64</rdfs:label>
@@ -67441,8 +67473,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000076"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 64, corresponding to a tadpole of age about 53 days at 22-24 Celsius and having the following external morphological criteria: Corner of mouth well behind eye. Various adult skin areas joined almost everywhere, borderlines still clearly visible. Length of tail (from anus) is a third of body length.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 64, corresponding to a tadpole of about 53 days in age at 22-24 Celsius. Part of the climax of metamorphosis stage. External landmarks: corner of mouth behind eye; tail length is about 1/3 of body length, at level of ankle when legs are in typical neutral position; body completely covered in adult skin, but &quot;border lines&quot; clearly visible. Thymus gland ventral-lateral to otic capsule.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67463,7 +67496,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000076"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 65, corresponding to a tadpole of age about 54 days at 22-24 Celsius and having the following external morphological criteria: Borderlines between adult skin areas partly disappeared. Tail oblong triangular in dorsal aspect, length abouth one tenth of body length.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 65, corresponding to a tadpole of about 54 days in age at 22-24 Celsius. Part of the climax of metamorphosis stage. External landmarks: tail length a few millimeters, all tail somites have disappeared; body completely covered in adult skin, but &quot;border lines&quot; still visible in some areas. Feeding resumes.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:1000077</oboInOwl:id>
         <rdfs:label>NF stage 65</rdfs:label>
@@ -67471,8 +67504,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000077"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 65, corresponding to a tadpole of age about 54 days at 22-24 Celsius and having the following external morphological criteria: Borderlines between adult skin areas partly disappeared. Tail oblong triangular in dorsal aspect, length abouth one tenth of body length.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 65, corresponding to a tadpole of about 54 days in age at 22-24 Celsius. Part of the climax of metamorphosis stage. External landmarks: tail length a few millimeters, all tail somites have disappeared; body completely covered in adult skin, but &quot;border lines&quot; still visible in some areas. Feeding resumes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -67493,16 +67527,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Nieuwkoop and Faber stage 66, corresponding to a tadpole of age about 58 days at 22-24 Celsius and having the following external morphological criteria: Border lines between adult skin areas disappeared. Tail only a very small triangle, no longer visible from ventral side.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nieuwkoop and Faber stage 66, corresponding to a tadpole of about 58 days in age at 22-24 Celsius. Part of the climax of metamorphosis stage. External landmarks: tail very nearly gone, not visible from ventral view; adult skin &quot;border lines&quot; have disappeared, froglet body ~10mm long. Internal landmarks: skin remodelled with underlying dermis and secretory glands. Thyroid hormone in plasma returns to prometamorphic levels.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_developmental_stage</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>froglet stage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:1000078</oboInOwl:id>
         <rdfs:label>NF stage 66</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_1000078"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nieuwkoop and Faber stage 66, corresponding to a tadpole of age about 58 days at 22-24 Celsius and having the following external morphological criteria: Border lines between adult skin areas disappeared. Tail only a very small triangle, no longer visible from ventral side.</owl:annotatedTarget>
+        <owl:annotatedTarget>Nieuwkoop and Faber stage 66, corresponding to a tadpole of about 58 days in age at 22-24 Celsius. Part of the climax of metamorphosis stage. External landmarks: tail very nearly gone, not visible from ventral view; adult skin &quot;border lines&quot; have disappeared, froglet body ~10mm long. Internal landmarks: skin remodelled with underlying dermis and secretory glands. Thyroid hormone in plasma returns to prometamorphic levels.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35833709</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
