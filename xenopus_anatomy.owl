@@ -65135,6 +65135,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A cell of the inner layer of the epidermis.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006000</oboInOwl:id>
         <rdfs:label>basal cell</rdfs:label>
@@ -65146,6 +65147,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>Lateral plate mesoderm that is located on the left side of the body.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006001</oboInOwl:id>
         <rdfs:label>lateral plate mesoderm, left side</rdfs:label>
@@ -65157,6 +65159,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>Lateral plate mesoderm that is located on the right side of the body.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006002</oboInOwl:id>
         <rdfs:label>lateral plate mesoderm, right side</rdfs:label>
@@ -65168,6 +65171,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>The portion of a cell that includes the nucleus, but excludes cell projections such as axons, dendrites, cilia, and flagella.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006003</oboInOwl:id>
         <rdfs:label>cell body</rdfs:label>
@@ -65179,6 +65183,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>The portion of a neuron that includes the nucleus, but excludes cell projections such as axons and dendrites.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006004</oboInOwl:id>
         <rdfs:label>neuronal cell body</rdfs:label>
@@ -65190,6 +65195,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>The portion of a neuronal cell body (cell soma) that excludes the nucleus.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006005</oboInOwl:id>
         <rdfs:label>perikaryon</rdfs:label>
@@ -65201,6 +65207,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A thin cytoplasmic process/physical structure that bridges two cells (e.g., photoreceptor cells or retinal ganglion cells).</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006006</oboInOwl:id>
         <rdfs:label>cytoplasmic bridge</rdfs:label>
@@ -65212,6 +65219,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>An expansion of the terminal end of Müller cells, where the projection contacts a retinal ganglionic cell. Glial endfeet make a continuous layer directly beneath the basement membrane of retinal growth cones.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006007</oboInOwl:id>
         <rdfs:label>glial endfoot</rdfs:label>
@@ -65223,6 +65231,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>Type of retinal rod cell which has a cylindrical outer segment, an incisure, and likely has predominantly sealed disks.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006008</oboInOwl:id>
         <rdfs:label>green rod cell</rdfs:label>
@@ -65234,6 +65243,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A modified non-motile cilium which functions as a light-detecting organelle in the retina. OS cilia have an extended membrane system which consists of arrayed membranous disks resembling a stack of coins. In rods/rod cells, these disks are discontinuous, being divided into lobules or &quot;incisures&quot;, and are surrounded by a plasma membrane. In cones/cone cells, the disks and plasma membrane remain joined as one continuous membrane system and incisures are not present.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006009</oboInOwl:id>
         <rdfs:label>outer segment cilium</rdfs:label>
@@ -65245,6 +65255,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>One of an array of membranous disks projecting from outer segment cilia. In rods/rod cells, these disks are discontinuous, being divided into lobules or “incisures”, and are surrounded by a plasma membrane.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006010</oboInOwl:id>
         <rdfs:label>outer segment disk</rdfs:label>
@@ -65256,6 +65267,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>The subcellular component of iridophores with give these pigment cells their iridescent qualities.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006011</oboInOwl:id>
         <rdfs:label>iridosome</rdfs:label>
@@ -65267,6 +65279,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A non-terminally differentiated cell which originates from the neural crest and differentiates into an iridophore.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006012</oboInOwl:id>
         <rdfs:label>iridoblast</rdfs:label>
@@ -65278,6 +65291,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>Pteridine-containing subcellular compartment of xanthophores.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006013</oboInOwl:id>
         <rdfs:label>pterinosome</rdfs:label>
@@ -65289,6 +65303,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A raised callus of cornified epidermis used by the male frog to hold the female during mating.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006014</oboInOwl:id>
         <rdfs:label>nuptial pad</rdfs:label>
@@ -65300,6 +65315,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A modified mucous gland that is part of the nuptial pad and aids the male frog in maintaining amplexus during mating.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006015</oboInOwl:id>
         <rdfs:label>breeding gland</rdfs:label>
@@ -65311,6 +65327,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>Region of liver parenchyma immediately below the capsule. This region is frequently specified in pathology diagnoses. It is thought to be the principal hematopoietic site of Xenopodinae species from early development and, in case of certain species, into adulthood.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006016</oboInOwl:id>
         <rdfs:label>subcapsular liver</rdfs:label>
@@ -65322,6 +65339,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A non-terminally differentiated cell that differentiates into a xanthophore.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006017</oboInOwl:id>
         <rdfs:label>xanthoblast</rdfs:label>
@@ -65333,6 +65351,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A light gray region on the dorsal surface of a fertilized oocyte. It is fully formed by the beginning of the first cleavage, and forms as a result of cortical rotation of the intermal cytoplasm and occurs opposite the sperm entry point. It is later the site where the Spemann organizer will form at the gastrula stage.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006018</oboInOwl:id>
         <rdfs:label>gray cresent</rdfs:label>
@@ -65344,6 +65363,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A type of endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm. In oocytes, multivesicular bodies are abundant on the dorsal side of the NF stage 7 (64-cell) embryos (as a result of cortical rotation) are are frequently surrounded by clouds of smaller, darker cytoplasmic membranes that may represent cytoplasmic determinants.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006019</oboInOwl:id>
         <rdfs:label>multivesicular body</rdfs:label>
@@ -65355,6 +65375,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A membrane-bounded organelle that receives incoming material from primary endocytic vesicles that have been generated by clathrin-dependent and clathrin-independent endocytosis; vesicles fuse with the early endosome to deliver cargo for sorting into recycling or degradation pathways.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006020</oboInOwl:id>
         <rdfs:label>early endosome</rdfs:label>
@@ -65377,6 +65398,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>Myeloid mononuclear recirculating lymphocyte (a.k.a. a leukocyte) which can act as a precursor of tissue macrophages, osteoclasts, and some populations of tissue dendritic cells.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006022</oboInOwl:id>
         <rdfs:label>monocyte</rdfs:label>
@@ -65388,6 +65410,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A hematopoietic progenitor cell which gives rise to dendritic cells.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006023</oboInOwl:id>
         <rdfs:label>common dendritic progenitor</rdfs:label>
@@ -65399,6 +65422,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006024</oboInOwl:id>
         <rdfs:label>dendritic cell</rdfs:label>
@@ -65421,6 +65445,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A oligopotent progenitor cell committed to the lymphoid lineage.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006026</oboInOwl:id>
         <rdfs:label>common lymphocyte progenitor</rdfs:label>
@@ -65465,6 +65490,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A large hematopoietic cell (50 to 100 microns) with a lobed nucleus. Once mature, it undergoes multiple rounds of endomitosis and cytoplasmic restructuring to allow platelet formation and release.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006030</oboInOwl:id>
         <rdfs:label>megakaryocyte</rdfs:label>
@@ -65476,6 +65502,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A tissue-resident macrophage of the reticuloendothelial system found on the luminal surface of the hepatic sinusoids (liver), involved in erythrocyte clearance.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006031</oboInOwl:id>
         <rdfs:label>Kupffer cell</rdfs:label>
@@ -65487,6 +65514,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A myeloid progenitor cell committed to the monocyte lineage.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006034</oboInOwl:id>
         <rdfs:label>monoblast</rdfs:label>
@@ -65498,6 +65526,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A giioblast cell that develops from a migratory neural crest cell. It is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006035</oboInOwl:id>
         <rdfs:label>Schwann cell precursor</rdfs:label>
@@ -65509,6 +65538,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A glial cell which develops from a Schwann cell precursor.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006036</oboInOwl:id>
         <rdfs:label>immature Schwann cell</rdfs:label>
@@ -65520,6 +65550,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A glial cell which myelinates or ensheathes axons in the peripheral nervous system.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006037</oboInOwl:id>
         <rdfs:label>myelinating Schwann cell</rdfs:label>
@@ -65586,6 +65617,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A progenitor cell committed to a myeloid lineage, including the megakaryocyte and erythroid lineages.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006043</oboInOwl:id>
         <rdfs:label>common myeloid progenitor</rdfs:label>
@@ -65597,6 +65629,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A leukocyte with abundant cytoplasmic granules.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006044</oboInOwl:id>
         <rdfs:label>granulocyte</rdfs:label>
@@ -65630,6 +65663,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A neuron-like cell, often with atypical dentric knobs, seen in the olfactory epithelium of the olfactory bulb, and which are S100Z-positive, the axons of which extend/push into the olfactory nerve.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006047</oboInOwl:id>
         <rdfs:label>bipolar cell</rdfs:label>
@@ -65641,6 +65675,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A major cell type which expresses cytokeratin type II, seen in the olfactory epithelium. The typical morphology has an apical cell soma (cell body) position and thin processes connecting to the basal lamina of the main olfcatory epithelium.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006048</oboInOwl:id>
         <rdfs:label>supporting cell</rdfs:label>
@@ -65674,6 +65709,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>Immune system that responds broadly and fast (e.g., within hours) upon infection or injury, producing and secreting various compounds (antimicrobial peptides, interferon) and activating cellular defense such as cell-mediated cytotoxicity by natural killer (NK) cells and phagocytosis by neutrophils and macrophages. Innate immunity generally refers to any type of host responses elicited by receptor-encoded genes/gene families.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006051</oboInOwl:id>
         <rdfs:label>innate immune system</rdfs:label>
@@ -65696,6 +65732,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small v intermediate).</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006053</oboInOwl:id>
         <rdfs:label>glomerular cluster</rdfs:label>
@@ -65707,6 +65744,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>The larger, laterally projecting, lobe-like cluster of glomeruli within the glomerular layer of the ofactory bulb.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006054</oboInOwl:id>
         <rdfs:label>intermediate cluster</rdfs:label>
@@ -65729,6 +65767,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>The smaller of two lobe-like clusters of glomeruli within the glomerular layer of the ofactory bulb.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006056</oboInOwl:id>
         <rdfs:label>lateral cluster</rdfs:label>
