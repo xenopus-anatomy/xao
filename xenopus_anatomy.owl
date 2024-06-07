@@ -65606,10 +65606,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A cell found in the bone marrow. This can include fibroblasts, macrophages, adipocytes, osteoblasts, osteoclasts, endothelial cells and hematopoietic cells.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006042</oboInOwl:id>
         <rdfs:label>bone marrow cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006042"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cell found in the bone marrow. This can include fibroblasts, macrophages, adipocytes, osteoblasts, osteoclasts, endothelial cells and hematopoietic cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0002092</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65641,10 +65648,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A type of granulocyte responsible for inflammatory reactions during immune response.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006045</oboInOwl:id>
         <rdfs:label>basophil</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A type of granulocyte responsible for inflammatory reactions during immune response.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Basophil</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65652,10 +65666,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>Any of the immature or mature forms of a granular leukocyte with a nucleus that usually has two lobes connected by one or more slender threads of chromatin, and cytoplasm containing coarse, round granules that are uniform in size.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006046</oboInOwl:id>
         <rdfs:label>eosinophil</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006046"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any of the immature or mature forms of a granular leukocyte with a nucleus that usually has two lobes connected by one or more slender threads of chromatin, and cytoplasm containing coarse, round granules that are uniform in size.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000771</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65721,10 +65742,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>Subsystem of the immune system that is composed of specialized, systemic cells and processes that eliminate pathogens or prevent their growth.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006052</oboInOwl:id>
         <rdfs:label>adaptive immune system</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Subsystem of the immune system that is composed of specialized, systemic cells and processes that eliminate pathogens or prevent their growth.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Adaptive_immune_system</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
