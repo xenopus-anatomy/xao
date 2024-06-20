@@ -65140,6 +65140,12 @@
         <oboInOwl:id>XAO:0006000</oboInOwl:id>
         <rdfs:label>basal cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006000"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cell of the inner layer of the epidermis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5495-4588</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65171,11 +65177,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
-        <IAO_0000115>The portion of a cell that includes the nucleus, but excludes cell projections such as axons, dendrites, cilia, and flagella.</IAO_0000115>
+        <IAO_0000115>The portion of a cell bearing surface projections such as axons, dendrites, cilia, or flagella that includes the nucleus, but excludes all cell projections.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006003</oboInOwl:id>
         <rdfs:label>cell body</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The portion of a cell bearing surface projections such as axons, dendrites, cilia, or flagella that includes the nucleus, but excludes all cell projections.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GO:0044297</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65212,6 +65224,13 @@
         <oboInOwl:id>XAO:0006006</oboInOwl:id>
         <rdfs:label>cytoplasmic bridge</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A thin cytoplasmic process/physical structure that bridges two cells (e.g., photoreceptor cells or retinal ganglion cells).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:2795157</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5495-4588</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65224,6 +65243,12 @@
         <oboInOwl:id>XAO:0006007</oboInOwl:id>
         <rdfs:label>glial endfoot</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An expansion of the terminal end of Müller cells, where the projection contacts a retinal ganglionic cell. Glial endfeet make a continuous layer directly beneath the basement membrane of retinal growth cones.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:2795157</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65236,6 +65261,12 @@
         <oboInOwl:id>XAO:0006008</oboInOwl:id>
         <rdfs:label>green rod cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Type of retinal rod cell which has a cylindrical outer segment, an incisure, and likely has predominantly sealed disks.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Xenbase:staff</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65320,6 +65351,12 @@
         <oboInOwl:id>XAO:0006015</oboInOwl:id>
         <rdfs:label>breeding gland</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A modified mucous gland that is part of the nuptial pad and aids the male frog in maintaining amplexus during mating.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0003-1074-8103</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65354,8 +65391,14 @@
         <IAO_0000115>A light gray region on the dorsal surface of a fertilized oocyte. It is fully formed by the beginning of the first cleavage, and forms as a result of cortical rotation of the intermal cytoplasm and occurs opposite the sperm entry point. It is later the site where the Spemann organizer will form at the gastrula stage.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006018</oboInOwl:id>
-        <rdfs:label>gray cresent</rdfs:label>
+        <rdfs:label>gray crescent</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A light gray region on the dorsal surface of a fertilized oocyte. It is fully formed by the beginning of the first cleavage, and forms as a result of cortical rotation of the intermal cytoplasm and occurs opposite the sperm entry point. It is later the site where the Spemann organizer will form at the gastrula stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Xenbase:staff</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65380,6 +65423,12 @@
         <oboInOwl:id>XAO:0006020</oboInOwl:id>
         <rdfs:label>early endosome</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A membrane-bounded organelle that receives incoming material from primary endocytic vesicles that have been generated by clathrin-dependent and clathrin-independent endocytosis; vesicles fuse with the early endosome to deliver cargo for sorting into recycling or degradation pathways.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GO:0005769</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65415,6 +65464,13 @@
         <oboInOwl:id>XAO:0006023</oboInOwl:id>
         <rdfs:label>common dendritic progenitor</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hematopoietic progenitor cell which gives rise to dendritic cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0001029</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65427,6 +65483,13 @@
         <oboInOwl:id>XAO:0006024</oboInOwl:id>
         <rdfs:label>dendritic cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006024"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000451</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65434,10 +65497,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A cell with extensive dendritic processes found in the B cell areas (primary follicles and germinal centers) of lymphoid tissue.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006025</oboInOwl:id>
         <rdfs:label>follicular dendritic cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006025"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cell with extensive dendritic processes found in the B cell areas (primary follicles and germinal centers) of lymphoid tissue.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000442</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65450,6 +65520,13 @@
         <oboInOwl:id>XAO:0006026</oboInOwl:id>
         <rdfs:label>common lymphocyte progenitor</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A oligopotent progenitor cell committed to the lymphoid lineage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000051</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65457,10 +65534,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A progenitor cell that is part of the immune system, develops from the common myeloid progenitor, and develops into a granulocyte, macrophage, dendritic cell, basophil, eosinophil, or neutrophil.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006027</oboInOwl:id>
         <rdfs:label>granulocyte/macrophage precursor</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A progenitor cell that is part of the immune system, develops from the common myeloid progenitor, and develops into a granulocyte, macrophage, dendritic cell, basophil, eosinophil, or neutrophil.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65468,10 +65552,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A progenitor cell that is part of the immune system and develops into a macrophage.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006028</oboInOwl:id>
         <rdfs:label>common monocyte/macrophage precursor</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A progenitor cell that is part of the immune system and develops into a macrophage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65595,10 +65686,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>Cell type that primarily composes adipose tissue, specialized in storing energy as fat.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006041</oboInOwl:id>
         <rdfs:label>adipocyte</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Cell type that primarily composes adipose tissue, specialized in storing energy as fat.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Adipocyte</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65629,6 +65727,12 @@
         <oboInOwl:id>XAO:0006043</oboInOwl:id>
         <rdfs:label>common myeloid progenitor</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A progenitor cell committed to a myeloid lineage, including the megakaryocyte and erythroid lineages.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65641,6 +65745,13 @@
         <oboInOwl:id>XAO:0006044</oboInOwl:id>
         <rdfs:label>granulocyte</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A leukocyte with abundant cytoplasmic granules.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5495-4588</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65657,7 +65768,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006045"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A type of granulocyte responsible for inflammatory reactions during immune response.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Basophil</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Basophil</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65689,6 +65800,13 @@
         <oboInOwl:id>XAO:0006047</oboInOwl:id>
         <rdfs:label>bipolar cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neuron-like cell, often with atypical dentric knobs, seen in the olfactory epithelium of the olfactory bulb, and which are S100Z-positive, the axons of which extend/push into the olfactory nerve.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Xenbase:staff</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65751,7 +65869,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006052"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Subsystem of the immune system that is composed of specialized, systemic cells and processes that eliminate pathogens or prevent their growth.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Adaptive_immune_system</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Adaptive_immune_system</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -65765,6 +65883,13 @@
         <oboInOwl:id>XAO:0006053</oboInOwl:id>
         <rdfs:label>glomerular cluster</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small v intermediate).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Xenbase:staff</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
