@@ -65158,6 +65158,12 @@
         <oboInOwl:id>XAO:0006001</oboInOwl:id>
         <rdfs:label>lateral plate mesoderm, left side</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Lateral plate mesoderm that is located on the left side of the body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5495-4588</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65170,6 +65176,12 @@
         <oboInOwl:id>XAO:0006002</oboInOwl:id>
         <rdfs:label>lateral plate mesoderm, right side</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Lateral plate mesoderm that is located on the right side of the body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5495-4588</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65200,6 +65212,12 @@
         <oboInOwl:id>XAO:0006004</oboInOwl:id>
         <rdfs:label>neuronal cell body</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The portion of a neuron that includes the nucleus, but excludes cell projections such as axons and dendrites.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GO:0043025</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65212,6 +65230,12 @@
         <oboInOwl:id>XAO:0006005</oboInOwl:id>
         <rdfs:label>perikaryon</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The portion of a neuronal cell body (cell soma) that excludes the nucleus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GO:0043204</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65279,6 +65303,12 @@
         <oboInOwl:id>XAO:0006009</oboInOwl:id>
         <rdfs:label>outer segment cilium</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A modified non-motile cilium which functions as a light-detecting organelle in the retina. OS cilia have an extended membrane system which consists of arrayed membranous disks resembling a stack of coins. In rods/rod cells, these disks are discontinuous, being divided into lobules or &quot;incisures&quot;, and are surrounded by a plasma membrane. In cones/cone cells, the disks and plasma membrane remain joined as one continuous membrane system and incisures are not present.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25616687</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65291,6 +65321,12 @@
         <oboInOwl:id>XAO:0006010</oboInOwl:id>
         <rdfs:label>outer segment disk</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>One of an array of membranous disks projecting from outer segment cilia. In rods/rod cells, these disks are discontinuous, being divided into lobules or “incisures”, and are surrounded by a plasma membrane.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:25616687</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65303,6 +65339,12 @@
         <oboInOwl:id>XAO:0006011</oboInOwl:id>
         <rdfs:label>iridosome</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The subcellular component of iridophores with give these pigment cells their iridescent qualities.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GO:0043698</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65315,6 +65357,12 @@
         <oboInOwl:id>XAO:0006012</oboInOwl:id>
         <rdfs:label>iridoblast</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A non-terminally differentiated cell which originates from the neural crest and differentiates into an iridophore.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0005001</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65327,6 +65375,12 @@
         <oboInOwl:id>XAO:0006013</oboInOwl:id>
         <rdfs:label>pterinosome</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006013"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Pteridine-containing subcellular compartment of xanthophores.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GO:0043700</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65339,6 +65393,12 @@
         <oboInOwl:id>XAO:0006014</oboInOwl:id>
         <rdfs:label>nuptial pad</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006014"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A raised callus of cornified epidermis used by the male frog to hold the female during mating.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UBERON:0012243</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65369,6 +65429,13 @@
         <oboInOwl:id>XAO:0006016</oboInOwl:id>
         <rdfs:label>subcapsular liver</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006016"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Region of liver parenchyma immediately below the capsule. This region is frequently specified in pathology diagnoses. It is thought to be the principal hematopoietic site of Xenopodinae species from early development and, in case of certain species, into adulthood.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:30151774</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:8400024</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65381,6 +65448,12 @@
         <oboInOwl:id>XAO:0006017</oboInOwl:id>
         <rdfs:label>xanthoblast</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A non-terminally differentiated cell that differentiates into a xanthophore.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0005002</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65411,6 +65484,13 @@
         <oboInOwl:id>XAO:0006019</oboInOwl:id>
         <rdfs:label>multivesicular body</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006019"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A type of endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm. In oocytes, multivesicular bodies are abundant on the dorsal side of the NF stage 7 (64-cell) embryos (as a result of cortical rotation) are are frequently surrounded by clouds of smaller, darker cytoplasmic membranes that may represent cytoplasmic determinants.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GO:0005771</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:37983969</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65436,10 +65516,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A red blood cell that is produced in the liver.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006021</oboInOwl:id>
         <rdfs:label>hepatic erythrocyte</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A red blood cell that is produced in the liver.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65447,11 +65534,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
-        <IAO_0000115>Myeloid mononuclear recirculating lymphocyte (a.k.a. a leukocyte) which can act as a precursor of tissue macrophages, osteoclasts, and some populations of tissue dendritic cells.</IAO_0000115>
+        <IAO_0000115>Myeloid mononuclear recirculating lymphocyte (a.k.a. a leukocyte) that can act as a precursor of tissue macrophages, osteoclasts, and some populations of tissue dendritic cells.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006022</oboInOwl:id>
         <rdfs:label>monocyte</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006022"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Myeloid mononuclear recirculating lymphocyte (a.k.a. a leukocyte) that can act as a precursor of tissue macrophages, osteoclasts, and some populations of tissue dendritic cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000576</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65570,10 +65663,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A progenitor cell that is part of the hematological system and develops into a megakaryocyte or erythrocyte.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006029</oboInOwl:id>
         <rdfs:label>megakaryocyte/erythrocyte precursor</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006029"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A progenitor cell that is part of the hematological system and develops into a megakaryocyte or erythrocyte.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65586,6 +65686,12 @@
         <oboInOwl:id>XAO:0006030</oboInOwl:id>
         <rdfs:label>megakaryocyte</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A large hematopoietic cell (50 to 100 microns) with a lobed nucleus. Once mature, it undergoes multiple rounds of endomitosis and cytoplasmic restructuring to allow platelet formation and release.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000556</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65598,6 +65704,12 @@
         <oboInOwl:id>XAO:0006031</oboInOwl:id>
         <rdfs:label>Kupffer cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A tissue-resident macrophage of the reticuloendothelial system found on the luminal surface of the hepatic sinusoids (liver), involved in erythrocyte clearance.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000091</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65610,6 +65722,12 @@
         <oboInOwl:id>XAO:0006034</oboInOwl:id>
         <rdfs:label>monoblast</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006034"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A myeloid progenitor cell committed to the monocyte lineage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000040</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65622,6 +65740,12 @@
         <oboInOwl:id>XAO:0006035</oboInOwl:id>
         <rdfs:label>Schwann cell precursor</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A giioblast cell that develops from a migratory neural crest cell. It is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0002375</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65629,11 +65753,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
-        <IAO_0000115>A glial cell which develops from a Schwann cell precursor.</IAO_0000115>
+        <IAO_0000115>A glial cell that develops from a Schwann cell precursor.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006036</oboInOwl:id>
         <rdfs:label>immature Schwann cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006036"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A glial cell that develops from a Schwann cell precursor.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0002377</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65646,6 +65777,12 @@
         <oboInOwl:id>XAO:0006037</oboInOwl:id>
         <rdfs:label>myelinating Schwann cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006037"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A glial cell which myelinates or ensheathes axons in the peripheral nervous system.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000218</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65653,10 +65790,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system. It is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006038</oboInOwl:id>
         <rdfs:label>non-myelinating Schwann cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006038"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system. It is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0002376</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65664,10 +65808,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A type of multipotent stromal cell that can differentiate into a variety of cell types, including osteoblasts, chondrocytes, myocytes, and adipocytes.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006039</oboInOwl:id>
         <rdfs:label>mesenchymal pluripotent stem cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006039"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A type of multipotent stromal cell that can differentiate into a variety of cell types, including osteoblasts, chondrocytes, myocytes, and adipocytes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Mesenchymal_stem_cell</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65675,10 +65827,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A mature osteoblast that has become embedded in the bone matrix. These cells occupy a small cavity, called lacuna, in the matrix and are connected to adjacent osteocytes via protoplasmic projections called canaliculi.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006040</oboInOwl:id>
         <rdfs:label>osteocyte</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A mature osteoblast that has become embedded in the bone matrix. These cells occupy a small cavity, called lacuna, in the matrix and are connected to adjacent osteocytes via protoplasmic projections called canaliculi.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000137</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65819,6 +65978,13 @@
         <oboInOwl:id>XAO:0006048</oboInOwl:id>
         <rdfs:label>supporting cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006048"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A major cell type which expresses cytokeratin type II, seen in the olfactory epithelium. The typical morphology has an apical cell soma (cell body) position and thin processes connecting to the basal lamina of the main olfcatory epithelium.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Xenbase:staff</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65826,10 +65992,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A type of cell that has microvilli-like structures and is situated in the olfactory epithelium.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006049</oboInOwl:id>
         <rdfs:label>microvillous-like cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006049"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A type of cell that has microvilli-like structures and is situated in the olfactory epithelium.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65837,10 +66010,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>A stem cell that is located in the crypt of Liberkuhn, the tubular intestinal glands found in the mucosal membranes.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006050</oboInOwl:id>
         <rdfs:label>crypt cell</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A stem cell that is located in the crypt of Liberkuhn, the tubular intestinal glands found in the mucosal membranes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65853,6 +66033,13 @@
         <oboInOwl:id>XAO:0006051</oboInOwl:id>
         <rdfs:label>innate immune system</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006051"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Immune system that responds broadly and fast (e.g., within hours) upon infection or injury, producing and secreting various compounds (antimicrobial peptides, interferon) and activating cellular defense such as cell-mediated cytotoxicity by natural killer (NK) cells and phagocytosis by neutrophils and macrophages. Innate immunity generally refers to any type of host responses elicited by receptor-encoded genes/gene families.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5495-4588</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65902,6 +66089,13 @@
         <oboInOwl:id>XAO:0006054</oboInOwl:id>
         <rdfs:label>intermediate cluster</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The larger, laterally projecting, lobe-like cluster of glomeruli within the glomerular layer of the ofactory bulb.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Xenbase:staff</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65909,10 +66103,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <IAO_0000115>The medially projecting, lobe-like cluster of glomeruli within the glomerular layer of the ofactory bulb.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006055</oboInOwl:id>
         <rdfs:label>medial cluster</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006055"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The medially projecting, lobe-like cluster of glomeruli within the glomerular layer of the ofactory bulb.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Xenbase:staff</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -65925,6 +66127,13 @@
         <oboInOwl:id>XAO:0006056</oboInOwl:id>
         <rdfs:label>lateral cluster</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006056"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The smaller of two lobe-like clusters of glomeruli within the glomerular layer of the ofactory bulb.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Xenbase:staff</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
