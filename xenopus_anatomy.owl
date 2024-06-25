@@ -456,7 +456,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Primary germ layer that is the outer of the embryo&apos;s germ layers and gives rise to epidermis and neural tissue.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/ectoderm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0000924</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -839,7 +839,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Organ that is a component of the central nervous system and is responsible for the coordination and control of bodily activities and the interpretation of information from the senses. It appears when the neural tube segregates in forebrain, midbrain, and hindbrain at NF stage 22. The general pattern of the brain has been mainly established at NF stage 28. Yolky material is consumed and the fibre tracts and later the commissures develop. In general all of its parts are well developed at NF stage 53 and later development consists mainly of growth and some further cytological differentiation. In the period of metamorphosis only topographical changes take place.</IAO_0000115>
+        <IAO_0000115>Organ that is the center of the nervous system. It is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell. It appears when the neural tube segregates in forebrain, midbrain, and hindbrain at NF stage 22. The general pattern of the brain has been mainly established at NF stage 28. Yolky material is consumed and the fibre tracts and later the commissures develop. In general all of its parts are well developed at NF stage 53 and later development consists mainly of growth and some further cytological differentiation. In the period of metamorphosis only topographical changes take place.</IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000955</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0000010</oboInOwl:id>
@@ -849,9 +849,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000010"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Organ that is a component of the central nervous system and is responsible for the coordination and control of bodily activities and the interpretation of information from the senses. It appears when the neural tube segregates in forebrain, midbrain, and hindbrain at NF stage 22. The general pattern of the brain has been mainly established at NF stage 28. Yolky material is consumed and the fibre tracts and later the commissures develop. In general all of its parts are well developed at NF stage 53 and later development consists mainly of growth and some further cytological differentiation. In the period of metamorphosis only topographical changes take place.</owl:annotatedTarget>
+        <owl:annotatedTarget>Organ that is the center of the nervous system. It is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell. It appears when the neural tube segregates in forebrain, midbrain, and hindbrain at NF stage 22. The general pattern of the brain has been mainly established at NF stage 28. Yolky material is consumed and the fibre tracts and later the commissures develop. In general all of its parts are well developed at NF stage 53 and later development consists mainly of growth and some further cytological differentiation. In the period of metamorphosis only topographical changes take place.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/brain</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0000955</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1244,7 +1244,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Elongated, approximately cylindrical part of the central nervous system that lies in the vertebral canal and from which the spinal nerves emerge.</IAO_0000115>
+        <IAO_0000115>Long, thin, tubular structure made up of nervous tissue that extends from the brainstem to the lumbar region of the vertebral column, and from which the spinal nerves emerge.</IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0002240</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0000020</oboInOwl:id>
@@ -1253,8 +1253,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000020"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Elongated, approximately cylindrical part of the central nervous system that lies in the vertebral canal and from which the spinal nerves emerge.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/spinal+cord</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Long, thin, tubular structure made up of nervous tissue that extends from the brainstem to the lumbar region of the vertebral column, and from which the spinal nerves emerge.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Spinal_cord</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1370,7 +1370,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Surface structure that consists of the external membranous integument of the animal.</IAO_0000115>
+        <IAO_0000115>The organ covering the body that consists of the dermis and epidermis.</IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0002097</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>integument</oboInOwl:hasRelatedSynonym>
@@ -1380,8 +1380,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000023"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Surface structure that consists of the external membranous integument of the animal.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/skin</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>The organ covering the body that consists of the dermis and epidermis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UBERON:0002097</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1874,7 +1874,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Cell resulting from the fusion of male and female gametes at fertilization.</IAO_0000115>
+        <IAO_0000115>Cell formed by a fertilization event between male and female gametes.</IAO_0000115>
         <oboInOwl:hasDbXref>CL:0000365</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>fertilized egg</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
@@ -1884,8 +1884,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000035"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Cell resulting from the fusion of male and female gametes at fertilization.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/zygote</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Cell formed by a fertilization event between male and female gametes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Zygote</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2307,7 +2307,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000047"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Region of the neural plate overlying the notochord.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.encyclo.co.uk/define/Notoplate</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2438,7 +2438,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Primary germ layer that is the middle of the embryo&apos;s germ layers.</IAO_0000115>
+        <IAO_0000115>Primary germ layer that is the middle of the embryo&apos;s germ layers, between the endoderm and ectoderm.</IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000926</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>mesodermal mantle</oboInOwl:hasRelatedSynonym>
@@ -2449,8 +2449,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000050"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Primary germ layer that is the middle of the embryo&apos;s germ layers.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/mesoderm</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Primary germ layer that is the middle of the embryo&apos;s germ layers, between the endoderm and ectoderm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UBERON:0000926</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2811,8 +2811,8 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000058"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any of the approximately 45 bilaterally paired blocks of mesoderm cells, lying on either side of the notochord and neural tube, and forming sequentially starting at the head during development of the embryo. Together they give rise to the axial skeleton (from the sclerotome), associated musculature (from the myotome), and dermis (from the dermatome).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>XAO:curators</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/somite</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000058"/>
@@ -3423,7 +3423,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Cell type that is first to migrate inwards at the blastopore during gastrulation.</IAO_0000115>
+        <IAO_0000115>Early embryonic cell with a bottle or flask shape that is first to migrate inwards at the blastopore during gastrulation.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0007020</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0000077</oboInOwl:id>
         <rdfs:label>bottle cell</rdfs:label>
@@ -3431,8 +3432,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000077"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Cell type that is first to migrate inwards at the blastopore during gastrulation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/bottle+cell</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Early embryonic cell with a bottle or flask shape that is first to migrate inwards at the blastopore during gastrulation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0007020</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -3931,7 +3932,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000090"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Primary germ layer that lies remote from the surface of the embryo and gives rise to internal tissues such as gut.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/endoderm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0000925</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4681,7 +4682,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Rapidly proliferating mass of cells at the caudal extremity of the embryo. Its formation is reflected in a caudal carving of the posterior portion of the archenteric canal at NF stage 22. With its further outgrowth, the postanal gut primordium becomes stretched. Its lumen is in broad communication with the hindgut at NF stage 25.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/tail+bud</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0002533</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5014,7 +5015,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Anatomical system that has as its parts the organs involved in breathing in respiration (breathing).</IAO_0000115>
+        <IAO_0000115>Functional system which consists of structures involved in respiration (breathing).</IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0001004</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0000117</oboInOwl:id>
@@ -5023,8 +5024,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000117"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Anatomical system that has as its parts the organs involved in breathing in respiration (breathing).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/respiratory+apparatus</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Functional system which consists of structures involved in respiration (breathing).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UBERON:0001004</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5227,7 +5228,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000122"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Anatomical system that consists of the blood and blood forming tissues.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/hematologic</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1016/B978-0-12-809880-6.00013-8</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5429,7 +5430,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Tube that connects the pharynx to the stomach. At NF stage 57 it is a straight tube, round in cross section, and starting from the pharynx runs backward along the dorsal side of the abdominal cavity. Its lining consists of a columnar glandular epithelium with mucus secreting cells. It is thrown into longitudinal folds.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/esophagus</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0001043</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -5469,7 +5470,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Internal organ that is the dilated portion of the alimentary tract situated between the esophagus and the beginning of the duodenum. It produces gastric juices involved in the breakdown of food.</IAO_0000115>
+        <IAO_0000115>An expanded region of the alimentary tract that is situated between the esophagus and the beginning of the duodenum and produces gastric juices involved in the breakdown of food.</IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0000945</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0000128</oboInOwl:id>
@@ -5478,8 +5479,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000128"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Internal organ that is the dilated portion of the alimentary tract situated between the esophagus and the beginning of the duodenum. It produces gastric juices involved in the breakdown of food.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/stomach</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>An expanded region of the alimentary tract that is situated between the esophagus and the beginning of the duodenum and produces gastric juices involved in the breakdown of food.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Stomach</oboInOwl:hasDbXref>
+        <rdfs:comment>https://orcid.org/0000-0002-9611-1279</rdfs:comment>
     </owl:Axiom>
     
 
@@ -7144,7 +7146,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000173"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A fibrous, strong, connective tissue that connects muscle to bone.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/tendon</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Tendon</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -7247,17 +7249,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Anatomical system that consists of the skin and its appendages.</IAO_0000115>
+        <IAO_0000115>The set of organs forming the outermost layer of the body, comprising the skin and its appendages.</IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0002416</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>integumental system</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0000176</oboInOwl:id>
         <rdfs:label>dermal system</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000176"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Anatomical system that consists of the skin and its appendages.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/dermal+system</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>The set of organs forming the outermost layer of the body, comprising the skin and its appendages.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Integumentary_system</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -7321,7 +7324,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000178"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>One of the two major divisions of the nervous system. Its nerves connect the central nervous system with sensory organs, other organs, muscles, blood vessels and glands.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/peripheral+nervous+system</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0000010</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -9308,7 +9311,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000230"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Cell type that forms a layer within an ovarian follicle that surrounds the oocyte.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/follicle+cell</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Ovarian_follicle</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10067,7 +10070,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A region of embryonic ectodermal cells that lie directly above the notochord. During neurulation, they change shape and produce an infolding of the neural plate (the neural fold) that then seals to form the neural tube. At NF stage 11.5 is the first indication of neural plate within the sensorial layer of ectoderm. It extends to near the animal pole by NF stage 12.5 and the entire plate is faintly delimited by NF stage 13.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/neural+plate</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Neural_plate</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10360,7 +10363,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000257"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An outpocketing of the foregut ventral to the infundibulum and the hypophysis. The walls surrounding this cavity are composed of endoderm.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.uoguelph.ca/zoology/devobio/34mmfrog/db34fg1.htm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -10440,7 +10443,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000259"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Area of mesoderm at either side of the midline embryonic notochord that, on segmentation, forms the paired somites.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/paraxial+mesoderm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://medical-dictionary.thefreedictionary.com/Paraxial+mesoderm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -18484,7 +18487,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0001021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Outer layer of cells of the differentiating notochord, which give rise to the elastica externa and interna.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dev.biologists.org/content/1/4/411.abstract</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1242/dev.1.4.411</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -18966,7 +18969,8 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0003009"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>NF stage 8 ectoderm of Xenopus laevis embryos that have been cut and disaggregated. The cells have been treated with activin at a concentration to induce endodermal tissue. Afterwards the reaggregated cells have been cultured until control sibling embryos reach stage 12/13.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.ncbi.nlm.nih.gov/UniGene/library.cgi?ORG=Xl&amp;LID=1962</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCBI:UniGene</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -19596,7 +19600,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Organism subdivision that is the terminal, flexible posterior appendage of the larva. It is resorbed during metamorphosis beginning with degeneration of the notochord&apos;s distal tip at NF stage 61, followed by degeneration gradually extending to its more proximal regions and reaching its proximal end by NF stage 62. By NF stage 66 it exists only as a small dorsal swelling.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0471209627</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/tail</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Tail</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -19879,7 +19883,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0003033"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Surface structure that provides one of the small external openings of the head that give passage to air for breathing.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/medical/nostril</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UBERON:0005928</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -26055,7 +26059,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0003208"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Each of the bones forming the part of the hand between the fingers and the wrist.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.infovisual.info/02/028_en.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.infovisual.info/en/biology-animal/skeleton-of-a-frog</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -26231,7 +26235,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0003212"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Each of the bones forming the part of the foot between the toes and the heel.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.infovisual.info/02/028_en.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.infovisual.info/en/biology-animal/skeleton-of-a-frog</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -32057,7 +32061,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004095"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The region of the lens of the eye where cells from the anterior epithelial capsule become transformed into the fibers that compose the lens substance.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://dictionary.reference.com/browse/transitional+zone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://medical-dictionary.thefreedictionary.com/transitional+zone</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -41067,7 +41071,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004326"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Straplike muscle that arises from elements of the pectoral girdle and passes to the hyoid bone and laryngeal cartilages.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.britannica.com/EBchecked/topic/279858/hypobranchial-muscle</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.britannica.com/science/muscle/Tetrapod-musculature</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -41337,7 +41341,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004333"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Ventral muscle of the larval head that is a broad transverse sheet lying between the Meckel&apos;s cartilages and joining its opposite mid-ventrally in an median raphe.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://jcs.biologists.org/content/s2-81/322/161</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1242/jcs.s2-81.322.161</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -41574,7 +41578,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004339"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Muscle that springs from the second branchial arch, meeting its opposite in a mid-ventral raphe.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://jcs.biologists.org/content/s2-81/322/161</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1242/jcs.s2-81.322.161</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -41769,7 +41773,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004344"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Muscle that arises on part of the chondrocranium and passes to the ventro-lateral region of the cerato-branchialia. It originates on the ventrolateral process of the palatoquadrate.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://jcs.biologists.org/content/s2-81/322/161</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1242/jcs.s2-81.322.161</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -41808,7 +41812,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004345"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Muscle that arises on part of the chondrocranium and passes to the ventro-lateral region of the cerato-branchialia. It is located on the crista parotica and commissura branchio-cranialis.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://jcs.biologists.org/content/s2-81/322/161</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1242/jcs.s2-81.322.161</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -41847,7 +41851,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004346"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Muscle that arises on part of the chondrocranium and passes to the ventro-lateral region of the cerato-branchialia. It is a small muscle situated at the posterior end of the branchial skeleton.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://jcs.biologists.org/content/s2-81/322/161</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1242/jcs.s2-81.322.161</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -42951,7 +42955,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004374"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>One of the cartilaginous elements that meet and articulate in the median plane posterior to the basibranchial.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://amphibiatree.org/node/407</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004374"/>
@@ -43271,10 +43275,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Cartilaginous element comprising a pair of chondrification centers in the base of the embryonic cartilaginous neurocranium.</IAO_0000115>
+        <IAO_0000115>Cartilaginous element comprising paired, rod-shaped cartilages, which develop in the head of the embryo. They are the primordia of the anterior part of the cranial base, and are derived from the cranial neural crest cells.</IAO_0000115>
         <oboInOwl:created_by>eriksegerdell</oboInOwl:created_by>
         <oboInOwl:creation_date>2012-05-05T05:15:00Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym>tc</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>trabecular cartilage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>trabeculae cranii</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0004381</oboInOwl:id>
@@ -43283,8 +43288,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004381"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Cartilaginous element comprising a pair of chondrification centers in the base of the embryonic cartilaginous neurocranium.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.medilexicon.com/medicaldictionary.php?t=92818</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Cartilaginous element comprising paired, rod-shaped cartilages, which develop in the head of the embryo. They are the primordia of the anterior part of the cranial base, and are derived from the cranial neural crest cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia:Trabecular_cartilage</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004381"/>
@@ -53277,7 +53282,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0005019"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The embryonic right and left aortas that develop in parallel with the heart and gain access to it via the aortic arches. Later the paired dorsal aortic anlagen unite and finally form the unpaired descending aorta of the adult.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.embryology.ch/anglais/pcardio/arterien02.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0005019"/>
@@ -55476,7 +55481,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0005074"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A gland of the skin in which some secretory cells are serous and some mucous.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://www.medilexicon.com/medicaldictionary.php?t=37219</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9611-1279</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66323,7 +66328,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Embryonic stage during which neurulation is completed and tail formation begins, visible by an emerging tail primordium; comprising Nieuwkoop and Faber stages 22 to 44 (feeding), including the beginning of hatching (NF stage 35/36).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>ISBN:0815318960</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>http://www.nature.com/nrg/journal/v5/n6/glossary/nrg1347.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOI:10.1038/nrg1347</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
