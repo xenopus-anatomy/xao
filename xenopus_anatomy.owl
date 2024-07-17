@@ -52808,7 +52808,7 @@
         <IAO_0000115>Astrocyte-like radial glial cell that extends vertically throughout the retina, with the nucleus usually in the middle of the inner nuclear layer.</IAO_0000115>
         <oboInOwl:created_by>eriksegerdell</oboInOwl:created_by>
         <oboInOwl:creation_date>2015-05-14T17:43:09Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref>CL:0011107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000636</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Muller cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Müller cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
@@ -52820,7 +52820,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0005007"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Astrocyte-like radial glial cell that extends vertically throughout the retina, with the nucleus usually in the middle of the inner nuclear layer.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0011107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000636</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0005007"/>
