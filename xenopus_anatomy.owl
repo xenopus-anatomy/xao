@@ -65139,7 +65139,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004621"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A cell of the inner layer of the epidermis.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006000</oboInOwl:id>
@@ -65157,7 +65175,31 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003042"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>Lateral plate mesoderm that is located on the left side of the body.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006001</oboInOwl:id>
@@ -65175,7 +65217,31 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003042"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>Lateral plate mesoderm that is located on the right side of the body.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006002</oboInOwl:id>
@@ -65193,7 +65259,19 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>The portion of a cell bearing surface projections such as axons, dendrites, cilia, or flagella that includes the nucleus, but excludes all cell projections.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006003</oboInOwl:id>
@@ -65211,7 +65289,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>The portion of a neuron that includes the nucleus, but excludes cell projections such as axons and dendrites.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006004</oboInOwl:id>
@@ -65229,7 +65325,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>The portion of a neuronal cell body (cell soma) that excludes the nucleus.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006005</oboInOwl:id>
@@ -65247,7 +65361,19 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A thin cytoplasmic process/physical structure that bridges two cells (e.g., photoreceptor cells or retinal ganglion cells).</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006006</oboInOwl:id>
@@ -65266,9 +65392,28 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0005007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>An expansion of the terminal end of Müller cells, where the projection contacts a retinal ganglionic cell. Glial endfeet make a continuous layer directly beneath the basement membrane of retinal growth cones.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>glial endfeet</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006007</oboInOwl:id>
         <rdfs:label>glial endfoot</rdfs:label>
     </owl:Class>
@@ -65277,6 +65422,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An expansion of the terminal end of Müller cells, where the projection contacts a retinal ganglionic cell. Glial endfeet make a continuous layer directly beneath the basement membrane of retinal growth cones.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:2795157</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006007"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>glial endfeet</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/xao#PLURAL"/>
     </owl:Axiom>
     
 
