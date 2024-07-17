@@ -17747,6 +17747,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
             </owl:Restriction>
@@ -65437,9 +65443,22 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004112"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>Type of retinal rod cell which has a cylindrical outer segment, an incisure, and likely has predominantly sealed disks.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>green rods</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006008</oboInOwl:id>
         <rdfs:label>green rod cell</rdfs:label>
     </owl:Class>
@@ -65449,15 +65468,41 @@
         <owl:annotatedTarget>Type of retinal rod cell which has a cylindrical outer segment, an incisure, and likely has predominantly sealed disks.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006008"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>green rods</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/xao#PLURAL"/>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/XAO_0006009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0005008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A modified non-motile cilium which functions as a light-detecting organelle in the retina. OS cilia have an extended membrane system which consists of arrayed membranous disks resembling a stack of coins. In rods/rod cells, these disks are discontinuous, being divided into lobules or &quot;incisures&quot;, and are surrounded by a plasma membrane. In cones/cone cells, the disks and plasma membrane remain joined as one continuous membrane system and incisures are not present.</IAO_0000115>
+        <oboInOwl:hasBroadSynonym>OS</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>outer segment cilia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006009</oboInOwl:id>
         <rdfs:label>outer segment cilium</rdfs:label>
     </owl:Class>
@@ -65467,15 +65512,44 @@
         <owl:annotatedTarget>A modified non-motile cilium which functions as a light-detecting organelle in the retina. OS cilia have an extended membrane system which consists of arrayed membranous disks resembling a stack of coins. In rods/rod cells, these disks are discontinuous, being divided into lobules or &quot;incisures&quot;, and are surrounded by a plasma membrane. In cones/cone cells, the disks and plasma membrane remain joined as one continuous membrane system and incisures are not present.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:25616687</oboInOwl:hasDbXref>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006009"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>outer segment cilia</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/xao#PLURAL"/>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/XAO_0006010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>One of an array of membranous disks projecting from outer segment cilia. In rods/rod cells, these disks are discontinuous, being divided into lobules or “incisures”, and are surrounded by a plasma membrane.</IAO_0000115>
+        <oboInOwl:hasExactSynonym>outer segment disc</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>OS disc</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>OS disk</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>photoreceptor disc</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>photoreceptor disk</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006010</oboInOwl:id>
         <rdfs:label>outer segment disk</rdfs:label>
     </owl:Class>
@@ -65491,9 +65565,28 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000472"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>The subcellular component of iridophores with give these pigment cells their iridescent qualities.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>reflecting platelet</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006011</oboInOwl:id>
         <rdfs:label>iridosome</rdfs:label>
     </owl:Class>
@@ -65509,7 +65602,31 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A non-terminally differentiated cell which originates from the neural crest and differentiates into an iridophore.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006012</oboInOwl:id>
@@ -65527,7 +65644,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000471"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>Pteridine-containing subcellular compartment of xanthophores.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006013</oboInOwl:id>
