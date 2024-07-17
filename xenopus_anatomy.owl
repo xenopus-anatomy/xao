@@ -52809,10 +52809,12 @@
         <oboInOwl:created_by>eriksegerdell</oboInOwl:created_by>
         <oboInOwl:creation_date>2015-05-14T17:43:09Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0011107</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Muller cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Müller cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>Muller glia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Müller glia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0005007</oboInOwl:id>
-        <rdfs:label>Muller cell</rdfs:label>
+        <rdfs:label>Mueller cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0005007"/>
@@ -52823,7 +52825,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0005007"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>Muller glia</owl:annotatedTarget>
+        <owl:annotatedTarget>Müller glia</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/xao#PLURAL"/>
     </owl:Axiom>
     
