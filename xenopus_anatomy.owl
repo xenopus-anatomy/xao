@@ -17715,6 +17715,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
             </owl:Restriction>
@@ -20672,6 +20678,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -65281,6 +65293,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>The portion of a cell bearing surface projections such as axons, dendrites, cilia, or flagella that includes the nucleus, but excludes all cell projections.</IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0044297</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006003</oboInOwl:id>
         <rdfs:label>cell body</rdfs:label>
@@ -65297,7 +65310,7 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0006003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -65317,6 +65330,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>The portion of a neuron that includes the nucleus, but excludes cell projections such as axons and dendrites.</IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0043025</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006004</oboInOwl:id>
         <rdfs:label>neuronal cell body</rdfs:label>
@@ -65353,6 +65367,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>The portion of a neuronal cell body (cell soma) that excludes the nucleus.</IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0043204</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006005</oboInOwl:id>
         <rdfs:label>perikaryon</rdfs:label>
@@ -65585,6 +65600,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>The subcellular component of iridophores with give these pigment cells their iridescent qualities.</IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0043698</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>reflecting platelet</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006011</oboInOwl:id>
@@ -65628,6 +65644,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>A non-terminally differentiated cell which originates from the neural crest and differentiates into an iridophore.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0005001</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006012</oboInOwl:id>
         <rdfs:label>iridoblast</rdfs:label>
@@ -65664,6 +65681,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>Pteridine-containing subcellular compartment of xanthophores.</IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0043700</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006013</oboInOwl:id>
         <rdfs:label>pterinosome</rdfs:label>
@@ -65680,9 +65698,41 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A raised callus of cornified epidermis used by the male frog to hold the female during mating.</IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:0012243</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>thumb pad</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006014</oboInOwl:id>
         <rdfs:label>nuptial pad</rdfs:label>
     </owl:Class>
@@ -65698,7 +65748,31 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0005072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000093"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A modified mucous gland that is part of the nuptial pad and aids the male frog in maintaining amplexus during mating.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006015</oboInOwl:id>
@@ -65716,9 +65790,41 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000454"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>Region of liver parenchyma immediately below the capsule. This region is frequently specified in pathology diagnoses. It is thought to be the principal hematopoietic site of Xenopodinae species from early development and, in case of certain species, into adulthood.</IAO_0000115>
+        <oboInOwl:hasDbXref>UBERON:8400024</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>peripheral liver</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006016</oboInOwl:id>
         <rdfs:label>subcapsular liver</rdfs:label>
     </owl:Class>
@@ -65735,8 +65841,33 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A non-terminally differentiated cell that differentiates into a xanthophore.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0005002</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006017</oboInOwl:id>
         <rdfs:label>xanthoblast</rdfs:label>
@@ -65753,9 +65884,28 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A light gray region on the dorsal surface of a fertilized oocyte. It is fully formed by the beginning of the first cleavage, and forms as a result of cortical rotation of the intermal cytoplasm and occurs opposite the sperm entry point. It is later the site where the Spemann organizer will form at the gastrula stage.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>dorsal crescent</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006018</oboInOwl:id>
         <rdfs:label>gray crescent</rdfs:label>
     </owl:Class>
