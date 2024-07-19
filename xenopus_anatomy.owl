@@ -20701,6 +20701,7 @@
         <IAO_0000115>A stem cell from which all cells of the lymphoid and myeloid lineages develop, including blood cells and cells of the immune system.</IAO_0000115>
         <oboInOwl:hasDbXref>CL:0000037</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>HSC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HSPC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0003055</oboInOwl:id>
         <rdfs:label>hematopoietic stem cell</rdfs:label>
@@ -27194,7 +27195,7 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0003236 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0003236">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003249"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
@@ -28053,7 +28054,7 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0003260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0003260">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004150"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
@@ -34248,25 +34249,7 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0004150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0004150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000122"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004144"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004628"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004148"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
@@ -34284,9 +34267,9 @@
         <oboInOwl:creation_date>2011-08-30T10:53:48Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000764</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>erythroid lineage cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>erythroid cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0004150</oboInOwl:id>
-        <rdfs:label>erythroid cell</rdfs:label>
+        <rdfs:label>erythroid lineage cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004150"/>
@@ -53527,6 +53510,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
             </owl:Restriction>
@@ -65921,8 +65910,28 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0005039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A type of endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm. In oocytes, multivesicular bodies are abundant on the dorsal side of the NF stage 7 (64-cell) embryos (as a result of cortical rotation) are are frequently surrounded by clouds of smaller, darker cytoplasmic membranes that may represent cytoplasmic determinants.</IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0005771</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>MVB</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006019</oboInOwl:id>
         <rdfs:label>multivesicular body</rdfs:label>
@@ -65940,8 +65949,27 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004290"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0005039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A membrane-bounded organelle that receives incoming material from primary endocytic vesicles that have been generated by clathrin-dependent and clathrin-independent endocytosis; vesicles fuse with the early endosome to deliver cargo for sorting into recycling or degradation pathways.</IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0005769</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006020</oboInOwl:id>
         <rdfs:label>early endosome</rdfs:label>
@@ -65958,7 +65986,19 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0006057"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A red blood cell that is produced in the liver.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006021</oboInOwl:id>
@@ -65976,9 +66016,34 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003155"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>Myeloid mononuclear recirculating lymphocyte (a.k.a. a leukocyte) that can act as a precursor of tissue macrophages, osteoclasts, and some populations of tissue dendritic cells.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>dendritic cell precursor</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006022</oboInOwl:id>
         <rdfs:label>monocyte</rdfs:label>
     </owl:Class>
@@ -65995,6 +66060,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A hematopoietic progenitor cell which gives rise to dendritic cells.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006023</oboInOwl:id>
@@ -66576,6 +66647,45 @@
         <owl:annotatedTarget>The smaller of two lobe-like clusters of glomeruli within the glomerular layer of the ofactory bulb.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000124"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <IAO_0000115>A red blood cell.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000232</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>RBC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>red blood cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006057</oboInOwl:id>
+        <rdfs:label>erythrocyte</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006057"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A red blood cell.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000232</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
