@@ -64475,6 +64475,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
             </owl:Restriction>
@@ -66017,6 +66023,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003155"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004148"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -66042,6 +66049,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>Myeloid mononuclear recirculating lymphocyte (a.k.a. a leukocyte) that can act as a precursor of tissue macrophages, osteoclasts, and some populations of tissue dendritic cells.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000576</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>dendritic cell precursor</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006022</oboInOwl:id>
@@ -66059,15 +66067,36 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004148"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A hematopoietic progenitor cell which gives rise to dendritic cells.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0001029</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CDP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>common dendritic cell precursor</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006023</oboInOwl:id>
         <rdfs:label>common dendritic progenitor</rdfs:label>
     </owl:Class>
@@ -66084,9 +66113,38 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003155"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004148"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000451</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>DC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>interdigitating cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>veiled cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006024</oboInOwl:id>
         <rdfs:label>dendritic cell</rdfs:label>
     </owl:Class>
@@ -66103,9 +66161,23 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0006024"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A cell with extensive dendritic processes found in the B cell areas (primary follicles and germinal centers) of lymphoid tissue.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000442</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>FDC</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006025</oboInOwl:id>
         <rdfs:label>follicular dendritic cell</rdfs:label>
     </owl:Class>
@@ -66121,16 +66193,44 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
-        <IAO_0000115>A oligopotent progenitor cell committed to the lymphoid lineage.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <IAO_0000115>An oligopotent progenitor cell committed to the lymphoid lineage.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000051</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CLP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>common lymphoid progenitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>lymphoid stem cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006026</oboInOwl:id>
         <rdfs:label>common lymphocyte progenitor</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006026"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A oligopotent progenitor cell committed to the lymphoid lineage.</owl:annotatedTarget>
+        <owl:annotatedTarget>An oligopotent progenitor cell committed to the lymphoid lineage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>CL:0000051</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
     </owl:Axiom>
