@@ -959,7 +959,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>A division of the forebrain situated between the telencephalon and midbrain. In the developing brain it is the more posterior and ventral of two forebrain neuromeres, the other being the telencephalon; major derivatives are the eye vescile, the brain pretectal region, the thalamus, hypothalamus, and epithalamus (including the habenula and epiphysis).</IAO_0000115>
+        <IAO_0000115>A division of the forebrain situated between the telencephalon and midbrain. In the developing brain it is the more posterior and ventral of two forebrain neuromeres, the other being the telencephalon; major derivatives are the eye vesicle, the brain pretectal region, the thalamus, hypothalamus, and epithalamus (including the habenula and epiphysis).</IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0001894</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0000013</oboInOwl:id>
@@ -968,7 +968,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000013"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A division of the forebrain situated between the telencephalon and midbrain. In the developing brain it is the more posterior and ventral of two forebrain neuromeres, the other being the telencephalon; major derivatives are the eye vescile, the brain pretectal region, the thalamus, hypothalamus, and epithalamus (including the habenula and epiphysis).</owl:annotatedTarget>
+        <owl:annotatedTarget>A division of the forebrain situated between the telencephalon and midbrain. In the developing brain it is the more posterior and ventral of two forebrain neuromeres, the other being the telencephalon; major derivatives are the eye vesicle, the brain pretectal region, the thalamus, hypothalamus, and epithalamus (including the habenula and epiphysis).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2463,6 +2463,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004423"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004163"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -24243,17 +24249,21 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>A cell of the B cell, T cell, or natural killer cell lineage.</IAO_0000115>
+        <IAO_0000115>An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, which are found in blood or other tissues and trigger specific immune responses in adaptive immunity.</IAO_0000115>
+        <oboInOwl:hasBroadSynonym>immune cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>CL:0000542</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>leucocyte</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>leukocyte</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>white blood cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0003155</oboInOwl:id>
         <rdfs:label>lymphocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0003155"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A cell of the B cell, T cell, or natural killer cell lineage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0000542</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, which are found in blood or other tissues and trigger specific immune responses in adaptive immunity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -24277,6 +24287,7 @@
         <IAO_0000115>A lymphocyte that can spontaneously kill a variety of target cells without prior antigenic activation via germline encoded activation receptors and also regulate immune responses via cytokine release and direct contact with other cells.</IAO_0000115>
         <oboInOwl:hasDbXref>CL:0000623</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>NK</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>NK cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>natural killer T cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0003156</oboInOwl:id>
@@ -24313,18 +24324,21 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>A type of lymphocyte whose defining characteristic is the expression of a T cell receptor complex.</IAO_0000115>
+        <IAO_0000115>A type of lymphocyte whose defining characteristic is the expression of a T-cell receptor complex, and which develops in the thymus.</IAO_0000115>
         <oboInOwl:hasDbXref>CL:0000084</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>T-cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>mature T cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0003157</oboInOwl:id>
-        <rdfs:label>T cell</rdfs:label>
+        <rdfs:label>T-cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0003157"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A type of lymphocyte whose defining characteristic is the expression of a T cell receptor complex.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>AAO:0010311</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A type of lymphocyte whose defining characteristic is the expression of a T-cell receptor complex, and which develops in the thymus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>CL:0000084</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -24345,18 +24359,20 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>One of the two types of lymphocytes (the others being T cells). All lymphocytes begin their development in the bone marrow. B cells are involved in so-called humoral immunity.</IAO_0000115>
+        <IAO_0000115>A lymphocyte of B lineage that is capable of B-cell mediated immunity and develops in the spleen and liver (but not in the bone marrow).</IAO_0000115>
         <oboInOwl:hasDbXref>CL:0000236</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>B-cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0003158</oboInOwl:id>
-        <rdfs:label>B cell</rdfs:label>
+        <rdfs:label>B-cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0003158"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>One of the two types of lymphocytes (the others being T cells). All lymphocytes begin their development in the bone marrow. B cells are involved in so-called humoral immunity.</owl:annotatedTarget>
+        <owl:annotatedTarget>A lymphocyte of B lineage that is capable of B-cell mediated immunity and develops in the spleen and liver (but not in the bone marrow).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000236</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -34766,6 +34782,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000311"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
             </owl:Restriction>
@@ -34776,20 +34798,21 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>A mesenchymal stem cell capable of developing into blood vessel endothelium.</IAO_0000115>
+        <IAO_0000115>A precursor cell of the vascular endothelium which organizes into the primitive blood vessels during embryogenesis.</IAO_0000115>
         <oboInOwl:created_by>lab</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-08-30T02:11:31Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000566</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>angioblasts</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>angioblastic mesenchymal cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0004163</oboInOwl:id>
         <rdfs:label>angioblast</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004163"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A mesenchymal stem cell capable of developing into blood vessel endothelium.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0000566</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A precursor cell of the vascular endothelium which organizes into the primitive blood vessels during embryogenesis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:9729498</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004163"/>
@@ -64485,7 +64508,7 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0005323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0005323">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003055"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -66381,15 +66404,42 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0005025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A large hematopoietic cell (50 to 100 microns) with a lobed nucleus. Once mature, it undergoes multiple rounds of endomitosis and cytoplasmic restructuring to allow platelet formation and release.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000556</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>megacaryocyte</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>megalokaryocyte</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006030</oboInOwl:id>
         <rdfs:label>megakaryocyte</rdfs:label>
     </owl:Class>
@@ -66405,9 +66455,23 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0005025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A tissue-resident macrophage of the reticuloendothelial system found on the luminal surface of the hepatic sinusoids (liver), involved in erythrocyte clearance.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000091</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>hepatic macrophage</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006031</oboInOwl:id>
         <rdfs:label>Kupffer cell</rdfs:label>
     </owl:Class>
