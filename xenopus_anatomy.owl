@@ -5251,6 +5251,18 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
             </owl:Restriction>
@@ -5261,7 +5273,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Flexible tissue found in the hollow interior of bones. In adults, marrow in large bones produces new blood cells.</IAO_0000115>
+        <IAO_0000115>Flexible tissue that is found in the hollow interior of bones and appears to comprise precursor cells committed to myeloid lineages, such as macrophage- and granulocyte-progenitor cells. In adults, marrow in large bones produces new blood cells.</IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0002371</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0000123</oboInOwl:id>
@@ -5270,8 +5282,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000123"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Flexible tissue found in the hollow interior of bones. In adults, marrow in large bones produces new blood cells.</owl:annotatedTarget>
+        <owl:annotatedTarget>Flexible tissue that is found in the hollow interior of bones and appears to comprise precursor cells committed to myeloid lineages, such as macrophage- and granulocyte-progenitor cells. In adults, marrow in large bones produces new blood cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>UBERON:0002371</oboInOwl:hasDbXref>
+        <rdfs:comment>PMID:30151774</rdfs:comment>
     </owl:Axiom>
     
 
@@ -6720,6 +6733,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004260"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
             </owl:Restriction>
@@ -6730,7 +6749,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>Anatomical structure of largely lymphoid tissue that functions in cell-mediated immunity by being the site where T cells develop.</IAO_0000115>
+        <IAO_0000115>Anatomical structure of largely lymphoid tissue that arises from the third pharyngeal pouch, and that functions in cell-mediated immunity by being the site where T cells develop.</IAO_0000115>
         <oboInOwl:hasDbXref>UBERON:0002370</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0000163</oboInOwl:id>
@@ -6739,8 +6758,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000163"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Anatomical structure of largely lymphoid tissue that functions in cell-mediated immunity by being the site where T cells develop.</owl:annotatedTarget>
+        <owl:annotatedTarget>Anatomical structure of largely lymphoid tissue that arises from the third pharyngeal pouch, and that functions in cell-mediated immunity by being the site where T cells develop.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://www.merriam-webster.com/medlineplus/thymus</oboInOwl:hasDbXref>
+        <rdfs:comment>PMID:37305914</rdfs:comment>
     </owl:Axiom>
     
 
@@ -17737,7 +17757,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000058"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>A type of colored melanophore (mobile pigment cells of the dermis and epidermis) that contain fat-soluble carotenoids (obtained from the diet) and pteridines (synthesized from the cell) which are stored in pterinosomes. Their color depends on the pattern of carotenoids and pteridines. They are rarely found in pre-metamorphic larvae.</IAO_0000115>
+        <IAO_0000115>A cell type that is derived from the neural crest and gives pigmentation to skin cells. Their predominantly red-yellow hue depends on the pattern of fat-soluble carotenoids (obtained from the diet) and pteridines (synthesized from the cell). They are rarely found in pre-metamorphic larvae.</IAO_0000115>
         <oboInOwl:hasDbXref>CL:0000430</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0000471</oboInOwl:id>
@@ -17746,9 +17766,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000471"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A type of colored melanophore (mobile pigment cells of the dermis and epidermis) that contain fat-soluble carotenoids (obtained from the diet) and pteridines (synthesized from the cell) which are stored in pterinosomes. Their color depends on the pattern of carotenoids and pteridines. They are rarely found in pre-metamorphic larvae.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0000430</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ISBN:0226557634</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A cell type that is derived from the neural crest and gives pigmentation to skin cells. Their predominantly red-yellow hue depends on the pattern of fat-soluble carotenoids (obtained from the diet) and pteridines (synthesized from the cell). They are rarely found in pre-metamorphic larvae.</owl:annotatedTarget>
+        <rdfs:comment>Xenbase:Staff</rdfs:comment>
     </owl:Axiom>
     
 
@@ -17775,7 +17794,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>A pigment cell derived from the neural crest. The cell contains flat light-reflecting platelets, probably of guanine, in stacks called reflecting platets or iridisomes. The color-generating components produce a silver, gold, or iridescent color.</IAO_0000115>
+        <IAO_0000115>A pigment cell that is derived from the neural crest and gives silver, gold, or iridescent color to skin cells, classified based on their iridescent hue which arises from purine-containing reflecting platelets called iridisomes.</IAO_0000115>
         <oboInOwl:hasDbXref>CL:0000431</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>guanophore</oboInOwl:hasRelatedSynonym>
@@ -17785,8 +17804,8 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0000472"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A pigment cell derived from the neural crest. The cell contains flat light-reflecting platelets, probably of guanine, in stacks called reflecting platets or iridisomes. The color-generating components produce a silver, gold, or iridescent color.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>AAO:0010318</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A pigment cell that is derived from the neural crest and gives silver, gold, or iridescent color to skin cells, classified based on their iridescent hue which arises from purine-containing reflecting platelets called iridisomes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -18171,7 +18190,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000048"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>A pigment cell that contains melanin (a brownish-black pigment), is derived from the neural crest, and is patchily distributed in the epidermis of the tadpole.</IAO_0000115>
+        <IAO_0000115>A pigment cell that is derived from the neural crest, contains melanin (a brownish-black pigment), and is patchily distributed in the epidermis of the tadpole.</IAO_0000115>
         <oboInOwl:hasDbXref>CL:0000148</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>melanocyte</oboInOwl:hasRelatedSynonym>
@@ -18182,7 +18201,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0001014"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A pigment cell that contains melanin (a brownish-black pigment), is derived from the neural crest, and is patchily distributed in the epidermis of the tadpole.</owl:annotatedTarget>
+        <owl:annotatedTarget>A pigment cell that is derived from the neural crest, contains melanin (a brownish-black pigment), and is patchily distributed in the epidermis of the tadpole.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5495-4588</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -24371,8 +24390,8 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0003158"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A lymphocyte of B lineage that is capable of B-cell mediated immunity and develops in the spleen and liver (but not in the bone marrow).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>CL:0000236</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66633,8 +66652,27 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A cell found in the bone marrow. This can include fibroblasts, macrophages, adipocytes, osteoblasts, osteoclasts, endothelial cells and hematopoietic cells.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0002092</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006042</oboInOwl:id>
         <rdfs:label>bone marrow cell</rdfs:label>
@@ -66761,7 +66799,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003249"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0005024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A major cell type which expresses cytokeratin type II, seen in the olfactory epithelium. The typical morphology has an apical cell soma (cell body) position and thin processes connecting to the basal lamina of the main olfcatory epithelium.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006048</oboInOwl:id>
@@ -66780,7 +66836,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003249"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0005024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A type of cell that has microvilli-like structures and is situated in the olfactory epithelium.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006049</oboInOwl:id>
@@ -66798,7 +66872,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003054"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A stem cell that is located in the crypt of Liberkuhn, the tubular intestinal glands found in the mucosal membranes.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006050</oboInOwl:id>
@@ -66816,7 +66908,19 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003152"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>Immune system that responds broadly and fast (e.g., within hours) upon infection or injury, producing and secreting various compounds (antimicrobial peptides, interferon) and activating cellular defense such as cell-mediated cytotoxicity by natural killer (NK) cells and phagocytosis by neutrophils and macrophages. Innate immunity generally refers to any type of host responses elicited by receptor-encoded genes/gene families.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006051</oboInOwl:id>
@@ -66835,7 +66939,19 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003152"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>Subsystem of the immune system that is composed of specialized, systemic cells and processes that eliminate pathogens or prevent their growth.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006052</oboInOwl:id>
