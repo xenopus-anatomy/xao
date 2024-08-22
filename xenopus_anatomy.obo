@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-08-29
-date: 29:08:2022 16:30
+data-version: releases/2024-08-22
+date: 22:08:2024 16:30
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -8,7 +8,7 @@ subsetdef: organism_views "Organism View slim"
 subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
 synonymtypedef: OMO:0003004 "plural form"
 default-namespace: xenopus_anatomy
-namespace-id-rule: * XAO:$sequence(7,5000,9999999)$
+namespace-id-rule: * XAO:$sequence(7,6000,9999999)$
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:8353
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:8353
 treat-xrefs-as-genus-differentia: GO part_of NCBITaxon:8353
@@ -16,11 +16,13 @@ treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:8353
 remark: Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.
 remark: Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Vize PD, Zorn AM; J Biomed Semantics 2013 4(1):31; PMID:24139024.
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
-remark: Version: 10.0
+remark: Version: 11.0
 ontology: xao
 property_value: http://purl.org/dc/elements/1.1/description "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Xenopus Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
+property_value: IAO:0000700 XAO:0000000
+property_value: IAO:0000700 XAO:1000000
 
 [Term]
 id: XAO:0000000
