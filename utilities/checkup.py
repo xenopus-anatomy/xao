@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/local/bin/python3
 
 """
 Check the Xenopus Anatomy Ontology OBO file for missing is_a parents,
