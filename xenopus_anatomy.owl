@@ -20720,7 +20720,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000027"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>A stem cell from which all cells of the lymphoid and myeloid lineages develop, including blood cells and cells of the immune system.</IAO_0000115>
@@ -32228,7 +32228,7 @@
         <oboInOwl:creation_date>2011-08-24T04:01:16Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000103</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>bipolar cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>retinal bipolar cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0004098</oboInOwl:id>
         <rdfs:label>bipolar neuron</rdfs:label>
     </owl:Class>
@@ -34039,7 +34039,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>Region that is overlapping, anterior, and dorsal to the main body of the ventral blood island.</IAO_0000115>
@@ -34222,7 +34222,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage.</IAO_0000115>
@@ -40873,6 +40873,12 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003054"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000050"/>
             </owl:Restriction>
@@ -40894,6 +40900,7 @@
         <oboInOwl:creation_date>2012-03-10T11:14:06Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>mesenchymal cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mesenchymal pluripotent stem cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>mesenchymal stem cells</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0004320</oboInOwl:id>
         <rdfs:label>mesenchymal stem cell</rdfs:label>
@@ -40902,6 +40909,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0004320"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Multipotent stromal cell that can differentiate into a variety of cell types, including: osteoblasts/osteocytes (bone cells), chondroblasts/chondrocytes (cartilage cells), and adipoblasts/adipocytes (fat cells).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -48118,6 +48126,12 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
             </owl:Restriction>
@@ -52565,7 +52579,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>The erythroid-forming compartment of the ventral blood island.</IAO_0000115>
@@ -53553,12 +53567,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006022"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -54353,6 +54361,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -60376,6 +60390,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0005196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0006044"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -60390,12 +60405,6 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006027"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
             </owl:Restriction>
@@ -60403,7 +60412,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000034"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>A type of blood cell which is part of the innate immune system and is quickly recruited to sites of injury.</IAO_0000115>
@@ -64553,6 +64562,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>An immature cell which typically differentiates to form a mature lymphocyte.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0017005</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0005323</oboInOwl:id>
         <rdfs:label>lymphoblast</rdfs:label>
@@ -65998,8 +66008,8 @@
         </rdfs:subClassOf>
         <IAO_0000115>A type of endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm. In oocytes, multivesicular bodies are abundant on the dorsal side of the NF stage 7 (64-cell) embryos (as a result of cortical rotation) are are frequently surrounded by clouds of smaller, darker cytoplasmic membranes that may represent cytoplasmic determinants.</IAO_0000115>
         <oboInOwl:hasDbXref>GO:0005771</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>MVB</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>MVB</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006019</oboInOwl:id>
         <rdfs:label>multivesicular body</rdfs:label>
     </owl:Class>
@@ -66095,6 +66105,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -66323,7 +66339,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000020"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>A progenitor cell that is part of the immune system, develops from the common myeloid progenitor, and develops into a granulocyte, macrophage, dendritic cell, basophil, eosinophil, or neutrophil.</IAO_0000115>
@@ -66451,7 +66467,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000023"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>A large hematopoietic cell (50 to 100 microns) with a lobed nucleus. Once mature, it undergoes multiple rounds of endomitosis and cytoplasmic restructuring to allow platelet formation and release.</IAO_0000115>
@@ -66506,8 +66522,28 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004148"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A myeloid progenitor cell committed to the monocyte lineage.</IAO_0000115>
+        <oboInOwl:hasBroadSynonym>monopoietic cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>CL:0000040</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006034</oboInOwl:id>
         <rdfs:label>monoblast</rdfs:label>
@@ -66524,8 +66560,27 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004308"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A giioblast cell that develops from a migratory neural crest cell. It is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0002375</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006035</oboInOwl:id>
         <rdfs:label>Schwann cell precursor</rdfs:label>
@@ -66542,8 +66597,27 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004308"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A glial cell that develops from a Schwann cell precursor.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0002377</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006036</oboInOwl:id>
         <rdfs:label>immature Schwann cell</rdfs:label>
@@ -66561,17 +66635,33 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
-        <IAO_0000115>A glial cell which myelinates or ensheathes axons in the peripheral nervous system.</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0005044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <IAO_0000115>A neuroglial cell of the peripheral nervous system which forms the insulating myelin sheaths of peripheral axons.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000218</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>neurilemmal cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>peripheral neuroglial cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006037</oboInOwl:id>
         <rdfs:label>myelinating Schwann cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006037"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A glial cell which myelinates or ensheathes axons in the peripheral nervous system.</owl:annotatedTarget>
+        <owl:annotatedTarget>A neuroglial cell of the peripheral nervous system which forms the insulating myelin sheaths of peripheral axons.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>CL:0000218</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66579,8 +66669,21 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0005044"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system. It is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0002376</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006038</oboInOwl:id>
         <rdfs:label>non-myelinating Schwann cell</rdfs:label>
@@ -66590,25 +66693,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A glial cell that ensheaths multiple small diameter axons in the peripheral nervous system. It is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has a basal lamina.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>CL:0002376</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/XAO_0006039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
-        <IAO_0000115>A type of multipotent stromal cell that can differentiate into a variety of cell types, including osteoblasts, chondrocytes, myocytes, and adipocytes.</IAO_0000115>
-        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>XAO:0006039</oboInOwl:id>
-        <rdfs:label>mesenchymal pluripotent stem cell</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006039"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A type of multipotent stromal cell that can differentiate into a variety of cell types, including osteoblasts, chondrocytes, myocytes, and adipocytes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:37305914</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Mesenchymal_stem_cell</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66616,8 +66701,33 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004507"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A mature osteoblast that has become embedded in the bone matrix. These cells occupy a small cavity, called lacuna, in the matrix and are connected to adjacent osteocytes via protoplasmic projections called canaliculi.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000137</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006040</oboInOwl:id>
         <rdfs:label>osteocyte</rdfs:label>
@@ -66634,9 +66744,36 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0004320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>Cell type that primarily composes adipose tissue, specialized in storing energy as fat.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000136</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>adipose cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fat cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006041</oboInOwl:id>
         <rdfs:label>adipocyte</rdfs:label>
     </owl:Class>
@@ -66689,9 +66826,31 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004148"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A progenitor cell committed to a myeloid lineage, including the megakaryocyte and erythroid lineages.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CMP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>common myeloid precursor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>multipotential myeloid stem cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>myeloid stem cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006043</oboInOwl:id>
         <rdfs:label>common myeloid progenitor</rdfs:label>
     </owl:Class>
@@ -66707,15 +66866,35 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004148"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0003152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A leukocyte with abundant cytoplasmic granules.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000094</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Gran</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006044</oboInOwl:id>
         <rdfs:label>granulocyte</rdfs:label>
     </owl:Class>
@@ -66724,7 +66903,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A leukocyte with abundant cytoplasmic granules.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5495-4588</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CL:0000094</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -66732,14 +66911,21 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0006044"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006027"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>A type of granulocyte responsible for inflammatory reactions during immune response.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000767</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006045</oboInOwl:id>
         <rdfs:label>basophil</rdfs:label>
@@ -66756,14 +66942,21 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0006044"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006027"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>Any of the immature or mature forms of a granular leukocyte with a nucleus that usually has two lobes connected by one or more slender threads of chromatin, and cytoplasm containing coarse, round granules that are uniform in size.</IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000771</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006046</oboInOwl:id>
         <rdfs:label>eosinophil</rdfs:label>
@@ -66780,7 +66973,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0005024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>A neuron-like cell, often with atypical dentric knobs, seen in the olfactory epithelium of the olfactory bulb, and which are S100Z-positive, the axons of which extend/push into the olfactory nerve.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006047</oboInOwl:id>
@@ -66969,8 +67180,26 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
-        <IAO_0000115>A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small v intermediate).</IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003160"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0005024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <IAO_0000115>A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small v intermediate). Olfactory receptor neuron axons (ORNs, yellow) incoming from the olfactory nerve (ON) form distinct medial (MC), intermediate (IC), and lateral (LC) clusters in the glomerular layer.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006053</oboInOwl:id>
         <rdfs:label>glomerular cluster</rdfs:label>
@@ -66978,7 +67207,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006053"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small v intermediate).</owl:annotatedTarget>
+        <owl:annotatedTarget>A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small v intermediate). Olfactory receptor neuron axons (ORNs, yellow) incoming from the olfactory nerve (ON) form distinct medial (MC), intermediate (IC), and lateral (LC) clusters in the glomerular layer.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -66988,7 +67217,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003160"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>The larger, laterally projecting, lobe-like cluster of glomeruli within the glomerular layer of the ofactory bulb.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006054</oboInOwl:id>
@@ -67007,7 +67254,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003160"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>The medially projecting, lobe-like cluster of glomeruli within the glomerular layer of the ofactory bulb.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006055</oboInOwl:id>
@@ -67026,7 +67291,25 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003160"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <IAO_0000115>The smaller of two lobe-like clusters of glomeruli within the glomerular layer of the ofactory bulb.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006056</oboInOwl:id>
