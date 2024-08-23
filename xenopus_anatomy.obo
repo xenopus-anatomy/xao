@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2024-08-22
-date: 22:08:2024 16:30
+data-version: releases/2024-08-23
+date: 23:08:2024 11:00
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
 subsetdef: frequent_anatomy_items "Frequently Used Anatomy slim"
@@ -19208,7 +19208,6 @@ id: XAO:0006029
 name: megakaryocyte/erythrocyte precursor
 def: "A progenitor cell that is part of the hematological system and develops into a megakaryocyte or erythrocyte." [PMID:37305914]
 is_a: XAO:0003012 ! cell
-relationship: develops_from XAO:0006029 ! megakaryocyte/erythrocyte precursor
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000122 ! hematological system
 relationship: start_stage XAO:1000023 ! NF stage 13

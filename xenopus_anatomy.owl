@@ -12,12 +12,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/xao.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/xao/releases/2024-08-22/xao.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/xao/releases/2024-08-23/xao.owl"/>
         <dc:description>XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis.</dc:description>
         <dc:title>Xenopus Anatomy Ontology</dc:title>
         <terms:license>https://creativecommons.org/licenses/by/3.0/</terms:license>
         <oboInOwl:NamespaceIdRule>* XAO:$sequence(7,6000,9999999)$</oboInOwl:NamespaceIdRule>
-        <oboInOwl:date>22:08:2024 16:30</oboInOwl:date>
+        <oboInOwl:date>23:08:2024 11:00</oboInOwl:date>
         <oboInOwl:default-namespace>xenopus_anatomy</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by>eriksegerdell</oboInOwl:saved-by>
@@ -66402,12 +66402,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000122"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
