@@ -21,6 +21,8 @@ ontology: xao
 property_value: http://purl.org/dc/elements/1.1/description "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Xenopus Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
+property_value: IAO:0000700 XAO:0000000 xsd:string
+property_value: IAO:0000700 XAO:1000000 xsd:string
 
 [Term]
 id: XAO:0000000

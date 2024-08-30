@@ -13,6 +13,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/xao.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/xao/releases/2024-08-23/xao.owl"/>
+        <IAO_0000700>XAO:0000000</IAO_0000700>
+        <IAO_0000700>XAO:1000000</IAO_0000700>
         <dc:description>XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis.</dc:description>
         <dc:title>Xenopus Anatomy Ontology</dc:title>
         <terms:license>https://creativecommons.org/licenses/by/3.0/</terms:license>
@@ -48,6 +50,14 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700">
+        <rdfs:label>IAO:0000700</rdfs:label>
     </owl:AnnotationProperty>
     
 
