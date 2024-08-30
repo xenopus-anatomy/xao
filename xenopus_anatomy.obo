@@ -21,8 +21,6 @@ ontology: xao
 property_value: http://purl.org/dc/elements/1.1/description "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Xenopus Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
-property_value: IAO:0000700 XAO:0000000
-property_value: IAO:0000700 XAO:1000000
 
 [Term]
 id: XAO:0000000
@@ -7757,10 +7755,14 @@ creation_date: 2009-07-20T02:09:08Z
 [Term]
 id: XAO:0003260
 name: nucleate erythrocyte
-def: "An erythrocyte having a nucleus." [CL:0000562]
+def: "An erythrocyte (red blood cell) which has a nucleus." [CL:0000562]
+synonym: "RBC" RELATED []
+synonym: "red blood cell" RELATED []
 xref: CL:0000562
 is_a: XAO:0004150 ! erythroid lineage cell
+relationship: develops_from XAO:0006029 ! megakaryocyte/erythrocyte precursor
 relationship: end_stage XAO:0000437 ! death
+relationship: part_of XAO:0000124 ! blood
 relationship: start_stage XAO:1000038 ! NF stage 22
 created_by: eriksegerdell
 creation_date: 2009-07-20T02:10:45Z
@@ -19112,7 +19114,7 @@ relationship: start_stage XAO:1000083 ! oocyte stage I
 id: XAO:0006021
 name: hepatic erythrocyte
 def: "A red blood cell that is produced in the liver." [PMID:37305914]
-is_a: XAO:0006057 ! erythrocyte
+is_a: XAO:0003260 ! nucleate erythrocyte
 relationship: end_stage XAO:0000437 ! death
 relationship: start_stage XAO:1000038 ! NF stage 22
 
@@ -19220,7 +19222,6 @@ synonym: "megacaryocyte" RELATED []
 synonym: "megalokaryocyte" RELATED []
 xref: CL:0000556
 is_a: XAO:0003012 ! cell
-relationship: develops_from XAO:0005025 ! macrophage
 relationship: develops_from XAO:0006029 ! megakaryocyte/erythrocyte precursor
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0000122 ! hematological system
@@ -19454,16 +19455,9 @@ relationship: start_stage XAO:1000039 ! NF stage 23
 
 [Term]
 id: XAO:0006057
-name: erythrocyte
-def: "A red blood cell." [CL:0000232]
-synonym: "RBC" EXACT []
-synonym: "red blood cell" EXACT []
-xref: CL:0000232
-is_a: XAO:0004150 ! erythroid lineage cell
-relationship: develops_from XAO:0005025 ! macrophage
-relationship: end_stage XAO:0000437 ! death
-relationship: part_of XAO:0000124 ! blood
-relationship: start_stage XAO:1000038 ! NF stage 22
+name: obsolete erythrocyte
+is_obsolete: true
+consider: XAO:0003260
 
 [Term]
 id: XAO:1000000

@@ -28092,6 +28092,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004150"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000124"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0006029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
             </owl:Restriction>
@@ -28102,18 +28114,20 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>An erythrocyte having a nucleus.</IAO_0000115>
+        <IAO_0000115>An erythrocyte (red blood cell) which has a nucleus.</IAO_0000115>
         <oboInOwl:created_by>eriksegerdell</oboInOwl:created_by>
         <oboInOwl:creation_date>2009-07-20T02:10:45Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>CL:0000562</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>RBC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>red blood cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0003260</oboInOwl:id>
         <rdfs:label>nucleate erythrocyte</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0003260"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An erythrocyte having a nucleus.</owl:annotatedTarget>
+        <owl:annotatedTarget>An erythrocyte (red blood cell) which has a nucleus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>CL:0000562</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -66063,7 +66077,7 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0006057"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
@@ -66438,12 +66452,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000122"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0005025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -67322,45 +67330,12 @@
     <!-- http://purl.obolibrary.org/obo/XAO_0006057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0004150"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000124"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0005025"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#end_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_0000437"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/xao#start_stage"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <IAO_0000115>A red blood cell.</IAO_0000115>
-        <oboInOwl:hasDbXref>CL:0000232</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>RBC</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>red blood cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:consider>XAO:0003260</oboInOwl:consider>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006057</oboInOwl:id>
-        <rdfs:label>erythrocyte</rdfs:label>
+        <rdfs:label>obsolete erythrocyte</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006057"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A red blood cell.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>CL:0000232</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
