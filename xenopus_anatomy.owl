@@ -12,14 +12,14 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/xao.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/xao/releases/2024-08-23/xao.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/xao/releases/2024-09-03/xao.owl"/>
         <IAO_0000700>XAO:0000000</IAO_0000700>
         <IAO_0000700>XAO:1000000</IAO_0000700>
         <dc:description>XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis.</dc:description>
         <dc:title>Xenopus Anatomy Ontology</dc:title>
         <terms:license>https://creativecommons.org/licenses/by/3.0/</terms:license>
         <oboInOwl:NamespaceIdRule>* XAO:$sequence(7,6000,9999999)$</oboInOwl:NamespaceIdRule>
-        <oboInOwl:date>23:08:2024 11:00</oboInOwl:date>
+        <oboInOwl:date>03:09:2024 11:00</oboInOwl:date>
         <oboInOwl:default-namespace>xenopus_anatomy</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by>eriksegerdell</oboInOwl:saved-by>
