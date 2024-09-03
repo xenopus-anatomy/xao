@@ -30,7 +30,7 @@
         <rdfs:comment>Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.</rdfs:comment>
         <rdfs:comment>Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Vize PD, Zorn AM; J Biomed Semantics 2013 4(1):31; PMID:24139024.</rdfs:comment>
         <rdfs:comment>Supported by NIH R01 HD045776 and NICHD P41 HD064556.</rdfs:comment>
-        <rdfs:comment>Version: 11.0</rdfs:comment>
+        <rdfs:comment>Version: 11.1</rdfs:comment>
     </owl:Ontology>
     
 
@@ -65648,7 +65648,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>One of an array of membranous disks projecting from outer segment cilia. In rods/rod cells, these disks are discontinuous, being divided into lobules or “incisures”, and are surrounded by a plasma membrane.</IAO_0000115>
+        <IAO_0000115>One of an array of membranous disks projecting from outer segment cilia. In rods/rod cells, these disks are discontinuous, being divided into lobules or &quot;incisures&quot;, and are surrounded by a plasma membrane.</IAO_0000115>
         <oboInOwl:hasExactSynonym>outer segment disc</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>OS disc</oboInOwl:hasRelatedSynonym>
@@ -65661,7 +65661,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006010"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>One of an array of membranous disks projecting from outer segment cilia. In rods/rod cells, these disks are discontinuous, being divided into lobules or “incisures”, and are surrounded by a plasma membrane.</owl:annotatedTarget>
+        <owl:annotatedTarget>One of an array of membranous disks projecting from outer segment cilia. In rods/rod cells, these disks are discontinuous, being divided into lobules or &quot;incisures&quot;, and are surrounded by a plasma membrane.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:25616687</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -67211,7 +67211,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/XAO_1000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <IAO_0000115>A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small v intermediate). Olfactory receptor neuron axons (ORNs, yellow) incoming from the olfactory nerve (ON) form distinct medial (MC), intermediate (IC), and lateral (LC) clusters in the glomerular layer.</IAO_0000115>
+        <IAO_0000115>A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small vs. intermediate). Olfactory receptor neuron axons (ORNs, yellow) incoming from the olfactory nerve (ON) form distinct medial (MC), intermediate (IC), and lateral (LC) clusters in the glomerular layer.</IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006053</oboInOwl:id>
         <rdfs:label>glomerular cluster</rdfs:label>
@@ -67219,7 +67219,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006053"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small v intermediate). Olfactory receptor neuron axons (ORNs, yellow) incoming from the olfactory nerve (ON) form distinct medial (MC), intermediate (IC), and lateral (LC) clusters in the glomerular layer.</owl:annotatedTarget>
+        <owl:annotatedTarget>A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small vs. intermediate). Olfactory receptor neuron axons (ORNs, yellow) incoming from the olfactory nerve (ON) form distinct medial (MC), intermediate (IC), and lateral (LC) clusters in the glomerular layer.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:38439531</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Xenbase:Staff</oboInOwl:hasDbXref>
     </owl:Axiom>

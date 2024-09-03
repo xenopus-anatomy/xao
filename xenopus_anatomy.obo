@@ -16,7 +16,7 @@ treat-xrefs-as-genus-differentia: UBERON part_of NCBITaxon:8353
 remark: Citation for XAO v1 by Xenbase: Segerdell E, Bowes JB, Pollet N, Vize PD; BMC Dev Biol 2008 8:92; PMID:18817563.
 remark: Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C, Burns KA, Fortriede JD, Dahdul WM, Vize PD, Zorn AM; J Biomed Semantics 2013 4(1):31; PMID:24139024.
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
-remark: Version: 11.0
+remark: Version: 11.1
 ontology: xao
 property_value: http://purl.org/dc/elements/1.1/description "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Xenopus Anatomy Ontology" xsd:string
@@ -18991,7 +18991,7 @@ relationship: start_stage XAO:1000050 ! NF stage 37 and 38
 [Term]
 id: XAO:0006010
 name: outer segment disk
-def: "One of an array of membranous disks projecting from outer segment cilia. In rods/rod cells, these disks are discontinuous, being divided into lobules or “incisures”, and are surrounded by a plasma membrane." [PMID:25616687]
+def: "One of an array of membranous disks projecting from outer segment cilia. In rods/rod cells, these disks are discontinuous, being divided into lobules or \"incisures\", and are surrounded by a plasma membrane." [PMID:25616687]
 synonym: "OS disc" RELATED []
 synonym: "OS disk" RELATED []
 synonym: "outer segment disc" EXACT []
@@ -19422,7 +19422,7 @@ relationship: start_stage XAO:1000052 ! NF stage 40
 [Term]
 id: XAO:0006053
 name: glomerular cluster
-def: "A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small v intermediate). Olfactory receptor neuron axons (ORNs, yellow) incoming from the olfactory nerve (ON) form distinct medial (MC), intermediate (IC), and lateral (LC) clusters in the glomerular layer." [PMID:38439531, Xenbase:Staff]
+def: "A cluster of lobe-like projections of glomeruli within the glomerular layer of the ofactory bulb, each cluster being referred to by their directionality (e.g. medial vs. lateral, and/or relative size, e.g. small vs. intermediate). Olfactory receptor neuron axons (ORNs, yellow) incoming from the olfactory nerve (ON) form distinct medial (MC), intermediate (IC), and lateral (LC) clusters in the glomerular layer." [PMID:38439531, Xenbase:Staff]
 is_a: XAO:0003160 ! anatomical cluster
 relationship: end_stage XAO:0000437 ! death
 relationship: part_of XAO:0005024 ! olfactory epithelium
