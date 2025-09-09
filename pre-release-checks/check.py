@@ -14,7 +14,7 @@ root term, "unspecified", terms with unusual stage ranges, in vitro anatomy,
 developmental stages, and anatomical sites.
 """
 
-fh = open(os.path.abspath(__file__ + "/../exclude.txt"))
+fh = open(os.path.abspath(__file__ + "/../exclude-terms.txt"))
 EXCLUDE_ID = [line.split("\t")[0] for line in fh]
 fh.close()
 
@@ -26,7 +26,7 @@ Specify the name of the staging series file. This should contain a plain text
 list of developmental stages in the order of their timing, one stage per line,
 and named exactly as they are in the ontology.
 """
-STAGE_FN = "NF_stages.txt"
+STAGE_FN = "NF-stages.txt"
 
 def check_for_missing(attrib, attrib_text):
 
