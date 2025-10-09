@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/xao
+
+idspace: XAO
+base_url: /obo/xao
+
+products:
+- xao.owl: https://raw.githubusercontent.com/xenopus-anatomy/xao/master/xao.owl
+- xao.obo: https://raw.githubusercontent.com/xenopus-anatomy/xao/master/xao.obo
+
+term_browser: ontobee
+example_terms:
+- XAO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/xenopus-anatomy/xao/v
+
+- prefix: /tracker/
+  replacement: https://github.com/xenopus-anatomy/xao/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/XAO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/xenopus-anatomy/xao/master/
+

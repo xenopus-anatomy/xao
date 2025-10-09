@@ -1,0 +1,12 @@
+Level	Rule Name	Subject	Property	Value
+WARN	duplicate_exact_synonym	retromammillary area	has_exact_synonym	RM
+WARN	duplicate_exact_synonym	nucleus reticularis medialis	has_exact_synonym	Rm
+WARN	duplicate_exact_synonym	internal carotid artery	has_exact_synonym	ICA
+WARN	duplicate_exact_synonym	ionocyte, alpha subtype	has_exact_synonym	ICa
+WARN	duplicate_exact_synonym	dorsal thalamus	has_exact_synonym	DT
+WARN	duplicate_exact_synonym	dorsal telencephalon	has_exact_synonym	dt
+WARN	duplicate_exact_synonym	cornua trabecula	has_exact_synonym	ct
+WARN	duplicate_exact_synonym	caudal tuberal region	has_exact_synonym	CT
+WARN	duplicate_label_synonym	tadpole	has_exact_synonym	tadpole
+INFO	missing_superclass	Xenopus anatomical entity	rdfs:subClassOf	
+INFO	missing_superclass	Xenopus developmental stage	rdfs:subClassOf	

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2024-09-03
+data-version: releases/2025-10-09
 date: 03:09:2024 11:00
 saved-by: eriksegerdell
 subsetdef: anatomical_site_slim "Anatomical Site slim"
@@ -9,6 +9,9 @@ subsetdef: sectional_anatomy_items "Sectional Anatomy Item slim"
 synonymtypedef: OMO:0003004 "plural form"
 default-namespace: xenopus_anatomy
 namespace-id-rule: * XAO:$sequence(7,6000,9999999)$
+idspace: dc http://purl.org/dc/elements/1.1/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: terms http://purl.org/dc/terms/ 
 treat-xrefs-as-genus-differentia: CARO part_of NCBITaxon:8353
 treat-xrefs-as-genus-differentia: CL part_of NCBITaxon:8353
 treat-xrefs-as-genus-differentia: GO part_of NCBITaxon:8353
@@ -18,11 +21,12 @@ remark: Citation for XAO v3 by Xenbase: Segerdell E, Ponferrada VG, James-Zorn C
 remark: Supported by NIH R01 HD045776 and NICHD P41 HD064556.
 remark: Version: 11.1
 ontology: xao
-property_value: http://purl.org/dc/elements/1.1/description "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
-property_value: http://purl.org/dc/elements/1.1/title "Xenopus Anatomy Ontology" xsd:string
-property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/ xsd:string
-property_value: IAO:0000700 XAO:0000000 xsd:string
-property_value: IAO:0000700 XAO:1000000 xsd:string
+property_value: dc:description "XAO represents the anatomy and development of the African frogs Xenopus laevis and tropicalis." xsd:string
+property_value: dc:title "Xenopus Anatomy Ontology" xsd:string
+property_value: IAO:0000700 "XAO:0000000" xsd:string
+property_value: IAO:0000700 "XAO:1000000" xsd:string
+property_value: owl:versionInfo "2025-10-09" xsd:string
+property_value: terms:license "https://creativecommons.org/licenses/by/3.0/" xsd:string
 
 [Term]
 id: XAO:0000000

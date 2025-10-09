@@ -1,0 +1,21 @@
+id: xao
+title: "Xenopus Anatomy Ontology"
+github_org: xenopus-anatomy
+repo: xao
+report_fail_on: ERROR
+git_main_branch: master
+namespaces:
+  - http://purl.obolibrary.org/obo/XAO_
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products:
+    - id: ro
+robot_java_args: "-Xmx8G"
