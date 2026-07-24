@@ -67547,6 +67547,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/XAO_0006080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">tentacle</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/XAO_1000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_1000000">
