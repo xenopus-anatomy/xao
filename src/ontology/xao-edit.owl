@@ -67430,6 +67430,123 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/XAO_0006067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">enteric neuron progenitor cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">migratory enteric neuron progenitor cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">migrating vagal neural crest cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">myofibroblast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">basal foot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">rootlet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">differentiating neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">differentiating interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">differentiating motor neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">excitatory interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">inhibitory interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">intermediate interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XAO_0006079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <rdfs:label xml:lang="en">Kolmer-Angur interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/XAO_1000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_1000000">
