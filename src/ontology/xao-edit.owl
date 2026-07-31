@@ -67353,6 +67353,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006058</oboInOwl:id>
         <rdfs:label xml:lang="en">multiciliated cell axoneme</rdfs:label>
     </owl:Class>
     
@@ -67362,6 +67364,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006059</oboInOwl:id>
         <rdfs:label xml:lang="en">proximal portion of axoneme</rdfs:label>
     </owl:Class>
     
@@ -67371,6 +67375,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006060</oboInOwl:id>
         <rdfs:label xml:lang="en">distal portion of axoneme</rdfs:label>
     </owl:Class>
     
@@ -67380,6 +67386,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006061</oboInOwl:id>
         <rdfs:label xml:lang="en">tip of axoneme</rdfs:label>
     </owl:Class>
     
@@ -67389,6 +67397,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006062</oboInOwl:id>
         <rdfs:label xml:lang="en">axonemal central apparatus</rdfs:label>
     </owl:Class>
     
@@ -67398,6 +67408,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006063</oboInOwl:id>
         <rdfs:label xml:lang="en">radial spoke</rdfs:label>
     </owl:Class>
     
@@ -67407,6 +67419,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006064</oboInOwl:id>
         <rdfs:label xml:lang="en">inner dynein arm</rdfs:label>
     </owl:Class>
     
@@ -67416,6 +67430,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006065</oboInOwl:id>
         <rdfs:label xml:lang="en">outer dynein arm</rdfs:label>
     </owl:Class>
     
@@ -67425,6 +67441,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006066</oboInOwl:id>
         <rdfs:label xml:lang="en">outer dynein arm docking complex</rdfs:label>
     </owl:Class>
     
@@ -67434,6 +67452,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006067</oboInOwl:id>
         <rdfs:label xml:lang="en">enteric neuron progenitor cell</rdfs:label>
     </owl:Class>
     
@@ -67443,6 +67463,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006068</oboInOwl:id>
         <rdfs:label xml:lang="en">migratory enteric neuron progenitor cell</rdfs:label>
     </owl:Class>
     
@@ -67452,6 +67474,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006069</oboInOwl:id>
         <rdfs:label xml:lang="en">migrating vagal neural crest cell</rdfs:label>
     </owl:Class>
     
@@ -67461,6 +67485,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006070</oboInOwl:id>
         <rdfs:label xml:lang="en">myofibroblast</rdfs:label>
     </owl:Class>
     
@@ -67470,6 +67496,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006071</oboInOwl:id>
         <rdfs:label xml:lang="en">basal foot</rdfs:label>
     </owl:Class>
     
@@ -67479,6 +67507,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006072</oboInOwl:id>
         <rdfs:label xml:lang="en">rootlet</rdfs:label>
     </owl:Class>
     
@@ -67488,6 +67518,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006073</oboInOwl:id>
         <rdfs:label xml:lang="en">differentiating neuron</rdfs:label>
     </owl:Class>
     
@@ -67497,6 +67529,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006074</oboInOwl:id>
         <rdfs:label xml:lang="en">differentiating interneuron</rdfs:label>
     </owl:Class>
     
@@ -67506,6 +67540,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006075</oboInOwl:id>
         <rdfs:label xml:lang="en">differentiating motor neuron</rdfs:label>
     </owl:Class>
     
@@ -67515,6 +67551,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006076</oboInOwl:id>
         <rdfs:label xml:lang="en">excitatory interneuron</rdfs:label>
     </owl:Class>
     
@@ -67524,6 +67562,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006077</oboInOwl:id>
         <rdfs:label xml:lang="en">inhibitory interneuron</rdfs:label>
     </owl:Class>
     
@@ -67533,6 +67573,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006078</oboInOwl:id>
         <rdfs:label xml:lang="en">intermediate interneuron</rdfs:label>
     </owl:Class>
     
@@ -67542,6 +67584,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006079</oboInOwl:id>
         <rdfs:label xml:lang="en">Kolmer-Angur interneuron</rdfs:label>
     </owl:Class>
     
@@ -67551,6 +67595,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006080</oboInOwl:id>
         <rdfs:label xml:lang="en">tentacle</rdfs:label>
     </owl:Class>
     
