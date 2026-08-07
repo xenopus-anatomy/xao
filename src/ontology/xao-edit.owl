@@ -67353,6 +67353,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>The bundle of microtubules and associated proteins that forms the core of cilia of the multiciliated cells, common in vertebrate airways, reproductive tract, and central nervous system, composed of a central apparatus with radially organized structures including radial spokes, microtubule doublets, inner and outer dynein arms and docking complexes, and displaying complex proximal-distal patterning.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006058</oboInOwl:id>
         <rdfs:label xml:lang="en">multiciliated cell axoneme</rdfs:label>
@@ -67364,6 +67365,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>The portion of the axoneme that is close to the base of the cilium.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006059</oboInOwl:id>
         <rdfs:label xml:lang="en">proximal portion of axoneme</rdfs:label>
@@ -67375,6 +67377,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>The portion of the axoneme that is close to the tip of the cilium.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006060</oboInOwl:id>
         <rdfs:label xml:lang="en">distal portion of axoneme</rdfs:label>
@@ -67386,6 +67389,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>Tip of the distal most portion of an axoneme.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006061</oboInOwl:id>
         <rdfs:label xml:lang="en">tip of axoneme</rdfs:label>
@@ -67397,6 +67401,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>Part of the 9+2 axoneme that occurs in most motile cilia, consisting of a pair of two single central microtubules and their associated structures which include the central pair projections, the central pair bridges linking the two tubules, and the central pair caps which are attached to the distal or plus ends of the microtubules.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006062</oboInOwl:id>
         <rdfs:label xml:lang="en">axonemal central apparatus</rdfs:label>
@@ -67408,6 +67413,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>Protein complex that links the outer microtubule doublet of a 9+2 type ciliary or flagellar axoneme with the sheath that surrounds the central pair of microtubules. Composed of a stalk that attaches to each doublet microtubule and a globular structure (spoke head) that projects toward the central pair of microtubules.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006063</oboInOwl:id>
         <rdfs:label xml:lang="en">radial spoke</rdfs:label>
@@ -67419,6 +67425,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>One of the protein machines that are radially organized throughout an axoneme, and which reside outside the doublet microtubules. These structures are present on the outer doublet microtubules of ciliary and flagellar axonemes. Their structure is complex and may vary within the axoneme. They are heteromeric, comprising 8 different heavy chains and various subunits. Inner and outer dynein arms have different functions in the generation of microtubule-based motility.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006064</oboInOwl:id>
         <rdfs:label xml:lang="en">inner dynein arm</rdfs:label>
@@ -67430,6 +67437,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>One of the protein machines that are radially organized throughout an axoneme, residing interior to the doublet microtubules. These structures are present on the outer doublet microtubules of ciliary and flagellar axonemes. They contain 2-3 heavy chains, two or more intermediate chains and a cluster of 4-8 light chains. Inner and outer dynein arms have different functions in the generation of microtubule-based motility.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006065</oboInOwl:id>
         <rdfs:label xml:lang="en">outer dynein arm</rdfs:label>
@@ -67441,6 +67449,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>A complex which stabilizes the binding of and correctly positions the outer dynein arm complex along an A-tubule of the flagellar axoneme outer doublet microtubules.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006066</oboInOwl:id>
         <rdfs:label xml:lang="en">outer dynein arm docking complex</rdfs:label>
@@ -67452,6 +67461,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>A neural crest cell that gives rise to cells of the enteric nervous system.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006067</oboInOwl:id>
         <rdfs:label xml:lang="en">enteric neuron progenitor cell</rdfs:label>
@@ -67463,6 +67473,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>A neural crest cell that gives rise to cells of the enteric nervous system, and is actively migrating to foregut endoderm during the phase of gut development.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006068</oboInOwl:id>
         <rdfs:label xml:lang="en">migratory enteric neuron progenitor cell</rdfs:label>
@@ -67474,6 +67485,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>Actively migrating cell that is part of the vagal neural crest population.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006069</oboInOwl:id>
         <rdfs:label xml:lang="en">migrating vagal neural crest cell</rdfs:label>
@@ -67485,6 +67497,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>A specialized contractile cell, derived from fibroblasts, that acts like a smooth muscle cell by contracting (due to the presence of cytoskeletal proteins that are normally found in smooth-muscle cells) and producing extracellular matrix (ECM), crucial for wound healing to close injuries and form scars. These cells are characterized by their expression of alpha-smooth muscle actin (acta2) and their ability to generate tension and deposit collagen, making them key for both normal repair and pathological tissue remodeling.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006070</oboInOwl:id>
         <rdfs:label xml:lang="en">myofibroblast</rdfs:label>
@@ -67518,6 +67531,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>A progenitor cell of the central nervous system that differentiates exclusively into neurons.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006073</oboInOwl:id>
         <rdfs:label xml:lang="en">differentiating neuron</rdfs:label>
@@ -67529,6 +67543,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>A progenitor cell of the central nervous system that differentiates exclusively into interneurons.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006074</oboInOwl:id>
         <rdfs:label xml:lang="en">differentiating interneuron</rdfs:label>
@@ -67540,6 +67555,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>A progenitor cell of the central nervous system that differentiates exclusively into motor neurons.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006075</oboInOwl:id>
         <rdfs:label xml:lang="en">differentiating motor neuron</rdfs:label>
@@ -67562,6 +67578,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>Type of interneuron that is an integral component of the CNS, playing key roles in refining neural circuits and shaping network activity. These neurons form connections mainly within the same region of the brain or spinal cord where they are located. This localization allows them to impact the activities of nearby excitatory neurons by means of inhibitory networks to inhibit or reduce the likelihood of the firing of these excitatory neurons.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006077</oboInOwl:id>
         <rdfs:label xml:lang="en">inhibitory interneuron</rdfs:label>
@@ -67573,6 +67590,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>Any interneuron that has its soma located in some ganglion. Ganglion interneurons, sometimes classified under relay neurons, are complex cellular structures prominently found in the nervous system. These cells serve as intermediaries or connectors, conducting impulses between afferent (or sensory) neurons and efferent (or motor) neurons within the body. They have specialized roles in sensory-motor integration within the nervous system and play a pivotal part in defining the complexity and precision of the nervous system. These highly specialized neurons are predominantly located in the spinal cord and brain, particularly abundant in the gray matter of these regions, forming complex neural networks.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006078</oboInOwl:id>
         <rdfs:label xml:lang="en">intermediate interneuron</rdfs:label>
@@ -67584,6 +67602,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>A ciliated GABAergic neuron that contacts the central canal of the spinal cord and has ipsilateral ascending axons.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006079</oboInOwl:id>
         <rdfs:label xml:lang="en">Kolmer-Angur interneuron</rdfs:label>
@@ -67595,6 +67614,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>A transitory pair of long, slender, mobile tentacles situated at the corners of the mouth.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006080</oboInOwl:id>
         <rdfs:label xml:lang="en">tentacle</rdfs:label>
