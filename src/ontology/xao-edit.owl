@@ -67509,6 +67509,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>An appendage that is acquired by centrioles during multiciliated cell differentiation, interacts with cortical microtubules, and along with the ciliary rootlet allows the formation of an array of uniformly oriented basal bodies/cilia.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006071</oboInOwl:id>
         <rdfs:label xml:lang="en">basal foot</rdfs:label>
@@ -67520,6 +67521,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>An appendage that is acquired by centrioles during multiciliated cell differentiation, interacts with actin filaments, and along with the basal foot allows the formation of an array of uniformly oriented basal bodies/cilia.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006072</oboInOwl:id>
         <rdfs:label xml:lang="en">rootlet</rdfs:label>
@@ -67567,6 +67569,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>Type of interneuron that is an integral component of the central nervous system and that relays signals by prompting neighboring neurons to fire.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006076</oboInOwl:id>
         <rdfs:label xml:lang="en">excitatory interneuron</rdfs:label>
@@ -67578,7 +67581,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
-        <obo:IAO_0000115>Type of interneuron that is an integral component of the CNS, playing key roles in refining neural circuits and shaping network activity. These neurons form connections mainly within the same region of the brain or spinal cord where they are located. This localization allows them to impact the activities of nearby excitatory neurons by means of inhibitory networks to inhibit or reduce the likelihood of the firing of these excitatory neurons.</obo:IAO_0000115>
+        <obo:IAO_0000115>Type of interneuron that is an integral component of the central nervous system, playing key roles in refining neural circuits and shaping network activity. These neurons form connections mainly within the same region of the brain or spinal cord where they are located. This localization allows them to impact the activities of nearby excitatory neurons by means of inhibitory networks to inhibit or reduce the likelihood of the firing of these excitatory neurons.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006077</oboInOwl:id>
         <rdfs:label xml:lang="en">inhibitory interneuron</rdfs:label>
