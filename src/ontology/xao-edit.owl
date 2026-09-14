@@ -67357,7 +67357,7 @@
         <oboInOwl:hasExactSynonym>MCC axoneme</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006058</oboInOwl:id>
-        <rdfs:label xml:lang="en">multiciliated cell axoneme</rdfs:label>
+        <rdfs:label>multiciliated cell axoneme</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006058"/>
@@ -67376,7 +67376,7 @@
         <oboInOwl:hasDbXref>GO:0120134</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006059</oboInOwl:id>
-        <rdfs:label xml:lang="en">proximal portion of axoneme</rdfs:label>
+        <rdfs:label>proximal portion of axoneme</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006059"/>
@@ -67395,7 +67395,7 @@
         <oboInOwl:hasDbXref>GO:0120135</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006060</oboInOwl:id>
-        <rdfs:label xml:lang="en">distal portion of axoneme</rdfs:label>
+        <rdfs:label>distal portion of axoneme</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006060"/>
@@ -67413,7 +67413,7 @@
         <obo:IAO_0000115>Tip of the distal most portion of an axoneme.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006061</oboInOwl:id>
-        <rdfs:label xml:lang="en">tip of axoneme</rdfs:label>
+        <rdfs:label>tip of axoneme</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006061"/>
@@ -67432,7 +67432,7 @@
         <oboInOwl:hasBroadSynonym>central apparatus</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006062</oboInOwl:id>
-        <rdfs:label xml:lang="en">axonemal central apparatus</rdfs:label>
+        <rdfs:label>axonemal central apparatus</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006062"/>
@@ -67451,7 +67451,7 @@
         <oboInOwl:hasDbXref>GO:0001534</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006063</oboInOwl:id>
-        <rdfs:label xml:lang="en">radial spoke</rdfs:label>
+        <rdfs:label>radial spoke</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006063"/>
@@ -67492,7 +67492,7 @@
         <oboInOwl:hasExactSynonym>ODA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006065</oboInOwl:id>
-        <rdfs:label xml:lang="en">outer dynein arm</rdfs:label>
+        <rdfs:label>outer dynein arm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006065"/>
@@ -67512,7 +67512,7 @@
         <oboInOwl:hasDbXref>GO:0120228</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006066</oboInOwl:id>
-        <rdfs:label xml:lang="en">outer dynein arm docking complex</rdfs:label>
+        <rdfs:label>outer dynein arm docking complex</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006066"/>
@@ -67531,7 +67531,7 @@
         <oboInOwl:hasExactSynonym>ENPC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006067</oboInOwl:id>
-        <rdfs:label xml:lang="en">enteric neuron progenitor cell</rdfs:label>
+        <rdfs:label>enteric neuron progenitor cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006067"/>
@@ -67551,7 +67551,7 @@
         <oboInOwl:hasExactSynonym>MENCC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006068</oboInOwl:id>
-        <rdfs:label xml:lang="en">migratory enteric neuron progenitor cell</rdfs:label>
+        <rdfs:label>migratory enteric neuron progenitor cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006068"/>
@@ -67570,7 +67570,7 @@
         <oboInOwl:hasExactSynonym>MVNCC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006069</oboInOwl:id>
-        <rdfs:label xml:lang="en">migrating vagal neural crest cell</rdfs:label>
+        <rdfs:label>migrating vagal neural crest cell</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006069"/>
@@ -67588,7 +67588,7 @@
         <obo:IAO_0000115>A specialized contractile cell, derived from fibroblasts, that acts like a smooth muscle cell by contracting (due to the presence of cytoskeletal proteins that are normally found in smooth-muscle cells) and producing extracellular matrix (ECM), crucial for wound healing to close injuries and form scars. These cells are characterized by their expression of alpha-smooth muscle actin (acta2) and their ability to generate tension and deposit collagen, making them key for both normal repair and pathological tissue remodeling.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006070</oboInOwl:id>
-        <rdfs:label xml:lang="en">myofibroblast</rdfs:label>
+        <rdfs:label>myofibroblast</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006070"/>
@@ -67606,7 +67606,7 @@
         <obo:IAO_0000115>An appendage that is acquired by centrioles during multiciliated cell differentiation, interacts with cortical microtubules, and along with the ciliary rootlet allows the formation of an array of uniformly oriented basal bodies/cilia.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006071</oboInOwl:id>
-        <rdfs:label xml:lang="en">basal foot</rdfs:label>
+        <rdfs:label>basal foot</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006071"/>
@@ -67625,7 +67625,7 @@
         <obo:IAO_0000115>An appendage that is acquired by centrioles during multiciliated cell differentiation, interacts with actin filaments, and along with the basal foot allows the formation of an array of uniformly oriented basal bodies/cilia.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006072</oboInOwl:id>
-        <rdfs:label xml:lang="en">rootlet</rdfs:label>
+        <rdfs:label>rootlet</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006072"/>
@@ -67646,7 +67646,7 @@
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>neuronal-restricted precursor</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006073</oboInOwl:id>
-        <rdfs:label xml:lang="en">differentiating neuron</rdfs:label>
+        <rdfs:label>differentiating neuron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006073"/>
@@ -67665,7 +67665,7 @@
         <oboInOwl:hasExactSynonym>diff.IN</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006074</oboInOwl:id>
-        <rdfs:label xml:lang="en">differentiating interneuron</rdfs:label>
+        <rdfs:label>differentiating interneuron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006074"/>
@@ -67683,7 +67683,7 @@
         <obo:IAO_0000115>A progenitor cell of the central nervous system that differentiates exclusively into motor neurons.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006075</oboInOwl:id>
-        <rdfs:label xml:lang="en">differentiating motor neuron</rdfs:label>
+        <rdfs:label>differentiating motor neuron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006075"/>
@@ -67701,7 +67701,7 @@
         <obo:IAO_0000115>Type of interneuron that is an integral component of the central nervous system and that relays signals by prompting neighboring neurons to fire.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006076</oboInOwl:id>
-        <rdfs:label xml:lang="en">excitatory interneuron</rdfs:label>
+        <rdfs:label>excitatory interneuron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006076"/>
@@ -67723,7 +67723,7 @@
         <oboInOwl:hasRelatedSynonym>local circuit neuron</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>relay neuron</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006077</oboInOwl:id>
-        <rdfs:label xml:lang="en">inhibitory interneuron</rdfs:label>
+        <rdfs:label>inhibitory interneuron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006077"/>
@@ -67742,7 +67742,7 @@
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>ganglion interneuron</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006078</oboInOwl:id>
-        <rdfs:label xml:lang="en">intermediate interneuron</rdfs:label>
+        <rdfs:label>intermediate interneuron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006078"/>
@@ -67762,7 +67762,7 @@
         <oboInOwl:hasRelatedSynonym>KA</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>KA neuron</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006079</oboInOwl:id>
-        <rdfs:label xml:lang="en">Kolmer-Angur interneuron</rdfs:label>
+        <rdfs:label>Kolmer-Angur interneuron</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006079"/>
@@ -67781,7 +67781,7 @@
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>barbel</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006080</oboInOwl:id>
-        <rdfs:label xml:lang="en">tentacle</rdfs:label>
+        <rdfs:label>tentacle</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006080"/>
