@@ -67373,6 +67373,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
         <obo:IAO_0000115>The portion of the axoneme that is close to the base of the cilium.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0120134</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006059</oboInOwl:id>
         <rdfs:label xml:lang="en">proximal portion of axoneme</rdfs:label>
@@ -67391,6 +67392,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
         <obo:IAO_0000115>The portion of the axoneme that is close to the tip of the cilium.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0120135</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006060</oboInOwl:id>
         <rdfs:label xml:lang="en">distal portion of axoneme</rdfs:label>
@@ -67446,6 +67448,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
         <obo:IAO_0000115>Protein complex that links the outer microtubule doublet of a 9+2 type ciliary or flagellar axoneme with the sheath that surrounds the central pair of microtubules. Composed of a stalk that attaches to each doublet microtubule and a globular structure (spoke head) that projects toward the central pair of microtubules.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0001534</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006063</oboInOwl:id>
         <rdfs:label xml:lang="en">radial spoke</rdfs:label>
@@ -67464,6 +67467,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
         <obo:IAO_0000115>One of the protein machines that are radially organized throughout an axoneme, and which reside outside the doublet microtubules. These structures are present on the outer doublet microtubules of ciliary and flagellar axonemes. Their structure is complex and may vary within the axoneme. They are heteromeric, comprising 8 different heavy chains and various subunits. Inner and outer dynein arms have different functions in the generation of microtubule-based motility.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0036156</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>IDA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006064</oboInOwl:id>
@@ -67484,6 +67488,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
         <obo:IAO_0000115>One of the protein machines that are radially organized throughout an axoneme, residing interior to the doublet microtubules. These structures are present on the outer doublet microtubules of ciliary and flagellar axonemes. They contain 2-3 heavy chains, two or more intermediate chains and a cluster of 4-8 light chains. Inner and outer dynein arms have different functions in the generation of microtubule-based motility.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0036157</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>ODA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006065</oboInOwl:id>
@@ -67504,6 +67509,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
         <obo:IAO_0000115>A complex which stabilizes the binding of and correctly positions the outer dynein arm complex along an A-tubule of the flagellar axoneme outer doublet microtubules.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0120228</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006066</oboInOwl:id>
         <rdfs:label xml:lang="en">outer dynein arm docking complex</rdfs:label>
@@ -67541,6 +67547,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
         <obo:IAO_0000115>A neural crest cell that gives rise to cells of the enteric nervous system, and is actively migrating to foregut endoderm during the phase of gut development.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0002607</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>MENCC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:id>XAO:0006068</oboInOwl:id>
@@ -67635,6 +67642,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
         <obo:IAO_0000115>A progenitor cell of the central nervous system that differentiates exclusively into neurons.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:4042021</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>neuronal-restricted precursor</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>XAO:0006073</oboInOwl:id>
@@ -67709,6 +67717,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
         <obo:IAO_0000115>Type of interneuron that is an integral component of the central nervous system, playing key roles in refining neural circuits and shaping network activity. These neurons form connections mainly within the same region of the brain or spinal cord where they are located. This localization allows them to impact the activities of nearby excitatory neurons by means of inhibitory networks to inhibit or reduce the likelihood of the firing of these excitatory neurons.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CL:0000498</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>association neuron</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>local circuit neuron</oboInOwl:hasRelatedSynonym>
