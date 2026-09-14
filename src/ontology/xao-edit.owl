@@ -67792,6 +67792,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/XAO_0006081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_0006081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/XAO_0003003"/>
+        <obo:IAO_0000115>A cell junction that forms a connection between two or more cells of an organism; excludes direct cytoplasmic intercellular bridges.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GO:0005911</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CCJ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>xenopus_anatomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>XAO:0006081</oboInOwl:id>
+        <rdfs:label>cell-cell junction</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/XAO_0006081"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cell junction that forms a connection between two or more cells of an organism; excludes direct cytoplasmic intercellular bridges.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>GO:0005911</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/XAO_1000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/XAO_1000000">
